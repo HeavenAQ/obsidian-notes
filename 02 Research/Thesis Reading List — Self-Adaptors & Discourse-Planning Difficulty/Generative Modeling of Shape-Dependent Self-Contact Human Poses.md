@@ -8,7 +8,7 @@ Venue: ICCV
 Topic: Self-Contact / Hand-Face CV
 snippet: ""
 Authors: Takehiko Ohkawa, Jihyun Lee, Shunsuke Saito, Jason Saragih, Fabian Prado, Yichen Xu, Shoou-I Yu, Ryosuke Furuta, Yoichi Sato, Takaaki Shiratori
-Tags:
+tags:
   - Contact-Aware
 Tier: Recommended
 Assigned Date: 2026-07-07

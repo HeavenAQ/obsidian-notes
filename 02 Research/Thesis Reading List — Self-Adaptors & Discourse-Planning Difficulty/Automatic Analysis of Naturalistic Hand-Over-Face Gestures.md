@@ -7,8 +7,8 @@ Venue: ACM TiiS
 Topic: Self-Contact / Hand-Face CV
 snippet: ""
 Authors: M. Mahmoud, T. Baltrusaitis, P. Robinson
-Tags:
-  - Hand-Face CV
+tags:
+  - Hand-Face-CV
   - Theory
 Tier: Background
 ---

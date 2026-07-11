@@ -8,7 +8,7 @@ Venue: IEEE Trans. Ind. Electron.
 Topic: Domain Generalization
 snippet: ""
 Authors: H. Yang, J. Wu, Z. Hu, C. Lv
-Tags:
+tags:
   - Cognition
   - Multimodal
 Tier: Recommended

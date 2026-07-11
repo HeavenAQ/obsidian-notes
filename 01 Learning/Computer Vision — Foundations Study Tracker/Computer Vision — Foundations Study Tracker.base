@@ -2,7 +2,7 @@ filters:
   and:
     - note["base"] == link("Computer Vision — Foundations Study Tracker.base")
 formulas:
-  Cover: 'if(note.Status == "Done", "#e8f5e9", if(note.Status == "In progress", "#fff7d6", "#eef2ff"))'
+  Cover: if(note.Status == "Done", "#e8f5e9", if(note.Status == "In progress", "#fff7d6", "#eef2ff"))
   Progress: if(note.Status == "Done", "✅ Done", if(note.Status == "In progress", "🟡 In progress", "⬜ Not started"))
   Reading: if(note["Reading done"] == true, "📖 ✓", "📖 —")
   SelfCheck: if(note["Self-check done"] == true, "🧪 ✓", "🧪 —")
@@ -28,12 +28,8 @@ properties:
   Date:
     displayName: Date
 views:
-  - type: cards
-    name: 🖼️ Study Gallery
-    image: formula.Cover
-    imageFit: cover
-    imageAspectRatio: 1.55
-    cardSize: 260
+  - type: table
+    name: Table
     order:
       - file.name
       - formula.Progress
@@ -86,8 +82,8 @@ views:
     sort:
       - property: Day
         direction: ASC
-  - type: table
-    name: 🗂️ All
+  - type: cards
+    name: 🖼️ Study Gallery
     order:
       - file.name
       - formula.Progress
@@ -99,3 +95,7 @@ views:
     sort:
       - property: Day
         direction: ASC
+    image: formula.Cover
+    imageFit: cover
+    imageAspectRatio: 1.55
+    cardSize: 260

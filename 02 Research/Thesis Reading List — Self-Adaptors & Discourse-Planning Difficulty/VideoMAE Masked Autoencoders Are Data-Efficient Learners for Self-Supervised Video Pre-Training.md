@@ -8,8 +8,8 @@ Code Link: https://github.com/MCG-NJU/VideoMAE
 Topic: Action-Recognition Backbone
 snippet: ""
 Authors: Z. Tong, Y. Song, J. Wang, L. Wang
-Tags:
-  - Video Backbone
+tags:
+  - Video-Backbone
 Tier: Background
 ---
 **Background.**  video pretraining is data-hungry. 

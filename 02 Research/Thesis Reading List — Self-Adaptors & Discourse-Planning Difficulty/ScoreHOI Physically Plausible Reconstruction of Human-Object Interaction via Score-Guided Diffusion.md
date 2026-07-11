@@ -8,7 +8,7 @@ Venue: ICCV
 Topic: Self-Contact / Hand-Face CV
 snippet: ""
 Authors: Ao Li, Jinpeng Liu, Yixuan Zhu, Yansong Tang
-Tags:
+tags:
   - Contact-Aware
 Tier: Recommended
 ---

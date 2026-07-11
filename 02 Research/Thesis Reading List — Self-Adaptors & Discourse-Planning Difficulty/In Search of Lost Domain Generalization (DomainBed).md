@@ -13,8 +13,8 @@ snippet: |2-
     • Talks about datasets themselves
     • Not directly related to my work 
 Authors: I. Gulrajani, D. Lopez-Paz
-Tags:
-  - Domain Generalization
+tags:
+  - Domain-Generalization
   - Benchmark
   - Foundational
 Tier: Essential

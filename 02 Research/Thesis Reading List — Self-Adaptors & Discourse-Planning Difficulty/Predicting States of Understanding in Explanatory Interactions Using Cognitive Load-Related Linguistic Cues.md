@@ -10,7 +10,7 @@ Relatedness: not relevant
 Topic: Multimodal Disfluency & Discourse
 snippet: ""
 Authors: Yu Wang, Hendrik Buschmeier, et al.
-Tags:
+tags:
   - Cognition
   - Multimodal
   - Disfluency

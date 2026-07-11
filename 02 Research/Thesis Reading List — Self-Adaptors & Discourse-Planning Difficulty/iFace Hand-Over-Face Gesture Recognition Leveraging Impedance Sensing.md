@@ -8,8 +8,8 @@ Venue: Augmented Humans
 Topic: Self-Contact / Hand-Face CV
 snippet: ""
 Authors: Mengxi Liu, et al.
-Tags:
-  - Hand-Face CV
+tags:
+  - Hand-Face-CV
   - Contact-Aware
 Tier: Recommended
 ---

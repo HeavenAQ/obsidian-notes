@@ -13,9 +13,9 @@ snippet: |2-
     • capture hand-face interactions and deformation with a single RGB video
     • can be replaced by DICE
 Authors: Soshi Shimada, Vladislav Golyanik, Patrick Perez, Christian Theobalt
-Tags:
+tags:
   - Contact-Aware
-  - Hand-Face CV
+  - Hand-Face-CV
 Tier: Essential
 Assigned Date: 2026-07-04
 ---

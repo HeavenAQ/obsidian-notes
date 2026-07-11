@@ -40,10 +40,8 @@
   "expandedSpaces": [
     "/",
     "//Notion",
-    "//99 Assets",
     "//02 Research",
-    "//01 Learning",
-    "//00 Home"
+    "//03 Algorithms"
   ],
   "expandFolderOnClick": true,
   "spacesFolder": "Tags",

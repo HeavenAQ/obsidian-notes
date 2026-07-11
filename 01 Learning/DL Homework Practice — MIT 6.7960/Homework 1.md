@@ -7,6 +7,7 @@ Due Date: 2026-07-15
 "HW #": 1
 PDF: https://ocw.mit.edu/courses/6-7960-deep-learning-fall-2024/mit6_7960_f24_hw1.pdf
 Topics: ReLU networks; layer/shape bookkeeping; convexity & concavity; piecewise-linearity & linear regions; differentiability/kink counting; depth efficiency & universal approximation; logic-gate networks (OR/XOR/NAND); matrix-calculus backprop (Kronecker delta, Heaviside, outer products); manual forward/backward (Linear, ReLU, softmax-CE); training loop; learning curves; data augmentation
+Quiz taken: false
 ---
 # 📚 Two-week plan — HW1 + PyTorch Cert + Transformers in Practice (due Jul 15)
 

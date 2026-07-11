@@ -8,7 +8,7 @@ Venue: (journal)
 Relatedness: not relevant
 snippet: Non-contact driver cognitive-load + heart/respiratory rate estimation from facial RGB video (Mamba temporal model) — key citation for the DENSO driver cognitive-load framing in Future Work and outreach.
 Authors: ""
-Tags:
+tags:
   - Cognition
   - Multimodal
 Tier: Recommended

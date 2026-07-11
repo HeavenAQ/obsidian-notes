@@ -7,7 +7,7 @@ Venue: (journal)
 Topic: Gesture & Turn-Taking
 snippet: ""
 Authors: P. Zywiczynski, S. Wacewicz, et al.
-Tags:
+tags:
   - Theory
   - Turn-Taking
   - Self-Adaptor

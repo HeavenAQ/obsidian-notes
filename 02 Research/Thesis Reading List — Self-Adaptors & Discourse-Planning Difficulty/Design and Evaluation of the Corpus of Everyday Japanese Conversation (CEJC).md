@@ -7,7 +7,7 @@ Venue: LREC
 Topic: Dataset / Corpus
 snippet: ""
 Authors: H. Koiso, H. Amatani, Y. Den, et al.
-Tags:
+tags:
   - Dataset
   - Japanese
   - Turn-Taking

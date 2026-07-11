@@ -1,0 +1,65 @@
+filters:
+  and:
+    - note["base"] == link("DSA.base")
+properties:
+  file.name:
+    displayName: Title
+  Status:
+    displayName: Status
+  Difficulty:
+    displayName: Difficulty
+  Topic:
+    displayName: Topic
+  Type:
+    displayName: Type
+  Category:
+    displayName: Category
+  Source:
+    displayName: Source
+  Due Date:
+    displayName: Due Date
+  Date Added:
+    displayName: Date Added
+  Link:
+    displayName: Link
+views:
+  - type: table
+    name: Table
+    order:
+      - file.name
+      - Status
+      - Difficulty
+      - Topic
+      - Type
+      - Category
+      - Source
+      - Due Date
+      - Date Added
+      - Link
+    sort:
+      - property: Status
+        direction: DESC
+      - property: Date Added
+        direction: DESC
+  - type: table
+    name: ⚔️ To Solve
+    filters:
+      and:
+        - note.Status == "To Solve"
+    order:
+      - file.name
+      - Difficulty
+      - Topic
+      - Type
+      - Link
+  - type: table
+    name: 🔁 To Review
+    filters:
+      and:
+        - note.Status == "To Review"
+    order:
+      - file.name
+      - Difficulty
+      - Topic
+      - Type
+      - Link

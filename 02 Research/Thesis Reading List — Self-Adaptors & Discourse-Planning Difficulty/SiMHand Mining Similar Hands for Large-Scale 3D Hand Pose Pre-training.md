@@ -8,8 +8,8 @@ Venue: ICLR
 Topic: Self-Contact / Hand-Face CV
 snippet: ""
 Authors: N. Lin, T. Ohkawa, Y. Huang, M. Zhang, M. Cai, M. Li, R. Furuta, Y. Sato
-Tags:
-  - Hand-Face CV
+tags:
+  - Hand-Face-CV
   - Egocentric
 Tier: Recommended
 ---

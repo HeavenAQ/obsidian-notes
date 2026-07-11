@@ -8,9 +8,9 @@ Code Link: https://github.com/kennymckormick/pyskl
 Topic: Action-Recognition Backbone
 snippet: ""
 Authors: H. Duan, Y. Zhao, K. Chen, et al.
-Tags:
+tags:
   - Skeleton
-  - Video Backbone
+  - Video-Backbone
 Tier: Background
 ---
 **Background.**  GCN skeleton methods are brittle to noisy pose. 

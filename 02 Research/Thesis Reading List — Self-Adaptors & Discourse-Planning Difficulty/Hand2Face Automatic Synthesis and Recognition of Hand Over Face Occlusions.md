@@ -7,9 +7,9 @@ Venue: ACII
 Topic: Self-Contact / Hand-Face CV
 snippet: ""
 Authors: B. Nojavanasghari, C. E. Hughes, T. Baltrusaitis, L.-P. Morency
-Tags:
-  - Hand-Face CV
-  - Weak Supervision
+tags:
+  - Hand-Face-CV
+  - Weak-Supervision
 Tier: Background
 ---
 **Background.**  natural self-touch samples are scarce. 

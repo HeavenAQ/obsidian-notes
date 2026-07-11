@@ -12,7 +12,7 @@ snippet: |2-
     • needed for self-adaptor’s definition 
     • theory-based
 Authors: Paul Ekman, Wallace V. Friesen
-Tags:
+tags:
   - Foundational
   - Theory
   - Self-Adaptor

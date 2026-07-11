@@ -8,7 +8,7 @@ Venue: Findings of EMNLP
 Topic: Gesture & Turn-Taking
 snippet: ""
 Authors: W. Liermann, Y.-H. Park, Y.-S. Choi, K. Lee
-Tags:
+tags:
   - Turn-Taking
 Tier: Recommended
 ---

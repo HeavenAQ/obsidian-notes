@@ -9,7 +9,7 @@ Code Link: https://github.com/zc-alexfan/arctic
 Topic: Dataset / Corpus
 snippet: ""
 Authors: Z. Fan, O. Taheri, D. Tzionas, M. Kocabas, M. Kaufmann, M. J. Black, O. Hilliges
-Tags:
+tags:
   - Dataset
   - Contact-Aware
 Tier: Recommended

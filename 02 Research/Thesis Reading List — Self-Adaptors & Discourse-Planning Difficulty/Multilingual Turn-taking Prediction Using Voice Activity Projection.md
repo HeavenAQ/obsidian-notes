@@ -13,7 +13,7 @@ snippet: |2-
     • trains a Voice Activity Projection (VAP) cross-attention Transformer to continuously predict upcoming speaker activity across different languages.
     • achieves better cross-language turn-taking prediction
 Authors: K. Inoue, B. Jiang, E. Ekstedt, T. Kawahara, G. Skantze
-Tags:
+tags:
   - Turn-Taking
   - Multimodal
 Tier: Recommended

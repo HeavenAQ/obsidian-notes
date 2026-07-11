@@ -13,7 +13,7 @@ snippet: |2-
     • audio + transcript > audio > transcript (for disfluency detection)
     • not that insightful
 Authors: A. Romana, K. Koishida, E. Mower Provost
-Tags:
+tags:
   - Disfluency
   - Multimodal
 Tier: Essential

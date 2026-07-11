@@ -8,7 +8,7 @@ Venue: CHI
 Topic: Multimodal Disfluency & Discourse
 snippet: ""
 Authors: C. Lea, Z. Huang, J. Narain, L. Tooley, D. Yee, T. D. Tran, P. Georgiou, J. P. Bigham, L. Findlater
-Tags:
+tags:
   - Disfluency
   - Multimodal
 Tier: Recommended

@@ -8,7 +8,7 @@ Venue: ICASSP
 Topic: Gesture & Turn-Taking
 snippet: ""
 Authors: Andrew Chang, Viswadruth Akkaraju, Ray McFadden Cogliano, David Poeppel, Dustin Freeman
-Tags:
+tags:
   - Multimodal
   - Turn-Taking
 Tier: Recommended

@@ -7,7 +7,7 @@ Venue: WACV/ICCV
 Topic: Dataset / Corpus
 snippet: ""
 Authors: C. Palmero, J. Selva, S. Smeureanu, et al.
-Tags:
+tags:
   - Dataset
   - Multimodal
 Tier: Recommended

@@ -9,8 +9,8 @@ Code Link: https://github.com/state-spaces/mamba
 Topic: Action-Recognition Backbone
 snippet: ""
 Authors: Albert Gu, Tri Dao
-Tags:
-  - Video Backbone
+tags:
+  - Video-Backbone
   - Foundational
 Tier: Recommended
 ---

@@ -101,3 +101,15 @@
 - added Notion-like card/gallery views as the first view in the main `.base` files
 - preserved existing table views and detailed columns in each `.base`
 - added soft card/table CSS polish for Bases in `.obsidian/snippets/dashboard.css`
+- changed Bases back to table-first because the target reference is a Notion table database, not gallery cards
+- updated Thesis Reading List base columns to match the provided screenshots: Title, Assigned Date, Should Refer, Relatedness, snippet, Reading Status, Tags, Authors, Code Link, Paper Link, Tier, Topic, Venue, Year, Dataset
+- tuned Obsidian property types and CSS for a denser Notion-like table feel
+- expanded Learning, Research, Algorithms, and Reference hubs with full all-document inventory tables for progress tracking
+- removed hub inventory limits so every document in each collection is visible from its respective hub
+- created actual Hub Bases: Learning Hub.base, Research Hub.base, Algorithms Hub.base, Reference Hub.base
+- made complete Table views the first/default view in collection Bases so all documents appear immediately
+- added missing base properties to notes that were omitted from their Bases
+- updated dashboard/vault links so primary hubs open the Hub Bases
+- assigned explicit colors to every normalized vault tag using Colored Tags plugin
+- added `.obsidian/snippets/tag-colors.css` fallback snippet and enabled it
+- created [[00 Home/Tag Color Map]] for palette reference

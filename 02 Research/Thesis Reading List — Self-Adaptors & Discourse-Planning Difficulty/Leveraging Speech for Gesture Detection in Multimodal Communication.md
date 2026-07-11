@@ -7,7 +7,7 @@ Venue: arXiv
 Topic: Gesture & Turn-Taking
 snippet: ""
 Authors: E. Ghaleb, I. Burenko, M. Rasenberg, et al.
-Tags:
+tags:
   - Gesture
   - Multimodal
 Tier: Recommended

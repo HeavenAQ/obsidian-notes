@@ -18,24 +18,8 @@ properties:
   Last updated time:
     displayName: Updated
 views:
-  - type: cards
-    name: 🖼️ Gallery
-    image: formula.Cover
-    imageFit: cover
-    imageAspectRatio: 1.7
-    cardSize: 260
-    order:
-      - file.name
-      - formula.Progress
-      - Category
-      - Last updated time
-    sort:
-      - property: Status
-        direction: ASC
-      - property: Last updated time
-        direction: DESC
   - type: table
-    name: 🗂️ All
+    name: Table
     order:
       - file.name
       - formula.Progress
@@ -80,5 +64,21 @@ views:
       - Category
       - Last updated time
     sort:
+      - property: Last updated time
+        direction: DESC
+  - type: cards
+    name: 🖼️ Gallery
+    image: formula.Cover
+    imageFit: cover
+    imageAspectRatio: 1.7
+    cardSize: 260
+    order:
+      - file.name
+      - formula.Progress
+      - Category
+      - Last updated time
+    sort:
+      - property: Status
+        direction: ASC
       - property: Last updated time
         direction: DESC

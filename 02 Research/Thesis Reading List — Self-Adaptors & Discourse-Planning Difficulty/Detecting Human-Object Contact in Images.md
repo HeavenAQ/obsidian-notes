@@ -9,7 +9,7 @@ Code Link: https://github.com/yixchen/HOT
 Topic: Self-Contact / Hand-Face CV
 snippet: ""
 Authors: Y. Chen, S. K. Dwivedi, M. J. Black, D. Tzionas
-Tags:
+tags:
   - Contact-Aware
 Tier: Recommended
 ---

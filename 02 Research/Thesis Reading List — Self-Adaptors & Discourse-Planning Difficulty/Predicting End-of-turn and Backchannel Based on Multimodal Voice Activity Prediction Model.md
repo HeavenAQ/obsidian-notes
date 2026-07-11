@@ -8,7 +8,7 @@ Venue: ICMI
 Topic: Gesture & Turn-Taking
 snippet: ""
 Authors: R. Ishii, S. Eitoku, R. Yokoyama, J. Sawase
-Tags:
+tags:
   - Turn-Taking
   - Multimodal
 Tier: Recommended

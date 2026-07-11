@@ -1,5 +1,5 @@
 ---
-
+base: "[[Research Hub.base]]"
 ---
 # Master's Thesis Plan (v2 — 2026-07-03)
 

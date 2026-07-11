@@ -14,9 +14,9 @@ snippet: |-
     • background/foundation reference; weak relevance to self-adaptors
     • releases HBW (Human Bodies in the Wild) benchmark
 Authors: Vasileios Choutas, Lea Müller, Chun-Hao P. Huang, Siyu Tang, Dimitrios Tzionas, Michael J. Black
-Tags:
+tags:
   - Dataset
-  - Weak Supervision
+  - Weak-Supervision
 Tier: Background
 Assigned Date: 2026-07-07
 ---

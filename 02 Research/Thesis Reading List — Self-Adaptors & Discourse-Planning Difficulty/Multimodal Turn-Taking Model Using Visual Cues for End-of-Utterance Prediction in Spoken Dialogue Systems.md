@@ -8,7 +8,7 @@ Venue: Interspeech
 Topic: Gesture & Turn-Taking
 snippet: ""
 Authors: F. Kurata, M. Saeki, S. Fujie, Y. Matsuyama
-Tags:
+tags:
   - Turn-Taking
   - Multimodal
   - Gesture

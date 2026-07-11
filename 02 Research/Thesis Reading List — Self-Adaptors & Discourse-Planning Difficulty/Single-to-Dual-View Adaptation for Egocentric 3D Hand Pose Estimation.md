@@ -8,8 +8,8 @@ Venue: CVPR
 Topic: Domain Generalization
 snippet: ""
 Authors: Ruicong Liu, Takehiko Ohkawa, Mingfang Zhang, Yoichi Sato
-Tags:
-  - Domain Generalization
+tags:
+  - Domain-Generalization
   - Egocentric
 Tier: Recommended
 ---

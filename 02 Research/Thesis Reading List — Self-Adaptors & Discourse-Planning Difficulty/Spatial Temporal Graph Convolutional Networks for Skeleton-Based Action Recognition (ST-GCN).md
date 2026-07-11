@@ -8,7 +8,7 @@ Code Link: https://github.com/yysijie/st-gcn
 Topic: Action-Recognition Backbone
 snippet: ""
 Authors: S. Yan, Y. Xiong, D. Lin
-Tags:
+tags:
   - Skeleton
 Tier: Background
 ---

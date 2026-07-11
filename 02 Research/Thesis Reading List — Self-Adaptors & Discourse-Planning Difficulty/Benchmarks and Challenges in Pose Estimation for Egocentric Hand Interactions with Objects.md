@@ -8,8 +8,8 @@ Venue: ECCV
 Topic: Self-Contact / Hand-Face CV
 snippet: ""
 Authors: Z. Fan, T. Ohkawa, L. Yang, N. Lin, et al.
-Tags:
-  - Hand-Face CV
+tags:
+  - Hand-Face-CV
   - Egocentric
   - Benchmark
 Tier: Recommended

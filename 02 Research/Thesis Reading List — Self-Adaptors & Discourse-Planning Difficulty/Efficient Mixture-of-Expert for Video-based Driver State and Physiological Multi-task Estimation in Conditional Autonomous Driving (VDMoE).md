@@ -10,7 +10,7 @@ Relatedness: not relevant
 Topic: Action-Recognition Backbone
 snippet: ""
 Authors: Jiyao Wang, Xiao Yang, Zhenyu Wang, Ximeng Wei, Ange Wang, Dengbo He, Kaishun Wu
-Tags:
+tags:
   - Cognition
   - Multimodal
 Tier: Recommended

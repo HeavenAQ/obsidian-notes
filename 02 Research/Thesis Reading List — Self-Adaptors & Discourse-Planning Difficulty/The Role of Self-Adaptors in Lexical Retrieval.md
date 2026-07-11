@@ -16,7 +16,7 @@ snippet: |2-
     • gestures are relatively rare during successful retrieval but surges during lexical retrieval
     • Self-adaptors may function as attention-regulation or cognitive-stabilization behaviours during retrieval difficulty
 Authors: K. Sekine, H. Hotta
-Tags:
+tags:
   - Self-Adaptor
   - Cognition
 Tier: Essential

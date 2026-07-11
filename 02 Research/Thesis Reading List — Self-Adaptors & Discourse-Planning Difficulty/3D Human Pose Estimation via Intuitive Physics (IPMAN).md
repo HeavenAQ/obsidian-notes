@@ -14,7 +14,7 @@ snippet: |-
     • human–ground contact analog of self-contact terms
     • releases MoYo (multi-view, GT contact/CoM/pressure)
 Authors: Shashank Tripathi, Lea Müller, Chun-Hao P. Huang, Omid Taheri, Michael J. Black, Dimitrios Tzionas
-Tags:
+tags:
   - Contact-Aware
   - Dataset
   - Theory

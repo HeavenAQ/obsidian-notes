@@ -16,9 +16,9 @@ snippet: |2-
     • the proposed framework improve both contact and non-contact pose estimation
     • add contact-related losses
 Authors: Lea Mueller, Ahmed A. A. Osman, Siyu Tang, Chun-Hao P. Huang, Michael J. Black
-Tags:
+tags:
   - Contact-Aware
-  - Hand-Face CV
+  - Hand-Face-CV
   - Dataset
 Tier: Essential
 Assigned Date: 2026-07-04

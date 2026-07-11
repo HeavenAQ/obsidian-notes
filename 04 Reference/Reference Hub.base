@@ -1,0 +1,61 @@
+filters:
+  and:
+    - note["base"] == link("Document Hub.base")
+properties:
+  file.name:
+    displayName: Title
+  Status:
+    displayName: Status
+  Category:
+    displayName: Category
+  Created time:
+    displayName: Created time
+  Last updated time:
+    displayName: Last updated time
+  Created by:
+    displayName: Created by
+  Last edited by:
+    displayName: Last edited by
+views:
+  - type: table
+    name: Table
+    order:
+      - file.name
+      - Status
+      - Category
+      - Created time
+      - Last updated time
+      - Created by
+      - Last edited by
+    sort:
+      - property: Status
+        direction: ASC
+      - property: Last updated time
+        direction: DESC
+  - type: table
+    name: 🟡 In Progress
+    filters:
+      and:
+        - note.Status == "In progress"
+    order:
+      - file.name
+      - Category
+      - Last updated time
+  - type: table
+    name: ⬜ Not Started
+    filters:
+      and:
+        - note.Status == "Not started"
+    order:
+      - file.name
+      - Category
+      - Created time
+  - type: table
+    name: ✅ Done
+    filters:
+      and:
+        - note.Status == "Done"
+    order:
+      - file.name
+      - Category
+      - Last updated time

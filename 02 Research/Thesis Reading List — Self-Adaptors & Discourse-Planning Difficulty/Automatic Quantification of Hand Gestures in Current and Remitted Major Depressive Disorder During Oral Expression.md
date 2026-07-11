@@ -8,7 +8,7 @@ Venue: (journal)
 Topic: Adaptor & Self-Touch Theory
 snippet: J. Affective Disorders 2025 — automatic gesture quantification during speech in MDD; MDD patients show more self-adaptors/fidgeting; supports the load→self-adaptor link from the clinical side.
 Authors: ""
-Tags:
+tags:
   - Self-Adaptor
   - Distress
 Tier: Background

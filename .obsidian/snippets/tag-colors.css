@@ -1,0 +1,487 @@
+
+/* Explicit tag color fallback generated for current vault tags. */
+/* Works with Colored Tags plugin classes: .colored-tag-<normalized-tag>. */
+
+.colored-tag-multimodal,
+a.tag.colored-tag-multimodal,
+span.tag.colored-tag-multimodal,
+.cm-hashtag.colored-tag-multimodal,
+.multi-select-pill.colored-tag-multimodal,
+.bases-metadata-value .multi-select-pill.colored-tag-multimodal {
+  --tag-color: #ffffff;
+  --tag-background: #2563eb;
+  --tag-background-hover: #2563eb;
+  color: #ffffff !important;
+  background-color: #2563eb !important;
+  border-color: color-mix(in srgb, #2563eb, black 18%) !important;
+}
+
+
+.colored-tag-dataset,
+a.tag.colored-tag-dataset,
+span.tag.colored-tag-dataset,
+.cm-hashtag.colored-tag-dataset,
+.multi-select-pill.colored-tag-dataset,
+.bases-metadata-value .multi-select-pill.colored-tag-dataset {
+  --tag-color: #ffffff;
+  --tag-background: #0891b2;
+  --tag-background-hover: #0891b2;
+  color: #ffffff !important;
+  background-color: #0891b2 !important;
+  border-color: color-mix(in srgb, #0891b2, black 18%) !important;
+}
+
+
+.colored-tag-cognition,
+a.tag.colored-tag-cognition,
+span.tag.colored-tag-cognition,
+.cm-hashtag.colored-tag-cognition,
+.multi-select-pill.colored-tag-cognition,
+.bases-metadata-value .multi-select-pill.colored-tag-cognition {
+  --tag-color: #ffffff;
+  --tag-background: #ca8a04;
+  --tag-background-hover: #ca8a04;
+  color: #ffffff !important;
+  background-color: #ca8a04 !important;
+  border-color: color-mix(in srgb, #ca8a04, black 18%) !important;
+}
+
+
+.colored-tag-contact-aware,
+a.tag.colored-tag-contact-aware,
+span.tag.colored-tag-contact-aware,
+.cm-hashtag.colored-tag-contact-aware,
+.multi-select-pill.colored-tag-contact-aware,
+.bases-metadata-value .multi-select-pill.colored-tag-contact-aware {
+  --tag-color: #ffffff;
+  --tag-background: #059669;
+  --tag-background-hover: #059669;
+  color: #ffffff !important;
+  background-color: #059669 !important;
+  border-color: color-mix(in srgb, #059669, black 18%) !important;
+}
+
+
+.colored-tag-hand-face-cv,
+a.tag.colored-tag-hand-face-cv,
+span.tag.colored-tag-hand-face-cv,
+.cm-hashtag.colored-tag-hand-face-cv,
+.multi-select-pill.colored-tag-hand-face-cv,
+.bases-metadata-value .multi-select-pill.colored-tag-hand-face-cv {
+  --tag-color: #ffffff;
+  --tag-background: #16a34a;
+  --tag-background-hover: #16a34a;
+  color: #ffffff !important;
+  background-color: #16a34a !important;
+  border-color: color-mix(in srgb, #16a34a, black 18%) !important;
+}
+
+
+.colored-tag-domain-generalization,
+a.tag.colored-tag-domain-generalization,
+span.tag.colored-tag-domain-generalization,
+.cm-hashtag.colored-tag-domain-generalization,
+.multi-select-pill.colored-tag-domain-generalization,
+.bases-metadata-value .multi-select-pill.colored-tag-domain-generalization {
+  --tag-color: #ffffff;
+  --tag-background: #dc2626;
+  --tag-background-hover: #dc2626;
+  color: #ffffff !important;
+  background-color: #dc2626 !important;
+  border-color: color-mix(in srgb, #dc2626, black 18%) !important;
+}
+
+
+.colored-tag-turn-taking,
+a.tag.colored-tag-turn-taking,
+span.tag.colored-tag-turn-taking,
+.cm-hashtag.colored-tag-turn-taking,
+.multi-select-pill.colored-tag-turn-taking,
+.bases-metadata-value .multi-select-pill.colored-tag-turn-taking {
+  --tag-color: #ffffff;
+  --tag-background: #c2410c;
+  --tag-background-hover: #c2410c;
+  color: #ffffff !important;
+  background-color: #c2410c !important;
+  border-color: color-mix(in srgb, #c2410c, black 18%) !important;
+}
+
+
+.colored-tag-benchmark,
+a.tag.colored-tag-benchmark,
+span.tag.colored-tag-benchmark,
+.cm-hashtag.colored-tag-benchmark,
+.multi-select-pill.colored-tag-benchmark,
+.bases-metadata-value .multi-select-pill.colored-tag-benchmark {
+  --tag-color: #ffffff;
+  --tag-background: #a16207;
+  --tag-background-hover: #a16207;
+  color: #ffffff !important;
+  background-color: #a16207 !important;
+  border-color: color-mix(in srgb, #a16207, black 18%) !important;
+}
+
+
+.colored-tag-disfluency,
+a.tag.colored-tag-disfluency,
+span.tag.colored-tag-disfluency,
+.cm-hashtag.colored-tag-disfluency,
+.multi-select-pill.colored-tag-disfluency,
+.bases-metadata-value .multi-select-pill.colored-tag-disfluency {
+  --tag-color: #ffffff;
+  --tag-background: #7c3aed;
+  --tag-background-hover: #7c3aed;
+  color: #ffffff !important;
+  background-color: #7c3aed !important;
+  border-color: color-mix(in srgb, #7c3aed, black 18%) !important;
+}
+
+
+.colored-tag-theory,
+a.tag.colored-tag-theory,
+span.tag.colored-tag-theory,
+.cm-hashtag.colored-tag-theory,
+.multi-select-pill.colored-tag-theory,
+.bases-metadata-value .multi-select-pill.colored-tag-theory {
+  --tag-color: #ffffff;
+  --tag-background: #8b5cf6;
+  --tag-background-hover: #8b5cf6;
+  color: #ffffff !important;
+  background-color: #8b5cf6 !important;
+  border-color: color-mix(in srgb, #8b5cf6, black 18%) !important;
+}
+
+
+.colored-tag-self-adaptor,
+a.tag.colored-tag-self-adaptor,
+span.tag.colored-tag-self-adaptor,
+.cm-hashtag.colored-tag-self-adaptor,
+.multi-select-pill.colored-tag-self-adaptor,
+.bases-metadata-value .multi-select-pill.colored-tag-self-adaptor {
+  --tag-color: #ffffff;
+  --tag-background: #db2777;
+  --tag-background-hover: #db2777;
+  color: #ffffff !important;
+  background-color: #db2777 !important;
+  border-color: color-mix(in srgb, #db2777, black 18%) !important;
+}
+
+
+.colored-tag-video-backbone,
+a.tag.colored-tag-video-backbone,
+span.tag.colored-tag-video-backbone,
+.cm-hashtag.colored-tag-video-backbone,
+.multi-select-pill.colored-tag-video-backbone,
+.bases-metadata-value .multi-select-pill.colored-tag-video-backbone {
+  --tag-color: #ffffff;
+  --tag-background: #475569;
+  --tag-background-hover: #475569;
+  color: #ffffff !important;
+  background-color: #475569 !important;
+  border-color: color-mix(in srgb, #475569, black 18%) !important;
+}
+
+
+.colored-tag-gesture,
+a.tag.colored-tag-gesture,
+span.tag.colored-tag-gesture,
+.cm-hashtag.colored-tag-gesture,
+.multi-select-pill.colored-tag-gesture,
+.bases-metadata-value .multi-select-pill.colored-tag-gesture {
+  --tag-color: #ffffff;
+  --tag-background: #f97316;
+  --tag-background-hover: #f97316;
+  color: #ffffff !important;
+  background-color: #f97316 !important;
+  border-color: color-mix(in srgb, #f97316, black 18%) !important;
+}
+
+
+.colored-tag-egocentric,
+a.tag.colored-tag-egocentric,
+span.tag.colored-tag-egocentric,
+.cm-hashtag.colored-tag-egocentric,
+.multi-select-pill.colored-tag-egocentric,
+.bases-metadata-value .multi-select-pill.colored-tag-egocentric {
+  --tag-color: #ffffff;
+  --tag-background: #64748b;
+  --tag-background-hover: #64748b;
+  color: #ffffff !important;
+  background-color: #64748b !important;
+  border-color: color-mix(in srgb, #64748b, black 18%) !important;
+}
+
+
+.colored-tag-foundational,
+a.tag.colored-tag-foundational,
+span.tag.colored-tag-foundational,
+.cm-hashtag.colored-tag-foundational,
+.multi-select-pill.colored-tag-foundational,
+.bases-metadata-value .multi-select-pill.colored-tag-foundational {
+  --tag-color: #ffffff;
+  --tag-background: #be123c;
+  --tag-background-hover: #be123c;
+  color: #ffffff !important;
+  background-color: #be123c !important;
+  border-color: color-mix(in srgb, #be123c, black 18%) !important;
+}
+
+
+.colored-tag-weak-supervision,
+a.tag.colored-tag-weak-supervision,
+span.tag.colored-tag-weak-supervision,
+.cm-hashtag.colored-tag-weak-supervision,
+.multi-select-pill.colored-tag-weak-supervision,
+.bases-metadata-value .multi-select-pill.colored-tag-weak-supervision {
+  --tag-color: #ffffff;
+  --tag-background: #0d9488;
+  --tag-background-hover: #0d9488;
+  color: #ffffff !important;
+  background-color: #0d9488 !important;
+  border-color: color-mix(in srgb, #0d9488, black 18%) !important;
+}
+
+
+.colored-tag-distress,
+a.tag.colored-tag-distress,
+span.tag.colored-tag-distress,
+.cm-hashtag.colored-tag-distress,
+.multi-select-pill.colored-tag-distress,
+.bases-metadata-value .multi-select-pill.colored-tag-distress {
+  --tag-color: #ffffff;
+  --tag-background: #e11d48;
+  --tag-background-hover: #e11d48;
+  color: #ffffff !important;
+  background-color: #e11d48 !important;
+  border-color: color-mix(in srgb, #e11d48, black 18%) !important;
+}
+
+
+.colored-tag-skeleton,
+a.tag.colored-tag-skeleton,
+span.tag.colored-tag-skeleton,
+.cm-hashtag.colored-tag-skeleton,
+.multi-select-pill.colored-tag-skeleton,
+.bases-metadata-value .multi-select-pill.colored-tag-skeleton {
+  --tag-color: #ffffff;
+  --tag-background: #52525b;
+  --tag-background-hover: #52525b;
+  color: #ffffff !important;
+  background-color: #52525b !important;
+  border-color: color-mix(in srgb, #52525b, black 18%) !important;
+}
+
+
+.colored-tag-self-touch,
+a.tag.colored-tag-self-touch,
+span.tag.colored-tag-self-touch,
+.cm-hashtag.colored-tag-self-touch,
+.multi-select-pill.colored-tag-self-touch,
+.bases-metadata-value .multi-select-pill.colored-tag-self-touch {
+  --tag-color: #ffffff;
+  --tag-background: #ec4899;
+  --tag-background-hover: #ec4899;
+  color: #ffffff !important;
+  background-color: #ec4899 !important;
+  border-color: color-mix(in srgb, #ec4899, black 18%) !important;
+}
+
+
+.colored-tag-repair,
+a.tag.colored-tag-repair,
+span.tag.colored-tag-repair,
+.cm-hashtag.colored-tag-repair,
+.multi-select-pill.colored-tag-repair,
+.bases-metadata-value .multi-select-pill.colored-tag-repair {
+  --tag-color: #ffffff;
+  --tag-background: #9333ea;
+  --tag-background-hover: #9333ea;
+  color: #ffffff !important;
+  background-color: #9333ea !important;
+  border-color: color-mix(in srgb, #9333ea, black 18%) !important;
+}
+
+
+.colored-tag-neurocognitive,
+a.tag.colored-tag-neurocognitive,
+span.tag.colored-tag-neurocognitive,
+.cm-hashtag.colored-tag-neurocognitive,
+.multi-select-pill.colored-tag-neurocognitive,
+.bases-metadata-value .multi-select-pill.colored-tag-neurocognitive {
+  --tag-color: #111827;
+  --tag-background: #84cc16;
+  --tag-background-hover: #84cc16;
+  color: #111827 !important;
+  background-color: #84cc16 !important;
+  border-color: color-mix(in srgb, #84cc16, black 18%) !important;
+}
+
+
+.colored-tag-japanese,
+a.tag.colored-tag-japanese,
+span.tag.colored-tag-japanese,
+.cm-hashtag.colored-tag-japanese,
+.multi-select-pill.colored-tag-japanese,
+.bases-metadata-value .multi-select-pill.colored-tag-japanese {
+  --tag-color: #ffffff;
+  --tag-background: #0284c7;
+  --tag-background-hover: #0284c7;
+  color: #ffffff !important;
+  background-color: #0284c7 !important;
+  border-color: color-mix(in srgb, #0284c7, black 18%) !important;
+}
+
+
+a.tag[href="#$multimodal"],
+a.tag[href="#multimodal"] {
+  color: #ffffff !important;
+  background-color: #2563eb !important;
+}
+
+
+a.tag[href="#$dataset"],
+a.tag[href="#dataset"] {
+  color: #ffffff !important;
+  background-color: #0891b2 !important;
+}
+
+
+a.tag[href="#$cognition"],
+a.tag[href="#cognition"] {
+  color: #ffffff !important;
+  background-color: #ca8a04 !important;
+}
+
+
+a.tag[href="#$contact-aware"],
+a.tag[href="#contact-aware"] {
+  color: #ffffff !important;
+  background-color: #059669 !important;
+}
+
+
+a.tag[href="#$hand-face-cv"],
+a.tag[href="#hand-face-cv"] {
+  color: #ffffff !important;
+  background-color: #16a34a !important;
+}
+
+
+a.tag[href="#$domain-generalization"],
+a.tag[href="#domain-generalization"] {
+  color: #ffffff !important;
+  background-color: #dc2626 !important;
+}
+
+
+a.tag[href="#$turn-taking"],
+a.tag[href="#turn-taking"] {
+  color: #ffffff !important;
+  background-color: #c2410c !important;
+}
+
+
+a.tag[href="#$benchmark"],
+a.tag[href="#benchmark"] {
+  color: #ffffff !important;
+  background-color: #a16207 !important;
+}
+
+
+a.tag[href="#$disfluency"],
+a.tag[href="#disfluency"] {
+  color: #ffffff !important;
+  background-color: #7c3aed !important;
+}
+
+
+a.tag[href="#$theory"],
+a.tag[href="#theory"] {
+  color: #ffffff !important;
+  background-color: #8b5cf6 !important;
+}
+
+
+a.tag[href="#$self-adaptor"],
+a.tag[href="#self-adaptor"] {
+  color: #ffffff !important;
+  background-color: #db2777 !important;
+}
+
+
+a.tag[href="#$video-backbone"],
+a.tag[href="#video-backbone"] {
+  color: #ffffff !important;
+  background-color: #475569 !important;
+}
+
+
+a.tag[href="#$gesture"],
+a.tag[href="#gesture"] {
+  color: #ffffff !important;
+  background-color: #f97316 !important;
+}
+
+
+a.tag[href="#$egocentric"],
+a.tag[href="#egocentric"] {
+  color: #ffffff !important;
+  background-color: #64748b !important;
+}
+
+
+a.tag[href="#$foundational"],
+a.tag[href="#foundational"] {
+  color: #ffffff !important;
+  background-color: #be123c !important;
+}
+
+
+a.tag[href="#$weak-supervision"],
+a.tag[href="#weak-supervision"] {
+  color: #ffffff !important;
+  background-color: #0d9488 !important;
+}
+
+
+a.tag[href="#$distress"],
+a.tag[href="#distress"] {
+  color: #ffffff !important;
+  background-color: #e11d48 !important;
+}
+
+
+a.tag[href="#$skeleton"],
+a.tag[href="#skeleton"] {
+  color: #ffffff !important;
+  background-color: #52525b !important;
+}
+
+
+a.tag[href="#$self-touch"],
+a.tag[href="#self-touch"] {
+  color: #ffffff !important;
+  background-color: #ec4899 !important;
+}
+
+
+a.tag[href="#$repair"],
+a.tag[href="#repair"] {
+  color: #ffffff !important;
+  background-color: #9333ea !important;
+}
+
+
+a.tag[href="#$neurocognitive"],
+a.tag[href="#neurocognitive"] {
+  color: #111827 !important;
+  background-color: #84cc16 !important;
+}
+
+
+a.tag[href="#$japanese"],
+a.tag[href="#japanese"] {
+  color: #ffffff !important;
+  background-color: #0284c7 !important;
+}
+

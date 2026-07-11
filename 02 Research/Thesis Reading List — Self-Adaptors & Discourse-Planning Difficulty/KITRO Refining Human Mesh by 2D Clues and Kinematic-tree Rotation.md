@@ -9,7 +9,7 @@ Code Link: https://github.com/MartaYang/KITRO
 Topic: Action-Recognition Backbone
 snippet: ""
 Authors: Fengyuan Yang, Kerui Gu, Angela Yao
-Tags:
+tags:
   - Skeleton
 Tier: Recommended
 ---

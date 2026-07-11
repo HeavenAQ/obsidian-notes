@@ -8,7 +8,7 @@ Venue: Languages
 Topic: Adaptor & Self-Touch Theory
 snippet: 40 L2 speakers, monologue vs dialogue, face-to-face vs online; adaptors shown to have cognitive + interactive functions (micro 'flutters'); challenges the non-communicative view — direct theoretical support for RQ1; same journal/special issue as Sekine & Hotta (2025).
 Authors: Renia Lopez-Ozieblo
-Tags:
+tags:
   - Self-Adaptor
   - Theory
   - Cognition

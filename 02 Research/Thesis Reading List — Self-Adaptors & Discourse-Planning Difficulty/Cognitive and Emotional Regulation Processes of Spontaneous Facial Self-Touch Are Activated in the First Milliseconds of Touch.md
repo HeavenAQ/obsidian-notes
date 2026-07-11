@@ -7,7 +7,7 @@ Venue: Cogn. Affect. Behav. Neurosci.
 Topic: Adaptor & Self-Touch Theory
 snippet: ""
 Authors: Jente L. Spille, Stephanie M. Mueller, Sven Martin, Martin Grunwald
-Tags:
+tags:
   - Self-Touch
   - Neurocognitive
 Tier: Recommended

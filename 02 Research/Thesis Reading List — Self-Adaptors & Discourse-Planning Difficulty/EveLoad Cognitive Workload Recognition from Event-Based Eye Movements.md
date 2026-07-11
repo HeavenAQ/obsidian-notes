@@ -8,7 +8,7 @@ Venue: arXiv
 Topic: Dataset / Corpus
 snippet: ""
 Authors: Guorui Lu, Shaohua Guan, Zhen Xu, Qinyu Chen
-Tags:
+tags:
   - Dataset
   - Cognition
   - Benchmark

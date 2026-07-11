@@ -10,7 +10,7 @@ Relatedness: not relevant
 Topic: Dataset / Corpus
 snippet: ""
 Authors: M. P. Oppelt, et al.
-Tags:
+tags:
   - Dataset
   - Cognition
   - Multimodal

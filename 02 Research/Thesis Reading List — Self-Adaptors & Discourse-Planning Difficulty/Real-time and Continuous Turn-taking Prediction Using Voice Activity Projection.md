@@ -8,7 +8,7 @@ Venue: IWSDS
 Topic: Gesture & Turn-Taking
 snippet: ""
 Authors: K. Inoue, B. Jiang, E. Ekstedt, T. Kawahara, G. Skantze
-Tags:
+tags:
   - Turn-Taking
   - Multimodal
 Tier: Recommended

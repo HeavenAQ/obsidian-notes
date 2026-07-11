@@ -8,10 +8,10 @@ Code Link: https://www.robots.ox.ac.uk/~vgg/research/jegal/
 Topic: Gesture & Turn-Taking
 snippet: ""
 Authors: S. B. Hegde, K. R. Prajwal, T. Kwon, A. Zisserman
-Tags:
+tags:
   - Gesture
   - Multimodal
-  - Weak Supervision
+  - Weak-Supervision
 Tier: Recommended
 ---
 **Background.**  gesture understanding lacked in-the-wild, task-rich evaluation. 

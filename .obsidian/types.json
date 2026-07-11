@@ -48,6 +48,7 @@
     "snippet": "text",
     "Authors": "text",
     "Tier": "text",
-    "Assigned Date": "date"
+    "Assigned Date": "date",
+    "Tags": "tags"
   }
 }

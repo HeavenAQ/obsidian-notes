@@ -9,9 +9,9 @@ Code Link: https://github.com/facebookresearch/InterWild
 Topic: Self-Contact / Hand-Face CV
 snippet: ""
 Authors: G. Moon
-Tags:
+tags:
   - Contact-Aware
-  - Domain Generalization
+  - Domain-Generalization
 Tier: Recommended
 ---
 Found via DICE (ICLR 2025) — direct reference. Tackles exactly the lab-to-wild domain gap for interacting-hand recovery by bringing MoCap and in-the-wild inputs into shared domains; a methods template for making the thesis's contact-detection stage generalize to conversational video (RQ2/RQ3).

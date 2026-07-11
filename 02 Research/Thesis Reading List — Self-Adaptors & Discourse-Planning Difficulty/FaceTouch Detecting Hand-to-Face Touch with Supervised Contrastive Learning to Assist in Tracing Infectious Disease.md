@@ -7,8 +7,8 @@ Venue: PLOS ONE
 Topic: Self-Contact / Hand-Face CV
 snippet: ""
 Authors: M. R. Ibrahim, T. Lyons
-Tags:
-  - Hand-Face CV
+tags:
+  - Hand-Face-CV
   - Multimodal
 Tier: Background
 ---

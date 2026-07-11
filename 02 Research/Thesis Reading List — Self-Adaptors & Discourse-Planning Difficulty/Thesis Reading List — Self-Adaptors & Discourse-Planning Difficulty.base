@@ -2,48 +2,61 @@ filters:
   and:
     - note["base"] == link("Thesis Reading List — Self-Adaptors & Discourse-Planning Difficulty.base")
 formulas:
-  Cover: 'if(note.cover, note.cover, if(note.Tier == "Essential", "#fee2e2", if(note.Tier == "Recommended", "#ffedd5", "#f1f5f9")))'
-  Status: if(note["Reading Status"] == "Read", "✅ Read", if(note["Reading Status"] == "Reading", "📖 Reading", if(note["Reading Status"] == "Skim/Skip", "⏭️ Skim/Skip", "📥 To Read")))
-  Priority: if(note.Tier == "Essential", "🔴 Essential", if(note.Tier == "Recommended", "🟠 Recommended", "⚪ Background"))
+  Status: if(note["Reading Status"] == "Read", "Read", if(note["Reading Status"] == "Reading", "Reading", if(note["Reading Status"] == "Skim/Skip", "Skim/Skip", "To Read")))
   TierRank: if(note.Tier == "Essential", 1, if(note.Tier == "Recommended", 2, 3))
 properties:
   file.name:
-    displayName: 📄 Paper
-  formula.Cover:
-    displayName: Cover
-  formula.Status:
-    displayName: Status
-  formula.Priority:
+    displayName: Title
+  Assigned Date:
+    displayName: Assigned Date
+  Should Refer:
+    displayName: Should Refer
+  Relatedness:
+    displayName: Relatedness
+  snippet:
+    displayName: snippet
+  Reading Status:
+    displayName: Reading Status
+  tags:
+    displayName: Tags
+  Authors:
+    displayName: Authors
+  Code Link:
+    displayName: Code Link
+  Paper Link:
+    displayName: Paper Link
+  Tier:
     displayName: Tier
   Topic:
     displayName: Topic
-  Year:
-    displayName: Year
   Venue:
     displayName: Venue
-  Paper Link:
-    displayName: Paper
-  Code Link:
-    displayName: Code
-  Relatedness:
-    displayName: Relatedness
-  Assigned Date:
-    displayName: Assigned
+  Year:
+    displayName: Year
+  Dataset:
+    displayName: Dataset
 views:
-  - type: cards
-    name: 🖼️ Paper Gallery
-    image: formula.Cover
-    imageFit: cover
-    imageAspectRatio: 1.55
-    cardSize: 280
+  - type: table
+    name: Table
     order:
       - file.name
-      - formula.Status
-      - formula.Priority
+      - Assigned Date
+      - Should Refer
+      - Relatedness
+      - snippet
+      - Reading Status
+      - tags
+      - Authors
+      - Code Link
+      - Paper Link
+      - Tier
       - Topic
-      - Year
       - Venue
+      - Year
+      - Dataset
     sort:
+      - property: Assigned Date
+        direction: DESC
       - property: formula.TierRank
         direction: ASC
       - property: Year
@@ -55,12 +68,23 @@ views:
         - note["Reading Status"] == "Reading"
     order:
       - file.name
-      - formula.Priority
-      - Topic
-      - Year
-      - Venue
+      - Assigned Date
+      - Should Refer
+      - Relatedness
+      - snippet
+      - Reading Status
+      - tags
+      - Authors
+      - Code Link
       - Paper Link
+      - Tier
+      - Topic
+      - Venue
+      - Year
+      - Dataset
     sort:
+      - property: Assigned Date
+        direction: DESC
       - property: formula.TierRank
         direction: ASC
   - type: table
@@ -70,11 +94,20 @@ views:
         - note["Reading Status"] == "To Read"
     order:
       - file.name
-      - formula.Priority
-      - Topic
-      - Year
-      - Venue
+      - Assigned Date
+      - Should Refer
+      - Relatedness
+      - snippet
+      - Reading Status
+      - tags
+      - Authors
+      - Code Link
       - Paper Link
+      - Tier
+      - Topic
+      - Venue
+      - Year
+      - Dataset
     sort:
       - property: formula.TierRank
         direction: ASC
@@ -87,10 +120,20 @@ views:
         - note["Reading Status"] == "Read"
     order:
       - file.name
-      - formula.Priority
+      - Assigned Date
+      - Should Refer
+      - Relatedness
+      - snippet
+      - Reading Status
+      - tags
+      - Authors
+      - Code Link
+      - Paper Link
+      - Tier
       - Topic
-      - Year
       - Venue
+      - Year
+      - Dataset
     sort:
       - property: Year
         direction: DESC
@@ -101,24 +144,22 @@ views:
         - note["Reading Status"] == "Skim/Skip"
     order:
       - file.name
-      - formula.Priority
-      - Topic
-      - Year
-    sort:
-      - property: Year
-        direction: DESC
-  - type: table
-    name: 🗂️ All
-    order:
-      - file.name
-      - formula.Status
-      - formula.Priority
-      - Topic
-      - Year
-      - Venue
+      - Assigned Date
+      - Should Refer
+      - Relatedness
+      - snippet
+      - Reading Status
+      - tags
+      - Authors
+      - Code Link
       - Paper Link
+      - Tier
+      - Topic
+      - Venue
+      - Year
+      - Dataset
     sort:
-      - property: formula.TierRank
-        direction: ASC
+      - property: Assigned Date
+        direction: DESC
       - property: Year
         direction: DESC

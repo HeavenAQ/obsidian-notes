@@ -8,8 +8,8 @@ Venue: arXiv
 Topic: Domain Generalization
 snippet: Cross-domain cognitive/task-load benchmark (n-back + real-world gaming); xLSTM/ConvNeXt/Transformer; multimodal > unimodal; poor cross-domain transfer → directly motivates RQ3 (generalizable cognitive-load estimation).
 Authors: M. P. Oppelt, A. Foltyn, N. R. Lang-Richter, B. M. Eskofier
-Tags:
-  - Domain Generalization
+tags:
+  - Domain-Generalization
   - Multimodal
   - Benchmark
   - Cognition

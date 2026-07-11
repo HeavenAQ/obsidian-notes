@@ -10,7 +10,7 @@ Relatedness: not relevant
 Topic: Gesture & Turn-Taking
 snippet: "  • qualitative study without substantial usage"
 Authors: Harvey Sacks, Emanuel A. Schegloff, Gail Jefferson
-Tags:
+tags:
   - Foundational
   - Theory
   - Turn-Taking

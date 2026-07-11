@@ -14,7 +14,7 @@ snippet: |-
     • used as a prior to reconstruct 2 people from 1 image w/o contact labels
     • contact-from-images methodology transfers to the thesis
 Authors: Lea Müller, Vickie Ye, Georgios Pavlakos, Michael J. Black, Angjoo Kanazawa
-Tags:
+tags:
   - Contact-Aware
   - Dataset
   - Multimodal

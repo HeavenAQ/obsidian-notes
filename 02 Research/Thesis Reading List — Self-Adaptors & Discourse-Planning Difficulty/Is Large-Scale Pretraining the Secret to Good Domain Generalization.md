@@ -8,8 +8,8 @@ Venue: arXiv
 Topic: Domain Generalization
 snippet: ""
 Authors: P. Teterwak, K. Saito, T. Tsiligkaridis, B. A. Plummer, K. Saenko
-Tags:
-  - Domain Generalization
+tags:
+  - Domain-Generalization
   - Benchmark
 Tier: Recommended
 ---

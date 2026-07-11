@@ -8,7 +8,7 @@ Venue: ACM MM
 Topic: Dataset / Corpus
 snippet: ""
 Authors: P. Mueller, M. Balazia, T. Baur, M. Dietz, A. Heimerl, D. Schiller, et al.
-Tags:
+tags:
   - Benchmark
   - Dataset
   - Multimodal

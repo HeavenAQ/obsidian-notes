@@ -2,6 +2,7 @@
   "accentColor": "",
   "cssTheme": "Minimal",
   "enabledCssSnippets": [
-    "dashboard"
+    "dashboard",
+    "tag-colors"
   ]
 }

@@ -8,7 +8,7 @@ Venue: PLOS ONE
 Topic: Adaptor & Self-Touch Theory
 snippet: ""
 Authors: Stephanie M. Mueller, Sven Martin, Martin Grunwald
-Tags:
+tags:
   - Self-Touch
   - Cognition
 Tier: Essential

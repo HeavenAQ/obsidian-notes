@@ -7,7 +7,7 @@ Venue: Findings of ACL
 Topic: Gesture & Turn-Taking
 snippet: ""
 Authors: Sam O'Connor Russell, Naomi Harte
-Tags:
+tags:
   - Turn-Taking
   - Multimodal
 Tier: Recommended

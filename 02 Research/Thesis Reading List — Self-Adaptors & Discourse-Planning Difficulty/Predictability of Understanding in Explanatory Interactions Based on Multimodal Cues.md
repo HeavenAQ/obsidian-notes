@@ -8,7 +8,7 @@ Venue: ICMI
 Topic: Multimodal Disfluency & Discourse
 snippet: ""
 Authors: Olcay Türk, Stefan Lazarov, Yu Wang, Hendrik Buschmeier, Angela Grimminger, Petra Wagner
-Tags:
+tags:
   - Multimodal
   - Cognition
 Tier: Recommended

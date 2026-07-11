@@ -1,5 +1,5 @@
 ---
-
+base: "[[Document Hub.base]]"
 ---
 - [ ] # **Core formula**
 

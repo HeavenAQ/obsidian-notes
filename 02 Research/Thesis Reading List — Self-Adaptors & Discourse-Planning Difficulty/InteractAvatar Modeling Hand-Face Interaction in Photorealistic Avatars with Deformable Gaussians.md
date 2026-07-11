@@ -8,8 +8,8 @@ Venue: ICCV
 Topic: Self-Contact / Hand-Face CV
 snippet: ""
 Authors: Kefan Chen, Sergiu Oprea, Justin Theiss, Sreyas Mohan, Srinath Sridhar, Aayush Prakash
-Tags:
-  - Hand-Face CV
+tags:
+  - Hand-Face-CV
   - Contact-Aware
 Tier: Recommended
 ---

@@ -1,0 +1,136 @@
+---
+cssclasses:
+  - dashboard
+---
+
+# 🏷️ Tag Normalization Report
+
+- Notes with normalized native `tags`: 94
+- Renamed imported `Tags` property to native lowercase `tags`.
+- Converted whitespace-containing tags to Obsidian-safe hyphenated tags.
+
+## Whitespace conversions
+- `Domain Generalization` → `Domain-Generalization` (15)
+- `Hand-Face CV` → `Hand-Face-CV` (16)
+- `Video Backbone` → `Video-Backbone` (5)
+- `Weak Supervision` → `Weak-Supervision` (4)
+
+## Final tag vocabulary
+- `Multimodal` (37)
+- `Dataset` (17)
+- `Cognition` (17)
+- `Contact-Aware` (16)
+- `Hand-Face-CV` (16)
+- `Domain-Generalization` (15)
+- `Turn-Taking` (15)
+- `Benchmark` (13)
+- `Disfluency` (12)
+- `Theory` (8)
+- `Self-Adaptor` (7)
+- `Video-Backbone` (5)
+- `Gesture` (5)
+- `Egocentric` (4)
+- `Foundational` (4)
+- `Weak-Supervision` (4)
+- `Distress` (3)
+- `Skeleton` (3)
+- `Self-Touch` (3)
+- `Repair` (2)
+- `Neurocognitive` (1)
+- `Japanese` (1)
+
+## Notes updated
+- [[02 Research/Thesis Reading List — Self-Adaptors & Discourse-Planning Difficulty/Bringing Inputs to Shared Domains for 3D Interacting Hands Recovery in the Wild (InterWild)]]
+- [[02 Research/Thesis Reading List — Self-Adaptors & Discourse-Planning Difficulty/ARCTIC A Dataset for Dexterous Bimanual Hand-Object Manipulation]]
+- [[02 Research/Thesis Reading List — Self-Adaptors & Discourse-Planning Difficulty/Missingness-resilient Video-enhanced Multimodal Disfluency Detection]]
+- [[02 Research/Thesis Reading List — Self-Adaptors & Discourse-Planning Difficulty/The Impact of Language Models and Loss Functions on Repair Disfluency Detection]]
+- [[02 Research/Thesis Reading List — Self-Adaptors & Discourse-Planning Difficulty/Context-Aware Personality Inference in Dyadic Scenarios Introducing the UDIVA Dataset]]
+- [[02 Research/Thesis Reading List — Self-Adaptors & Discourse-Planning Difficulty/Looking At The Body Automatic Analysis of Body Gestures and Self-Adaptors in Psychological Distress]]
+- [[02 Research/Thesis Reading List — Self-Adaptors & Discourse-Planning Difficulty/EasyCom An Augmented Reality Dataset to Support Algorithms for Easy Communication in Noisy Environments]]
+- [[02 Research/Thesis Reading List — Self-Adaptors & Discourse-Planning Difficulty/Pardon My Disfluency The Impact of Disfluency Effects on the Perception of Speaker Competence and Confidence]]
+- [[02 Research/Thesis Reading List — Self-Adaptors & Discourse-Planning Difficulty/Is Large-Scale Pretraining the Secret to Good Domain Generalization]]
+- [[02 Research/Thesis Reading List — Self-Adaptors & Discourse-Planning Difficulty/Generative Proxemics A Prior for 3D Social Interaction from Images (BUDDI)]]
+- [[02 Research/Thesis Reading List — Self-Adaptors & Discourse-Planning Difficulty/The AMI Meeting Corpus A Pre-announcement]]
+- [[02 Research/Thesis Reading List — Self-Adaptors & Discourse-Planning Difficulty/Revisiting Skeleton-Based Action Recognition (PoseC3D)]]
+- [[02 Research/Thesis Reading List — Self-Adaptors & Discourse-Planning Difficulty/AVCAffe A Large Scale Audio-Visual Dataset of Cognitive Load and Affect for Remote Work]]
+- [[02 Research/Thesis Reading List — Self-Adaptors & Discourse-Planning Difficulty/WristSonic Enabling Fine-grained Hand-Face Interactions on Smartwatches Using Active Acoustic Sensing]]
+- [[02 Research/Thesis Reading List — Self-Adaptors & Discourse-Planning Difficulty/Multimodal Machine Learning Can Predict Videoconference Fluidity and Enjoyment]]
+- [[02 Research/Thesis Reading List — Self-Adaptors & Discourse-Planning Difficulty/In Search of Lost Domain Generalization (DomainBed)]]
+- [[02 Research/Thesis Reading List — Self-Adaptors & Discourse-Planning Difficulty/Understanding Co-speech Gestures in-the-wild (JEGAL)]]
+- [[02 Research/Thesis Reading List — Self-Adaptors & Discourse-Planning Difficulty/Multimodal Disfluency Detection via Acoustic-Text Fusion Comparing Intended and Verbatim ASR Transcripts]]
+- [[02 Research/Thesis Reading List — Self-Adaptors & Discourse-Planning Difficulty/Learning Co-Speech Gesture for Multimodal Aphasia Type Detection]]
+- [[02 Research/Thesis Reading List — Self-Adaptors & Discourse-Planning Difficulty/Hand2Face Automatic Synthesis and Recognition of Hand Over Face Occlusions]]
+- [[02 Research/Thesis Reading List — Self-Adaptors & Discourse-Planning Difficulty/Generative Modeling of Shape-Dependent Self-Contact Human Poses]]
+- [[02 Research/Thesis Reading List — Self-Adaptors & Discourse-Planning Difficulty/Analysis of Face-Touching Behavior in Large-Scale Social Interaction Dataset]]
+- [[02 Research/Thesis Reading List — Self-Adaptors & Discourse-Planning Difficulty/Real-time and Continuous Turn-taking Prediction Using Voice Activity Projection]]
+- [[02 Research/Thesis Reading List — Self-Adaptors & Discourse-Planning Difficulty/Decaf Monocular Deformation Capture for Face and Hand Interactions]]
+- [[02 Research/Thesis Reading List — Self-Adaptors & Discourse-Planning Difficulty/SiMHand Mining Similar Hands for Large-Scale 3D Hand Pose Pre-training]]
+- [[02 Research/Thesis Reading List — Self-Adaptors & Discourse-Planning Difficulty/Benchmarks and Challenges in Pose Estimation for Egocentric Hand Interactions with Objects]]
+- [[02 Research/Thesis Reading List — Self-Adaptors & Discourse-Planning Difficulty/D-Touch Recognizing and Predicting Fine-grained Hand-face Touching Activities Using a Neck-mounted Wearable]]
+- [[02 Research/Thesis Reading List — Self-Adaptors & Discourse-Planning Difficulty/Beyond Generalization A Theory of Robustness in Machine Learning]]
+- [[02 Research/Thesis Reading List — Self-Adaptors & Discourse-Planning Difficulty/Adaptors and the Turn-Taking Mechanism The Significance of Adaptors for Turn-Taking in Conversation]]
+- [[02 Research/Thesis Reading List — Self-Adaptors & Discourse-Planning Difficulty/Single-to-Dual-View Adaptation for Egocentric 3D Hand Pose Estimation]]
+- [[02 Research/Thesis Reading List — Self-Adaptors & Discourse-Planning Difficulty/MultiMediate '23 Engagement Estimation and Bodily Behaviour Recognition in Social Interactions]]
+- [[02 Research/Thesis Reading List — Self-Adaptors & Discourse-Planning Difficulty/SimMMDG A Simple and Effective Framework for Multi-modal Domain Generalization]]
+- [[02 Research/Thesis Reading List — Self-Adaptors & Discourse-Planning Difficulty/ADABase A Multimodal Dataset for Cognitive Load Estimation]]
+- [[02 Research/Thesis Reading List — Self-Adaptors & Discourse-Planning Difficulty/Mamba Linear-Time Sequence Modeling with Selective State Spaces]]
+- [[02 Research/Thesis Reading List — Self-Adaptors & Discourse-Planning Difficulty/iFace Hand-Over-Face Gesture Recognition Leveraging Impedance Sensing]]
+- [[02 Research/Thesis Reading List — Self-Adaptors & Discourse-Planning Difficulty/Multi-Source Domain Generalization for ECG-Based Cognitive Load Estimation A Plug-in Method and Benchmark]]
+- [[02 Research/Thesis Reading List — Self-Adaptors & Discourse-Planning Difficulty/Predicting States of Understanding in Explanatory Interactions Using Cognitive Load-Related Linguistic Cues]]
+- [[02 Research/Thesis Reading List — Self-Adaptors & Discourse-Planning Difficulty/Cognitive and Emotional Regulation Processes of Spontaneous Facial Self-Touch Are Activated in the First Milliseconds of Touch]]
+- [[02 Research/Thesis Reading List — Self-Adaptors & Discourse-Planning Difficulty/InteractAvatar Modeling Hand-Face Interaction in Photorealistic Avatars with Deformable Gaussians]]
+- [[02 Research/Thesis Reading List — Self-Adaptors & Discourse-Planning Difficulty/MOCAS A Multimodal Dataset for Objective Cognitive Workload Assessment on Simultaneous Tasks]]
+- [[02 Research/Thesis Reading List — Self-Adaptors & Discourse-Planning Difficulty/Predicting Cognitive Load from Speech and Interaction Dynamics in Dyadic Conversations]]
+- [[02 Research/Thesis Reading List — Self-Adaptors & Discourse-Planning Difficulty/REVELIO — Universal Multimodal Task Load Estimation for Cross-Domain Generalization]]
+- [[02 Research/Thesis Reading List — Self-Adaptors & Discourse-Planning Difficulty/Self-Touch Contact Durations and Point of Touch of Spontaneous Facial Self-Touches Differ Depending on Cognitive and Emotional Load]]
+- [[02 Research/Thesis Reading List — Self-Adaptors & Discourse-Planning Difficulty/Multimodal Turn-Taking Model Using Visual Cues for End-of-Utterance Prediction in Spoken Dialogue Systems]]
+- [[02 Research/Thesis Reading List — Self-Adaptors & Discourse-Planning Difficulty/VideoMAE Masked Autoencoders Are Data-Efficient Learners for Self-Supervised Video Pre-Training]]
+- [[02 Research/Thesis Reading List — Self-Adaptors & Discourse-Planning Difficulty/Capturing Head Avatar with Hand Contacts from a Monocular Video]]
+- [[02 Research/Thesis Reading List — Self-Adaptors & Discourse-Planning Difficulty/Efficient Mixture-of-Expert for Video-based Driver State and Physiological Multi-task Estimation in Conditional Autonomous Driving (VDMoE)]]
+- [[02 Research/Thesis Reading List — Self-Adaptors & Discourse-Planning Difficulty/Spatial Temporal Graph Convolutional Networks for Skeleton-Based Action Recognition (ST-GCN)]]
+- [[02 Research/Thesis Reading List — Self-Adaptors & Discourse-Planning Difficulty/Incorporating Gesture and Gaze into Multimodal Models of Human-Computer Interaction]]
+- [[02 Research/Thesis Reading List — Self-Adaptors & Discourse-Planning Difficulty/DF-Mamba Deformable State Space Modeling for 3D Hand Pose Estimation in Interactions]]
+- [[02 Research/Thesis Reading List — Self-Adaptors & Discourse-Planning Difficulty/Lost in Transcription Identifying and Quantifying the Accuracy Biases of Automatic Speech Recognition Systems Against Disfluent Speech]]
+- [[02 Research/Thesis Reading List — Self-Adaptors & Discourse-Planning Difficulty/Neuron Structure Modeling for Generalizable Remote Physiological Measurement]]
+- [[02 Research/Thesis Reading List — Self-Adaptors & Discourse-Planning Difficulty/Accurate 3D Body Shape Regression using Metric and Semantic Attributes (SHAPY)]]
+- [[02 Research/Thesis Reading List — Self-Adaptors & Discourse-Planning Difficulty/Real-Time Driver Cognitive Workload Recognition Attention-Enabled Learning With Multimodal Information Fusion]]
+- [[02 Research/Thesis Reading List — Self-Adaptors & Discourse-Planning Difficulty/From User Perceptions to Technical Improvement Enabling People Who Stutter to Better Use Speech Recognition]]
+- [[02 Research/Thesis Reading List — Self-Adaptors & Discourse-Planning Difficulty/Automatic Analysis of Naturalistic Hand-Over-Face Gestures]]
+- [[02 Research/Thesis Reading List — Self-Adaptors & Discourse-Planning Difficulty/StuD A Multimodal Approach for Stuttering Detection with RAG and Fusion Strategies]]
+- [[02 Research/Thesis Reading List — Self-Adaptors & Discourse-Planning Difficulty/CogMamba Multi-Task Driver Cognitive Load and Physiological Non-Contact Estimation with Multimodal Facial Features]]
+- [[02 Research/Thesis Reading List — Self-Adaptors & Discourse-Planning Difficulty/A Simplest Systematics for the Organization of Turn-Taking for Conversation]]
+- [[02 Research/Thesis Reading List — Self-Adaptors & Discourse-Planning Difficulty/MambaVision A Hybrid Mamba-Transformer Vision Backbone]]
+- [[02 Research/Thesis Reading List — Self-Adaptors & Discourse-Planning Difficulty/Cross-Subject Cognitive Workload Recognition Based on EEG and Deep Domain Adaptation]]
+- [[02 Research/Thesis Reading List — Self-Adaptors & Discourse-Planning Difficulty/Design and Evaluation of the Corpus of Everyday Japanese Conversation (CEJC)]]
+- [[02 Research/Thesis Reading List — Self-Adaptors & Discourse-Planning Difficulty/The NoXi Database Multimodal Recordings of Mediated Novice-Expert Interactions]]
+- [[02 Research/Thesis Reading List — Self-Adaptors & Discourse-Planning Difficulty/Leveraging Speech for Gesture Detection in Multimodal Communication]]
+- [[02 Research/Thesis Reading List — Self-Adaptors & Discourse-Planning Difficulty/EveLoad Cognitive Workload Recognition from Event-Based Eye Movements]]
+- [[02 Research/Thesis Reading List — Self-Adaptors & Discourse-Planning Difficulty/Automatic Disfluency Detection From Untranscribed Speech]]
+- [[02 Research/Thesis Reading List — Self-Adaptors & Discourse-Planning Difficulty/FaceTouch Detecting Hand-to-Face Touch with Supervised Contrastive Learning to Assist in Tracing Infectious Disease]]
+- [[02 Research/Thesis Reading List — Self-Adaptors & Discourse-Planning Difficulty/On Self-Contact and Human Pose (TUCH)]]
+- [[02 Research/Thesis Reading List — Self-Adaptors & Discourse-Planning Difficulty/Hierarchical Style-Aware Domain Generalization for Remote Physiological Measurement]]
+- [[02 Research/Thesis Reading List — Self-Adaptors & Discourse-Planning Difficulty/KITRO Refining Human Mesh by 2D Clues and Kinematic-tree Rotation]]
+- [[02 Research/Thesis Reading List — Self-Adaptors & Discourse-Planning Difficulty/The Role of Self-Adaptors in Lexical Retrieval]]
+- [[02 Research/Thesis Reading List — Self-Adaptors & Discourse-Planning Difficulty/Talking Turns Benchmarking Audio Foundation Models on Turn-Taking Dynamics]]
+- [[02 Research/Thesis Reading List — Self-Adaptors & Discourse-Planning Difficulty/Predictability of Understanding in Explanatory Interactions Based on Multimodal Cues]]
+- [[02 Research/Thesis Reading List — Self-Adaptors & Discourse-Planning Difficulty/The Dual Functions of Adaptors]]
+- [[02 Research/Thesis Reading List — Self-Adaptors & Discourse-Planning Difficulty/3D Human Pose Estimation via Intuitive Physics (IPMAN)]]
+- [[02 Research/Thesis Reading List — Self-Adaptors & Discourse-Planning Difficulty/Predicting End-of-turn and Backchannel Based on Multimodal Voice Activity Prediction Model]]
+- [[02 Research/Thesis Reading List — Self-Adaptors & Discourse-Planning Difficulty/SMPLer-X Scaling Up Expressive Human Pose and Shape Estimation]]
+- [[02 Research/Thesis Reading List — Self-Adaptors & Discourse-Planning Difficulty/Multilingual Turn-taking Prediction Using Voice Activity Projection]]
+- [[02 Research/Thesis Reading List — Self-Adaptors & Discourse-Planning Difficulty/Rethinking the Evaluation Protocol of Domain Generalization]]
+- [[02 Research/Thesis Reading List — Self-Adaptors & Discourse-Planning Difficulty/Turn-taking in Human Face-to-Face Interaction Is Multimodal Gaze Direction and Manual Gestures Aid the Coordination of Turn Transitions]]
+- [[02 Research/Thesis Reading List — Self-Adaptors & Discourse-Planning Difficulty/Evaluating the Robustness of Multimodal Task Load Estimation Models]]
+- [[02 Research/Thesis Reading List — Self-Adaptors & Discourse-Planning Difficulty/ScoreHOI Physically Plausible Reconstruction of Human-Object Interaction via Score-Guided Diffusion]]
+- [[02 Research/Thesis Reading List — Self-Adaptors & Discourse-Planning Difficulty/Domain Generalization Through Audio-Visual Relative Norm Alignment in First Person Action Recognition (RNA-Net)]]
+- [[02 Research/Thesis Reading List — Self-Adaptors & Discourse-Planning Difficulty/Dialogue Act-Aided Backchannel Prediction Using Multi-Task Learning]]
+- [[02 Research/Thesis Reading List — Self-Adaptors & Discourse-Planning Difficulty/Self-Touching as an Indicator of Underlying Affect and Language Processes]]
+- [[02 Research/Thesis Reading List — Self-Adaptors & Discourse-Planning Difficulty/Toward a Multimodal Approach for Disfluency Detection and Categorization]]
+- [[02 Research/Thesis Reading List — Self-Adaptors & Discourse-Planning Difficulty/DICE End-to-end Deformation Capture of Hand-Face Interactions from a Single Image]]
+- [[02 Research/Thesis Reading List — Self-Adaptors & Discourse-Planning Difficulty/The Repertoire of Nonverbal Behavior Categories, Origins, Usage, and Coding]]
+- [[02 Research/Thesis Reading List — Self-Adaptors & Discourse-Planning Difficulty/Detecting Human-Object Contact in Images]]
+- [[02 Research/Thesis Reading List — Self-Adaptors & Discourse-Planning Difficulty/Visual Cues Enhance Predictive Turn-Taking for Two-Party Human Interaction]]
+- [[02 Research/Thesis Reading List — Self-Adaptors & Discourse-Planning Difficulty/Automatic Quantification of Hand Gestures in Current and Remitted Major Depressive Disorder During Oral Expression]]
+- [[02 Research/Thesis Reading List — Self-Adaptors & Discourse-Planning Difficulty/Auto-AVSR Audio-Visual Speech Recognition with Automatic Labels]]
+- [[02 Research/Thesis Reading List — Self-Adaptors & Discourse-Planning Difficulty/FluencyBank Timestamped An Updated Data Set for Disfluency Detection and Automatic Intended Speech Recognition]]
+- [[02 Research/Thesis Reading List — Self-Adaptors & Discourse-Planning Difficulty/Automatic Detection of Self-Adaptors for Psychological Distress/Automatic Detection of Self-Adaptors for Psychological Distress]]

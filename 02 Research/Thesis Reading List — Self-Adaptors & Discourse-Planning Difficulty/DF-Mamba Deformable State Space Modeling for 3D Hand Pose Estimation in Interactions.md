@@ -8,9 +8,9 @@ Venue: WACV/ICCV
 Topic: Self-Contact / Hand-Face CV
 snippet: "DENSO IT Lab paper (WACV 2026) — interaction-aware 3D hand pose with deformable state-space modeling; read before outreach: self-adaptor detection can be pitched as downstream of this line of work."
 Authors: T. Ohkawa, M. Ohi, K. Goto, Y. Sekikawa, N. Inoue
-Tags:
+tags:
   - Contact-Aware
-  - Hand-Face CV
+  - Hand-Face-CV
 Tier: Recommended
 Assigned Date: 2026-07-05
 ---

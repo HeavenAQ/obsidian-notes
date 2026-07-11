@@ -14,11 +14,12 @@ banner: "[[99 Assets/Media/grpo_visual.png]]"
 - 🧭 **[[00 Home/Vault Map|Vault Map]]** — how the whole system is organized
 - 📥 **[[00 Home/Inbox/Inbox|Inbox]]** — default landing spot for new notes
 - 📅 **[[00 Home/Daily Notes/2026-07-11|Today’s daily note]]**
-- 🎓 **[[01 Learning/Learning Hub|Learning Hub]]** — courses, lessons, and homework
-- 🔬 **[[02 Research/Research Hub|Research Hub]]** — thesis and paper reading
-- 🧩 **[[03 Algorithms/Algorithms Hub|Algorithms Hub]]** — DSA practice
-- 📚 **[[04 Reference/Reference Hub|Reference Hub]]** — deep technical notes
+- 🎓 **[[01 Learning/Learning Hub.base|Learning Hub]]** — courses, lessons, and homework
+- 🔬 **[[02 Research/Research Hub.base|Research Hub]]** — thesis and paper reading
+- 🧩 **[[03 Algorithms/Algorithms Hub.base|Algorithms Hub]]** — DSA practice
+- 📚 **[[04 Reference/Reference Hub.base|Reference Hub]]** — deep technical notes
 - 🖼️ **[[99 Assets/Assets Index|Assets Index]]** — media, canvases, and base files
+- 🎨 **[[00 Home/Tag Color Map|Tag Color Map]]** — current tag palette
 
 ## 📊 Reading Status at a Glance
 
@@ -128,6 +129,13 @@ const practice = dv.pages('"03 Algorithms/DSA"')
 
 dv.table(["Practice / review", "Difficulty", "Topic", "Status"], practice);
 ```
+
+## 🗂️ Full Inventories
+
+- 🎓 [[01 Learning/Learning Hub.base|All learning documents and progress]]
+- 🔬 [[02 Research/Research Hub.base|All research papers and thesis documents]]
+- 🧩 [[03 Algorithms/Algorithms Hub.base|All DSA documents and practice status]]
+- 📚 [[04 Reference/Reference Hub.base|All reference documents and status]]
 
 ## 🧱 Databases / Bases
 

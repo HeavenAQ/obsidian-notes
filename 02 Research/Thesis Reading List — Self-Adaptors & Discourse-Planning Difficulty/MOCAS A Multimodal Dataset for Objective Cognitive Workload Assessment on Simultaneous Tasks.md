@@ -10,7 +10,7 @@ Relatedness: not relevant
 Topic: Dataset / Corpus
 snippet: ""
 Authors: Wonse Jo, Ruiqi Wang, Go-Eum Cha, Sangwoo Sun, Ramviyas Parasuraman Senthilkumaran, Daniel Foti, Byung-Cheol Min
-Tags:
+tags:
   - Dataset
   - Cognition
   - Multimodal

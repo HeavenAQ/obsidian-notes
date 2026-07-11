@@ -8,7 +8,7 @@ Venue: NAACL
 Topic: Multimodal Disfluency & Discourse
 snippet: ""
 Authors: D. Mujtaba, N. Mahapatra, M. Arney, J. S. Yaruss, H. Gerlach-Houck, C. Herring, J. Bin
-Tags:
+tags:
   - Disfluency
   - Benchmark
 Tier: Recommended

@@ -8,7 +8,7 @@ Venue: DiSS
 Topic: Multimodal Disfluency & Discourse
 snippet: ""
 Authors: M. H. L. Ferreira, A. I. Ferreira, L. R. Gris, R. Tanaka, I. J. S. Filho, F. Oliveira, A. Galvão Filho
-Tags:
+tags:
   - Disfluency
   - Multimodal
 Tier: Recommended

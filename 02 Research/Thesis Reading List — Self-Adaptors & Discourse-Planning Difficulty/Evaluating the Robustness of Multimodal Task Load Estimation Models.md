@@ -10,8 +10,8 @@ Relatedness: not relevant
 Topic: Domain Generalization
 snippet: ""
 Authors: Andreas Foltyn, Jessica Deuschel, Nadine R. Lang-Richter, Nina Holzer, Maximilian P. Oppelt
-Tags:
-  - Domain Generalization
+tags:
+  - Domain-Generalization
   - Cognition
   - Multimodal
   - Benchmark

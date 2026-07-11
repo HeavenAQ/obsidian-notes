@@ -8,8 +8,8 @@ Venue: arXiv
 Topic: Self-Contact / Hand-Face CV
 snippet: ""
 Authors: Saif Mahmud, et al.
-Tags:
-  - Hand-Face CV
+tags:
+  - Hand-Face-CV
   - Contact-Aware
 Tier: Recommended
 ---

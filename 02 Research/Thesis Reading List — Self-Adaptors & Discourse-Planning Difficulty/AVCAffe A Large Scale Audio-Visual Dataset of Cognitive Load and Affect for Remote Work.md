@@ -9,7 +9,7 @@ Code Link: https://github.com/pritamqu/AVCAffe
 Topic: Dataset / Corpus
 snippet: ""
 Authors: P. Sarkar, A. Posen, A. Etemad
-Tags:
+tags:
   - Dataset
   - Cognition
   - Multimodal

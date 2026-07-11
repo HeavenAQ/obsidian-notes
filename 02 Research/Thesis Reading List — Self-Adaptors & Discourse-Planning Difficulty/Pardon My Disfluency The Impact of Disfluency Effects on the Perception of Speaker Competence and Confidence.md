@@ -8,7 +8,7 @@ Venue: Interspeech
 Topic: Multimodal Disfluency & Discourse
 snippet: ""
 Authors: A. Kirkland, J. Gustafson, E. Szekely
-Tags:
+tags:
   - Disfluency
 Tier: Recommended
 ---

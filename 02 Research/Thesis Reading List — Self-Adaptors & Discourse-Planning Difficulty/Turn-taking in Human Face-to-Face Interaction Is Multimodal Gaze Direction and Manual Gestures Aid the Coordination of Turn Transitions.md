@@ -7,7 +7,7 @@ Venue: Phil. Trans. R. Soc. B
 Topic: Gesture & Turn-Taking
 snippet: ""
 Authors: K. H. Kendrick, J. Holler, S. C. Levinson
-Tags:
+tags:
   - Theory
   - Turn-Taking
   - Multimodal

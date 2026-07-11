@@ -8,7 +8,7 @@ Venue: arXiv
 Topic: Gesture & Turn-Taking
 snippet: ""
 Authors: Siddhant Arora, Zhiyun Lu, Chung-Cheng Chiu, Ruoming Pang, Shinji Watanabe
-Tags:
+tags:
   - Turn-Taking
   - Benchmark
 Tier: Recommended

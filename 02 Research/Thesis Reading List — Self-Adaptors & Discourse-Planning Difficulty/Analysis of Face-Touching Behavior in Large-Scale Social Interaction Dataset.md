@@ -15,9 +15,9 @@ snippet: |2-
     • used several approaches including rule-based, hand-crafted features, NN, CNN
     • CNN based approach (ResNet152) for feature learning-based detection worked the best
 Authors: C. Beyan, M. Bustreo, M. Shahid, G. L. Bailo, N. Carissimi, A. Del Bue
-Tags:
+tags:
   - Dataset
-  - Hand-Face CV
+  - Hand-Face-CV
   - Benchmark
 Tier: Essential
 Assigned Date: 2026-07-02

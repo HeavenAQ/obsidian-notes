@@ -9,7 +9,7 @@ Code Link: https://github.com/DSAIL-SKKU/Multimodal-Aphasia-Type-Detection_EMNLP
 Topic: Multimodal Disfluency & Discourse
 snippet: ""
 Authors: D. Lee, S. Son, H. Jeon, S. Kim, J. Han
-Tags:
+tags:
   - Multimodal
   - Gesture
   - Disfluency

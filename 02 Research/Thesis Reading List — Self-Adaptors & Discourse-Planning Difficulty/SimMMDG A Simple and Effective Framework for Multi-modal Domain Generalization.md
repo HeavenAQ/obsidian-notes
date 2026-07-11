@@ -8,8 +8,8 @@ Code Link: https://github.com/donghao51/SimMMDG
 Topic: Domain Generalization
 snippet: ""
 Authors: H. Dong, I. Nejjar, H. Sun, E. Chatzi, O. Fink
-Tags:
-  - Domain Generalization
+tags:
+  - Domain-Generalization
   - Multimodal
 Tier: Background
 ---

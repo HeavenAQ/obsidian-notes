@@ -12,8 +12,8 @@ snippet: |2-
     • to reduce the risk of contagious disease by avoiding face-touching behavior 
     • using neck-mounted wearable with an infrared camera to predict non-touch and touched behavior
 Authors: H. Lim, R. Zhang, S. Pendyal, J. Jo, C. Zhang
-Tags:
-  - Hand-Face CV
+tags:
+  - Hand-Face-CV
   - Contact-Aware
 Tier: Recommended
 Assigned Date: 2026-07-06

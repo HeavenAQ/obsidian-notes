@@ -7,7 +7,7 @@ Venue: Soc. Sci. & Medicine
 Topic: Adaptor & Self-Touch Theory
 snippet: ""
 Authors: J. A. Harrigan
-Tags:
+tags:
   - Theory
   - Self-Touch
 Tier: Background

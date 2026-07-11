@@ -27,18 +27,15 @@ properties:
   Date Added:
     displayName: Added
 views:
-  - type: cards
-    name: 🧩 Problem Cards
-    image: formula.Cover
-    imageFit: cover
-    imageAspectRatio: 1.45
-    cardSize: 240
+  - type: table
+    name: Table
     order:
       - file.name
       - formula.State
       - formula.Level
       - Topic
       - Type
+      - Source
       - Link
     sort:
       - property: Status
@@ -73,15 +70,18 @@ views:
     sort:
       - property: Topic
         direction: ASC
-  - type: table
-    name: 🗂️ All
+  - type: cards
+    name: 🧩 Problem Cards
+    image: formula.Cover
+    imageFit: cover
+    imageAspectRatio: 1.45
+    cardSize: 240
     order:
       - file.name
       - formula.State
       - formula.Level
       - Topic
       - Type
-      - Source
       - Link
     sort:
       - property: Status

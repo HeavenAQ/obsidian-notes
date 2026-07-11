@@ -7,8 +7,8 @@ Venue: CVPR
 Topic: Domain Generalization
 snippet: ""
 Authors: H. Yu, X. Zhang, R. Xu, et al.
-Tags:
-  - Domain Generalization
+tags:
+  - Domain-Generalization
   - Benchmark
 Tier: Background
 ---

@@ -7,7 +7,7 @@ Venue: arXiv
 Topic: Dataset / Corpus
 snippet: ""
 Authors: J. Donley, V. Tourbabin, J.-S. Kim, et al.
-Tags:
+tags:
   - Dataset
   - Egocentric
   - Multimodal

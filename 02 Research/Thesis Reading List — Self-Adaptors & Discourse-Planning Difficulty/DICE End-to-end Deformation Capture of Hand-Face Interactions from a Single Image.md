@@ -15,10 +15,10 @@ snippet: |2-
     • SOTA with better generalization
     • mostly profile images, unknown performance on full body
 Authors: Qingxuan Wu, Zhiyang Dou, Sirui Xu, et al.
-Tags:
+tags:
   - Contact-Aware
-  - Hand-Face CV
-  - Weak Supervision
+  - Hand-Face-CV
+  - Weak-Supervision
 Tier: Essential
 Assigned Date: 2026-07-03
 ---

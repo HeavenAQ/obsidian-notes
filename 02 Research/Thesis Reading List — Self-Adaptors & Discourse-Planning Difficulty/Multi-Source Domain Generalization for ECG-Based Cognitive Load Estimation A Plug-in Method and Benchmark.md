@@ -10,8 +10,8 @@ Relatedness: not relevant
 Topic: Domain Generalization
 snippet: ""
 Authors: Jiyao Wang, Ange Wang, Haolong Hu, Kaishun Wu, Dengbo He
-Tags:
-  - Domain Generalization
+tags:
+  - Domain-Generalization
   - Cognition
 Tier: Recommended
 Assigned Date: 2026-07-07

@@ -7,8 +7,8 @@ Venue: WACV/ICCV
 Topic: Domain Generalization
 snippet: ""
 Authors: M. Planamente, C. Plizzari, E. Alberti, B. Caputo
-Tags:
-  - Domain Generalization
+tags:
+  - Domain-Generalization
   - Multimodal
 Tier: Background
 ---

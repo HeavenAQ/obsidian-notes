@@ -1,0 +1,87 @@
+filters:
+  or:
+    - note["base"] == link("Thesis Reading List — Self-Adaptors & Discourse-Planning Difficulty.base")
+    - note["base"] == link("Research Hub.base")
+properties:
+  file.name:
+    displayName: Title
+  Assigned Date:
+    displayName: Assigned Date
+  Should Refer:
+    displayName: Should Refer
+  Relatedness:
+    displayName: Relatedness
+  snippet:
+    displayName: snippet
+  Reading Status:
+    displayName: Reading Status
+  tags:
+    displayName: Tags
+  Authors:
+    displayName: Authors
+  Code Link:
+    displayName: Code Link
+  Paper Link:
+    displayName: Paper Link
+  Tier:
+    displayName: Tier
+  Topic:
+    displayName: Topic
+  Venue:
+    displayName: Venue
+  Year:
+    displayName: Year
+  Dataset:
+    displayName: Dataset
+views:
+  - type: table
+    name: Table
+    order:
+      - file.name
+      - Assigned Date
+      - Should Refer
+      - Relatedness
+      - snippet
+      - Reading Status
+      - tags
+      - Authors
+      - Code Link
+      - Paper Link
+      - Tier
+      - Topic
+      - Venue
+      - Year
+      - Dataset
+    sort:
+      - property: Assigned Date
+        direction: DESC
+      - property: Year
+        direction: DESC
+  - type: table
+    name: 📖 Reading Now
+    filters:
+      and:
+        - note["Reading Status"] == "Reading"
+    order:
+      - file.name
+      - Assigned Date
+      - Reading Status
+      - tags
+      - Tier
+      - Topic
+      - Venue
+      - Year
+  - type: table
+    name: 📥 To Read
+    filters:
+      and:
+        - note["Reading Status"] == "To Read"
+    order:
+      - file.name
+      - Assigned Date
+      - Reading Status
+      - tags
+      - Tier
+      - Topic
+      - Venue
+      - Year

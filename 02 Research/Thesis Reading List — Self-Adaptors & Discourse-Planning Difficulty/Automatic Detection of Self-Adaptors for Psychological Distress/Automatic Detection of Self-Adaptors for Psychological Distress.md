@@ -15,7 +15,7 @@ snippet: |2-
     • fidgeting detection: optical flow (trajectory) → FFT / Mean / Std → cycle detection
     • 35 participants → 7h 50m footages
 Authors: W. Lin, I. Orton, M. Liu, M. Mahmoud
-Tags:
+tags:
   - Self-Adaptor
   - Distress
 Tier: Essential
