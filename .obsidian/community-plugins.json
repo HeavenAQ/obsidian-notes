@@ -8,5 +8,6 @@
   "make-md",
   "dataview",
   "iconic",
-  "colored-tags"
+  "colored-tags",
+  "tag-wrangler"
 ]

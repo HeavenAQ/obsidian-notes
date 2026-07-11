@@ -130,3 +130,7 @@
 - Forced each tag chip to use a matched text/background pair in CSS, including nested pill content and remove buttons.
 - Removed plugin gradient backgrounds by disabling transitions and overriding `background-image`.
 - Added separate dark-mode tag pairs so text and background remain consistent across themes.
+## 2026-07-12 — Color tag properties inside pages
+- Patched Colored Tags so all Obsidian page properties typed as `tags` receive `colored-tag-*` classes, not only the native `tags` property.
+- Extended plugin selectors for tag pills and remove buttons inside page metadata/properties.
+- Existing Notion-style CSS now applies to `Status`, `Reading Status`, `Should Refer`, `Relatedness`, `Tier`, `Topic`, `Venue`, and other tag fields inside notes.

@@ -2,7 +2,7 @@ filters:
   and:
     - note["base"] == link("DSA.base")
 formulas:
-  Cover: 'if(note.Difficulty == "Hard", "#fee2e2", if(note.Difficulty == "Medium", "#ffedd5", if(note.Difficulty == "Easy", "#dcfce7", "#f1f5f9")))'
+  Cover: if(note.Difficulty == "Hard", "#fee2e2", if(note.Difficulty == "Medium", "#ffedd5", if(note.Difficulty == "Easy", "#dcfce7", "#f1f5f9")))
   State: if(note.Status == "To-Solve", "⚔️ To Solve", if(note.Status == "To-Review", "🔁 To Review", "✅ Done"))
   Level: if(note.Difficulty == "Hard", "🔴 Hard", if(note.Difficulty == "Medium", "🟠 Medium", if(note.Difficulty == "Easy", "🟢 Easy", "—")))
 properties:
@@ -72,10 +72,6 @@ views:
         direction: ASC
   - type: cards
     name: 🧩 Problem Cards
-    image: formula.Cover
-    imageFit: cover
-    imageAspectRatio: 1.45
-    cardSize: 240
     order:
       - file.name
       - formula.State
@@ -88,3 +84,7 @@ views:
         direction: DESC
       - property: Date Added
         direction: DESC
+    image: formula.Cover
+    imageFit: cover
+    imageAspectRatio: 1.45
+    cardSize: 240

@@ -5067,7 +5067,7 @@ var TagManager = class {
 };
 
 // src/tag-appliers/PropertiesTagApplier.ts
-var PROPERTY_TAG_SELECTOR = '.metadata-property[data-property-type="tags" i] .multi-select-pill, .metadata-property[data-property-key="tags" i] .multi-select-pill';
+var PROPERTY_TAG_SELECTOR = '.metadata-property[data-property-key="tags" i] .multi-select-pill';
 var singleUseApplier2 = new TagApplier({
   selector: PROPERTY_TAG_SELECTOR,
   getTagText: getMultiSelectPillName,
@@ -5285,8 +5285,6 @@ ${css}
       `a.tag.colored-tag-${tagLower}`,
       `.cm-s-obsidian .cm-line span.cm-hashtag.colored-tag-${tagLower}`,
       `.metadata-property[data-property-key="tags" i] .multi-select-pill.colored-tag-${tagLower}`,
-      `.metadata-property[data-property-type="tags" i] .multi-select-pill.colored-tag-${tagLower}`,
-      `.metadata-property .multi-select-pill.colored-tag-${tagLower}`,
       `.bases-metadata-value[data-property-type="tags" i] .multi-select-pill.colored-tag-${tagLower}`
     ];
     if (tagFlat && !tagName.includes("/")) {
@@ -5302,8 +5300,6 @@ ${css}
     const tagLower = tagName.toLowerCase().replace(/\//g, "\\/");
     return tagLower ? [
       `.metadata-property[data-property-key="tags" i] .multi-select-pill-remove-button.colored-tag-${tagLower}`,
-      `.metadata-property[data-property-type="tags" i] .multi-select-pill-remove-button.colored-tag-${tagLower}`,
-      `.metadata-property .multi-select-pill-remove-button.colored-tag-${tagLower}`,
       `.bases-metadata-value[data-property-type="tags" i] .multi-select-pill-remove-button.colored-tag-${tagLower}`
     ] : [];
   }
