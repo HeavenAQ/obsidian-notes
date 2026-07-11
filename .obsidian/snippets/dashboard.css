@@ -1,54 +1,189 @@
-/* Notion-style card grid for the Dashboard note (cssclasses: dashboard) */
+/* @settings
+name: Notion-like Dashboard Polish
+id: notion-dashboard-polish
+settings:
+  -
+    id: dashboard-card-radius
+    title: Dashboard card radius
+    type: variable-number-slider
+    default: 14
+    min: 6
+    max: 28
+    format: px
+  -
+    id: dashboard-grid-min
+    title: Dashboard card minimum width
+    type: variable-number-slider
+    default: 230
+    min: 180
+    max: 340
+    format: px
+*/
 
-/* Turn the Document Bases bullet list into a card grid */
-.dashboard.markdown-preview-view div > ul,
-.dashboard .markdown-preview-section > div > ul {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
-    gap: 10px;
-    padding-left: 0;
-    list-style: none;
+/* Notion-like workspace polish for Dashboard + Hub notes. */
+
+.dashboard.markdown-preview-view,
+.dashboard.markdown-source-view {
+  --file-line-width: 980px;
 }
 
-.dashboard.markdown-preview-view div > ul > li,
-.dashboard .markdown-preview-section > div > ul > li {
-    background-color: var(--background-secondary);
-    border: 1px solid var(--background-modifier-border);
-    border-radius: 10px;
-    padding: 14px 16px;
-    margin: 0;
-    transition: transform 0.12s ease, box-shadow 0.12s ease;
+.dashboard.markdown-preview-view .markdown-preview-section {
+  padding-bottom: 80px;
 }
 
-.dashboard.markdown-preview-view div > ul > li:hover,
-.dashboard .markdown-preview-section > div > ul > li:hover {
-    transform: translateY(-2px);
-    box-shadow: var(--shadow-s);
-    border-color: var(--interactive-accent);
+.dashboard h1 {
+  font-size: 2.25rem;
+  letter-spacing: -0.035em;
+  margin-bottom: 0.4em;
 }
 
-.dashboard li a.internal-link {
-    text-decoration: none;
-    color: var(--text-normal);
-}
-
-.dashboard li:hover a.internal-link {
-    color: var(--interactive-accent);
-}
-
-/* Hide list bullets */
-.dashboard ul > li::marker {
-    content: "";
-}
-
-/* Wider readable line for the dashboard */
-.dashboard.markdown-preview-view {
-    --file-line-width: 900px;
-}
-
-/* Tighter heading spacing, Notion-like */
 .dashboard h2 {
-    margin-top: 1.4em;
-    border-bottom: 1px solid var(--background-modifier-border);
-    padding-bottom: 6px;
+  margin-top: 1.65em;
+  padding-bottom: 0.35em;
+  border-bottom: 1px solid var(--background-modifier-border);
+  letter-spacing: -0.02em;
+}
+
+.dashboard h3 {
+  color: var(--text-muted);
+  font-weight: 650;
+}
+
+/* Turn simple top-level unordered lists into Notion-style cards. */
+.dashboard.markdown-preview-view .markdown-preview-section > div > ul {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(var(--dashboard-grid-min, 230px), 1fr));
+  gap: 12px;
+  padding-left: 0;
+  margin: 0.75rem 0 1.25rem;
+  list-style: none;
+}
+
+.dashboard.markdown-preview-view .markdown-preview-section > div > ul > li {
+  background: linear-gradient(180deg, var(--background-secondary), var(--background-primary));
+  border: 1px solid var(--background-modifier-border);
+  border-radius: var(--dashboard-card-radius, 14px);
+  padding: 14px 16px;
+  margin: 0;
+  min-height: 62px;
+  box-shadow: 0 1px 1px rgba(0,0,0,0.03);
+  transition: transform 120ms ease, border-color 120ms ease, box-shadow 120ms ease;
+}
+
+.dashboard.markdown-preview-view .markdown-preview-section > div > ul > li:hover {
+  transform: translateY(-2px);
+  border-color: var(--interactive-accent);
+  box-shadow: var(--shadow-s);
+}
+
+.dashboard ul > li::marker {
+  content: "";
+}
+
+.dashboard a.internal-link {
+  text-decoration: none;
+  font-weight: 650;
+}
+
+.dashboard table {
+  border-collapse: separate;
+  border-spacing: 0;
+  overflow: hidden;
+  border-radius: 12px;
+}
+
+.dashboard thead tr {
+  background: var(--background-secondary);
+}
+
+.dashboard tbody tr:hover {
+  background: var(--background-secondary-alt);
+}
+
+.dashboard .callout {
+  border-radius: var(--dashboard-card-radius, 14px);
+  border: 1px solid var(--background-modifier-border);
+  box-shadow: 0 1px 2px rgba(0,0,0,0.03);
+}
+
+/* File explorer readability: make the new top-level areas visually scannable. */
+.nav-folder-title[data-path="00 Home"],
+.nav-folder-title[data-path="01 Learning"],
+.nav-folder-title[data-path="02 Research"],
+.nav-folder-title[data-path="03 Algorithms"],
+.nav-folder-title[data-path="04 Reference"],
+.nav-folder-title[data-path="90 Archive"],
+.nav-folder-title[data-path="99 Assets"] {
+  font-weight: 700;
+  border-radius: 8px;
+  margin: 2px 0;
+}
+
+.nav-folder-title[data-path="00 Home"] { color: #d97706; }
+.nav-folder-title[data-path="01 Learning"] { color: #2563eb; }
+.nav-folder-title[data-path="02 Research"] { color: #7c3aed; }
+.nav-folder-title[data-path="03 Algorithms"] { color: #059669; }
+.nav-folder-title[data-path="04 Reference"] { color: #0f766e; }
+.nav-folder-title[data-path="90 Archive"] { color: #64748b; }
+.nav-folder-title[data-path="99 Assets"] { color: #db2777; }
+
+.nav-file-title[data-path$=".base"] {
+  color: var(--text-accent);
+}
+
+/* Notion-like polish for Obsidian Bases. These selectors are intentionally broad
+   and safe: unsupported/changed Base internals will simply ignore them. */
+.workspace-leaf-content[data-type="base"] .view-content,
+.bases-embed {
+  --base-card-radius: 16px;
+  --base-card-border: var(--background-modifier-border);
+}
+
+/* Base cards: soft rounded gallery cards similar to Notion database gallery. */
+.bases-embed .bases-cards-item,
+.workspace-leaf-content[data-type="base"] .bases-cards-item,
+.bases-embed .bases-card,
+.workspace-leaf-content[data-type="base"] .bases-card {
+  border-radius: var(--base-card-radius) !important;
+  border: 1px solid var(--base-card-border) !important;
+  background: var(--background-primary) !important;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.04) !important;
+  overflow: hidden !important;
+  transition: transform 120ms ease, box-shadow 120ms ease, border-color 120ms ease;
+}
+
+.bases-embed .bases-cards-item:hover,
+.workspace-leaf-content[data-type="base"] .bases-cards-item:hover,
+.bases-embed .bases-card:hover,
+.workspace-leaf-content[data-type="base"] .bases-card:hover {
+  transform: translateY(-2px);
+  border-color: var(--interactive-accent) !important;
+  box-shadow: var(--shadow-s) !important;
+}
+
+/* Base tables: softer Notion-like rows. */
+.workspace-leaf-content[data-type="base"] table,
+.bases-embed table {
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.workspace-leaf-content[data-type="base"] th,
+.bases-embed th {
+  color: var(--text-muted);
+  font-size: 0.82em;
+  font-weight: 650;
+  background: var(--background-secondary);
+}
+
+.workspace-leaf-content[data-type="base"] tr:hover,
+.bases-embed tr:hover {
+  background: var(--background-secondary-alt);
+}
+
+/* Make Base view tabs feel more like Notion database tabs. */
+.workspace-leaf-content[data-type="base"] .bases-toolbar,
+.bases-embed .bases-toolbar {
+  border-bottom: 1px solid var(--background-modifier-border);
+  padding-bottom: 6px;
 }

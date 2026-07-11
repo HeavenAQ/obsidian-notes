@@ -38,7 +38,12 @@
   "vaultSelector": true,
   "deleteFileOption": "trash",
   "expandedSpaces": [
-    "/"
+    "/",
+    "//Notion",
+    "//99 Assets",
+    "//02 Research",
+    "//01 Learning",
+    "//00 Home"
   ],
   "expandFolderOnClick": true,
   "spacesFolder": "Tags",
@@ -50,6 +55,8 @@
     "_assets",
     "_blocks"
   ],
+  "newFileLocation": "folder",
+  "newFileFolderPath": "00 Home/Inbox",
   "inlineBacklinks": false,
   "inlineContext": true,
   "inlineBacklinksExpanded": false,
