@@ -16,6 +16,31 @@ obsidianUIMode: preview
 - 📖 **[[Notion/Thesis Reading List — Self-Adaptors & Discourse-Planning Difficulty/Thesis Reading List — Self-Adaptors & Discourse-Planning Difficulty.base|Thesis Reading List]]**
 - 🎓 **[[Notion/Research Thesis|Research Thesis]]**
 
+## 📊 Reading Status at a Glance
+
+```dataviewjs
+const bases = [
+    ["🗂️ Document Hub", "Notion/Document Hub", "Status", { done: "Done", active: "In progress", todo: "Not started" }],
+    ["📖 Thesis Reading List", "Notion/Thesis Reading List — Self-Adaptors & Discourse-Planning Difficulty", "Reading Status", { done: "Read", active: "Reading", todo: "To Read" }],
+    ["👁️ CV Study Tracker", "Notion/Computer Vision — Foundations Study Tracker", "Status", { done: "Done", active: "In progress", todo: "Not started" }],
+    ["📝 DL Homework", "Notion/DL Homework Practice — MIT 6.7960", "Status", { done: "Done", active: "In progress", todo: "Not started" }],
+    ["🧮 DSA", "Notion/DSA", "Status", { done: "Done", active: "To Review", todo: "To Solve" }],
+];
+
+const rows = bases.map(([label, folder, field, m]) => {
+    const pages = dv.pages(`"${folder}"`);
+    const total = pages.length;
+    const done = pages.where(p => p[field] === m.done).length;
+    const active = pages.where(p => p[field] === m.active).length;
+    const todo = pages.where(p => p[field] === m.todo).length;
+    const pct = total ? Math.round((done / total) * 100) : 0;
+    const bar = "█".repeat(Math.round(pct / 10)) + "░".repeat(10 - Math.round(pct / 10));
+    return [label, `✅ ${done}`, `🟡 ${active}`, `⬜ ${todo}`, `\`${bar}\` ${pct}%`];
+});
+
+dv.table(["Base", "Done", "Active", "To Do", "Progress"], rows);
+```
+
 ## 🔥 Commit Activity
 
 ```dataviewjs

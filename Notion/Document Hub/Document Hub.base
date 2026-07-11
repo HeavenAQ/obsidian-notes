@@ -1,29 +1,65 @@
 filters:
   and:
     - note["base"] == link("Document Hub.base")
+formulas:
+  Progress: if(note.Status == "Done", "✅ Done", if(note.Status == "In progress", "🟡 In progress", "⬜ Not started"))
 properties:
   file.name:
-    displayName: Doc name
-  Created by:
-    displayName: Created by
-  Created time:
-    displayName: Created time
-  Status:
+    displayName: 📄 Document
+  formula.Progress:
     displayName: Status
-  Last updated time:
-    displayName: Last updated time
-  Last edited by:
-    displayName: Last edited by
   Category:
     displayName: Category
+  Created time:
+    displayName: Created
+  Last updated time:
+    displayName: Updated
 views:
   - type: table
-    name: Table View
+    name: 🗂️ All
     order:
       - file.name
-      - Created by
-      - Created time
-      - Status
-      - Last updated time
-      - Last edited by
+      - formula.Progress
       - Category
+      - Last updated time
+    sort:
+      - property: Status
+        direction: ASC
+      - property: Last updated time
+        direction: DESC
+  - type: table
+    name: 🟡 In Progress
+    filters:
+      and:
+        - note.Status == "In progress"
+    order:
+      - file.name
+      - Category
+      - Last updated time
+    sort:
+      - property: Last updated time
+        direction: DESC
+  - type: table
+    name: ⬜ Not Started
+    filters:
+      and:
+        - note.Status == "Not started"
+    order:
+      - file.name
+      - Category
+      - Created time
+    sort:
+      - property: Created time
+        direction: ASC
+  - type: table
+    name: ✅ Done
+    filters:
+      and:
+        - note.Status == "Done"
+    order:
+      - file.name
+      - Category
+      - Last updated time
+    sort:
+      - property: Last updated time
+        direction: DESC

@@ -1,56 +1,103 @@
 filters:
   and:
     - note["base"] == link("Thesis Reading List — Self-Adaptors & Discourse-Planning Difficulty.base")
+formulas:
+  Status: 'if(note["Reading Status"] == "Read", "✅ Read", if(note["Reading Status"] == "Reading", "📖 Reading", if(note["Reading Status"] == "Skim/Skip", "⏭️ Skim/Skip", "📥 To Read")))'
+  Priority: 'if(note.Tier == "Essential", "🔴 Essential", if(note.Tier == "Recommended", "🟠 Recommended", "⚪ Background"))'
+  TierRank: 'if(note.Tier == "Essential", 1, if(note.Tier == "Recommended", 2, 3))'
 properties:
   file.name:
-    displayName: Title
-  Paper Link:
-    displayName: Paper Link
-  Year:
-    displayName: Year
-  Should Refer:
-    displayName: Should Refer
-  Reading Status:
-    displayName: Reading Status
-  Venue:
-    displayName: Venue
-  Code Link:
-    displayName: Code Link
-  Relatedness:
-    displayName: Relatedness
+    displayName: 📄 Paper
+  formula.Status:
+    displayName: Status
+  formula.Priority:
+    displayName: Tier
   Topic:
     displayName: Topic
-  Dataset:
-    displayName: Dataset
-  snippet:
-    displayName: snippet
-  Authors:
-    displayName: Authors
-  Tags:
-    displayName: Tags
-  Tier:
-    displayName: Tier
+  Year:
+    displayName: Year
+  Venue:
+    displayName: Venue
+  Paper Link:
+    displayName: Paper
+  Code Link:
+    displayName: Code
+  Relatedness:
+    displayName: Relatedness
   Assigned Date:
-    displayName: Assigned Date
+    displayName: Assigned
 views:
   - type: table
-    name: Table View
+    name: 📖 Reading Now
+    filters:
+      and:
+        - note["Reading Status"] == "Reading"
     order:
       - file.name
-      - Paper Link
-      - Year
-      - Should Refer
-      - Reading Status
-      - Venue
-      - Code Link
-      - Relatedness
+      - formula.Priority
       - Topic
-      - Dataset
-      - snippet
-      - Authors
-      - Tags
-      - Tier
-      - Assigned Date
+      - Year
+      - Venue
+      - Paper Link
     sort:
-      - property: Reading Status
+      - property: formula.TierRank
         direction: ASC
+  - type: table
+    name: 📥 To Read
+    filters:
+      and:
+        - note["Reading Status"] == "To Read"
+    order:
+      - file.name
+      - formula.Priority
+      - Topic
+      - Year
+      - Venue
+      - Paper Link
+    sort:
+      - property: formula.TierRank
+        direction: ASC
+      - property: Year
+        direction: DESC
+  - type: table
+    name: ✅ Read
+    filters:
+      and:
+        - note["Reading Status"] == "Read"
+    order:
+      - file.name
+      - formula.Priority
+      - Topic
+      - Year
+      - Venue
+    sort:
+      - property: Year
+        direction: DESC
+  - type: table
+    name: ⏭️ Skimmed
+    filters:
+      and:
+        - note["Reading Status"] == "Skim/Skip"
+    order:
+      - file.name
+      - formula.Priority
+      - Topic
+      - Year
+    sort:
+      - property: Year
+        direction: DESC
+  - type: table
+    name: 🗂️ All
+    order:
+      - file.name
+      - formula.Status
+      - formula.Priority
+      - Topic
+      - Year
+      - Venue
+      - Paper Link
+    sort:
+      - property: formula.TierRank
+        direction: ASC
+      - property: Year
+        direction: DESC
