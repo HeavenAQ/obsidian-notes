@@ -1,0 +1,21 @@
+---
+base: "[[Thesis Reading List — Self-Adaptors & Discourse-Planning Difficulty.base]]"
+Paper Link: https://arxiv.org/abs/2404.14952
+Year: 2024
+Should Refer: []
+Venue: arXiv
+Topic: Gesture & Turn-Taking
+snippet: ""
+Authors: E. Ghaleb, I. Burenko, M. Rasenberg, et al.
+Tags:
+  - Gesture
+  - Multimodal
+Tier: Recommended
+---
+**Background.**  gesture detection often ignores asynchronous speech cues. 
+
+**Research question.**  does speech improve temporal gesture detection? 
+
+**Methodology.**  skeletal + speech fusion handling audio-gesture asynchrony. 
+
+**Conclusion.**  speech improves gesture detection -- supports a reciprocal design where detected self-touch can improve discourse prediction, and provides skeleton+audio fusion templates.

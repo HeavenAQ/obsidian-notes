@@ -1,0 +1,32 @@
+filters:
+  and:
+    - note["base"] == link("DL Daily Lessons — Step-by-Step + Quiz.base")
+properties:
+  file.name:
+    displayName: Lesson
+  Quiz score:
+    displayName: Quiz score
+  "HW #":
+    displayName: "HW #"
+  Studied:
+    displayName: Studied
+  Quiz taken:
+    displayName: Quiz taken
+  Day type:
+    displayName: Day type
+  Date:
+    displayName: Date
+  Piece count:
+    displayName: Piece count
+views:
+  - type: table
+    name: Table View
+    order:
+      - file.name
+      - Quiz score
+      - "HW #"
+      - Studied
+      - Quiz taken
+      - Day type
+      - Date
+      - Piece count

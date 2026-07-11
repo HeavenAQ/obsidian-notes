@@ -1,0 +1,37 @@
+{
+  "palette": {
+    "seed": 0,
+    "selected": "adaptive-soft",
+    "custom": "e12729-f37324-f8cc1b-72b043-007f4e"
+  },
+  "mixColors": true,
+  "transition": true,
+  "accessibility": {
+    "highTextContrast": false
+  },
+  "knownTags": {
+    "benchmark": 1,
+    "channels": 2,
+    "cognition": 3,
+    "contact-aware": 4,
+    "dataset": 5,
+    "disfluency": 6,
+    "distress": 7,
+    "egocentric": 8,
+    "foundational": 9,
+    "gesture": 10,
+    "japanese": 11,
+    "multimodal": 12,
+    "neurocognitive": 13,
+    "pixels": 14,
+    "repair": 15,
+    "self-adaptor": 16,
+    "self-touch": 17,
+    "skeleton": 18,
+    "thedress": 19,
+    "theory": 20,
+    "turn-taking": 21
+  },
+  "tagColors": {},
+  "_version": 4
+}

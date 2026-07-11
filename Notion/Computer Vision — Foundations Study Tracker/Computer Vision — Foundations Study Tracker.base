@@ -1,0 +1,44 @@
+filters:
+  and:
+    - note["base"] == link("Computer Vision — Foundations Study Tracker.base")
+properties:
+  file.name:
+    displayName: Focus
+  Key takeaways:
+    displayName: Key takeaways
+  Day:
+    displayName: Day
+  Status:
+    displayName: Status
+  Report:
+    displayName: Report
+  Reading done:
+    displayName: Reading done
+  Chapters:
+    displayName: Chapters
+  Self-check done:
+    displayName: Self-check done
+  Date:
+    displayName: Date
+  Confidence:
+    displayName: Confidence
+  Part:
+    displayName: Part
+  Questions / Follow-ups:
+    displayName: Questions / Follow-ups
+views:
+  - type: table
+    name: Table View
+    order:
+      - file.name
+      - Key takeaways
+      - Day
+      - Status
+      - Report
+      - Reading done
+      - Chapters
+      - Self-check done
+      - Date
+      - Confidence
+      - Part
+      - Questions / Follow-ups

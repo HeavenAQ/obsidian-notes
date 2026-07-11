@@ -1,0 +1,15 @@
+---
+base: "[[Thesis Reading List — Self-Adaptors & Discourse-Planning Difficulty.base]]"
+Paper Link: https://www.isca-archive.org/interspeech_2023/kirkland23_interspeech.html
+Year: 2023
+Should Refer: []
+Reading Status: To Read
+Venue: Interspeech
+Topic: Multimodal Disfluency & Discourse
+snippet: ""
+Authors: A. Kirkland, J. Gustafson, E. Szekely
+Tags:
+  - Disfluency
+Tier: Recommended
+---
+Recommended via tonight's paper "Missingness-resilient Video-enhanced Multimodal Disfluency Detection" (Mohapatra et al., Interspeech 2024), where it is a direct reference motivating why disfluency matters. Uses speech synthesis to manipulate disfluencies and measures listener perceptions of competence and confidence — directly relevant to interpreting disfluency (and by extension self-adaptor) signals as markers of discourse-planning difficulty.

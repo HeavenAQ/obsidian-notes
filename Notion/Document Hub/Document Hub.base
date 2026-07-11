@@ -1,0 +1,29 @@
+filters:
+  and:
+    - note["base"] == link("Document Hub.base")
+properties:
+  file.name:
+    displayName: Doc name
+  Created by:
+    displayName: Created by
+  Created time:
+    displayName: Created time
+  Status:
+    displayName: Status
+  Last updated time:
+    displayName: Last updated time
+  Last edited by:
+    displayName: Last edited by
+  Category:
+    displayName: Category
+views:
+  - type: table
+    name: Table View
+    order:
+      - file.name
+      - Created by
+      - Created time
+      - Status
+      - Last updated time
+      - Last edited by
+      - Category

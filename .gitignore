@@ -1,0 +1,14 @@
+# OS
+.DS_Store
+
+# Obsidian volatile state (changes constantly, causes merge noise)
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/hotkeys.json.bak-*
+
+# Claudian session data
+.claude/
+.claudian/
+
+# Trash
+.trash/

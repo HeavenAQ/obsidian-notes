@@ -1,0 +1,42 @@
+filters:
+  and:
+    - note["base"] == link("DSA.base")
+properties:
+  file.name:
+    displayName: Name
+  Due Date:
+    displayName: Due Date
+  Date Added:
+    displayName: Date Added
+  Order:
+    displayName: Order
+  Type:
+    displayName: Type
+  Difficulty:
+    displayName: Difficulty
+  Source:
+    displayName: Source
+  Topic:
+    displayName: Topic
+  Status:
+    displayName: Status
+  Link:
+    displayName: Link
+  Category:
+    displayName: Category
+views:
+  - type: table
+    name: Table View
+    order:
+      - file.name
+      - Due Date
+      - Date Added
+      - Order
+      - Type
+      - Difficulty
+      - Source
+      - Topic
+      - Status
+      - Link
+      - Category
+    sort: []
