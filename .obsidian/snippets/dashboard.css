@@ -1,0 +1,54 @@
+/* Notion-style card grid for the Dashboard note (cssclasses: dashboard) */
+
+/* Turn the Document Bases bullet list into a card grid */
+.dashboard.markdown-preview-view div > ul,
+.dashboard .markdown-preview-section > div > ul {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+    gap: 10px;
+    padding-left: 0;
+    list-style: none;
+}
+
+.dashboard.markdown-preview-view div > ul > li,
+.dashboard .markdown-preview-section > div > ul > li {
+    background-color: var(--background-secondary);
+    border: 1px solid var(--background-modifier-border);
+    border-radius: 10px;
+    padding: 14px 16px;
+    margin: 0;
+    transition: transform 0.12s ease, box-shadow 0.12s ease;
+}
+
+.dashboard.markdown-preview-view div > ul > li:hover,
+.dashboard .markdown-preview-section > div > ul > li:hover {
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-s);
+    border-color: var(--interactive-accent);
+}
+
+.dashboard li a.internal-link {
+    text-decoration: none;
+    color: var(--text-normal);
+}
+
+.dashboard li:hover a.internal-link {
+    color: var(--interactive-accent);
+}
+
+/* Hide list bullets */
+.dashboard ul > li::marker {
+    content: "";
+}
+
+/* Wider readable line for the dashboard */
+.dashboard.markdown-preview-view {
+    --file-line-width: 900px;
+}
+
+/* Tighter heading spacing, Notion-like */
+.dashboard h2 {
+    margin-top: 1.4em;
+    border-bottom: 1px solid var(--background-modifier-border);
+    padding-bottom: 6px;
+}

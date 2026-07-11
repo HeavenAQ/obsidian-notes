@@ -1,4 +1,7 @@
 {
   "accentColor": "",
-  "cssTheme": ""
+  "cssTheme": "",
+  "enabledCssSnippets": [
+    "dashboard"
+  ]
 }
