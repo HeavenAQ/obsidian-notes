@@ -1,0 +1,9 @@
+{
+  "id": "claudian-productivity",
+  "name": "Claudian Productivity Commands",
+  "version": "1.0.0",
+  "minAppVersion": "1.5.0",
+  "description": "Fast task capture and navigation commands for this vault's task workflow.",
+  "author": "Claudian",
+  "isDesktopOnly": false
+}

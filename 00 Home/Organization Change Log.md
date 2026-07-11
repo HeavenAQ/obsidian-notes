@@ -134,3 +134,25 @@
 - Patched Colored Tags so all Obsidian page properties typed as `tags` receive `colored-tag-*` classes, not only the native `tags` property.
 - Extended plugin selectors for tag pills and remove buttons inside page metadata/properties.
 - Existing Notion-style CSS now applies to `Status`, `Reading Status`, `Should Refer`, `Relatedness`, `Tier`, `Topic`, `Venue`, and other tag fields inside notes.
+## 2026-07-12 — Broad page property tag coloring fallback
+- Broadened Colored Tags page-property selector to every `.metadata-property` multi-select pill because Obsidian did not expose `data-property-type="tags"` for all page property chips.
+- Added a default Notion-style fallback for page tag pills before value-specific classes are attached.
+## 2026-07-12 — Dedicated Notion Property Tags plugin
+- Added and enabled local plugin `notion-property-tags` to directly style tag pills inside page properties.
+- The plugin reads rendered property pill text such as `Done`, `LLM`, `Theory`, and `ML`, normalizes it to the tag value, and applies the matching Notion-style text/background pair inline.
+- This bypasses the Colored Tags selector issue that left page property chips uncolored.
+
+## 2026-07-12 — Productivity/task management stack
+- Installed and enabled Tasks, Task Board, Reminder, QuickAdd, Recent Files, Note Toolbar, Various Complements, Full Calendar, and Day Planner.
+- Added local helper plugin `claudian-productivity` with commands for fast task capture, task inbox, task command center, and today's daily note.
+- Created [[00 Home/Tasks/Task Command Center]], [[00 Home/Tasks/Task Inbox]], [[00 Home/Tasks/Task Workflow]], and [[00 Home/Tasks/Productivity Plugin Setup]].
+- Added task cockpit sections to [[00 Home/Dashboard]] and updated today link to [[00 Home/Daily Notes/2026-07-12]].
+- Configured core Daily Notes/Templates, Full Calendar local folder, Various Complements autocomplete, and productivity hotkeys; Tasks is left on plugin defaults to avoid over-filtering existing checkboxes.
+## 2026-07-12 — Kanban task board
+- Installed and enabled the markdown-backed Kanban community plugin (`obsidian-kanban` v2.0.51).
+- Created [[00 Home/Tasks/Task Kanban Board]] with Inbox, Next, Doing, Waiting/Blocked, and Done lanes.
+- Added dashboard links plus `Cmd/Ctrl+Shift+K` to open the board and `Alt+K` to toggle Kanban/Markdown view.
+## 2026-07-12 — Inferred deadline triage
+- Generated [[00 Home/Tasks/Deadline Triage]] with 110 surfaced deadline/backlog items: 68 overdue, 2 due today, and 40 upcoming.
+- Inferred deadlines from `Due Date`, homework plan dates/windows, CV/DL lesson `Date` fields, and research `Assigned Date` fields.
+- Added direct deadline queries to [[00 Home/Dashboard]] and [[00 Home/Tasks/Task Command Center]].

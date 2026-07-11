@@ -10,7 +10,6 @@ Piece count: 5
 ---
 > ⚠️ **Schedule note:** on plan — 🎥 **Karpathy, "Let's build GPT: from scratch, in code, spelled out"** (~2h). This is a **code-along**, not a watch: type every stage yourself — bigram LM → the averaging trick → one self-attention head → multi-head + feed-forward → residual/LayerNorm blocks → full nanoGPT on Shakespeare. It turns yesterday's **TiP Module 2** theory into working code, and its manual attention pass is the *same* matrix-calculus / outer-product skill as **HW1 Problem 8 & 10**. Deep-dive companion: [Transformers in Practice](https://app.notion.com/p/391e445b30a4817dbfb5ef315a1f06ff) **§2 (attention & causal masking)** — re-read alongside the code.
 
-> 
 
 > 🗒️ **Quiz backlog:** every quiz Jul 2–9 is still untaken (**Quiz taken** unchecked, no score). Nothing to patch up yet — the re-explain loop only fires once a *low* score is recorded. Grade **at least yesterday's (Jul 9, attention theory)** before coding today (~10 min); today's code will cement exactly what that quiz tests.
 

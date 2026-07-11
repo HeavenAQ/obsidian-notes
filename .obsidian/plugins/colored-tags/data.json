@@ -153,6 +153,7 @@
     "strongly": 57,
     "survey": 65,
     "synthese": 154,
+    "task": 162,
     "thedress": 161,
     "theory": 13,
     "to-read": 2,
@@ -166,7 +167,13 @@
     "vision-and-language": 158,
     "wacv-iccv": 78,
     "weak-supervision": 66,
-    "weakly": 50
+    "weakly": 50,
+    "task/admin": 1,
+    "task/algorithms": 3,
+    "task/homework": 4,
+    "task/inbox": 2,
+    "task/research": 5,
+    "task/waiting": 6
   },
   "tagColors": {
     "recommended": 4,

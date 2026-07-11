@@ -1,0 +1,11 @@
+/* Notion Property Tags fallback polish. The plugin applies exact per-value colors inline. */
+.notion-property-tag {
+  border-radius: 4px !important;
+  border-width: 0 !important;
+  box-shadow: none !important;
+  text-decoration: none !important;
+}
+.notion-property-tag * {
+  color: inherit !important;
+  -webkit-text-fill-color: inherit !important;
+}

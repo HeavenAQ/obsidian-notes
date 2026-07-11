@@ -27,6 +27,35 @@ body .bases-metadata-value .multi-select-pill {
   min-height: 20px !important;
 }
 
+
+/* Fallback for page-property tag pills before Colored Tags attaches value-specific classes. */
+body .metadata-property .multi-select-pill:not([class*="colored-tag-"]),
+body .metadata-container .multi-select-pill:not([class*="colored-tag-"]),
+body .metadata-properties .multi-select-pill:not([class*="colored-tag-"]) {
+  --tag-color: #37352F !important;
+  --tag-background: #F1F1EF !important;
+  color: #37352F !important;
+  -webkit-text-fill-color: #37352F !important;
+  background: #F1F1EF !important;
+  background-color: #F1F1EF !important;
+  background-image: none !important;
+  border-color: transparent !important;
+  border-radius: 4px !important;
+  padding: 1px 6px !important;
+  font-weight: 500 !important;
+}
+body.theme-dark .metadata-property .multi-select-pill:not([class*="colored-tag-"]),
+body.theme-dark .metadata-container .multi-select-pill:not([class*="colored-tag-"]),
+body.theme-dark .metadata-properties .multi-select-pill:not([class*="colored-tag-"]) {
+  --tag-color: #D4D4D4 !important;
+  --tag-background: #2F2F2C !important;
+  color: #D4D4D4 !important;
+  -webkit-text-fill-color: #D4D4D4 !important;
+  background: #2F2F2C !important;
+  background-color: #2F2F2C !important;
+  background-image: none !important;
+}
+
 body a.tag[href="#recommended" i],
 body a.tag.colored-tag-recommended,
 body span.tag.colored-tag-recommended,

@@ -28,8 +28,6 @@ views:
       - Created by
       - Last edited by
     sort:
-      - property: Status
-        direction: ASC
       - property: Last updated time
         direction: DESC
   - type: table

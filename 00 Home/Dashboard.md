@@ -13,13 +13,83 @@ banner: "[[99 Assets/Media/grpo_visual.png]]"
 
 - 🧭 **[[00 Home/Vault Map|Vault Map]]** — how the whole system is organized
 - 📥 **[[00 Home/Inbox/Inbox|Inbox]]** — default landing spot for new notes
-- 📅 **[[00 Home/Daily Notes/2026-07-11|Today’s daily note]]**
+- ✅ **[[00 Home/Tasks/Task Command Center|Task Command Center]]** — all tasks, overdue work, today, week, and triage
+- 🧱 **[[00 Home/Tasks/Task Kanban Board|Task Kanban Board]]** — manual Kanban lanes for current focus
+- 📅 **[[00 Home/Daily Notes/2026-07-12|Today’s daily note]]**
 - 🎓 **[[01 Learning/Learning Hub.base|Learning Hub]]** — courses, lessons, and homework
 - 🔬 **[[02 Research/Research Hub.base|Research Hub]]** — thesis and paper reading
 - 🧩 **[[03 Algorithms/Algorithms Hub.base|Algorithms Hub]]** — DSA practice
 - 📚 **[[04 Reference/Reference Hub.base|Reference Hub]]** — deep technical notes
 - 🖼️ **[[99 Assets/Assets Index|Assets Index]]** — media, canvases, and base files
 - 🎨 **[[00 Home/Tag Color Map|Tag Color Map]]** — current tag palette
+
+## 🧨 Deadline Triage
+
+> [!warning] Surfaced from hidden/implicit dates
+> I generated [[00 Home/Tasks/Deadline Triage|Deadline Triage]] from explicit `Due Date` properties plus inferred dates in homework plans, daily lessons, CV study pages, and research assigned dates. Many are already due, so treat this as a triage queue, not a guilt list.
+
+### 🚨 Due now / overdue
+
+```tasks
+not done
+path includes 00 Home/Tasks/Deadline Triage
+due before today
+sort by due
+sort by description
+hide task count
+```
+
+### 📅 Due today
+
+```tasks
+not done
+path includes 00 Home/Tasks/Deadline Triage
+due today
+sort by description
+hide task count
+```
+
+### 🗓️ Upcoming deadlines
+
+```tasks
+not done
+path includes 00 Home/Tasks/Deadline Triage
+due after today
+sort by due
+hide task count
+```
+
+## ✅ Task Cockpit
+
+- 📥 **[[00 Home/Tasks/Task Inbox|Task Inbox]]** — capture and triage loose tasks
+- 🧱 **[[00 Home/Tasks/Task Kanban Board|Task Kanban Board]]** — drag current work across Inbox / Next / Doing / Waiting / Done
+- 🧭 **[[00 Home/Tasks/Task Workflow|Task Workflow]]** — syntax and operating rules
+- 📆 **[[00 Home/Calendar|Calendar Events Folder]]** — Full Calendar event notes
+
+### 🚨 Overdue / Today
+
+```tasks
+not done
+(due before today) OR (due today) OR (scheduled today)
+sort by due
+sort by priority
+hide task count
+limit 30
+```
+
+### 📥 Triage queue
+
+```tasks
+not done
+no due date
+no scheduled date
+no start date
+path does not include 99 Assets
+path does not include .obsidian
+sort by path
+hide task count
+limit 20
+```
 
 ## 📊 Reading Status at a Glance
 
@@ -33,35 +103,41 @@ const prop = (page, ...names) => {
   }
   return undefined;
 };
+const has = (value, target) => {
+  if (value === target) return true;
+  if (Array.isArray(value)) return value.map(String).includes(target);
+  if (value && typeof value.values === "function") return Array.from(value.values).map(String).includes(target);
+  return String(value ?? "") === target;
+};
 
 const collections = [
   {
     label: "🗂️ Document Hub",
     folder: "04 Reference/Document Hub",
-    done: p => prop(p, "Status") === "Done",
-    active: p => prop(p, "Status") === "In-Progress",
-    todo: p => prop(p, "Status") === "Not-Started"
+    done: p => has(prop(p, "Status"), "Done"),
+    active: p => has(prop(p, "Status"), "In-Progress"),
+    todo: p => has(prop(p, "Status"), "Not-Started")
   },
   {
     label: "📖 Thesis Reading List",
     folder: "02 Research/Thesis Reading List — Self-Adaptors & Discourse-Planning Difficulty",
-    done: p => prop(p, "Reading Status") === "Read",
-    active: p => prop(p, "Reading Status") === "Reading",
-    todo: p => prop(p, "Reading Status") === "To-Read"
+    done: p => has(prop(p, "Reading Status"), "Read"),
+    active: p => has(prop(p, "Reading Status"), "Reading"),
+    todo: p => has(prop(p, "Reading Status"), "To-Read")
   },
   {
     label: "👁️ CV Study Tracker",
     folder: "01 Learning/Computer Vision — Foundations Study Tracker",
-    done: p => prop(p, "Status") === "Done",
-    active: p => prop(p, "Status") === "In-Progress",
-    todo: p => prop(p, "Status") === "Not-Started"
+    done: p => has(prop(p, "Status"), "Done"),
+    active: p => has(prop(p, "Status"), "In-Progress"),
+    todo: p => has(prop(p, "Status"), "Not-Started")
   },
   {
     label: "📝 DL Homework",
     folder: "01 Learning/DL Homework Practice — MIT 6.7960",
-    done: p => prop(p, "Status") === "Done",
-    active: p => prop(p, "Status") === "In-Progress",
-    todo: p => prop(p, "Status") === "Not-Started"
+    done: p => has(prop(p, "Status"), "Done"),
+    active: p => has(prop(p, "Status"), "In-Progress"),
+    todo: p => has(prop(p, "Status"), "Not-Started")
   },
   {
     label: "🧠 DL Daily Lessons",
@@ -73,9 +149,9 @@ const collections = [
   {
     label: "🧮 DSA",
     folder: "03 Algorithms/DSA",
-    done: p => prop(p, "Status") === "Done",
-    active: p => prop(p, "Status") === "To-Review",
-    todo: p => prop(p, "Status") === "To-Solve"
+    done: p => has(prop(p, "Status"), "Done"),
+    active: p => has(prop(p, "Status"), "To-Review"),
+    todo: p => has(prop(p, "Status"), "To-Solve")
   },
 ];
 
@@ -102,7 +178,7 @@ dv.table(["Base", "Total", "Done", "Active", "To Do", "Other", "Progress"], rows
 
 ```dataviewjs
 const docs = dv.pages('"04 Reference/Document Hub"')
-  .where(p => p.Status === "In-Progress")
+  .where(p => has(p.Status, "In-Progress"))
   .sort(p => p.file.mtime, 'desc')
   .limit(6)
   .map(p => [p.file.link, p.Status ?? "—", p.Category ?? "—", dv.date(p.file.mtime).toFormat("MMM dd")]);
@@ -112,7 +188,7 @@ dv.table(["Active item", "Status", "Category", "Updated"], docs);
 
 ```dataviewjs
 const reading = dv.pages('"02 Research/Thesis Reading List — Self-Adaptors & Discourse-Planning Difficulty"')
-  .where(p => p["Reading Status"] === "Reading")
+  .where(p => has(p["Reading Status"], "Reading"))
   .sort(p => `${p.Tier ?? ""}-${-(p.Year ?? 0)}`)
   .limit(8)
   .map(p => [p.file.link, p.Tier ?? "—", p.Topic ?? "—", p.Year ?? "—"]);
@@ -122,7 +198,7 @@ dv.table(["Reading now", "Tier", "Topic", "Year"], reading);
 
 ```dataviewjs
 const practice = dv.pages('"03 Algorithms/DSA"')
-  .where(p => p.Status === "To-Solve" || p.Status === "To-Review")
+  .where(p => has(p.Status, "To-Solve") || has(p.Status, "To-Review"))
   .sort(p => `${p.Status ?? ""}-${p.Difficulty ?? ""}`, 'desc')
   .limit(8)
   .map(p => [p.file.link, p.Difficulty ?? "—", p.Topic ?? "—", p.Status ?? "—"]);

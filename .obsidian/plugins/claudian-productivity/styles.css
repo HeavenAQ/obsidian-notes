@@ -1,0 +1,4 @@
+/* Claudian productivity modal polish */
+.modal.mod-claudian-productivity textarea {
+  min-height: 80px;
+}

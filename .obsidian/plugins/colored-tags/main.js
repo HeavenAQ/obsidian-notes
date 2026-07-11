@@ -5067,7 +5067,7 @@ var TagManager = class {
 };
 
 // src/tag-appliers/PropertiesTagApplier.ts
-var PROPERTY_TAG_SELECTOR = '.metadata-property[data-property-type="tags" i] .multi-select-pill, .metadata-property[data-property-key="tags" i] .multi-select-pill';
+var PROPERTY_TAG_SELECTOR = '.metadata-property .multi-select-pill, .metadata-container .multi-select-pill, .metadata-properties .multi-select-pill, .metadata-property[data-property-type="tags" i] .multi-select-pill, .metadata-property[data-property-key="tags" i] .multi-select-pill';
 var singleUseApplier2 = new TagApplier({
   selector: PROPERTY_TAG_SELECTOR,
   getTagText: getMultiSelectPillName,
