@@ -3,9 +3,9 @@ base: "[[Thesis Reading List — Self-Adaptors & Discourse-Planning Difficulty.b
 Paper Link: https://arxiv.org/abs/2405.06150
 Year: 2024
 Should Refer: []
-Reading Status: To Read
+Reading Status: To-Read
 Venue: NAACL
-Topic: Multimodal Disfluency & Discourse
+Topic: Multimodal-Disfluency-and-Discourse
 snippet: ""
 Authors: D. Mujtaba, N. Mahapatra, M. Arney, J. S. Yaruss, H. Gerlach-Houck, C. Herring, J. Bin
 tags:

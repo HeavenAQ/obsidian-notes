@@ -5,7 +5,7 @@ Year: 2022
 Should Refer: []
 Venue: CVPR
 Code Link: https://github.com/kennymckormick/pyskl
-Topic: Action-Recognition Backbone
+Topic: Action-Recognition-Backbone
 snippet: ""
 Authors: H. Duan, Y. Zhao, K. Chen, et al.
 tags:

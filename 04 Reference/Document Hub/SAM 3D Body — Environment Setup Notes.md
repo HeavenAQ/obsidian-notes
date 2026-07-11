@@ -7,7 +7,7 @@ Last updated time: 2026-07-06T19:02:00
 Last edited by: Heaven Chen
 Category:
   - CV
-  - Pose Estimation
+  - Pose-Estimation
   - Linux
 ---
 Setup of the `sam-3d-body` environment, following the upstream [INSTALL.md](http://install.md/).

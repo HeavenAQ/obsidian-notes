@@ -3,10 +3,10 @@ base: "[[Thesis Reading List — Self-Adaptors & Discourse-Planning Difficulty.b
 Paper Link: https://arxiv.org/abs/2312.00752
 Year: 2023
 Should Refer: []
-Reading Status: To Read
+Reading Status: To-Read
 Venue: arXiv
 Code Link: https://github.com/state-spaces/mamba
-Topic: Action-Recognition Backbone
+Topic: Action-Recognition-Backbone
 snippet: ""
 Authors: Albert Gu, Tri Dao
 tags:

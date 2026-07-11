@@ -3,8 +3,8 @@ base: "[[Thesis Reading List — Self-Adaptors & Discourse-Planning Difficulty.b
 Paper Link: https://doi.org/10.3758/s13415-022-00983-4
 Year: 2022
 Should Refer: []
-Venue: Cogn. Affect. Behav. Neurosci.
-Topic: Adaptor & Self-Touch Theory
+Venue: Cogn-Affect-Behav-Neurosci
+Topic: Adaptor-and-Self-Touch-Theory
 snippet: ""
 Authors: Jente L. Spille, Stephanie M. Mueller, Sven Martin, Martin Grunwald
 tags:

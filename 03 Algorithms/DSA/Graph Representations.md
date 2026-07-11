@@ -2,11 +2,11 @@
 base: "[[DSA.base]]"
 Order: 20
 Type: Concept
-Source: Lesson Summary
-Topic:
-  - Graph
-Status: To Review
-Category: Graphs
+Source: Lesson-Summary
+Topic: Graph
+Status: To-Review
+Category:
+  - Graphs
 ---
 ## Overview
 

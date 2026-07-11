@@ -3,11 +3,11 @@ base: "[[Thesis Reading List — Self-Adaptors & Discourse-Planning Difficulty.b
 Paper Link: https://arxiv.org/abs/2306.09337
 Year: 2024
 Should Refer: []
-Reading Status: To Read
+Reading Status: To-Read
 Venue: CVPR
 Code Link: https://github.com/muelea/buddi
-Relatedness: weakly
-Topic: Self-Contact / Hand-Face CV
+Relatedness: Weakly
+Topic: Self-Contact-Hand-Face-CV
 snippet: |-
   • human–human close-interaction prior, not self-contact
     • diffusion model (BUDDI) over two people's 3D poses

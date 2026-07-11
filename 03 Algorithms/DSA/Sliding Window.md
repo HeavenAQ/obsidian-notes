@@ -2,12 +2,11 @@
 base: "[[DSA.base]]"
 Order: 4
 Type: Concept
-Source: Lesson Summary
-Topic:
-  - Sliding Window
-  - Two Pointers
-Status: To Review
-Category: Searching
+Source: Lesson-Summary
+Topic: Sliding-Window
+Status: To-Review
+Category:
+  - Searching
 ---
 ## Overview
 

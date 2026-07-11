@@ -6,8 +6,8 @@ Should Refer:
   - Theory
 Reading Status: Read
 Venue: Languages
-Relatedness: strongly
-Topic: Adaptor & Self-Touch Theory
+Relatedness: Strongly
+Topic: Adaptor-and-Self-Touch-Theory
 snippet: |2-
     • self-adaptors help lexical retrieval
     • self-adaptors do not avoid TOT (tip-of-tongue) states

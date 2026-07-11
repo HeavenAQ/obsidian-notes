@@ -7,7 +7,7 @@ Last updated time: 2026-07-06T19:02:00
 Last edited by: Heaven Chen
 Category:
   - CV
-  - Pose Estimation
+  - Pose-Estimation
   - Linux
 ---
 Setup of the `sam-body4d` repo ([github.com/gaomingqi/sam-body4d](http://github.com/gaomingqi/sam-body4d)) on the shared RTX 6000 Ada box. Follows the upstream README, adapted to a `uv`-managed venv with a pip/conda CUDA 11.8 toolchain (the README assumes conda + a system CUDA toolkit).

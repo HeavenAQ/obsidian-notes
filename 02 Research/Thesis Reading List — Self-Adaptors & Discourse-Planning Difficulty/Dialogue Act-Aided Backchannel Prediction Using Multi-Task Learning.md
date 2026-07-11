@@ -3,9 +3,9 @@ base: "[[Thesis Reading List — Self-Adaptors & Discourse-Planning Difficulty.b
 Paper Link: https://aclanthology.org/2023.findings-emnlp.1006/
 Year: 2023
 Should Refer: []
-Reading Status: To Read
-Venue: Findings of EMNLP
-Topic: Gesture & Turn-Taking
+Reading Status: To-Read
+Venue: Findings-of-EMNLP
+Topic: Gesture-and-Turn-Taking
 snippet: ""
 Authors: W. Liermann, Y.-H. Park, Y.-S. Choi, K. Lee
 tags:

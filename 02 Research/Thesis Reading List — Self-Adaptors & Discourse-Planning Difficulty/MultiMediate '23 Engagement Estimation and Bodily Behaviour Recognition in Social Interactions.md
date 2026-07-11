@@ -3,9 +3,9 @@ base: "[[Thesis Reading List — Self-Adaptors & Discourse-Planning Difficulty.b
 Paper Link: https://arxiv.org/abs/2308.08256
 Year: 2023
 Should Refer: []
-Reading Status: To Read
-Venue: ACM MM
-Topic: Dataset / Corpus
+Reading Status: To-Read
+Venue: ACM-MM
+Topic: Dataset-Corpus
 snippet: ""
 Authors: P. Mueller, M. Balazia, T. Baur, M. Dietz, A. Heimerl, D. Schiller, et al.
 tags:

@@ -2,13 +2,13 @@
 base: "[[Computer Vision — Foundations Study Tracker.base]]"
 Key takeaways: ""
 Day: 7
-Status: Not started
+Status: Not-Started
 Reading done: false
 Chapters: Ch 21–23
 Self-check done: false
 Date: 2026-07-06
 Part:
-  - Sampling & Multiscale
+  - Sampling-and-Multiscale
 Questions / Follow-ups: ""
 ---
 **Reading checklist**

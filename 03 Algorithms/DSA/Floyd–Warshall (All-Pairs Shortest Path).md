@@ -2,13 +2,11 @@
 base: "[[DSA.base]]"
 Order: 26
 Type: Concept
-Source: Advanced Lecture
-Topic:
-  - Shortest Path
-  - Dynamic Programming
-  - Graph
-Status: To Review
-Category: Advanced
+Source: Advanced-Lecture
+Topic: Shortest-Path
+Status: To-Review
+Category:
+  - Advanced
 ---
 ## Overview
 

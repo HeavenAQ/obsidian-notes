@@ -1,6 +1,6 @@
 ---
 base: "[[DL Homework Practice — MIT 6.7960.base]]"
-Status: In progress
+Status: In-Progress
 Notes ready: true
 Window: "Jul 2 – Jul 15, 2026 (2-week block: HW1 + PyTorch cert + Transformers in Practice)"
 Due Date: 2026-07-15

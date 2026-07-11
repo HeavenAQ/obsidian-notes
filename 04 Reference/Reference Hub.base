@@ -36,7 +36,7 @@ views:
     name: 🟡 In Progress
     filters:
       and:
-        - note.Status == "In progress"
+        - note.Status == "In-Progress"
     order:
       - file.name
       - Category
@@ -45,7 +45,7 @@ views:
     name: ⬜ Not Started
     filters:
       and:
-        - note.Status == "Not started"
+        - note.Status == "Not-Started"
     order:
       - file.name
       - Category

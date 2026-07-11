@@ -2,13 +2,13 @@
 base: "[[Computer Vision — Foundations Study Tracker.base]]"
 Key takeaways: "Learning = objective + hypothesis space + optimizer; ERM minimizes average training loss as a proxy for test loss, and is maximum likelihood in disguise (priors = regularizers). SGD with momentum, LR schedules, and clipping is the workhorse that trains everything later in the course. Generalization is the real goal: overfitting = fitting training noise, controlled by data, priors, and hypothesis-space constraints — which are interchangeable. Mixed precision training (FP32 master weights + loss scaling + FP32 accumulation) makes FP16 training match FP32 accuracy with no hyperparameter changes."
 Day: 3
-Status: In progress
+Status: In-Progress
 Reading done: true
 Chapters: Ch 9–11
 Self-check done: false
 Date: 2026-07-03
 Part:
-  - Foundations of Learning
+  - Foundations-of-Learning
 Questions / Follow-ups: Why does SGD implicitly prefer minimum-norm solutions in linear problems (Ch 10 claim) — derivation? How does double descent (Belkin et al.) reconcile with the classical U-curve quantitatively? When does bf16 remove the need for loss scaling vs FP16?
 ---
 **Reading checklist**

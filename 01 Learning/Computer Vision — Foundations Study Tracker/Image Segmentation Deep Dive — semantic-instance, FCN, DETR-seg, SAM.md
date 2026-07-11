@@ -2,7 +2,7 @@
 base: "[[Computer Vision — Foundations Study Tracker.base]]"
 Key takeaways: ""
 Day: 17
-Status: Not started
+Status: Not-Started
 Reading done: false
 Chapters: Supplementary (no visionbook chapter) — Udemy Module 5 + adensur 33–35
 Self-check done: false

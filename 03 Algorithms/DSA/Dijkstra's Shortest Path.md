@@ -2,13 +2,11 @@
 base: "[[DSA.base]]"
 Order: 24
 Type: Concept
-Source: Lesson Summary
-Topic:
-  - Shortest Path
-  - Graph
-  - Heap
-Status: To Review
-Category: Graphs
+Source: Lesson-Summary
+Topic: Shortest-Path
+Status: To-Review
+Category:
+  - Graphs
 ---
 ## Overview
 

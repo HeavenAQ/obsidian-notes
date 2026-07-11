@@ -4,7 +4,7 @@ Paper Link: https://arxiv.org/abs/2404.14952
 Year: 2024
 Should Refer: []
 Venue: arXiv
-Topic: Gesture & Turn-Taking
+Topic: Gesture-and-Turn-Taking
 snippet: ""
 Authors: E. Ghaleb, I. Burenko, M. Rasenberg, et al.
 tags:

@@ -2,7 +2,7 @@ filters:
   and:
     - note["base"] == link("Thesis Reading List — Self-Adaptors & Discourse-Planning Difficulty.base")
 formulas:
-  Status: if(note["Reading Status"] == "Read", "Read", if(note["Reading Status"] == "Reading", "Reading", if(note["Reading Status"] == "Skim/Skip", "Skim/Skip", "To Read")))
+  Status: if(note["Reading Status"] == "Read", "Read", if(note["Reading Status"] == "Reading", "Reading", if(note["Reading Status"] == "Skim-Skip", "Skim-Skip", "To-Read")))
   TierRank: if(note.Tier == "Essential", 1, if(note.Tier == "Recommended", 2, 3))
 properties:
   file.name:
@@ -91,7 +91,7 @@ views:
     name: 📥 To Read
     filters:
       and:
-        - note["Reading Status"] == "To Read"
+        - note["Reading Status"] == "To-Read"
     order:
       - file.name
       - Assigned Date
@@ -141,7 +141,7 @@ views:
     name: ⏭️ Skimmed
     filters:
       and:
-        - note["Reading Status"] == "Skim/Skip"
+        - note["Reading Status"] == "Skim-Skip"
     order:
       - file.name
       - Assigned Date

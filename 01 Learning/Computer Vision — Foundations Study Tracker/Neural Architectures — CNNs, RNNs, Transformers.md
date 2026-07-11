@@ -2,13 +2,13 @@
 base: "[[Computer Vision — Foundations Study Tracker.base]]"
 Key takeaways: ""
 Day: 8
-Status: Not started
+Status: Not-Started
 Reading done: false
 Chapters: Ch 24–26
 Self-check done: false
 Date: 2026-07-07
 Part:
-  - Neural Architectures
+  - Neural-Architectures
 Questions / Follow-ups: ""
 ---
 **Reading checklist**

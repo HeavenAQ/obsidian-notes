@@ -2,13 +2,11 @@
 base: "[[DSA.base]]"
 Order: 21
 Type: Concept
-Source: Lesson Summary
-Topic:
-  - DFS
-  - Graph
-  - Recursion
-Status: To Review
-Category: Graphs
+Source: Lesson-Summary
+Topic: DFS
+Status: To-Review
+Category:
+  - Graphs
 ---
 ## Overview
 

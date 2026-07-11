@@ -8,7 +8,7 @@ Last edited by: Heaven Chen
 Category:
   - CV
   - Theory
-  - Pose Estimation
+  - Pose-Estimation
 ---
 > The math (with NumPy/cv2 code) behind (a) how a parametric human **mesh** is computed — SMPL / SMPL-X — and (b) how **self-contact** on that mesh is defined and optimized, from *On Self-Contact and Human Pose* (TUCH, Müller et al., CVPR 2021, arXiv:2104.03176). SMPL-X is the body model TUCH uses because it captures body + hands + face, which is what makes reasoning about hand–face / hand–body contact possible.
 

@@ -23,8 +23,8 @@ const rows = [
     area: "👁️ Computer Vision",
     pages: dv.pages('"01 Learning/Computer Vision — Foundations Study Tracker"').where(p => p.file.ext === "md"),
     done: p => p.Status === "Done",
-    active: p => p.Status === "In progress",
-    todo: p => p.Status === "Not started"
+    active: p => p.Status === "In-Progress",
+    todo: p => p.Status === "Not-Started"
   },
   {
     area: "🧠 DL Lessons",
@@ -37,8 +37,8 @@ const rows = [
     area: "📝 DL Homework",
     pages: dv.pages('"01 Learning/DL Homework Practice — MIT 6.7960"').where(p => p.file.ext === "md"),
     done: p => p.Status === "Done",
-    active: p => p.Status === "In progress",
-    todo: p => p.Status === "Not started"
+    active: p => p.Status === "In-Progress",
+    todo: p => p.Status === "Not-Started"
   }
 ].map(c => {
   const total = c.pages.length;

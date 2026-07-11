@@ -3,10 +3,10 @@ base: "[[Thesis Reading List — Self-Adaptors & Discourse-Planning Difficulty.b
 Paper Link: https://arxiv.org/abs/2303.14307
 Year: 2023
 Should Refer: []
-Reading Status: To Read
+Reading Status: To-Read
 Venue: ICASSP
 Code Link: https://github.com/mpc001/auto_avsr
-Topic: Action-Recognition Backbone
+Topic: Action-Recognition-Backbone
 snippet: ""
 Authors: P. Ma, A. Haliassos, A. Fernandez-Lopez, H. Chen, S. Petridis, M. Pantic
 tags:

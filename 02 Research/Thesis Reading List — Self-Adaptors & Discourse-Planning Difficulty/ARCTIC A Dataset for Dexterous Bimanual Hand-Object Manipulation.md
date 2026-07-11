@@ -3,10 +3,10 @@ base: "[[Thesis Reading List — Self-Adaptors & Discourse-Planning Difficulty.b
 Paper Link: https://openaccess.thecvf.com/content/CVPR2023/html/Fan_ARCTIC_A_Dataset_for_Dexterous_Bimanual_Hand-Object_Manipulation_CVPR_2023_paper.html
 Year: 2023
 Should Refer: []
-Reading Status: To Read
+Reading Status: To-Read
 Venue: CVPR
 Code Link: https://github.com/zc-alexfan/arctic
-Topic: Dataset / Corpus
+Topic: Dataset-Corpus
 snippet: ""
 Authors: Z. Fan, O. Taheri, D. Tzionas, M. Kocabas, M. Kaufmann, M. J. Black, O. Hilliges
 tags:

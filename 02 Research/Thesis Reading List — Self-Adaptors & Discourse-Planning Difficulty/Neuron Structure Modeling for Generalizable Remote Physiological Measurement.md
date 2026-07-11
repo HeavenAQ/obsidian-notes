@@ -3,9 +3,9 @@ base: "[[Thesis Reading List — Self-Adaptors & Discourse-Planning Difficulty.b
 Paper Link: https://arxiv.org/abs/2303.05955
 Year: 2023
 Should Refer: []
-Reading Status: To Read
+Reading Status: To-Read
 Venue: CVPR
-Topic: Domain Generalization
+Topic: Domain-Generalization
 snippet: ""
 Authors: H. Lu, Z. Yu, X. Niu, Y.-C. Chen
 tags:

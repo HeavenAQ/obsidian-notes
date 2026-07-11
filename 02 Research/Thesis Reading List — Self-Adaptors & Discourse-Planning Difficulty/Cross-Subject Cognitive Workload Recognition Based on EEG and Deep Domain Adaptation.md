@@ -3,9 +3,9 @@ base: "[[Thesis Reading List — Self-Adaptors & Discourse-Planning Difficulty.b
 Paper Link: https://ieeexplore.ieee.org/document/10163950/
 Year: 2023
 Should Refer: []
-Reading Status: To Read
-Venue: IEEE Trans. Instrum. Meas.
-Topic: Domain Generalization
+Reading Status: To-Read
+Venue: IEEE-Trans-Instrum-Meas
+Topic: Domain-Generalization
 snippet: ""
 Authors: Y. Zhou, P. Wang, P. Gong, F. Wei, X. Wen, X. Wu, D. Zhang
 tags:

@@ -3,11 +3,11 @@ base: "[[Thesis Reading List — Self-Adaptors & Discourse-Planning Difficulty.b
 Paper Link: https://arxiv.org/abs/2206.07036
 Year: 2022
 Should Refer: []
-Reading Status: To Read
+Reading Status: To-Read
 Venue: CVPR
 Code Link: https://github.com/muelea/shapy
-Relatedness: weakly
-Topic: Self-Contact / Hand-Face CV
+Relatedness: Weakly
+Topic: Self-Contact-Hand-Face-CV
 snippet: |-
   • body SHAPE from images via metric + linguistic/semantic attributes
     • appearance side of SMPL-X (shape term β), not contact

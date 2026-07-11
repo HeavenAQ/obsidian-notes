@@ -2,11 +2,11 @@
 base: "[[DSA.base]]"
 Order: 5
 Type: Concept
-Source: Lesson Summary
-Topic:
-  - Greedy
-Status: To Review
-Category: Paradigms
+Source: Lesson-Summary
+Topic: Greedy
+Status: To-Review
+Category:
+  - Paradigms
 ---
 ## Overview
 

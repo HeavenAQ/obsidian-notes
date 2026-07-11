@@ -113,3 +113,20 @@
 - assigned explicit colors to every normalized vault tag using Colored Tags plugin
 - added `.obsidian/snippets/tag-colors.css` fallback snippet and enabled it
 - created [[00 Home/Tag Color Map]] for palette reference
+- converted select-like fields such as Status, Reading Status, Should Refer, Relatedness, Tier, Topic, Venue, Category, etc. to tag-typed chip fields
+- normalized whitespace/slash values into tag-safe values and updated Base/Dataview comparisons
+- expanded Colored Tags palette/CSS fallback to cover all tag-typed chip values
+
+## 2026-07-11 — Modern muted tag colors
+- Replaced the bright/random tag palette with a muted Notion-like semantic palette.
+- Reassigned 153 native tags and tag-property chips to calm reusable colors.
+- Updated `.obsidian/plugins/colored-tags/data.json`, `.obsidian/snippets/tag-colors.css`, and `00 Home/Tag Color Map.md`.
+- Softened top-level file explorer folder colors in `.obsidian/snippets/dashboard.css`.
+## 2026-07-11 — Notion-style tag text colors
+- Changed tag text from high-contrast/dark semantic colors to Notion-like soft colored text.
+- Switched tag pills from round badges to Notion-style small rounded rectangles.
+- Disabled Colored Tags high-contrast text mode and regenerated `.obsidian/snippets/tag-colors.css`.
+## 2026-07-11 — Consistent Notion tag color pairs
+- Forced each tag chip to use a matched text/background pair in CSS, including nested pill content and remove buttons.
+- Removed plugin gradient backgrounds by disabling transitions and overriding `background-image`.
+- Added separate dark-mode tag pairs so text and background remain consistent across themes.

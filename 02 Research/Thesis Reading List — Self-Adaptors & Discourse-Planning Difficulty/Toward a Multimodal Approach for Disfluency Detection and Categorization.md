@@ -5,7 +5,7 @@ Year: 2023
 Should Refer: []
 Reading Status: Reading
 Venue: ICASSP
-Topic: Multimodal Disfluency & Discourse
+Topic: Multimodal-Disfluency-and-Discourse
 snippet: ""
 Authors: A. Romana, K. Koishida
 tags:

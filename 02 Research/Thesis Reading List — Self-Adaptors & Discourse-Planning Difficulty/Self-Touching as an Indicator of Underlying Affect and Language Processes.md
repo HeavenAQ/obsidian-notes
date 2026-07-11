@@ -3,8 +3,8 @@ base: "[[Thesis Reading List — Self-Adaptors & Discourse-Planning Difficulty.b
 Paper Link: https://scholar.google.com/scholar?q=Self-Touching+as+an+Indicator+of+Underlying+Affect+and+Language+Processes+Harrigan+1985+Social+Science+Medicine
 Year: 1985
 Should Refer: []
-Venue: Soc. Sci. & Medicine
-Topic: Adaptor & Self-Touch Theory
+Venue: Soc-Sci-and-Medicine
+Topic: Adaptor-and-Self-Touch-Theory
 snippet: ""
 Authors: J. A. Harrigan
 tags:

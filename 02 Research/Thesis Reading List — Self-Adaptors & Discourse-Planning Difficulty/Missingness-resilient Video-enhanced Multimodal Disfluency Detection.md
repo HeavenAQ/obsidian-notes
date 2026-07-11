@@ -5,7 +5,7 @@ Year: 2024
 Should Refer: []
 Reading Status: Reading
 Venue: Interspeech
-Topic: Multimodal Disfluency & Discourse
+Topic: Multimodal-Disfluency-and-Discourse
 snippet: ""
 Authors: P. Mohapatra, S. Likhite, S. Biswas, B. Islam, Q. Zhu
 tags:

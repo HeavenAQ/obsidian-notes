@@ -2,12 +2,11 @@
 base: "[[DSA.base]]"
 Order: 8
 Type: Concept
-Source: Lesson Summary
-Topic:
-  - Divide and Conquer
-  - Recursion
-Status: To Review
-Category: Paradigms
+Source: Lesson-Summary
+Topic: Divide-and-Conquer
+Status: To-Review
+Category:
+  - Paradigms
 ---
 ## Overview
 

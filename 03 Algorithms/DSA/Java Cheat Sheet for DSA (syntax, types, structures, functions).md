@@ -2,10 +2,11 @@
 base: "[[DSA.base]]"
 Order: 0
 Type: Concept
-Source: Lesson Summary
-Topic: []
-Status: To Review
-Category: Fundamentals
+Source: Lesson-Summary
+Topic:
+Status: To-Review
+Category:
+  - Fundamentals
 ---
 A quick reference for solving DSA problems in Java: core syntax, data types, the collection classes you'll reach for, and the methods used most often.
 

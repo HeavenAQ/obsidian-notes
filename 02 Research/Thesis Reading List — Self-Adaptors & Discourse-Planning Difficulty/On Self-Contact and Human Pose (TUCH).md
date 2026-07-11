@@ -7,8 +7,8 @@ Should Refer:
 Reading Status: Read
 Venue: CVPR
 Code Link: https://github.com/muelea/tuch
-Relatedness: strongly
-Topic: Self-Contact / Hand-Face CV
+Relatedness: Strongly
+Topic: Self-Contact-Hand-Face-CV
 snippet: |2-
     • relevant paper but too old
     • CV explore self-contact less 

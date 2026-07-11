@@ -3,9 +3,9 @@ base: "[[Thesis Reading List — Self-Adaptors & Discourse-Planning Difficulty.b
 Paper Link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12473509/
 Year: 2025
 Should Refer: []
-Reading Status: Skim/Skip
-Venue: (journal)
-Relatedness: not relevant
+Reading Status: Skim-Skip
+Venue: journal
+Relatedness: Not-Relevant
 snippet: Non-contact driver cognitive-load + heart/respiratory rate estimation from facial RGB video (Mamba temporal model) — key citation for the DENSO driver cognitive-load framing in Future Work and outreach.
 Authors: ""
 tags:

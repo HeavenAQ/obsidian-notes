@@ -3,8 +3,8 @@ base: "[[Thesis Reading List — Self-Adaptors & Discourse-Planning Difficulty.b
 Paper Link: https://arxiv.org/abs/2505.21043
 Year: 2025
 Should Refer: []
-Venue: Findings of ACL
-Topic: Gesture & Turn-Taking
+Venue: Findings-of-ACL
+Topic: Gesture-and-Turn-Taking
 snippet: ""
 Authors: Sam O'Connor Russell, Naomi Harte
 tags:

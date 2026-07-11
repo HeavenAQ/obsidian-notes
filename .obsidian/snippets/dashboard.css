@@ -72,7 +72,7 @@ settings:
 
 .dashboard.markdown-preview-view .markdown-preview-section > div > ul > li:hover {
   transform: translateY(-2px);
-  border-color: var(--interactive-accent);
+  border-color: color-mix(in srgb, var(--interactive-accent), var(--background-modifier-border) 55%);
   box-shadow: var(--shadow-s);
 }
 
@@ -119,13 +119,13 @@ settings:
   margin: 2px 0;
 }
 
-.nav-folder-title[data-path="00 Home"] { color: #d97706; }
-.nav-folder-title[data-path="01 Learning"] { color: #2563eb; }
-.nav-folder-title[data-path="02 Research"] { color: #7c3aed; }
-.nav-folder-title[data-path="03 Algorithms"] { color: #059669; }
-.nav-folder-title[data-path="04 Reference"] { color: #0f766e; }
-.nav-folder-title[data-path="90 Archive"] { color: #64748b; }
-.nav-folder-title[data-path="99 Assets"] { color: #db2777; }
+.nav-folder-title[data-path="00 Home"] { color: #92400e; background: rgba(245, 229, 166, 0.28); }
+.nav-folder-title[data-path="01 Learning"] { color: #1e3a8a; background: rgba(215, 231, 247, 0.45); }
+.nav-folder-title[data-path="02 Research"] { color: #4c1d95; background: rgba(228, 215, 245, 0.42); }
+.nav-folder-title[data-path="03 Algorithms"] { color: #134e4a; background: rgba(205, 234, 228, 0.42); }
+.nav-folder-title[data-path="04 Reference"] { color: #5c4033; background: rgba(234, 219, 200, 0.38); }
+.nav-folder-title[data-path="90 Archive"] { color: #374151; background: rgba(215, 222, 232, 0.36); }
+.nav-folder-title[data-path="99 Assets"] { color: #831843; background: rgba(244, 215, 231, 0.36); }
 
 .nav-file-title[data-path$=".base"] {
   color: var(--text-accent);
@@ -157,7 +157,7 @@ settings:
 .bases-embed .bases-card:hover,
 .workspace-leaf-content[data-type="base"] .bases-card:hover {
   transform: translateY(-2px);
-  border-color: var(--interactive-accent) !important;
+  border-color: color-mix(in srgb, var(--interactive-accent), var(--background-modifier-border) 55%) !important;
   box-shadow: var(--shadow-s) !important;
 }
 

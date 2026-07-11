@@ -3,8 +3,8 @@ base: "[[Thesis Reading List — Self-Adaptors & Discourse-Planning Difficulty.b
 Paper Link: https://scholar.google.com/scholar?q=Adaptors+and+the+Turn-Taking+Mechanism+significance+of+adaptors+turn-taking+conversation+Zywiczynski+Wacewicz+2017
 Year: 2017
 Should Refer: []
-Venue: (journal)
-Topic: Gesture & Turn-Taking
+Venue: journal
+Topic: Gesture-and-Turn-Taking
 snippet: ""
 Authors: P. Zywiczynski, S. Wacewicz, et al.
 tags:

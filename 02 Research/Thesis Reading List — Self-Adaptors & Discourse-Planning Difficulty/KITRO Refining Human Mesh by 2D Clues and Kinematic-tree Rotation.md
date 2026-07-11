@@ -3,10 +3,10 @@ base: "[[Thesis Reading List — Self-Adaptors & Discourse-Planning Difficulty.b
 Paper Link: https://arxiv.org/abs/2405.19833
 Year: 2024
 Should Refer: []
-Reading Status: To Read
+Reading Status: To-Read
 Venue: CVPR
 Code Link: https://github.com/MartaYang/KITRO
-Topic: Action-Recognition Backbone
+Topic: Action-Recognition-Backbone
 snippet: ""
 Authors: Fengyuan Yang, Kerui Gu, Angela Yao
 tags:

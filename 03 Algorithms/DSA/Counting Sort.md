@@ -2,11 +2,11 @@
 base: "[[DSA.base]]"
 Order: 11
 Type: Concept
-Source: Lesson Summary
-Topic:
+Source: Lesson-Summary
+Topic: Sorting
+Status: To-Review
+Category:
   - Sorting
-Status: To Review
-Category: Sorting
 ---
 ## Overview
 

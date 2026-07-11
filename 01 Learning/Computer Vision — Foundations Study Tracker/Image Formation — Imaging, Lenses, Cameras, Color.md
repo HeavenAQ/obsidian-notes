@@ -2,13 +2,13 @@
 base: "[[Computer Vision — Foundations Study Tracker.base]]"
 Key takeaways: "Imaging is a linear-optics pipeline: BRDF/Lambertian reflection (l_out = a·l_in·cosθ) feeds a pinhole/lens that imposes perspective projection (x=fX/Z), where lenses (Lensmaker's 1/a+1/b=1/f) trade the pinhole's brightness/sharpness tradeoff for a focusing surface shape linear in radius. Ch 7 generalizes any camera to a linear system l_s = A·l_w, inverted via regularized least squares l_w=(AᵀA+λI)⁻¹Aᵀl_s — unifying pinhole, edge, pinspeck, and corner cameras. Ch 8 shows color perception is a projection onto a 3D cone-response subspace (LMS = C_eye·t), so any 3-channel sensor/display matching that subspace up to a 3×3 matrix M=(CP)⁻¹ can reproduce color — explaining metamerism, CCMs, and why luminance/chrominance can be resolved at different spatial rates."
 Day: 2
-Status: In progress
+Status: In-Progress
 Reading done: true
 Chapters: Ch 5–8
 Self-check done: true
 Date: 2026-07-02
 Part:
-  - Image Formation
+  - Image-Formation
 Questions / Follow-ups: ""
 ---
 **Reading checklist**

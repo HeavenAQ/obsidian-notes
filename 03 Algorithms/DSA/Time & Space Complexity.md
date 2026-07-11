@@ -2,11 +2,11 @@
 base: "[[DSA.base]]"
 Order: 1
 Type: Concept
-Source: Lesson Summary
-Topic:
-  - Complexity
-Status: To Review
-Category: Fundamentals
+Source: Lesson-Summary
+Topic: Complexity
+Status: To-Review
+Category:
+  - Fundamentals
 ---
 ## Overview
 

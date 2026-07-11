@@ -3,9 +3,9 @@ base: "[[Thesis Reading List — Self-Adaptors & Discourse-Planning Difficulty.b
 Paper Link: https://arxiv.org/abs/2510.17181
 Year: 2025
 Should Refer: []
-Reading Status: To Read
+Reading Status: To-Read
 Venue: ICCV
-Topic: Self-Contact / Hand-Face CV
+Topic: Self-Contact-Hand-Face-CV
 snippet: ""
 Authors: Haonan He, Yufeng Zheng, Jie Song
 tags:

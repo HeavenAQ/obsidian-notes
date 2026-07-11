@@ -2,7 +2,7 @@
 base: "[[Computer Vision — Foundations Study Tracker.base]]"
 Key takeaways: "Vision is inverse inference under a prior: recover scene S = argmax p(I|S)p(S) (Helmholtz/Bayes, Marr's 3 levels — computational/representation/hardware). The Blocks World system makes this concrete: orthographic projection x=X, y=cosθ·Y−sinθ·Z mixes Y and Z, so depth is recovered by stacking edge + planarity constraints into an overdetermined sparse least-squares solve Y=(AᵀA)⁻¹Aᵀb. Ch 3 trains scientific looking (pinholes, vanishing points, motion blur, generic-view accidents); Ch 4 demands per-group FPR/FNR fairness auditing and ε-differential privacy (randomized response)."
 Day: 1
-Status: In progress
+Status: In-Progress
 Reading done: true
 Chapters: Ch 1–4
 Self-check done: true

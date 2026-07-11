@@ -3,9 +3,9 @@ base: "[[Thesis Reading List — Self-Adaptors & Discourse-Planning Difficulty.b
 Paper Link: https://arxiv.org/abs/2606.25177
 Year: 2026
 Should Refer: []
-Reading Status: To Read
+Reading Status: To-Read
 Venue: arXiv
-Topic: Dataset / Corpus
+Topic: Dataset-Corpus
 snippet: ""
 Authors: Guorui Lu, Shaohua Guan, Zhen Xu, Qinyu Chen
 tags:

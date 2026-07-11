@@ -8,8 +8,8 @@ Should Refer:
 Reading Status: Read
 Venue: ICLR
 Code Link: https://github.com/Qingxuan-Wu/DICE
-Relatedness: strongly
-Topic: Self-Contact / Hand-Face CV
+Relatedness: Strongly
+Topic: Self-Contact-Hand-Face-CV
 snippet: |2-
     • hand-face interaction 
     • SOTA with better generalization

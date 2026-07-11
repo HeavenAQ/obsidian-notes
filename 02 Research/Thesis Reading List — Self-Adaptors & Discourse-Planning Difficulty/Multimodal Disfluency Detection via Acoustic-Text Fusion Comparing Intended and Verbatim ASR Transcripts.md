@@ -3,9 +3,9 @@ base: "[[Thesis Reading List — Self-Adaptors & Discourse-Planning Difficulty.b
 Paper Link: https://www.isca-archive.org/diss_2025/ferreira25_diss.pdf
 Year: 2025
 Should Refer: []
-Reading Status: To Read
+Reading Status: To-Read
 Venue: DiSS
-Topic: Multimodal Disfluency & Discourse
+Topic: Multimodal-Disfluency-and-Discourse
 snippet: ""
 Authors: M. H. L. Ferreira, A. I. Ferreira, L. R. Gris, R. Tanaka, I. J. S. Filho, F. Oliveira, A. Galvão Filho
 tags:

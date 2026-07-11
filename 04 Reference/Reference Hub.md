@@ -17,7 +17,7 @@ obsidianUIMode: preview
 
 ```dataviewjs
 const pages = dv.pages('"04 Reference/Document Hub"').where(p => p.file.ext === "md");
-const statuses = ["In progress", "Not started", "Done"];
+const statuses = ["In-Progress", "Not-Started", "Done"];
 const rows = statuses.map(s => [s, pages.where(p => p.Status === s).length]);
 const total = pages.length;
 const done = pages.where(p => p.Status === "Done").length;

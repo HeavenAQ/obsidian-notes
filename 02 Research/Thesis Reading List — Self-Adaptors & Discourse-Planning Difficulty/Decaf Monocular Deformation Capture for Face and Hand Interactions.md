@@ -4,10 +4,10 @@ Paper Link: https://arxiv.org/abs/2309.16670
 Year: 2023
 Should Refer:
   - Architecture
-Reading Status: Skim/Skip
-Venue: SIGGRAPH Asia
-Relatedness: weakly
-Topic: Self-Contact / Hand-Face CV
+Reading Status: Skim-Skip
+Venue: SIGGRAPH-Asia
+Relatedness: Weakly
+Topic: Self-Contact-Hand-Face-CV
 snippet: |2-
     • the predecessor of DICE 
     • capture hand-face interactions and deformation with a single RGB video

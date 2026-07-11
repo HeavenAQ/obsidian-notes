@@ -3,9 +3,9 @@ base: "[[Thesis Reading List — Self-Adaptors & Discourse-Planning Difficulty.b
 Paper Link: https://arxiv.org/abs/2302.09044
 Year: 2023
 Should Refer: []
-Reading Status: To Read
+Reading Status: To-Read
 Venue: CHI
-Topic: Multimodal Disfluency & Discourse
+Topic: Multimodal-Disfluency-and-Discourse
 snippet: ""
 Authors: C. Lea, Z. Huang, J. Narain, L. Tooley, D. Yee, T. D. Tran, P. Georgiou, J. P. Bigham, L. Findlater
 tags:

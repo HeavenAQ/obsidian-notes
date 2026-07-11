@@ -1,6 +1,6 @@
 ---
 base: "[[DL Homework Practice — MIT 6.7960.base]]"
-Status: Not started
+Status: Not-Started
 Notes ready: false
 Window: Aug 6 – Aug 12, 2026 (weekly block)
 Due Date: 2026-08-12

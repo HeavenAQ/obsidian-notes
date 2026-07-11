@@ -4,10 +4,10 @@ Paper Link: https://arxiv.org/abs/2603.20079
 Year: 2026
 Should Refer:
   - None
-Reading Status: Skim/Skip
+Reading Status: Skim-Skip
 Venue: arXiv
-Relatedness: not relevant
-Topic: Multimodal Disfluency & Discourse
+Relatedness: Not-Relevant
+Topic: Multimodal-Disfluency-and-Discourse
 snippet: ""
 Authors: Yu Wang, Hendrik Buschmeier, et al.
 tags:

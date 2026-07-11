@@ -6,8 +6,8 @@ Status: Done
 Last updated time: 2026-07-06T19:03:00
 Last edited by: Heaven Chen
 Category:
-  - Object Detection
-  - Pose Estimation
+  - Object-Detection
+  - Pose-Estimation
 ---
 Date: 2026-06-21 · Remote host: `sb-00477-login` · Remote repo: `~/heaven/rf-detr-preview` · Dataset: `~/heaven/pose-person-hand-detection-model/datasets/coco-full/train/_annotations.coco.json`
 

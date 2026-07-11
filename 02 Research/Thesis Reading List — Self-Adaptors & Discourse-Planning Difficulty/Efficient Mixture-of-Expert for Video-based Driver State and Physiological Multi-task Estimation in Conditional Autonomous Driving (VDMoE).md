@@ -4,10 +4,10 @@ Paper Link: https://arxiv.org/abs/2410.21086
 Year: 2024
 Should Refer:
   - None
-Reading Status: Skim/Skip
+Reading Status: Skim-Skip
 Venue: arXiv
-Relatedness: not relevant
-Topic: Action-Recognition Backbone
+Relatedness: Not-Relevant
+Topic: Action-Recognition-Backbone
 snippet: ""
 Authors: Jiyao Wang, Xiao Yang, Zhenyu Wang, Ximeng Wei, Ange Wang, Dengbo He, Kaishun Wu
 tags:

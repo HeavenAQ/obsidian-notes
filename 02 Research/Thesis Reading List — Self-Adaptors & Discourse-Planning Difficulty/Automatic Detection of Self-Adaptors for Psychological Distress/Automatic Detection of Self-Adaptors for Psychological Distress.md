@@ -5,9 +5,9 @@ Year: 2020
 Should Refer:
   - Method
 Reading Status: Read
-Venue: IEEE FG
-Relatedness: strongly
-Topic: Self-Contact / Hand-Face CV
+Venue: IEEE-FG
+Relatedness: Strongly
+Topic: Self-Contact-Hand-Face-CV
 Dataset: self-collected
 snippet: |2-
     • Kinda old but the fidgeting detection part is worth taking a look

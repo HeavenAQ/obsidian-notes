@@ -4,8 +4,8 @@ Paper Link: https://doi.org/10.1371/journal.pone.0213677
 Year: 2019
 Should Refer: []
 Reading Status: Reading
-Venue: PLOS ONE
-Topic: Adaptor & Self-Touch Theory
+Venue: PLOS-ONE
+Topic: Adaptor-and-Self-Touch-Theory
 snippet: ""
 Authors: Stephanie M. Mueller, Sven Martin, Martin Grunwald
 tags:

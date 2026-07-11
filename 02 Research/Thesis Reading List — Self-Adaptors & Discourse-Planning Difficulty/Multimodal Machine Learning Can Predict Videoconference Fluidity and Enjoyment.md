@@ -3,9 +3,9 @@ base: "[[Thesis Reading List — Self-Adaptors & Discourse-Planning Difficulty.b
 Paper Link: https://arxiv.org/abs/2501.03190
 Year: 2025
 Should Refer: []
-Reading Status: To Read
+Reading Status: To-Read
 Venue: ICASSP
-Topic: Gesture & Turn-Taking
+Topic: Gesture-and-Turn-Taking
 snippet: ""
 Authors: Andrew Chang, Viswadruth Akkaraju, Ray McFadden Cogliano, David Poeppel, Dustin Freeman
 tags:

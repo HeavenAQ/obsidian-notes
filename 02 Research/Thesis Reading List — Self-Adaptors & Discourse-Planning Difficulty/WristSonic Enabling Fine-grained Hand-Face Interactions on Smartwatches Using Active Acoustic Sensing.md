@@ -3,9 +3,9 @@ base: "[[Thesis Reading List — Self-Adaptors & Discourse-Planning Difficulty.b
 Paper Link: https://arxiv.org/abs/2411.08217
 Year: 2024
 Should Refer: []
-Reading Status: To Read
+Reading Status: To-Read
 Venue: arXiv
-Topic: Self-Contact / Hand-Face CV
+Topic: Self-Contact-Hand-Face-CV
 snippet: ""
 Authors: Saif Mahmud, et al.
 tags:

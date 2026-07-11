@@ -3,11 +3,11 @@ base: "[[Thesis Reading List — Self-Adaptors & Discourse-Planning Difficulty.b
 Paper Link: https://arxiv.org/abs/2303.18246
 Year: 2023
 Should Refer: []
-Reading Status: To Read
+Reading Status: To-Read
 Venue: CVPR
 Code Link: https://ipman.is.tue.mpg.de
-Relatedness: weakly
-Topic: Self-Contact / Hand-Face CV
+Relatedness: Weakly
+Topic: Self-Contact-Hand-Face-CV
 snippet: |-
   • physics-informed HPS: stability via pressure / CoP / CoM + floor contact
     • differentiable intuitive-physics terms (no physics engine)

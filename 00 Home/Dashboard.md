@@ -39,29 +39,29 @@ const collections = [
     label: "🗂️ Document Hub",
     folder: "04 Reference/Document Hub",
     done: p => prop(p, "Status") === "Done",
-    active: p => prop(p, "Status") === "In progress",
-    todo: p => prop(p, "Status") === "Not started"
+    active: p => prop(p, "Status") === "In-Progress",
+    todo: p => prop(p, "Status") === "Not-Started"
   },
   {
     label: "📖 Thesis Reading List",
     folder: "02 Research/Thesis Reading List — Self-Adaptors & Discourse-Planning Difficulty",
     done: p => prop(p, "Reading Status") === "Read",
     active: p => prop(p, "Reading Status") === "Reading",
-    todo: p => prop(p, "Reading Status") === "To Read"
+    todo: p => prop(p, "Reading Status") === "To-Read"
   },
   {
     label: "👁️ CV Study Tracker",
     folder: "01 Learning/Computer Vision — Foundations Study Tracker",
     done: p => prop(p, "Status") === "Done",
-    active: p => prop(p, "Status") === "In progress",
-    todo: p => prop(p, "Status") === "Not started"
+    active: p => prop(p, "Status") === "In-Progress",
+    todo: p => prop(p, "Status") === "Not-Started"
   },
   {
     label: "📝 DL Homework",
     folder: "01 Learning/DL Homework Practice — MIT 6.7960",
     done: p => prop(p, "Status") === "Done",
-    active: p => prop(p, "Status") === "In progress",
-    todo: p => prop(p, "Status") === "Not started"
+    active: p => prop(p, "Status") === "In-Progress",
+    todo: p => prop(p, "Status") === "Not-Started"
   },
   {
     label: "🧠 DL Daily Lessons",
@@ -74,8 +74,8 @@ const collections = [
     label: "🧮 DSA",
     folder: "03 Algorithms/DSA",
     done: p => prop(p, "Status") === "Done",
-    active: p => prop(p, "Status") === "To Review",
-    todo: p => prop(p, "Status") === "To Solve"
+    active: p => prop(p, "Status") === "To-Review",
+    todo: p => prop(p, "Status") === "To-Solve"
   },
 ];
 
@@ -102,7 +102,7 @@ dv.table(["Base", "Total", "Done", "Active", "To Do", "Other", "Progress"], rows
 
 ```dataviewjs
 const docs = dv.pages('"04 Reference/Document Hub"')
-  .where(p => p.Status === "In progress")
+  .where(p => p.Status === "In-Progress")
   .sort(p => p.file.mtime, 'desc')
   .limit(6)
   .map(p => [p.file.link, p.Status ?? "—", p.Category ?? "—", dv.date(p.file.mtime).toFormat("MMM dd")]);
@@ -122,7 +122,7 @@ dv.table(["Reading now", "Tier", "Topic", "Year"], reading);
 
 ```dataviewjs
 const practice = dv.pages('"03 Algorithms/DSA"')
-  .where(p => p.Status === "To Solve" || p.Status === "To Review")
+  .where(p => p.Status === "To-Solve" || p.Status === "To-Review")
   .sort(p => `${p.Status ?? ""}-${p.Difficulty ?? ""}`, 'desc')
   .limit(8)
   .map(p => [p.file.link, p.Difficulty ?? "—", p.Topic ?? "—", p.Status ?? "—"]);

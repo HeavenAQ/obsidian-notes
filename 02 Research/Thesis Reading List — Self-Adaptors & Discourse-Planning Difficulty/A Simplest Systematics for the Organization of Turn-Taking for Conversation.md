@@ -4,10 +4,10 @@ Paper Link: https://www.jstor.org/stable/412243
 Year: 1974
 Should Refer:
   - None
-Reading Status: Skim/Skip
+Reading Status: Skim-Skip
 Venue: Language
-Relatedness: not relevant
-Topic: Gesture & Turn-Taking
+Relatedness: Not-Relevant
+Topic: Gesture-and-Turn-Taking
 snippet: "  • qualitative study without substantial usage"
 Authors: Harvey Sacks, Emanuel A. Schegloff, Gail Jefferson
 tags:

@@ -6,8 +6,8 @@ Status: Done
 Last updated time: 2026-07-06T22:08:00
 Last edited by: Heaven Chen
 Category:
-  - Object Detection
-  - Pose Estimation
+  - Object-Detection
+  - Pose-Estimation
   - ML
 ---
 > A complete walkthrough of RF-DETR (`rfdetr==1.8.0`), written so you can re-implement the same design with the same considerations. **Part I** introduces the original DETR it descends from; **Part II** documents the full RF-DETR detection architecture (backbone → projector → two-stage → decoder → heads); **Part III** is the keypoint head in depth. All paths are relative to the installed package: `.venv/lib/python3.13/site-packages/rfdetr/`.

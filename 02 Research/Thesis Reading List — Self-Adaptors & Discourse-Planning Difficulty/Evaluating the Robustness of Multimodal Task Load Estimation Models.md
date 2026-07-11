@@ -4,10 +4,10 @@ Paper Link: https://www.frontiersin.org/journals/computer-science/articles/10.33
 Year: 2024
 Should Refer:
   - None
-Reading Status: Skim/Skip
-Venue: (journal)
-Relatedness: not relevant
-Topic: Domain Generalization
+Reading Status: Skim-Skip
+Venue: journal
+Relatedness: Not-Relevant
+Topic: Domain-Generalization
 snippet: ""
 Authors: Andreas Foltyn, Jessica Deuschel, Nadine R. Lang-Richter, Nina Holzer, Maximilian P. Oppelt
 tags:

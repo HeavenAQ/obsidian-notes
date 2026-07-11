@@ -5,7 +5,7 @@ Year: 2026
 Should Refer: []
 Reading Status: Reading
 Venue: arXiv
-Topic: Multimodal Disfluency & Discourse
+Topic: Multimodal-Disfluency-and-Discourse
 snippet: Cognitive-load prediction from speech + interaction dynamics in dyadic conversation — closest recent work to RQ1/RQ2 framing; check features and labels used (authors TBD — verify on arXiv).
 Authors: Tahiya Chowdhury
 tags:

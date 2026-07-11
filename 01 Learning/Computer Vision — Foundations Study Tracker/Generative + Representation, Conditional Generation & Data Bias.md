@@ -2,13 +2,13 @@
 base: "[[Computer Vision — Foundations Study Tracker.base]]"
 Key takeaways: ""
 Day: 11
-Status: Not started
+Status: Not-Started
 Reading done: false
 Chapters: Ch 33–35
 Self-check done: false
 Date: 2026-07-10
 Part:
-  - Generative & Representation
+  - Generative-and-Representation
   - Challenges
 Questions / Follow-ups: ""
 ---

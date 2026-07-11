@@ -3,10 +3,10 @@ base: "[[Thesis Reading List — Self-Adaptors & Discourse-Planning Difficulty.b
 Paper Link: https://ieeexplore.ieee.org/document/10371379/
 Year: 2024
 Should Refer: []
-Reading Status: To Read
-Venue: (journal)
+Reading Status: To-Read
+Venue: journal
 Code Link: https://github.com/WJULYW/HSRD
-Topic: Domain Generalization
+Topic: Domain-Generalization
 snippet: ""
 Authors: Jiyao Wang, Hao Lu, Ange Wang, Yingcong Chen, Dengbo He
 tags:

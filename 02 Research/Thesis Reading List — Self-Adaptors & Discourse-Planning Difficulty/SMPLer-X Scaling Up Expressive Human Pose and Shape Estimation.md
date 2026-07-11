@@ -3,10 +3,10 @@ base: "[[Thesis Reading List — Self-Adaptors & Discourse-Planning Difficulty.b
 Paper Link: https://arxiv.org/abs/2309.17448
 Year: 2023
 Should Refer: []
-Reading Status: To Read
+Reading Status: To-Read
 Venue: NeurIPS
 Code Link: https://github.com/SMPLCap/SMPLer-X
-Topic: Action-Recognition Backbone
+Topic: Action-Recognition-Backbone
 snippet: ""
 Authors: Z. Cai, W. Yin, A. Zeng, et al.
 tags:

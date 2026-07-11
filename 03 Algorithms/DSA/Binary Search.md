@@ -2,11 +2,11 @@
 base: "[[DSA.base]]"
 Order: 3
 Type: Concept
-Source: Lesson Summary
-Topic:
-  - Binary Search
-Status: To Review
-Category: Searching
+Source: Lesson-Summary
+Topic: Binary-Search
+Status: To-Review
+Category:
+  - Searching
 ---
 ## Overview
 

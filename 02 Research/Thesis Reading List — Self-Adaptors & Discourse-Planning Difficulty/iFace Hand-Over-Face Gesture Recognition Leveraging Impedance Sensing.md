@@ -3,9 +3,9 @@ base: "[[Thesis Reading List — Self-Adaptors & Discourse-Planning Difficulty.b
 Paper Link: https://arxiv.org/abs/2403.18433
 Year: 2024
 Should Refer: []
-Reading Status: To Read
-Venue: Augmented Humans
-Topic: Self-Contact / Hand-Face CV
+Reading Status: To-Read
+Venue: Augmented-Humans
+Topic: Self-Contact-Hand-Face-CV
 snippet: ""
 Authors: Mengxi Liu, et al.
 tags:

@@ -4,7 +4,7 @@ Paper Link: https://groups.inf.ed.ac.uk/ami/corpus/
 Year: 2005
 Should Refer: []
 Venue: MLMI
-Topic: Dataset / Corpus
+Topic: Dataset-Corpus
 snippet: ""
 Authors: J. Carletta, S. Ashby, S. Bourban, et al.
 tags:

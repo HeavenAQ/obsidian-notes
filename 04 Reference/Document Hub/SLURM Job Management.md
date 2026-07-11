@@ -2,7 +2,7 @@
 base: "[[Document Hub.base]]"
 Created by: Heaven Chen
 Created time: 2026-06-05T12:34:00
-Status: In progress
+Status: In-Progress
 Last updated time: 2026-06-05T12:38:00
 Last edited by: Heaven Chen
 Category:

@@ -2,12 +2,12 @@
 base: "[[Document Hub.base]]"
 Created by: Heaven Chen
 Created time: 2026-06-10T14:41:00
-Status: Not started
+Status: Not-Started
 Last updated time: 2026-06-14T12:25:00
 Last edited by: Heaven Chen
 Category:
   - CV
-  - Object Detection
+  - Object-Detection
 ---
 # ROI Align
 

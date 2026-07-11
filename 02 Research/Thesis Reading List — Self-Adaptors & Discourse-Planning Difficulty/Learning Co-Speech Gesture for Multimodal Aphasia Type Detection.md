@@ -3,10 +3,10 @@ base: "[[Thesis Reading List — Self-Adaptors & Discourse-Planning Difficulty.b
 Paper Link: https://arxiv.org/abs/2310.11710
 Year: 2023
 Should Refer: []
-Reading Status: To Read
+Reading Status: To-Read
 Venue: EMNLP
 Code Link: https://github.com/DSAIL-SKKU/Multimodal-Aphasia-Type-Detection_EMNLP_2023
-Topic: Multimodal Disfluency & Discourse
+Topic: Multimodal-Disfluency-and-Discourse
 snippet: ""
 Authors: D. Lee, S. Son, H. Jeon, S. Kim, J. Han
 tags:

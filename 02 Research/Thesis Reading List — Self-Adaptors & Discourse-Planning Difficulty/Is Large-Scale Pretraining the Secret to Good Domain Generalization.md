@@ -3,9 +3,9 @@ base: "[[Thesis Reading List — Self-Adaptors & Discourse-Planning Difficulty.b
 Paper Link: https://arxiv.org/abs/2412.02856
 Year: 2024
 Should Refer: []
-Reading Status: To Read
+Reading Status: To-Read
 Venue: arXiv
-Topic: Domain Generalization
+Topic: Domain-Generalization
 snippet: ""
 Authors: P. Teterwak, K. Saito, T. Tsiligkaridis, B. A. Plummer, K. Saenko
 tags:

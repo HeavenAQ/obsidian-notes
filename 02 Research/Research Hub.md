@@ -19,7 +19,7 @@ obsidianUIMode: preview
 
 ```dataviewjs
 const pages = dv.pages('"02 Research/Thesis Reading List — Self-Adaptors & Discourse-Planning Difficulty"').where(p => p.file.ext === "md");
-const statuses = ["Reading", "To Read", "Read", "Skim/Skip"];
+const statuses = ["Reading", "To-Read", "Read", "Skim-Skip"];
 const rows = statuses.map(s => [s, pages.where(p => p["Reading Status"] === s).length]);
 const total = pages.length;
 const read = pages.where(p => p["Reading Status"] === "Read").length;

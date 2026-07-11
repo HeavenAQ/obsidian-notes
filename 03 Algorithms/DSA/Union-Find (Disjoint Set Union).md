@@ -2,12 +2,11 @@
 base: "[[DSA.base]]"
 Order: 23
 Type: Concept
-Source: Lesson Summary
-Topic:
-  - Union-Find
-  - Graph
-Status: To Review
-Category: Graphs
+Source: Lesson-Summary
+Topic: Union-Find
+Status: To-Review
+Category:
+  - Graphs
 ---
 ## Overview
 

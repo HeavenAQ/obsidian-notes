@@ -5,9 +5,9 @@ Year: 2024
 Should Refer:
   - None
 Reading Status: Read
-Venue: IEEE/ACM TASLP
-Relatedness: weakly
-Topic: Multimodal Disfluency & Discourse
+Venue: IEEE-ACM-TASLP
+Relatedness: Weakly
+Topic: Multimodal-Disfluency-and-Discourse
 snippet: |2-
     • audio and transcript only. 
     • audio + transcript > audio > transcript (for disfluency detection)

@@ -3,9 +3,9 @@ base: "[[Thesis Reading List — Self-Adaptors & Discourse-Planning Difficulty.b
 Paper Link: https://arxiv.org/abs/2403.04381
 Year: 2024
 Should Refer: []
-Reading Status: To Read
+Reading Status: To-Read
 Venue: CVPR
-Topic: Domain Generalization
+Topic: Domain-Generalization
 snippet: ""
 Authors: Ruicong Liu, Takehiko Ohkawa, Mingfang Zhang, Yoichi Sato
 tags:

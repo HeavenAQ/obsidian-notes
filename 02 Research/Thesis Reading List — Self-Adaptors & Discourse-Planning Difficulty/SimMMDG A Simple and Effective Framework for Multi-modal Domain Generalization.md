@@ -5,7 +5,7 @@ Year: 2023
 Should Refer: []
 Venue: NeurIPS
 Code Link: https://github.com/donghao51/SimMMDG
-Topic: Domain Generalization
+Topic: Domain-Generalization
 snippet: ""
 Authors: H. Dong, I. Nejjar, H. Sun, E. Chatzi, O. Fink
 tags:

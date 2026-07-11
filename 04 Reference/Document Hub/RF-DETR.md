@@ -2,13 +2,13 @@
 base: "[[Document Hub.base]]"
 Created by: Heaven Chen
 Created time: 2026-06-14T12:21:00
-Status: Not started
+Status: Not-Started
 Last updated time: 2026-06-29T17:28:00
 Last edited by: Heaven Chen
 Category:
   - CV
-  - Object Detection
-  - Pose Estimation
+  - Object-Detection
+  - Pose-Estimation
 ---
 ## DETR
 

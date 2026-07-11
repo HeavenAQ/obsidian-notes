@@ -3,9 +3,9 @@ base: "[[Thesis Reading List — Self-Adaptors & Discourse-Planning Difficulty.b
 Paper Link: https://doi.org/10.1145/3716553.3750781
 Year: 2025
 Should Refer: []
-Reading Status: To Read
+Reading Status: To-Read
 Venue: ICMI
-Topic: Gesture & Turn-Taking
+Topic: Gesture-and-Turn-Taking
 snippet: ""
 Authors: R. Ishii, S. Eitoku, R. Yokoyama, J. Sawase
 tags:

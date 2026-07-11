@@ -4,10 +4,10 @@ Paper Link: https://arxiv.org/abs/2210.03065
 Year: 2024
 Should Refer:
   - None
-Reading Status: Skim/Skip
-Venue: (journal)
-Relatedness: not relevant
-Topic: Dataset / Corpus
+Reading Status: Skim-Skip
+Venue: journal
+Relatedness: Not-Relevant
+Topic: Dataset-Corpus
 snippet: ""
 Authors: Wonse Jo, Ruiqi Wang, Go-Eum Cha, Sangwoo Sun, Ramviyas Parasuraman Senthilkumaran, Daniel Foti, Byung-Cheol Min
 tags:

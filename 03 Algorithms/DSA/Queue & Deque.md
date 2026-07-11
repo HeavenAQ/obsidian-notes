@@ -2,11 +2,11 @@
 base: "[[DSA.base]]"
 Order: 14
 Type: Concept
-Source: Lesson Summary
-Topic:
-  - Queue
-Status: To Review
-Category: Data Structures
+Source: Lesson-Summary
+Topic: Queue
+Status: To-Review
+Category:
+  - Data-Structures
 ---
 ## Overview
 

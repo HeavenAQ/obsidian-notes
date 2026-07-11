@@ -4,10 +4,10 @@ Paper Link: https://www.mdpi.com/1424-8220/23/1/340
 Year: 2023
 Should Refer:
   - None
-Reading Status: Skim/Skip
-Venue: (journal)
-Relatedness: not relevant
-Topic: Dataset / Corpus
+Reading Status: Skim-Skip
+Venue: journal
+Relatedness: Not-Relevant
+Topic: Dataset-Corpus
 snippet: ""
 Authors: M. P. Oppelt, et al.
 tags:

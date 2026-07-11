@@ -17,7 +17,7 @@ obsidianUIMode: preview
 
 ```dataviewjs
 const pages = dv.pages('"03 Algorithms/DSA"').where(p => p.file.ext === "md");
-const statuses = ["To Solve", "To Review", "Done"];
+const statuses = ["To-Solve", "To-Review", "Done"];
 const rows = statuses.map(s => [s, pages.where(p => p.Status === s).length]);
 const total = pages.length;
 const done = pages.where(p => p.Status === "Done").length;

@@ -5,7 +5,8 @@
   "obsidian-git",
   "heatmap-calendar",
   "calendar",
-  "colored-tags",
   "make-md",
-  "dataview"
+  "dataview",
+  "iconic",
+  "colored-tags"
 ]

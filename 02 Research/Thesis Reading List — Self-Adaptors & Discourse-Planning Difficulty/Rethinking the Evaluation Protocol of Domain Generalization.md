@@ -4,7 +4,7 @@ Paper Link: https://scholar.google.com/scholar?q=Rethinking+the+Evaluation+Proto
 Year: 2024
 Should Refer: []
 Venue: CVPR
-Topic: Domain Generalization
+Topic: Domain-Generalization
 snippet: ""
 Authors: H. Yu, X. Zhang, R. Xu, et al.
 tags:

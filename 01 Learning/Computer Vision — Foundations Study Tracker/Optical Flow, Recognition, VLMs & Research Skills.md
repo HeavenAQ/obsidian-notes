@@ -2,15 +2,15 @@
 base: "[[Computer Vision — Foundations Study Tracker.base]]"
 Key takeaways: ""
 Day: 15
-Status: Not started
+Status: Not-Started
 Reading done: false
 Chapters: Ch 48–55
 Self-check done: false
 Date: 2026-07-14
 Part:
   - Motion
-  - Vision & Language
-  - Research & Closing
+  - Vision-and-Language
+  - Research-and-Closing
 Questions / Follow-ups: ""
 ---
 **Reading checklist**

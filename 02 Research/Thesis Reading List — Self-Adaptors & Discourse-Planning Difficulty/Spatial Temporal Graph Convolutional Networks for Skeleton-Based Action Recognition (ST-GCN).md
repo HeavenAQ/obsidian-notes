@@ -5,7 +5,7 @@ Year: 2018
 Should Refer: []
 Venue: AAAI
 Code Link: https://github.com/yysijie/st-gcn
-Topic: Action-Recognition Backbone
+Topic: Action-Recognition-Backbone
 snippet: ""
 Authors: S. Yan, Y. Xiong, D. Lin
 tags:

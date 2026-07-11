@@ -3,8 +3,8 @@ base: "[[Thesis Reading List — Self-Adaptors & Discourse-Planning Difficulty.b
 Paper Link: https://arxiv.org/abs/2110.10101
 Year: 2022
 Should Refer: []
-Venue: WACV/ICCV
-Topic: Domain Generalization
+Venue: WACV-ICCV
+Topic: Domain-Generalization
 snippet: ""
 Authors: M. Planamente, C. Plizzari, E. Alberti, B. Caputo
 tags:

@@ -3,9 +3,9 @@ base: "[[Thesis Reading List — Self-Adaptors & Discourse-Planning Difficulty.b
 Paper Link: https://arxiv.org/abs/2502.15251
 Year: 2025
 Should Refer: []
-Reading Status: To Read
+Reading Status: To-Read
 Venue: ICLR
-Topic: Self-Contact / Hand-Face CV
+Topic: Self-Contact-Hand-Face-CV
 snippet: ""
 Authors: N. Lin, T. Ohkawa, Y. Huang, M. Zhang, M. Cai, M. Li, R. Furuta, Y. Sato
 tags:

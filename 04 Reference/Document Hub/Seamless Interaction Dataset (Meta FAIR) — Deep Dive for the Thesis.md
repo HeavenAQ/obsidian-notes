@@ -7,7 +7,7 @@ Last updated time: 2026-07-11T15:47:00
 Last edited by: Heaven Chen
 Category:
   - CV
-  - Pose Estimation
+  - Pose-Estimation
   - Survey
 ---
 > **Seamless Interaction: Dyadic Audiovisual Motion Modeling and Large-Scale Dataset.** Agrawal et al., **Meta FAIR / Reality Labs**, 2025. License **CC-BY-NC 4.0**. [Paper](https://ai.meta.com/research/publications/seamless-interaction-dyadic-audiovisual-motion-modeling-and-large-scale-dataset/) · [Repo](https://github.com/facebookresearch/seamless_interaction) · [HuggingFace](https://huggingface.co/datasets/facebook/seamless-interaction) · [Blog](https://ai.meta.com/blog/seamless-interaction-natural-conversational-dynamics/).

@@ -4,7 +4,7 @@ Quiz score: ""
 "HW #": 1
 Studied: false
 Quiz taken: false
-Day type: Lesson day
+Day type: Lesson-Day
 Date: 2026-07-05
 Piece count: 5
 ---

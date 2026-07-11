@@ -3,9 +3,9 @@ base: "[[Thesis Reading List — Self-Adaptors & Discourse-Planning Difficulty.b
 Paper Link: https://arxiv.org/abs/2401.04868
 Year: 2024
 Should Refer: []
-Reading Status: To Read
+Reading Status: To-Read
 Venue: IWSDS
-Topic: Gesture & Turn-Taking
+Topic: Gesture-and-Turn-Taking
 snippet: ""
 Authors: K. Inoue, B. Jiang, E. Ekstedt, T. Kawahara, G. Skantze
 tags:

@@ -4,7 +4,7 @@ Paper Link: https://aclanthology.org/2022.lrec-1.599/
 Year: 2022
 Should Refer: []
 Venue: LREC
-Topic: Dataset / Corpus
+Topic: Dataset-Corpus
 snippet: ""
 Authors: H. Koiso, H. Amatani, Y. Den, et al.
 tags:

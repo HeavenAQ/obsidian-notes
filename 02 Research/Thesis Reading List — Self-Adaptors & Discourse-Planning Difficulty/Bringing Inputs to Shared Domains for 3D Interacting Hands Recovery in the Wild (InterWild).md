@@ -3,10 +3,10 @@ base: "[[Thesis Reading List — Self-Adaptors & Discourse-Planning Difficulty.b
 Paper Link: https://arxiv.org/abs/2303.13652
 Year: 2023
 Should Refer: []
-Reading Status: To Read
+Reading Status: To-Read
 Venue: CVPR
 Code Link: https://github.com/facebookresearch/InterWild
-Topic: Self-Contact / Hand-Face CV
+Topic: Self-Contact-Hand-Face-CV
 snippet: ""
 Authors: G. Moon
 tags:

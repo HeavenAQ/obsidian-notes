@@ -6,8 +6,8 @@ Should Refer:
   - Theory
 Reading Status: Read
 Venue: Semiotica
-Relatedness: strongly
-Topic: Adaptor & Self-Touch Theory
+Relatedness: Strongly
+Topic: Adaptor-and-Self-Touch-Theory
 snippet: |2-
     • needed for self-adaptor’s definition 
     • theory-based

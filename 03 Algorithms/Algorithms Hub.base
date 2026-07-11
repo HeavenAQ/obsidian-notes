@@ -45,7 +45,7 @@ views:
     name: ⚔️ To Solve
     filters:
       and:
-        - note.Status == "To Solve"
+        - note.Status == "To-Solve"
     order:
       - file.name
       - Difficulty
@@ -56,7 +56,7 @@ views:
     name: 🔁 To Review
     filters:
       and:
-        - note.Status == "To Review"
+        - note.Status == "To-Review"
     order:
       - file.name
       - Difficulty

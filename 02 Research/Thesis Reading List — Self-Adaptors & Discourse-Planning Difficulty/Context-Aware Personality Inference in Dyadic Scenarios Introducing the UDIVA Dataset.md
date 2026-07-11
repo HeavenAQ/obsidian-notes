@@ -3,8 +3,8 @@ base: "[[Thesis Reading List — Self-Adaptors & Discourse-Planning Difficulty.b
 Paper Link: https://arxiv.org/abs/2012.14259
 Year: 2021
 Should Refer: []
-Venue: WACV/ICCV
-Topic: Dataset / Corpus
+Venue: WACV-ICCV
+Topic: Dataset-Corpus
 snippet: ""
 Authors: C. Palmero, J. Selva, S. Smeureanu, et al.
 tags:

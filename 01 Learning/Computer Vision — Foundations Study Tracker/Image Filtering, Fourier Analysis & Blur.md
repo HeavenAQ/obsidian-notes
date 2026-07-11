@@ -2,14 +2,14 @@
 base: "[[Computer Vision — Foundations Study Tracker.base]]"
 Key takeaways: "LTI systems are exactly convolutions: translation invariance collapses the dense linear map h[n,k] to h[n−k] (Toeplitz/weight sharing — the CNN inductive bias); framework 'conv' is really cross-correlation. The DFT diagonalizes all LTI operators (convolution ↔ pointwise product of transfer functions; phase carries WHERE, amplitude ~1/f in natural images). For blurring: box is cheap but ripples (discrete sinc), continuous Gaussian is ideal (separable, semigroup σ₃²=σ₁²+σ₂²) but breaks under sampling, and binomial b_n (Pascal rows) restores exact discrete closure b_n∘b_m=b_{n+m} and kills Nyquist — the right antialiasing filter before downsampling."
 Day: 5
-Status: In progress
+Status: In-Progress
 Reading done: true
 Chapters: Ch 15–17
 Self-check done: false
 Date: 2026-07-05
 Part:
-  - Image Processing
-  - Linear Filters
+  - Image-Processing
+  - Linear-Filters
 Questions / Follow-ups: ""
 ---
 **Reading checklist**

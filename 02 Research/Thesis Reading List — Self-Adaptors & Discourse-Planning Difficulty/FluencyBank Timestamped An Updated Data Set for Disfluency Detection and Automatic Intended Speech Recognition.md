@@ -4,7 +4,7 @@ Paper Link: https://doi.org/10.1044/2024_JSLHR-24-00070
 Year: 2024
 Should Refer: []
 Venue: JSLHR
-Topic: Dataset / Corpus
+Topic: Dataset-Corpus
 snippet: ""
 Authors: A. Romana, K. Koishida, E. Mower Provost
 tags:

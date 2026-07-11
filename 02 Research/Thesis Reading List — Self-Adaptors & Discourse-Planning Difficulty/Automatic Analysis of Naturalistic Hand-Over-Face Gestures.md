@@ -3,8 +3,8 @@ base: "[[Thesis Reading List — Self-Adaptors & Discourse-Planning Difficulty.b
 Paper Link: https://doi.org/10.1145/2946796
 Year: 2016
 Should Refer: []
-Venue: ACM TiiS
-Topic: Self-Contact / Hand-Face CV
+Venue: ACM-TiiS
+Topic: Self-Contact-Hand-Face-CV
 snippet: ""
 Authors: M. Mahmoud, T. Baltrusaitis, P. Robinson
 tags:

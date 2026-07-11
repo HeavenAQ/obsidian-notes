@@ -7,8 +7,8 @@ Should Refer:
 Reading Status: Read
 Venue: ICMI
 Code Link: https://github.com/IIT-PAVIS/Face-Touching-Behavior
-Relatedness: weakly
-Topic: Self-Contact / Hand-Face CV
+Relatedness: Weakly
+Topic: Self-Contact-Hand-Face-CV
 snippet: |2-
     • provide a dataset of hand-face interaction 
     • too old and from a relatively small conference

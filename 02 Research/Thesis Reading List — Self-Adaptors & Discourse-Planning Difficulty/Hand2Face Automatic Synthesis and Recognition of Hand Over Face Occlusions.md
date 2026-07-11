@@ -4,7 +4,7 @@ Paper Link: https://scholar.google.com/scholar?q=Hand2Face+Automatic+Synthesis+a
 Year: 2017
 Should Refer: []
 Venue: ACII
-Topic: Self-Contact / Hand-Face CV
+Topic: Self-Contact-Hand-Face-CV
 snippet: ""
 Authors: B. Nojavanasghari, C. E. Hughes, T. Baltrusaitis, L.-P. Morency
 tags:

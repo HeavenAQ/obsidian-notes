@@ -3,8 +3,8 @@ base: "[[Thesis Reading List — Self-Adaptors & Discourse-Planning Difficulty.b
 Paper Link: https://doi.org/10.1098/rstb.2021.0473
 Year: 2023
 Should Refer: []
-Venue: Phil. Trans. R. Soc. B
-Topic: Gesture & Turn-Taking
+Venue: Phil-Trans-R-Soc-B
+Topic: Gesture-and-Turn-Taking
 snippet: ""
 Authors: K. H. Kendrick, J. Holler, S. C. Levinson
 tags:

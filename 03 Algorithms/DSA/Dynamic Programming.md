@@ -2,11 +2,11 @@
 base: "[[DSA.base]]"
 Order: 6
 Type: Concept
-Source: Lesson Summary
-Topic:
-  - Dynamic Programming
-Status: To Review
-Category: Paradigms
+Source: Lesson-Summary
+Topic: Dynamic-Programming
+Status: To-Review
+Category:
+  - Paradigms
 ---
 ## Overview
 

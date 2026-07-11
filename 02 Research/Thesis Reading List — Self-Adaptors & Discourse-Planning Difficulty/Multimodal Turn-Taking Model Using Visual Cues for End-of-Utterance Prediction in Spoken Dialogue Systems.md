@@ -3,9 +3,9 @@ base: "[[Thesis Reading List — Self-Adaptors & Discourse-Planning Difficulty.b
 Paper Link: https://www.isca-archive.org/interspeech_2023/kurata23_interspeech.html
 Year: 2023
 Should Refer: []
-Reading Status: To Read
+Reading Status: To-Read
 Venue: Interspeech
-Topic: Gesture & Turn-Taking
+Topic: Gesture-and-Turn-Taking
 snippet: ""
 Authors: F. Kurata, M. Saeki, S. Fujie, Y. Matsuyama
 tags:

@@ -2,11 +2,11 @@
 base: "[[DSA.base]]"
 Order: 25
 Type: Concept
-Source: Advanced Lecture
-Topic:
-  - Segment Tree
-Status: To Review
-Category: Advanced
+Source: Advanced-Lecture
+Topic: Segment-Tree
+Status: To-Review
+Category:
+  - Advanced
 ---
 ## Overview
 

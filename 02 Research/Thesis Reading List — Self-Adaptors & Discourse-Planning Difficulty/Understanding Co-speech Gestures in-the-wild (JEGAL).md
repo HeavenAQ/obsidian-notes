@@ -5,7 +5,7 @@ Year: 2025
 Should Refer: []
 Venue: ICCV
 Code Link: https://www.robots.ox.ac.uk/~vgg/research/jegal/
-Topic: Gesture & Turn-Taking
+Topic: Gesture-and-Turn-Taking
 snippet: ""
 Authors: S. B. Hegde, K. R. Prajwal, T. Kwon, A. Zisserman
 tags:

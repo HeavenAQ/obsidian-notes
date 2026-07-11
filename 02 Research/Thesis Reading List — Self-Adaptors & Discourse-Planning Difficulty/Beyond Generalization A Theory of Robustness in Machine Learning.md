@@ -3,9 +3,9 @@ base: "[[Thesis Reading List — Self-Adaptors & Discourse-Planning Difficulty.b
 Paper Link: https://doi.org/10.1007/s11229-023-04334-9
 Year: 2023
 Should Refer: []
-Reading Status: To Read
+Reading Status: To-Read
 Venue: Synthese
-Topic: Domain Generalization
+Topic: Domain-Generalization
 snippet: ""
 Authors: Timo Freiesleben, Thomas Grote
 tags:

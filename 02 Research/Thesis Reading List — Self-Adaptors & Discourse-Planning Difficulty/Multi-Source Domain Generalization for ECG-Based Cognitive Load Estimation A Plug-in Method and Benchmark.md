@@ -4,10 +4,10 @@ Paper Link: https://ieeexplore.ieee.org/document/10447676/
 Year: 2024
 Should Refer:
   - None
-Reading Status: Skim/Skip
+Reading Status: Skim-Skip
 Venue: ICASSP
-Relatedness: not relevant
-Topic: Domain Generalization
+Relatedness: Not-Relevant
+Topic: Domain-Generalization
 snippet: ""
 Authors: Jiyao Wang, Ange Wang, Haolong Hu, Kaishun Wu, Dengbo He
 tags:

@@ -2,7 +2,7 @@
 base: "[[Computer Vision — Foundations Study Tracker.base]]"
 Key takeaways: ""
 Day: 13
-Status: Not started
+Status: Not-Started
 Reading done: false
 Chapters: Ch 40–43
 Self-check done: false

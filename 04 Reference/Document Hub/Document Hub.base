@@ -2,8 +2,8 @@ filters:
   and:
     - note["base"] == link("Document Hub.base")
 formulas:
-  Cover: 'if(note.cover, note.cover, if(note.Status == "Done", "#e8f5e9", if(note.Status == "In progress", "#fff7d6", "#eef2ff")))'
-  Progress: if(note.Status == "Done", "✅ Done", if(note.Status == "In progress", "🟡 In progress", "⬜ Not started"))
+  Cover: 'if(note.cover, note.cover, if(note.Status == "Done", "#e8f5e9", if(note.Status == "In-Progress", "#fff7d6", "#eef2ff")))'
+  Progress: if(note.Status == "Done", "✅ Done", if(note.Status == "In-Progress", "🟡 In progress", "⬜ Not started"))
 properties:
   file.name:
     displayName: 📄 Document
@@ -34,7 +34,7 @@ views:
     name: 🟡 In Progress
     filters:
       and:
-        - note.Status == "In progress"
+        - note.Status == "In-Progress"
     order:
       - file.name
       - Category
@@ -46,7 +46,7 @@ views:
     name: ⬜ Not Started
     filters:
       and:
-        - note.Status == "Not started"
+        - note.Status == "Not-Started"
     order:
       - file.name
       - Category

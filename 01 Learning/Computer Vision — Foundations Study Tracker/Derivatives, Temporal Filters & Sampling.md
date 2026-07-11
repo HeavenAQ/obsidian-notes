@@ -2,14 +2,14 @@
 base: "[[Computer Vision — Foundations Study Tracker.base]]"
 Key takeaways: "Derivatives are LTI ⇒ convolutions: [1,−1] gives a ½-pixel phase shift while central difference [1,0,−1]/2 = [1,−1]∘[1,1] is centered but blurrier; Gaussian derivatives fix noise/undefined-edges via the commuting identity ∂ℓ∘g = ℓ∘∂g (Hermite-polynomial family), and steerability lets any orientation be a linear combination of gₓ,g_y, with the rotationally-invariant Laplacian/LoG as the second-order band-pass. Temporal filters live in the x–y–t volume: global motion ℓ₀(x−vₓt,y−v_yt) puts all spectral energy on the tilted plane w_t+vₓwₓ+v_yw_y=0, yielding the brightness-constancy equation ℓ_t+vₓℓₓ+v_yℓ_y=0 and Darrell–Simoncelli nulling filters h=∇g·(1,vₓ,v_y) that cancel a tuned velocity; causal IIR leaky integrators (stable iff |α|<1) foreshadow RNNs. Sampling multiplies by a Dirac comb, replicating the spectrum every 2π/Tₛ, so Nyquist (Tₛ<π/w_max) prevents replica overlap = aliasing; ideal reconstruction is sinc/Whittaker–Shannon (local kernels = nearest/box, linear/triangle, Lanczos), hexagonal lattices are ~10% optimal, and you must low-pass BEFORE subsampling — the theory behind anti-aliased CNN downsampling."
 Day: 6
-Status: In progress
+Status: In-Progress
 Reading done: true
 Chapters: Ch 18–20
 Self-check done: false
 Date: 2026-07-06
 Part:
-  - Linear Filters
-  - Sampling & Multiscale
+  - Linear-Filters
+  - Sampling-and-Multiscale
 Questions / Follow-ups: ""
 ---
 **Reading checklist**

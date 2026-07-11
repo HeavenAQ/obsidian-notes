@@ -4,11 +4,11 @@ Paper Link: https://arxiv.org/abs/2007.01434
 Year: 2007
 Should Refer:
   - None
-Reading Status: Skim/Skip
+Reading Status: Skim-Skip
 Venue: ICLR
 Code Link: https://github.com/facebookresearch/DomainBed
-Relatedness: not relevant
-Topic: Domain Generalization
+Relatedness: Not-Relevant
+Topic: Domain-Generalization
 snippet: |2-
     • Talks about datasets themselves
     • Not directly related to my work 

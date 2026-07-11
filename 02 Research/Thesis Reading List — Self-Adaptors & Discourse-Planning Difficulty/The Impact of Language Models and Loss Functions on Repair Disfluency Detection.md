@@ -4,7 +4,7 @@ Paper Link: https://aclanthology.org/P11-1071/
 Year: 2011
 Should Refer: []
 Venue: ACL-HLT
-Topic: Multimodal Disfluency & Discourse
+Topic: Multimodal-Disfluency-and-Discourse
 snippet: ""
 Authors: S. Zwarts, M. Johnson
 tags:

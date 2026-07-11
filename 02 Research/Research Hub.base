@@ -53,6 +53,10 @@ views:
       - Year
       - Dataset
     sort:
+      - property: Reading Status
+        direction: DESC
+      - property: tags
+        direction: DESC
       - property: Assigned Date
         direction: DESC
       - property: Year
@@ -75,7 +79,7 @@ views:
     name: 📥 To Read
     filters:
       and:
-        - note["Reading Status"] == "To Read"
+        - note["Reading Status"] == "To-Read"
     order:
       - file.name
       - Assigned Date

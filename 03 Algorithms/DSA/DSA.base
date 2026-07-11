@@ -3,7 +3,7 @@ filters:
     - note["base"] == link("DSA.base")
 formulas:
   Cover: 'if(note.Difficulty == "Hard", "#fee2e2", if(note.Difficulty == "Medium", "#ffedd5", if(note.Difficulty == "Easy", "#dcfce7", "#f1f5f9")))'
-  State: if(note.Status == "To Solve", "⚔️ To Solve", if(note.Status == "To Review", "🔁 To Review", "✅ Done"))
+  State: if(note.Status == "To-Solve", "⚔️ To Solve", if(note.Status == "To-Review", "🔁 To Review", "✅ Done"))
   Level: if(note.Difficulty == "Hard", "🔴 Hard", if(note.Difficulty == "Medium", "🟠 Medium", if(note.Difficulty == "Easy", "🟢 Easy", "—")))
 properties:
   file.name:
@@ -46,7 +46,7 @@ views:
     name: ⚔️ To Solve
     filters:
       and:
-        - note.Status == "To Solve"
+        - note.Status == "To-Solve"
     order:
       - file.name
       - formula.Level
@@ -60,7 +60,7 @@ views:
     name: 🔁 To Review
     filters:
       and:
-        - note.Status == "To Review"
+        - note.Status == "To-Review"
     order:
       - file.name
       - formula.Level

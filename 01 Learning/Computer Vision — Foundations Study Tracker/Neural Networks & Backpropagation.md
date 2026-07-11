@@ -2,13 +2,13 @@
 base: "[[Computer Vision — Foundations Study Tracker.base]]"
 Key takeaways: "Deep nets are stacks of affine maps + pointwise nonlinearities, best understood as layer-by-layer geometric transformations of the data distribution (relu snaps data to a 1/2^N cone, driving sparsity). Backprop is the chain rule organized as vector–Jacobian products: δ_ℓ = (W_{ℓ+1}^T δ_{ℓ+1}) ⊙ f'(z_ℓ), with δ_L = ŷ − y for softmax+CE and ∂J/∂W = δ h^T. He init keeps Var of signals/gradients constant per layer by demanding (1/2)(1+a²)·n·Var[w]=1 — the ReLU-corrected Xavier — and PReLU learns the negative slope per channel (no weight decay on it), together enabling the first super-human ImageNet result."
 Day: 4
-Status: In progress
+Status: In-Progress
 Reading done: true
 Chapters: Ch 12–14
 Self-check done: false
 Date: 2026-07-04
 Part:
-  - Foundations of Learning
+  - Foundations-of-Learning
 Questions / Follow-ups: ""
 ---
 **Reading checklist**

@@ -5,7 +5,7 @@ Year: 2022
 Should Refer: []
 Venue: NeurIPS
 Code Link: https://github.com/MCG-NJU/VideoMAE
-Topic: Action-Recognition Backbone
+Topic: Action-Recognition-Backbone
 snippet: ""
 Authors: Z. Tong, Y. Song, J. Wang, L. Wang
 tags:

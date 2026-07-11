@@ -4,10 +4,10 @@ Paper Link: https://arxiv.org/abs/2403.06487
 Year: 2024
 Should Refer:
   - None
-Reading Status: Skim/Skip
+Reading Status: Skim-Skip
 Venue: LREC
-Relatedness: not relevant
-Topic: Gesture & Turn-Taking
+Relatedness: Not-Relevant
+Topic: Gesture-and-Turn-Taking
 snippet: |2-
     • LLM can generate natural spoken language but still struggle with when to take the turn
     • trains a Voice Activity Projection (VAP) cross-attention Transformer to continuously predict upcoming speaker activity across different languages.

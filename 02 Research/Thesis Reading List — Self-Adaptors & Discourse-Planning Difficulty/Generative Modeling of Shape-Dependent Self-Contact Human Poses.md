@@ -5,7 +5,7 @@ Year: 2025
 Should Refer: []
 Reading Status: Reading
 Venue: ICCV
-Topic: Self-Contact / Hand-Face CV
+Topic: Self-Contact-Hand-Face-CV
 snippet: ""
 Authors: Takehiko Ohkawa, Jihyun Lee, Shunsuke Saito, Jason Saragih, Fabian Prado, Yichen Xu, Shoou-I Yu, Ryosuke Furuta, Yoichi Sato, Takaaki Shiratori
 tags:

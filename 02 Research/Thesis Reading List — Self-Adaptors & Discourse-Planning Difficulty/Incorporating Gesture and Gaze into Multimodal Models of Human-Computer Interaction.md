@@ -3,8 +3,8 @@ base: "[[Thesis Reading List — Self-Adaptors & Discourse-Planning Difficulty.b
 Paper Link: https://scholar.google.com/scholar?q=Incorporating+Gesture+and+Gaze+into+Multimodal+Models+of+Human-Computer+Interaction+Chen+Rose+NAACL+2006
 Year: 2006
 Should Refer: []
-Venue: NAACL Workshop
-Topic: Multimodal Disfluency & Discourse
+Venue: NAACL-Workshop
+Topic: Multimodal-Disfluency-and-Discourse
 snippet: ""
 Authors: L. Chen, R. T. Rose, Y. Qiao, et al.
 tags:

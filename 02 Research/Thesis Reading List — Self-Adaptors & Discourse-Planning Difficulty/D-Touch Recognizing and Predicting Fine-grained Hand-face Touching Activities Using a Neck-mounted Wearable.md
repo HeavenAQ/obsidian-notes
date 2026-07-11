@@ -6,8 +6,8 @@ Should Refer:
   - None
 Reading Status: Read
 Venue: IUI
-Relatedness: weakly
-Topic: Self-Contact / Hand-Face CV
+Relatedness: Weakly
+Topic: Self-Contact-Hand-Face-CV
 snippet: |2-
     • to reduce the risk of contagious disease by avoiding face-touching behavior 
     • using neck-mounted wearable with an infrared camera to predict non-touch and touched behavior
