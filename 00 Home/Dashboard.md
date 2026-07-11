@@ -177,6 +177,12 @@ dv.table(["Base", "Total", "Done", "Active", "To Do", "Other", "Progress"], rows
 > These are pulled from your properties, so the queue updates automatically as you mark statuses.
 
 ```dataviewjs
+const has = (value, target) => {
+  if (value === target) return true;
+  if (Array.isArray(value)) return value.map(String).includes(target);
+  if (value && typeof value.values === "function") return Array.from(value.values).map(String).includes(target);
+  return String(value ?? "") === target;
+};
 const docs = dv.pages('"04 Reference/Document Hub"')
   .where(p => has(p.Status, "In-Progress"))
   .sort(p => p.file.mtime, 'desc')
@@ -187,6 +193,12 @@ dv.table(["Active item", "Status", "Category", "Updated"], docs);
 ```
 
 ```dataviewjs
+const has = (value, target) => {
+  if (value === target) return true;
+  if (Array.isArray(value)) return value.map(String).includes(target);
+  if (value && typeof value.values === "function") return Array.from(value.values).map(String).includes(target);
+  return String(value ?? "") === target;
+};
 const reading = dv.pages('"02 Research/Thesis Reading List — Self-Adaptors & Discourse-Planning Difficulty"')
   .where(p => has(p["Reading Status"], "Reading"))
   .sort(p => `${p.Tier ?? ""}-${-(p.Year ?? 0)}`)
@@ -197,6 +209,12 @@ dv.table(["Reading now", "Tier", "Topic", "Year"], reading);
 ```
 
 ```dataviewjs
+const has = (value, target) => {
+  if (value === target) return true;
+  if (Array.isArray(value)) return value.map(String).includes(target);
+  if (value && typeof value.values === "function") return Array.from(value.values).map(String).includes(target);
+  return String(value ?? "") === target;
+};
 const practice = dv.pages('"03 Algorithms/DSA"')
   .where(p => has(p.Status, "To-Solve") || has(p.Status, "To-Review"))
   .sort(p => `${p.Status ?? ""}-${p.Difficulty ?? ""}`, 'desc')

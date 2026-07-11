@@ -156,3 +156,18 @@
 - Generated [[00 Home/Tasks/Deadline Triage]] with 110 surfaced deadline/backlog items: 68 overdue, 2 due today, and 40 upcoming.
 - Inferred deadlines from `Due Date`, homework plan dates/windows, CV/DL lesson `Date` fields, and research `Assigned Date` fields.
 - Added direct deadline queries to [[00 Home/Dashboard]] and [[00 Home/Tasks/Task Command Center]].
+
+## 2026-07-12 — Fix dashboard Dataview and Kanban deadlines
+- Fixed DataviewJS `ReferenceError: has is not defined` by adding the helper function to each independent DataviewJS block that uses it.
+- Populated [[00 Home/Tasks/Task Kanban Board]] with generated deadline lanes: Overdue, Today, and Upcoming.
+- Added all 110 surfaced deadline/backlog cards to the Kanban board as plain Kanban cards to avoid duplicating Tasks-plugin checkboxes.
+## 2026-07-12 — Deadline automation and research filtering
+- Removed research Assigned Date backlog items from urgent Overdue/Today deadline queues and Kanban deadline lanes.
+- Added `.obsidian/automation/deadline_triage.py` as the source of truth for regenerating deadline triage and Kanban deadline cards.
+- Wired `claudian-productivity` to refresh deadlines on startup, every 30 minutes, and after markdown changes.
+- Added [[00 Home/Tasks/Deadline Automation]] and hotkey `Cmd/Ctrl+Alt+Shift+R` for manual refresh.
+
+## 2026-07-12 — Task board automation
+
+- Added unified task-board automation: status/property changes now regenerate [[00 Home/Tasks/Task Kanban Board]] via `.obsidian/automation/task_board_automation.py`.
+- Added `.obsidian/automation/status_board.py` and `.obsidian/automation/run_all_automations.sh`.

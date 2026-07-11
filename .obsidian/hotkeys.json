@@ -228,5 +228,15 @@
       ],
       "key": "K"
     }
+  ],
+  "claudian-productivity:refresh-deadline-triage": [
+    {
+      "modifiers": [
+        "Mod",
+        "Alt",
+        "Shift"
+      ],
+      "key": "R"
+    }
   ]
 }

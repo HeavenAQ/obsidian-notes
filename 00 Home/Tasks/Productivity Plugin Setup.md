@@ -33,6 +33,11 @@ Category:
 | `Cmd/Ctrl + Shift + E` | Open Recent Files |
 | `Alt + Enter` | Edit task under cursor with Tasks |
 | `Cmd/Ctrl + Alt + D` | Open Day Planner timeline |
+| `Cmd/Ctrl + Alt + Shift + R` | Refresh inferred deadlines + Kanban deadline lanes |
+
+## Automation
+
+- [[00 Home/Tasks/Deadline Automation]] documents the automatic deadline regeneration.
 
 ## Where to work
 
@@ -53,3 +58,7 @@ Category:
 - [ ] Review paper 🔺 ⏳ 2026-07-13 📅 2026-07-15 #task/research
 ```
 
+## Automation update — 2026-07-12
+
+- Added unified task-board automation: status/property changes now regenerate [[00 Home/Tasks/Task Kanban Board]] via `.obsidian/automation/task_board_automation.py`.
+- See [[00 Home/Tasks/Task Board Automation]] for triggers and status-to-lane rules.

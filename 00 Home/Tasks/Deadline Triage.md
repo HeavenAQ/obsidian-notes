@@ -8,12 +8,13 @@ Category:
 
 # 🧨 Deadline Triage
 
-> Generated on 2026-07-12 from explicit `Due Date` properties plus inferred schedule/backlog dates in homework plans, daily lesson dates, CV study dates, and research assigned dates.
+> Auto-generated on 2026-07-12 by `.obsidian/automation/deadline_triage.py`.
+> Research assigned-reading backlog is intentionally excluded from urgent overdue/today deadline lanes.
 
 ## Summary
 
-- Total surfaced deadline/backlog items: **110**
-- Overdue: **68**
+- Total surfaced deadline/backlog items: **83**
+- Overdue: **41**
 - Due today: **2**
 - Upcoming: **40**
 
@@ -21,13 +22,10 @@ Category:
 
 - Work top to bottom inside **Overdue** first.
 - When the real source task is completed, check the generated triage checkbox here too.
-- `Assigned Date` research items are treated as backlog deadlines, not external hard deadlines.
+- Research reading remains visible in the Research Hub/Base instead of urgent deadline lanes.
 
-## 🚨 Overdue / due now (68)
+## 🚨 Overdue / due now (41)
 
-### Implicit research reading backlog
-
-- [ ] [[02 Research/Thesis Reading List — Self-Adaptors & Discourse-Planning Difficulty/A Simplest Systematics for the Organization of Turn-Taking for Conversation|A Simplest Systematics for the Organization of Turn-Taking for Conversation]] — assigned reading (Skim-Skip; Essential; related: Not-Relevant) 📅 2026-07-01 #deadline-research <!-- inferred: Assigned Date treated as reading backlog date -->
 ### Implicit dated lessons — DL daily
 
 - [ ] [[01 Learning/DL Daily Lessons — Step-by-Step + Quiz/Jul 2 — HW1 · 18.02SC Unit 1 Part A Vectors, Determinants & Planes|Jul 2 — HW1 · 18.02SC Unit 1 Part A Vectors, Determinants & Planes]] — study not marked done, quiz not taken 📅 2026-07-02 #deadline-dl-daily <!-- inferred: Date property + Studied/Quiz unchecked -->
@@ -35,32 +33,16 @@ Category:
 
 - [ ] [[01 Learning/Computer Vision — Foundations Study Tracker/Foundations — The Challenge of Vision & A Simple Vision System|Foundations — The Challenge of Vision & A Simple Vision System]] — scheduled CV study page (In-Progress) 📅 2026-07-02 #deadline-cv <!-- inferred: Date property treated as scheduled study deadline -->
 - [ ] [[01 Learning/Computer Vision — Foundations Study Tracker/Image Formation — Imaging, Lenses, Cameras, Color|Image Formation — Imaging, Lenses, Cameras, Color]] — scheduled CV study page (In-Progress) 📅 2026-07-02 #deadline-cv <!-- inferred: Date property treated as scheduled study deadline -->
-### Implicit research reading backlog
-
-- [ ] [[02 Research/Thesis Reading List — Self-Adaptors & Discourse-Planning Difficulty/Missingness-resilient Video-enhanced Multimodal Disfluency Detection|Missingness-resilient Video-enhanced Multimodal Disfluency Detection]] — assigned reading (Reading; Essential; related: —) 📅 2026-07-02 #deadline-research <!-- inferred: Assigned Date treated as reading backlog date -->
-- [ ] [[02 Research/Thesis Reading List — Self-Adaptors & Discourse-Planning Difficulty/The NoXi Database Multimodal Recordings of Mediated Novice-Expert Interactions|The NoXi Database Multimodal Recordings of Mediated Novice-Expert Interactions]] — assigned reading (Reading; Essential; related: —) 📅 2026-07-02 #deadline-research <!-- inferred: Assigned Date treated as reading backlog date -->
 ### Implicit dated lessons — DL daily
 
 - [ ] [[01 Learning/DL Daily Lessons — Step-by-Step + Quiz/Jul 3 — HW1 · 18.02SC Unit 1 Part B Matrix Multiplication, Inverses & Linear Systems|Jul 3 — HW1 · 18.02SC Unit 1 Part B Matrix Multiplication, Inverses & Linear Systems]] — study not marked done, quiz not taken 📅 2026-07-03 #deadline-dl-daily <!-- inferred: Date property + Studied/Quiz unchecked -->
 ### Implicit dated study pages — CV
 
 - [ ] [[01 Learning/Computer Vision — Foundations Study Tracker/Learning I — Intro, Gradient Descent, Generalization|Learning I — Intro, Gradient Descent, Generalization]] — scheduled CV study page (In-Progress) 📅 2026-07-03 #deadline-cv <!-- inferred: Date property treated as scheduled study deadline -->
-### Implicit research reading backlog
-
-- [ ] [[02 Research/Thesis Reading List — Self-Adaptors & Discourse-Planning Difficulty/In Search of Lost Domain Generalization (DomainBed)|In Search of Lost Domain Generalization (DomainBed)]] — assigned reading (Skim-Skip; Essential; related: Not-Relevant) 📅 2026-07-03 #deadline-research <!-- inferred: Assigned Date treated as reading backlog date -->
-- [ ] [[02 Research/Thesis Reading List — Self-Adaptors & Discourse-Planning Difficulty/REVELIO — Universal Multimodal Task Load Estimation for Cross-Domain Generalization|REVELIO — Universal Multimodal Task Load Estimation for Cross-Domain Generalization]] — assigned reading (Reading; Essential; related: —) 📅 2026-07-03 #deadline-research <!-- inferred: Assigned Date treated as reading backlog date -->
-- [ ] [[02 Research/Thesis Reading List — Self-Adaptors & Discourse-Planning Difficulty/Self-Touch Contact Durations and Point of Touch of Spontaneous Facial Self-Touches Differ Depending on Cognitive and Emotional Load|Self-Touch Contact Durations and Point of Touch of Spontaneous Facial Self-Touches Differ Depending on Cognitive and Emotional Load]] — assigned reading (Reading; Essential; related: —) 📅 2026-07-03 #deadline-research <!-- inferred: Assigned Date treated as reading backlog date -->
-### Implicit dated study pages — CV
-
 - [ ] [[01 Learning/Computer Vision — Foundations Study Tracker/Neural Networks & Backpropagation|Neural Networks & Backpropagation]] — scheduled CV study page (In-Progress) 📅 2026-07-04 #deadline-cv <!-- inferred: Date property treated as scheduled study deadline -->
 ### Implicit homework sub-deadlines
 
 - [ ] [[01 Learning/DL Homework Practice — MIT 6.7960/Homework 1|Homework 1]] — Jul 4 — Udemy LinAlg: Intro to Matrices + Matrix Calculus (HW1's backprop math) · PT-Cert C1 M1–M2 (Getting Started, PyTorch Workflow — skim, mostly review) 📅 2026-07-04 #deadline-homework-plan <!-- inferred: dated homework checklist item -->
-### Implicit research reading backlog
-
-- [ ] [[02 Research/Thesis Reading List — Self-Adaptors & Discourse-Planning Difficulty/CogMamba Multi-Task Driver Cognitive Load and Physiological Non-Contact Estimation with Multimodal Facial Features|CogMamba Multi-Task Driver Cognitive Load and Physiological Non-Contact Estimation with Multimodal Facial Features]] — assigned reading (Skim-Skip; Recommended; related: Not-Relevant) 📅 2026-07-04 #deadline-research <!-- inferred: Assigned Date treated as reading backlog date -->
-- [ ] [[02 Research/Thesis Reading List — Self-Adaptors & Discourse-Planning Difficulty/Decaf Monocular Deformation Capture for Face and Hand Interactions|Decaf Monocular Deformation Capture for Face and Hand Interactions]] — assigned reading (Skim-Skip; Essential; related: Weakly) 📅 2026-07-04 #deadline-research <!-- inferred: Assigned Date treated as reading backlog date -->
-- [ ] [[02 Research/Thesis Reading List — Self-Adaptors & Discourse-Planning Difficulty/The Dual Functions of Adaptors|The Dual Functions of Adaptors]] — assigned reading (Reading; Essential; related: —) 📅 2026-07-04 #deadline-research <!-- inferred: Assigned Date treated as reading backlog date -->
 ### Explicit due dates — DSA
 
 - [ ] [[03 Algorithms/DSA/300. Longest Increasing Subsequence|300. Longest Increasing Subsequence]] — page due date 📅 2026-07-05 #deadline-dsa <!-- inferred: Due Date property -->
@@ -76,12 +58,6 @@ Category:
 ### Implicit homework sub-deadlines
 
 - [ ] [[01 Learning/DL Homework Practice — MIT 6.7960/Homework 1|Homework 1]] — Jul 5 — PT-Cert C1 M3–M4 (Data Management: Dataset/DataLoader; Core NN Components: nn.Module, losses, optimizers) · 6.S191 L1 → deep dive: PyTorch × NVIDIA GPU — Training Internals §1–2 📅 2026-07-05 #deadline-homework-plan <!-- inferred: dated homework checklist item -->
-### Implicit research reading backlog
-
-- [ ] [[02 Research/Thesis Reading List — Self-Adaptors & Discourse-Planning Difficulty/ADABase A Multimodal Dataset for Cognitive Load Estimation|ADABase A Multimodal Dataset for Cognitive Load Estimation]] — assigned reading (Skim-Skip; Recommended; related: Not-Relevant) 📅 2026-07-05 #deadline-research <!-- inferred: Assigned Date treated as reading backlog date -->
-- [ ] [[02 Research/Thesis Reading List — Self-Adaptors & Discourse-Planning Difficulty/DF-Mamba Deformable State Space Modeling for 3D Hand Pose Estimation in Interactions|DF-Mamba Deformable State Space Modeling for 3D Hand Pose Estimation in Interactions]] — assigned reading (Reading; Recommended; related: —) 📅 2026-07-05 #deadline-research <!-- inferred: Assigned Date treated as reading backlog date -->
-- [ ] [[02 Research/Thesis Reading List — Self-Adaptors & Discourse-Planning Difficulty/Efficient Mixture-of-Expert for Video-based Driver State and Physiological Multi-task Estimation in Conditional Autonomous Driving (VDMoE)|Efficient Mixture-of-Expert for Video-based Driver State and Physiological Multi-task Estimation in Conditional Autonomous Driving (VDMoE)]] — assigned reading (Skim-Skip; Recommended; related: Not-Relevant) 📅 2026-07-05 #deadline-research <!-- inferred: Assigned Date treated as reading backlog date -->
-- [ ] [[02 Research/Thesis Reading List — Self-Adaptors & Discourse-Planning Difficulty/Predicting Cognitive Load from Speech and Interaction Dynamics in Dyadic Conversations|Predicting Cognitive Load from Speech and Interaction Dynamics in Dyadic Conversations]] — assigned reading (Reading; Recommended; related: —) 📅 2026-07-05 #deadline-research <!-- inferred: Assigned Date treated as reading backlog date -->
 ### Explicit due dates — DSA
 
 - [ ] [[03 Algorithms/DSA/1143. Longest Common Subsequence|1143. Longest Common Subsequence]] — page due date 📅 2026-07-06 #deadline-dsa <!-- inferred: Due Date property -->
@@ -97,11 +73,6 @@ Category:
 ### Implicit homework sub-deadlines
 
 - [ ] [[01 Learning/DL Homework Practice — MIT 6.7960/Homework 1|Homework 1]] — Jul 6 — PT-Cert C2 M1–M2 (Hyperparameter Optimization w/ Optuna; TorchVision: transforms, fine-tuning ResNet/MobileNet) · 6.S191 L3 (CNNs) 📅 2026-07-06 #deadline-homework-plan <!-- inferred: dated homework checklist item -->
-### Implicit research reading backlog
-
-- [ ] [[02 Research/Thesis Reading List — Self-Adaptors & Discourse-Planning Difficulty/Evaluating the Robustness of Multimodal Task Load Estimation Models|Evaluating the Robustness of Multimodal Task Load Estimation Models]] — assigned reading (Skim-Skip; Recommended; related: Not-Relevant) 📅 2026-07-06 #deadline-research <!-- inferred: Assigned Date treated as reading backlog date -->
-- [ ] [[02 Research/Thesis Reading List — Self-Adaptors & Discourse-Planning Difficulty/MOCAS A Multimodal Dataset for Objective Cognitive Workload Assessment on Simultaneous Tasks|MOCAS A Multimodal Dataset for Objective Cognitive Workload Assessment on Simultaneous Tasks]] — assigned reading (Skim-Skip; Recommended; related: Not-Relevant) 📅 2026-07-06 #deadline-research <!-- inferred: Assigned Date treated as reading backlog date -->
-- [ ] [[02 Research/Thesis Reading List — Self-Adaptors & Discourse-Planning Difficulty/Predicting States of Understanding in Explanatory Interactions Using Cognitive Load-Related Linguistic Cues|Predicting States of Understanding in Explanatory Interactions Using Cognitive Load-Related Linguistic Cues]] — assigned reading (Skim-Skip; Recommended; related: Not-Relevant) 📅 2026-07-06 #deadline-research <!-- inferred: Assigned Date treated as reading backlog date -->
 ### Explicit due dates — DSA
 
 - [ ] [[03 Algorithms/DSA/198. House Robber|198. House Robber]] — page due date 📅 2026-07-07 #deadline-dsa <!-- inferred: Due Date property -->
@@ -116,15 +87,6 @@ Category:
 ### Implicit homework sub-deadlines
 
 - [ ] [[01 Learning/DL Homework Practice — MIT 6.7960/Homework 1|Homework 1]] — Jul 7 — PT-Cert C2 M3–M4 (Text w/ Hugging Face: GloVe/FastText/DistilBERT embeddings; Efficient Training Pipelines: profiling, bottlenecks) → deep dive: PyTorch × GPU §3–5, 8 (AMP, allocato… 📅 2026-07-07 #deadline-homework-plan <!-- inferred: dated homework checklist item -->
-### Implicit research reading backlog
-
-- [ ] [[02 Research/Thesis Reading List — Self-Adaptors & Discourse-Planning Difficulty/3D Human Pose Estimation via Intuitive Physics (IPMAN)|3D Human Pose Estimation via Intuitive Physics (IPMAN)]] — assigned reading (To-Read; Recommended; related: Weakly) 📅 2026-07-07 #deadline-research <!-- inferred: Assigned Date treated as reading backlog date -->
-- [ ] [[02 Research/Thesis Reading List — Self-Adaptors & Discourse-Planning Difficulty/Accurate 3D Body Shape Regression using Metric and Semantic Attributes (SHAPY)|Accurate 3D Body Shape Regression using Metric and Semantic Attributes (SHAPY)]] — assigned reading (To-Read; Background; related: Weakly) 📅 2026-07-07 #deadline-research <!-- inferred: Assigned Date treated as reading backlog date -->
-- [ ] [[02 Research/Thesis Reading List — Self-Adaptors & Discourse-Planning Difficulty/Generative Modeling of Shape-Dependent Self-Contact Human Poses|Generative Modeling of Shape-Dependent Self-Contact Human Poses]] — assigned reading (Reading; Recommended; related: —) 📅 2026-07-07 #deadline-research <!-- inferred: Assigned Date treated as reading backlog date -->
-- [ ] [[02 Research/Thesis Reading List — Self-Adaptors & Discourse-Planning Difficulty/Generative Proxemics A Prior for 3D Social Interaction from Images (BUDDI)|Generative Proxemics A Prior for 3D Social Interaction from Images (BUDDI)]] — assigned reading (To-Read; Recommended; related: Weakly) 📅 2026-07-07 #deadline-research <!-- inferred: Assigned Date treated as reading backlog date -->
-- [ ] [[02 Research/Thesis Reading List — Self-Adaptors & Discourse-Planning Difficulty/Multi-Source Domain Generalization for ECG-Based Cognitive Load Estimation A Plug-in Method and Benchmark|Multi-Source Domain Generalization for ECG-Based Cognitive Load Estimation A Plug-in Method and Benchmark]] — assigned reading (Skim-Skip; Recommended; related: Not-Relevant) 📅 2026-07-07 #deadline-research <!-- inferred: Assigned Date treated as reading backlog date -->
-- [ ] [[02 Research/Thesis Reading List — Self-Adaptors & Discourse-Planning Difficulty/Multilingual Turn-taking Prediction Using Voice Activity Projection|Multilingual Turn-taking Prediction Using Voice Activity Projection]] — assigned reading (Skim-Skip; Recommended; related: Not-Relevant) 📅 2026-07-07 #deadline-research <!-- inferred: Assigned Date treated as reading backlog date -->
-- [ ] [[02 Research/Thesis Reading List — Self-Adaptors & Discourse-Planning Difficulty/Toward a Multimodal Approach for Disfluency Detection and Categorization|Toward a Multimodal Approach for Disfluency Detection and Categorization]] — assigned reading (Reading; Recommended; related: —) 📅 2026-07-07 #deadline-research <!-- inferred: Assigned Date treated as reading backlog date -->
 ### Explicit due dates — DSA
 
 - [ ] [[03 Algorithms/DSA/132. Palindrome Partitioning II|132. Palindrome Partitioning II]] — page due date 📅 2026-07-08 #deadline-dsa <!-- inferred: Due Date property -->
@@ -167,12 +129,6 @@ Category:
 ### Implicit homework sub-deadlines
 
 - [ ] [[01 Learning/DL Homework Practice — MIT 6.7960/Homework 1|Homework 1]] — Jul 11 — TiP Module 3 (quantization, KV cache, flash attention, speculative decoding) + PT-Cert C3 M4 (Deployment: ONNX, MLflow, pruning, quantization/QAT) → deep dives: TiP §Module 3 · ONN… 📅 2026-07-11 #deadline-homework-plan <!-- inferred: dated homework checklist item -->
-### Implicit research reading backlog
-
-- [ ] [[02 Research/Thesis Reading List — Self-Adaptors & Discourse-Planning Difficulty/AVCAffe A Large Scale Audio-Visual Dataset of Cognitive Load and Affect for Remote Work|AVCAffe A Large Scale Audio-Visual Dataset of Cognitive Load and Affect for Remote Work]] — assigned reading (Reading; Recommended; related: —) 📅 2026-07-11 #deadline-research <!-- inferred: Assigned Date treated as reading backlog date -->
-- [ ] [[02 Research/Thesis Reading List — Self-Adaptors & Discourse-Planning Difficulty/Detecting Human-Object Contact in Images|Detecting Human-Object Contact in Images]] — assigned reading (Reading; Recommended; related: —) 📅 2026-07-11 #deadline-research <!-- inferred: Assigned Date treated as reading backlog date -->
-- [ ] [[02 Research/Thesis Reading List — Self-Adaptors & Discourse-Planning Difficulty/Predictability of Understanding in Explanatory Interactions Based on Multimodal Cues|Predictability of Understanding in Explanatory Interactions Based on Multimodal Cues]] — assigned reading (Reading; Recommended; related: —) 📅 2026-07-11 #deadline-research <!-- inferred: Assigned Date treated as reading backlog date -->
-- [ ] [[02 Research/Thesis Reading List — Self-Adaptors & Discourse-Planning Difficulty/Real-Time Driver Cognitive Workload Recognition Attention-Enabled Learning With Multimodal Information Fusion|Real-Time Driver Cognitive Workload Recognition Attention-Enabled Learning With Multimodal Information Fusion]] — assigned reading (Reading; Recommended; related: —) 📅 2026-07-11 #deadline-research <!-- inferred: Assigned Date treated as reading backlog date -->
 
 ## 📅 Due today (2)
 

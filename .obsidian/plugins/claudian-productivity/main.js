@@ -1,9 +1,13 @@
 const { Plugin, Modal, Setting, Notice, TFile } = require('obsidian');
+const { spawn } = require('child_process');
+const nodePath = require('path');
 
 const TASK_INBOX = '00 Home/Tasks/Task Inbox.md';
 const TASK_CENTER = '00 Home/Tasks/Task Command Center.md';
 const TASK_KANBAN = '00 Home/Tasks/Task Kanban Board.md';
 const DAILY_FOLDER = '00 Home/Daily Notes';
+const AUTOMATION_SCRIPT = '.obsidian/automation/task_board_automation.py';
+const AUTOMATION_OUTPUTS = new Set(['00 Home/Tasks/Deadline Triage.md', '00 Home/Tasks/Task Kanban Board.md']);
 
 function today() {
   return window.moment ? window.moment().format('YYYY-MM-DD') : new Date().toISOString().slice(0, 10);
@@ -94,9 +98,70 @@ module.exports = class ClaudianProductivityPlugin extends Plugin {
     this.addCommand({ id: 'capture-research-task', name: 'Capture research task', callback: () => this.capture({ title: 'Capture research task', tag: '#task/research' }) });
     this.addCommand({ id: 'capture-homework-task', name: 'Capture homework task', callback: () => this.capture({ title: 'Capture homework task', tag: '#task/homework' }) });
     this.addCommand({ id: 'capture-admin-task', name: 'Capture admin task', callback: () => this.capture({ title: 'Capture admin task', tag: '#task/admin' }) });
+    this.addCommand({ id: 'refresh-deadline-triage', name: 'Refresh automations: deadlines + task board', callback: () => this.refreshTaskBoardAutomation(true) });
     this.addRibbonIcon('check-square', 'Task Command Center', () => this.openPath(TASK_CENTER));
     this.addRibbonIcon('columns-3', 'Task Kanban Board', () => this.openPath(TASK_KANBAN));
     this.addRibbonIcon('list-plus', 'Capture task', () => this.capture({ title: 'Capture task', tag: '#task/inbox' }));
+    this.addRibbonIcon('refresh-cw', 'Refresh task board automations', () => this.refreshTaskBoardAutomation(true));
+
+    this.app.workspace.onLayoutReady(() => {
+      window.setTimeout(() => this.refreshTaskBoardAutomation(false), 5000);
+    });
+    this.registerInterval(window.setInterval(() => this.refreshTaskBoardAutomation(false), 30 * 60 * 1000));
+    this.registerEvent(this.app.vault.on('modify', file => this.scheduleTaskBoardRefresh(file)));
+    this.registerEvent(this.app.vault.on('create', file => this.scheduleTaskBoardRefresh(file)));
+    this.registerEvent(this.app.vault.on('delete', file => this.scheduleTaskBoardRefresh(file)));
+    this.register(() => {
+      if (this.taskBoardRefreshTimer) window.clearTimeout(this.taskBoardRefreshTimer);
+    });
+  }
+
+
+  scheduleTaskBoardRefresh(file) {
+    if (!file || file.extension !== 'md') return;
+    if (AUTOMATION_OUTPUTS.has(file.path)) return;
+    if (file.path.startsWith('99 Assets/') || file.path.startsWith('.obsidian/')) return;
+    if (this.taskBoardRefreshTimer) window.clearTimeout(this.taskBoardRefreshTimer);
+    this.taskBoardRefreshTimer = window.setTimeout(() => {
+      this.taskBoardRefreshTimer = null;
+      this.refreshTaskBoardAutomation(false);
+    }, 60000);
+  }
+
+  async refreshTaskBoardAutomation(showNotice = false) {
+    if (this.taskBoardRefreshRunning) return;
+    const adapter = this.app.vault.adapter;
+    const basePath = adapter && adapter.basePath;
+    if (!basePath) {
+      if (showNotice) new Notice('Task board automation requires the desktop file adapter.');
+      return;
+    }
+    this.taskBoardRefreshRunning = true;
+    const scriptPath = nodePath.join(basePath, AUTOMATION_SCRIPT);
+    const todayArg = today();
+    await new Promise(resolve => {
+      const child = spawn('python3', [scriptPath, '--today', todayArg], { cwd: basePath });
+      let stderr = '';
+      let stdout = '';
+      child.stdout.on('data', data => { stdout += data.toString(); });
+      child.stderr.on('data', data => { stderr += data.toString(); });
+      child.on('error', error => {
+        console.error('Task board automation failed:', error);
+        if (showNotice) new Notice(`Task board automation failed: ${error.message}`);
+        resolve();
+      });
+      child.on('close', code => {
+        if (code === 0) {
+          console.log(stdout.trim());
+          if (showNotice) new Notice(stdout.trim() || 'Task board automations refreshed');
+        } else {
+          console.error('Task board automation failed:', stderr || stdout);
+          if (showNotice) new Notice('Task board automation failed; see console.');
+        }
+        resolve();
+      });
+    });
+    this.taskBoardRefreshRunning = false;
   }
 
   async ensureFile(path, content) {
