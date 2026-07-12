@@ -13,9 +13,9 @@ Category:
 
 ## Summary
 
-- Total surfaced deadline/backlog items: **83**
+- Total surfaced deadline/backlog items: **85**
 - Overdue: **41**
-- Due today: **2**
+- Due today: **4**
 - Upcoming: **40**
 
 ## How to use this list
@@ -130,8 +130,14 @@ Category:
 
 - [ ] [[01 Learning/DL Homework Practice — MIT 6.7960/Homework 1|Homework 1]] — Jul 11 — TiP Module 3 (quantization, KV cache, flash attention, speculative decoding) + PT-Cert C3 M4 (Deployment: ONNX, MLflow, pruning, quantization/QAT) → deep dives: TiP §Module 3 · ONN… 📅 2026-07-11 #deadline-homework-plan <!-- inferred: dated homework checklist item -->
 
-## 📅 Due today (2)
+## 📅 Due today (4)
 
+### Explicit due dates — DSA
+
+- [ ] [[03 Algorithms/DSA/200. Number of Islands|200. Number of Islands]] — page due date 📅 2026-07-12 #deadline-dsa <!-- inferred: Due Date property -->
+### Implicit dated lessons — DL daily
+
+- [ ] [[01 Learning/DL Daily Lessons — Step-by-Step + Quiz/Jul 12 — HW1 · Review & Cumulative Quiz|Jul 12 — HW1 · Review & Cumulative Quiz]] — study not marked done, quiz not taken 📅 2026-07-12 #deadline-dl-daily <!-- inferred: Date property + Studied/Quiz unchecked -->
 ### Implicit dated study pages — CV
 
 - [ ] [[01 Learning/Computer Vision — Foundations Study Tracker/Stereo, Homographies, Single-View & Learned Depth|Stereo, Homographies, Single-View & Learned Depth]] — scheduled CV study page (Not-Started) 📅 2026-07-12 #deadline-cv <!-- inferred: Date property treated as scheduled study deadline -->

@@ -49,7 +49,7 @@ Category:
 ## Reminder syntax
 
 ```md
-- [ ] Email professor (@2026-07-12 09:30) 📅 2026-07-12 #task/admin
+- [x] Email professor (@2026-07-12 09:30) 📅 2026-07-12 #task/admin
 ```
 
 ## Tasks syntax

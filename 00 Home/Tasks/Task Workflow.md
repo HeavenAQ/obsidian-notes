@@ -33,6 +33,6 @@ Category:
 ```md
 - [ ] Review paper X 🔺 📅 2026-07-15 #task/research
 - [ ] Work on HW1 implementation ⏳ 2026-07-13 #task/homework
-- [ ] Email professor about dataset access (@2026-07-12 09:30) 📅 2026-07-12 #task/admin
+- [x] Email professor about dataset access (@2026-07-12 09:30) 📅 2026-07-12 #task/admin
 - [ ] Waiting for dataset approval #task/waiting
 ```

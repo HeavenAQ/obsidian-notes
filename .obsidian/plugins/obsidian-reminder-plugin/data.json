@@ -1,21 +1,6 @@
 {
   "scanned": true,
-  "reminders": {
-    "00 Home/Tasks/Task Workflow.md": [
-      {
-        "title": "Email professor about dataset access 📅 2026-07-12 #task/admin",
-        "time": "2026-07-12 09:30",
-        "rowNumber": 35
-      }
-    ],
-    "00 Home/Tasks/Productivity Plugin Setup.md": [
-      {
-        "title": "Email professor 📅 2026-07-12 #task/admin",
-        "time": "2026-07-12 09:30",
-        "rowNumber": 51
-      }
-    ]
-  },
+  "reminders": {},
   "debug": false,
   "dndUntil": null,
   "settings": {
