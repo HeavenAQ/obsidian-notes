@@ -1,0 +1,33 @@
+{
+  "database": "Zotero",
+  "noteImportFolder": "02 Research/Zotero Imports",
+  "pdfExportImageDPI": 160,
+  "pdfExportImageFormat": "png",
+  "pdfExportImageQuality": 92,
+  "pdfExportImageOCR": false,
+  "citeSuggestTemplate": "[@{{citekey}}]",
+  "openNoteAfterImport": true,
+  "whichNotesToOpenAfterImport": "last-imported-note",
+  "shouldConcat": true,
+  "citeFormats": [
+    {
+      "name": "Insert Pandoc citation",
+      "format": "template",
+      "template": "[@{{citekey}}]"
+    },
+    {
+      "name": "Insert Zotero link",
+      "format": "template",
+      "template": "[{{title}}]({{desktopURI}})"
+    }
+  ],
+  "exportFormats": [
+    {
+      "name": "Import CVPR paper",
+      "outputPathTemplate": "{{citekey}}.md",
+      "imageOutputPathTemplate": "99 Assets/Zotero Annotations/{{citekey}}/",
+      "imageBaseNameTemplate": "annotation",
+      "templatePath": "00 Home/Templates/Zotero Literature Note Template.md"
+    }
+  ]
+}

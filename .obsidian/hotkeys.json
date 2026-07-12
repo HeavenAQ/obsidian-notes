@@ -9,10 +9,6 @@
   ],
   "workspace:next-tab": [
     {
-      "modifiers": [],
-      "key": "Tab"
-    },
-    {
       "modifiers": [
         "Mod",
         "Shift"
@@ -21,12 +17,6 @@
     }
   ],
   "workspace:previous-tab": [
-    {
-      "modifiers": [
-        "Shift"
-      ],
-      "key": "Tab"
-    },
     {
       "modifiers": [
         "Mod",
@@ -141,15 +131,6 @@
       "key": "."
     }
   ],
-  "claudian-productivity:capture-task-inbox": [
-    {
-      "modifiers": [
-        "Mod",
-        "Shift"
-      ],
-      "key": "T"
-    }
-  ],
   "claudian-productivity:open-task-command-center": [
     {
       "modifiers": [
@@ -184,14 +165,6 @@
         "Shift"
       ],
       "key": "E"
-    }
-  ],
-  "obsidian-tasks-plugin:edit-task": [
-    {
-      "modifiers": [
-        "Alt"
-      ],
-      "key": "Enter"
     }
   ],
   "obsidian-day-planner:show-day-planner-timeline": [
@@ -237,6 +210,24 @@
         "Shift"
       ],
       "key": "R"
+    }
+  ],
+  "obsidian-zotero-desktop-connector:zdc-exp-Import CVPR paper": [
+    {
+      "modifiers": [
+        "Mod",
+        "Alt"
+      ],
+      "key": "I"
+    }
+  ],
+  "obsidian-zotero-desktop-connector:zdc-Insert Pandoc citation": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "C"
     }
   ]
 }

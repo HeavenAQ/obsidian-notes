@@ -11,13 +11,17 @@ Code Link: https://github.com/facebookresearch/sam-3d-body
 Relatedness: Strongly
 Topic: Self-Contact-Hand-Face-CV
 snippet: "This is a current strong full-body HMR baseline. Test whether its hand recovery and unusual-pose generalization improve contact-candidate quality over supplied SMPL-H on a manageable subset."
-Authors: Xitong Yang et al.
+Authors: Xitong Yang, Devansh Kukreja, Don Pinkus, Taosha Fan, Jinhyung Park, Soyong Shin, Jinkun Cao, Jia-Wei Liu, Nicolas Ugrinovic, Anushka Sagar, Jitendra Malik, Matt Feiszli, Piotr Dollar, Kris Kitani
 tags:
   - Human-Mesh-Recovery
   - Hand-Pose
   - Foundation-Model
 Tier: Essential
 Assigned Date: 2026-08-07
+Citation Key: yang2026sam3dbody
+Local PDF: "[[99 Assets/Papers/CVPR 2027/SAM 3D Body Robust Full-Body Human Mesh Recovery.pdf]]"
+Zotero URI: "zotero://select/library/items/4N5FTVAD"
+Zotero PDF URI: "zotero://open-pdf/library/items/TQ3CJIQV"
 ---
 # Reading objective
 

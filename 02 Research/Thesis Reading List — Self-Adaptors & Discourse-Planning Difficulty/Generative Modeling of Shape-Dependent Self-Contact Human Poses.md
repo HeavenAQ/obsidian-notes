@@ -7,11 +7,15 @@ Reading Status: Reading
 Venue: ICCV
 Topic: Self-Contact-Hand-Face-CV
 snippet: ""
-Authors: Takehiko Ohkawa, Jihyun Lee, Shunsuke Saito, Jason Saragih, Fabian Prado, Yichen Xu, Shoou-I Yu, Ryosuke Furuta, Yoichi Sato, Takaaki Shiratori
+Authors: Takehiko Ohkawa, Jihyun Lee, Shunsuke Saito, Jason Saragih, Fabian Prada, Yichen Xu, Shoou-I Yu, Ryosuke Furuta, Yoichi Sato, Takaaki Shiratori
 tags:
   - Contact-Aware
 Tier: Recommended
 Assigned Date: 2026-07-07
+Citation Key: ohkawa2025generative
+Local PDF: "[[99 Assets/Papers/CVPR 2027/Generative Modeling of Shape-Dependent Self-Contact Human Poses.pdf]]"
+Zotero URI: "zotero://select/library/items/X983GM8E"
+Zotero PDF URI: "zotero://open-pdf/library/items/47FZRHSD"
 ---
 Found via **DF-Mamba** (2026-07-05 night) — direct reference [50]. Introduces Goliath-SC, a large self-contact human-pose dataset (383K poses, 130 subjects) with body-shape-conditioned generative modeling of self-contact priors. Full-body self-contact rather than hand-face specifically, but directly relevant methodology for contact-aware pose modeling (RQ2). Same first author as DF-Mamba.
 

@@ -14,13 +14,17 @@ snippet: |2-
     • hand-face interaction 
     • SOTA with better generalization
     • mostly profile images, unknown performance on full body
-Authors: Qingxuan Wu, Zhiyang Dou, Sirui Xu, et al.
+Authors: Qingxuan Wu, Zhiyang Dou, Sirui Xu, Soshi Shimada, Chen Wang, Zhengming Yu, Yuan Liu, Cheng Lin, Zeyu Cao, Taku Komura, Vladislav Golyanik, Christian Theobalt, Wenping Wang, Lingjie Liu
 tags:
   - Contact-Aware
   - Hand-Face-CV
   - Weak-Supervision
 Tier: Essential
 Assigned Date: 2026-07-03
+Citation Key: wu2025dice
+Local PDF: "[[99 Assets/Papers/CVPR 2027/DICE End-to-end Deformation Capture of Hand-Face Interactions from a Single Image.pdf]]"
+Zotero URI: "zotero://select/library/items/TW7RXF9P"
+Zotero PDF URI: "zotero://open-pdf/library/items/ERC823VL"
 ---
 ## Notes
 

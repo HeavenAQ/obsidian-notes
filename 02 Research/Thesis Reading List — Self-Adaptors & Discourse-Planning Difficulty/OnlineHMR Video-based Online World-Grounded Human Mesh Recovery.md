@@ -18,6 +18,10 @@ tags:
   - Video
 Tier: Recommended
 Assigned Date: 2026-08-17
+Citation Key: zhao2026onlinehmr
+Local PDF: "[[99 Assets/Papers/CVPR 2027/OnlineHMR Video-based Online World-Grounded Human Mesh Recovery.pdf]]"
+Zotero URI: "zotero://select/library/items/VD5J6SPK"
+Zotero PDF URI: "zotero://open-pdf/library/items/BNQQQRJ7"
 ---
 # Reading objective
 

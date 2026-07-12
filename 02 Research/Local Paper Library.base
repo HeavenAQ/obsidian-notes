@@ -1,0 +1,102 @@
+filters:
+  and:
+    - note["Local PDF"] != null
+formulas:
+  TierRank: if(note.Tier == "Essential", 1, if(note.Tier == "Recommended", 2, 3))
+properties:
+  file.name:
+    displayName: Paper
+  Local PDF:
+    displayName: Local PDF
+  Reading Status:
+    displayName: Reading Status
+  Tier:
+    displayName: Tier
+  Citation Key:
+    displayName: Citation Key
+  Zotero URI:
+    displayName: Zotero
+  Zotero PDF URI:
+    displayName: Zotero PDF
+  Venue:
+    displayName: Venue
+  Year:
+    displayName: Year
+  Topic:
+    displayName: Topic
+  tags:
+    displayName: Tags
+  Authors:
+    displayName: Authors
+  Paper Link:
+    displayName: Source
+  Code Link:
+    displayName: Code
+views:
+  - type: table
+    name: 📚 All Local Papers
+    order:
+      - file.name
+      - Local PDF
+      - Reading Status
+      - Tier
+      - Citation Key
+      - Zotero URI
+      - Zotero PDF URI
+      - Venue
+      - Year
+      - Topic
+      - tags
+      - Authors
+      - Paper Link
+      - Code Link
+    sort:
+      - property: formula.TierRank
+        direction: ASC
+      - property: Year
+        direction: DESC
+  - type: table
+    name: 📥 To Read
+    filters:
+      and:
+        - note["Reading Status"] == "To-Read"
+    order:
+      - file.name
+      - Local PDF
+      - Tier
+      - Assigned Date
+      - Citation Key
+      - Zotero URI
+      - Zotero PDF URI
+      - Topic
+    sort:
+      - property: formula.TierRank
+        direction: ASC
+      - property: Assigned Date
+        direction: ASC
+  - type: table
+    name: 📖 Reading
+    filters:
+      and:
+        - note["Reading Status"] == "Reading"
+    order:
+      - file.name
+      - Local PDF
+      - Citation Key
+      - Zotero URI
+      - Zotero PDF URI
+      - Topic
+  - type: table
+    name: ✅ Read
+    filters:
+      and:
+        - note["Reading Status"] == "Read"
+    order:
+      - file.name
+      - Local PDF
+      - Citation Key
+      - Zotero URI
+      - Zotero PDF URI
+      - Venue
+      - Year
+

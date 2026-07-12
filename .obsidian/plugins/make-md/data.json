@@ -40,12 +40,10 @@
   "expandedSpaces": [
     "/",
     "//Notion",
+    "//Tags",
     "//03 Algorithms",
     "//01 Learning",
-    "//04 Reference",
-    "//01 Learning/01 Learning/DL Daily Lessons — Step-by-Step + Quiz",
-    "//Tags",
-    "//02 Research"
+    "//01 Learning/01 Learning/Computer Vision — Foundations Study Tracker"
   ],
   "expandFolderOnClick": true,
   "spacesFolder": "Tags",

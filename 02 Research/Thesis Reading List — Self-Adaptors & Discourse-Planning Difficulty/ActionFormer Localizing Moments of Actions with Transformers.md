@@ -18,6 +18,10 @@ tags:
   - Benchmark
 Tier: Essential
 Assigned Date: 2026-07-28
+Citation Key: zhang2022actionformer
+Local PDF: "[[99 Assets/Papers/CVPR 2027/ActionFormer Localizing Moments of Actions with Transformers.pdf]]"
+Zotero URI: "zotero://select/library/items/I69UFHR3"
+Zotero PDF URI: "zotero://open-pdf/library/items/WK3MUG6N"
 ---
 # Reading objective
 

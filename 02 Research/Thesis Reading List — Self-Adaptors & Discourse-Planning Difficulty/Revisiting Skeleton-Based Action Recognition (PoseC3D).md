@@ -7,11 +7,15 @@ Venue: CVPR
 Code Link: https://github.com/kennymckormick/pyskl
 Topic: Action-Recognition-Backbone
 snippet: ""
-Authors: H. Duan, Y. Zhao, K. Chen, et al.
+Authors: Haodong Duan, Yue Zhao, Kai Chen, Dahua Lin, Bo Dai
 tags:
   - Skeleton
   - Video-Backbone
 Tier: Background
+Citation Key: duan2022revisiting
+Local PDF: "[[99 Assets/Papers/CVPR 2027/Revisiting Skeleton-Based Action Recognition (PoseC3D).pdf]]"
+Zotero URI: "zotero://select/library/items/9YVPPTL5"
+Zotero PDF URI: "zotero://open-pdf/library/items/KRB6F5RF"
 ---
 **Background.**  GCN skeleton methods are brittle to noisy pose. 
 

@@ -12,3 +12,6 @@
 
 # Trash
 .trash/
+
+# Locally managed research PDFs (large binary files)
+99 Assets/Papers/

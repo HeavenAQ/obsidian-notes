@@ -18,6 +18,10 @@ tags:
   - Transformer
 Tier: Essential
 Assigned Date: 2026-07-31
+Citation Key: shi2023tridet
+Local PDF: "[[99 Assets/Papers/CVPR 2027/TriDet Temporal Action Detection with Relative Boundary Modeling.pdf]]"
+Zotero URI: "zotero://select/library/items/WXLMGWFL"
+Zotero PDF URI: "zotero://open-pdf/library/items/RNSAP9RN"
 ---
 # Reading objective
 

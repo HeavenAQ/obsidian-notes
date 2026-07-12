@@ -22,6 +22,10 @@ tags:
   - Dataset
 Tier: Essential
 Assigned Date: 2026-07-04
+Citation Key: mueller2021self
+Local PDF: "[[99 Assets/Papers/CVPR 2027/On Self-Contact and Human Pose (TUCH).pdf]]"
+Zotero URI: "zotero://select/library/items/NRTJ22HR"
+Zotero PDF URI: "zotero://open-pdf/library/items/I7824C4Q"
 ---
 ## Notes
 

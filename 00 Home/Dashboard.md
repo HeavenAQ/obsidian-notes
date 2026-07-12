@@ -239,6 +239,7 @@ dv.table(["Practice / review", "Difficulty", "Topic", "Status"], practice);
 - 🧠 **[[01 Learning/DL Daily Lessons — Step-by-Step + Quiz/DL Daily Lessons — Step-by-Step + Quiz.base|DL Daily Lessons Base]]**
 - 📝 **[[01 Learning/DL Homework Practice — MIT 6.7960/DL Homework Practice — MIT 6.7960.base|DL Homework Base]]**
 - 📖 **[[02 Research/Thesis Reading List — Self-Adaptors & Discourse-Planning Difficulty/Thesis Reading List — Self-Adaptors & Discourse-Planning Difficulty.base|Thesis Reading List Base]]**
+- 📚 **[[02 Research/Local Paper Library.base|Local Paper Library]]** — downloaded PDFs, Zotero links, citation keys, and reading progress
 - 🎓 **[[02 Research/Research Thesis|Research Thesis]]**
 
 ## ✏️ Recently Edited

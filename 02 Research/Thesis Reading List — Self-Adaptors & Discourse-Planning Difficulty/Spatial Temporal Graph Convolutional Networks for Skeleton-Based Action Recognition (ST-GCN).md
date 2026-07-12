@@ -7,10 +7,14 @@ Venue: AAAI
 Code Link: https://github.com/yysijie/st-gcn
 Topic: Action-Recognition-Backbone
 snippet: ""
-Authors: S. Yan, Y. Xiong, D. Lin
+Authors: Sijie Yan, Yuanjun Xiong, Dahua Lin
 tags:
   - Skeleton
 Tier: Background
+Citation Key: yan2018spatial
+Local PDF: "[[99 Assets/Papers/CVPR 2027/Spatial Temporal Graph Convolutional Networks for Skeleton-Based Action Recognition (ST-GCN).pdf]]"
+Zotero URI: "zotero://select/library/items/HTSYZFXY"
+Zotero PDF URI: "zotero://open-pdf/library/items/XHXHIWSF"
 ---
 **Background.**  skeleton modeling relied on hand-crafted parts/rules. 
 

@@ -1,20 +1,48 @@
 {
   "recentFiles": [
     {
-      "basename": "CVPR 2027 Submission Roadmap — Temporal Self-Contact",
-      "path": "02 Research/CVPR 2027 Submission Roadmap — Temporal Self-Contact.md"
+      "basename": "300. Longest Increasing Subsequence",
+      "path": "03 Algorithms/DSA/300. Longest Increasing Subsequence.md"
     },
     {
-      "basename": "Research Thesis",
-      "path": "02 Research/Research Thesis.md"
+      "basename": "Local Paper Library",
+      "path": "02 Research/Local Paper Library.base"
     },
     {
-      "basename": "Dashboard",
-      "path": "00 Home/Dashboard.md"
+      "basename": "Local Paper Workflow",
+      "path": "02 Research/Local Paper Workflow.md"
+    },
+    {
+      "basename": "Task Kanban Board",
+      "path": "00 Home/Tasks/Task Kanban Board.md"
     },
     {
       "basename": "Jul 2 — HW1 · 18.02SC Unit 1 Part A Vectors, Determinants & Planes",
       "path": "01 Learning/DL Daily Lessons — Step-by-Step + Quiz/Jul 2 — HW1 · 18.02SC Unit 1 Part A Vectors, Determinants & Planes.md"
+    },
+    {
+      "basename": "Computer Vision — Foundations Study Tracker",
+      "path": "01 Learning/Computer Vision — Foundations Study Tracker/Computer Vision — Foundations Study Tracker.base"
+    },
+    {
+      "basename": "Java Cheat Sheet for DSA (syntax, types, structures, functions)",
+      "path": "03 Algorithms/DSA/Java Cheat Sheet for DSA (syntax, types, structures, functions).md"
+    },
+    {
+      "basename": "Algorithms Hub",
+      "path": "03 Algorithms/Algorithms Hub.base"
+    },
+    {
+      "basename": "DL Daily Lessons — Step-by-Step + Quiz",
+      "path": "01 Learning/DL Daily Lessons — Step-by-Step + Quiz/DL Daily Lessons — Step-by-Step + Quiz.base"
+    },
+    {
+      "basename": "Learning Hub",
+      "path": "01 Learning/Learning Hub.base"
+    },
+    {
+      "basename": "Vault Map",
+      "path": "00 Home/Vault Map.md"
     },
     {
       "basename": "Jul 10 — HW1 · Karpathy Let's build GPT — Bigram → Self-Attention → nanoGPT (code-along)",
@@ -25,12 +53,16 @@
       "path": "01 Learning/DL Daily Lessons — Step-by-Step + Quiz/Jul 3 — HW1 · 18.02SC Unit 1 Part B Matrix Multiplication, Inverses & Linear Systems.md"
     },
     {
-      "basename": "Task Kanban Board",
-      "path": "00 Home/Tasks/Task Kanban Board.md"
+      "basename": "CVPR 2027 Submission Roadmap — Temporal Self-Contact",
+      "path": "02 Research/CVPR 2027 Submission Roadmap — Temporal Self-Contact.md"
     },
     {
-      "basename": "DL Daily Lessons — Step-by-Step + Quiz",
-      "path": "01 Learning/DL Daily Lessons — Step-by-Step + Quiz/DL Daily Lessons — Step-by-Step + Quiz.base"
+      "basename": "Research Thesis",
+      "path": "02 Research/Research Thesis.md"
+    },
+    {
+      "basename": "Dashboard",
+      "path": "00 Home/Dashboard.md"
     },
     {
       "basename": "Task Command Center",

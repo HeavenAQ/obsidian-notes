@@ -18,6 +18,10 @@ tags:
   - Sensor-Fusion
 Tier: Essential
 Assigned Date: 2026-07-14
+Citation Key: forte2025contact
+Local PDF: "[[99 Assets/Papers/CVPR 2027/Contact-Aware Refinement of Human Pose Pseudo-Ground Truth via Bioimpedance Sensing.pdf]]"
+Zotero URI: "zotero://select/library/items/WZLQ3ZSA"
+Zotero PDF URI: "zotero://open-pdf/library/items/8P8DUJLV"
 ---
 # Reading objective
 

@@ -25,6 +25,14 @@ properties:
     displayName: Code Link
   Paper Link:
     displayName: Paper Link
+  Local PDF:
+    displayName: Local PDF
+  Citation Key:
+    displayName: Citation Key
+  Zotero URI:
+    displayName: Zotero
+  Zotero PDF URI:
+    displayName: Zotero PDF
   Tier:
     displayName: Tier
   Topic:
@@ -49,6 +57,10 @@ views:
       - Authors
       - Code Link
       - Paper Link
+      - Local PDF
+      - Citation Key
+      - Zotero URI
+      - Zotero PDF URI
       - Tier
       - Topic
       - Venue
@@ -77,6 +89,10 @@ views:
       - Authors
       - Code Link
       - Paper Link
+      - Local PDF
+      - Citation Key
+      - Zotero URI
+      - Zotero PDF URI
       - Tier
       - Topic
       - Venue
@@ -103,6 +119,10 @@ views:
       - Authors
       - Code Link
       - Paper Link
+      - Local PDF
+      - Citation Key
+      - Zotero URI
+      - Zotero PDF URI
       - Tier
       - Topic
       - Venue
@@ -129,6 +149,10 @@ views:
       - Authors
       - Code Link
       - Paper Link
+      - Local PDF
+      - Citation Key
+      - Zotero URI
+      - Zotero PDF URI
       - Tier
       - Topic
       - Venue
@@ -153,6 +177,10 @@ views:
       - Authors
       - Code Link
       - Paper Link
+      - Local PDF
+      - Citation Key
+      - Zotero URI
+      - Zotero PDF URI
       - Tier
       - Topic
       - Venue

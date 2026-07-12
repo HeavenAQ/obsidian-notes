@@ -19,6 +19,9 @@ Target Submission Window: November 2026
 
 # CVPR 2027 Submission Roadmap — Temporal Self-Contact
 
+> [!info] Local literature library
+> All roadmap papers and their PDFs are managed in [[Local Paper Library.base]]. See [[Local Paper Workflow]] for the Zotero, Better BibTeX, Zotero Integration, and PDF++ workflow.
+
 > [!important] One-sentence objective
 > Submit a **computer-vision paper carved out of the thesis**, centered on a new benchmark and method for **temporally localizing physical self-contact in monocular conversational video**. The psycholinguistic self-adaptor/disfluency analysis is a downstream demonstration, not the CVPR paper's main claim.
 
@@ -289,4 +292,3 @@ Otherwise, preserve the work and target ICCV 2027 with a larger benchmark and st
 - [ActionFormer — ECCV 2022](https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136640485.pdf)
 - [TriDet — CVPR 2023](https://openaccess.thecvf.com/content/CVPR2023/html/Shi_TriDet_Temporal_Action_Detection_With_Relative_Boundary_Modeling_CVPR_2023_paper.html)
 - [End-to-End Spatio-Temporal Action Localisation — CVPR 2024](https://openaccess.thecvf.com/content/CVPR2024/html/Gritsenko_End-to-End_Spatio-Temporal_Action_Localisation_with_Video_Transformers_CVPR_2024_paper.html)
-
