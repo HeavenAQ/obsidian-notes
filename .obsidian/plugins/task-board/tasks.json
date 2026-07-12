@@ -1,10 +1,10 @@
 {
     "VaultName": "Knowledge Base",
-    "Modified_at": "2026-07-12T23:54:57",
+    "Modified_at": "2026-07-13T02:15:17",
     "Pending": {
         "02 Research/Thesis Reading List — Self-Adaptors & Discourse-Planning Difficulty/ActionFormer Localizing Moments of Actions with Transformers.md": [
             {
-                "id": "3074058494",
+                "id": "4074686795",
                 "legacyId": "",
                 "status": " ",
                 "title": "- [ ] Exact task, inputs, outputs, and claimed novelty",
@@ -30,7 +30,7 @@
                 "reminder": ""
             },
             {
-                "id": "3578689447",
+                "id": "2408443899",
                 "legacyId": "",
                 "status": " ",
                 "title": "- [ ] Dataset size, split unit, annotations, and license",
@@ -56,7 +56,7 @@
                 "reminder": ""
             },
             {
-                "id": "3540337775",
+                "id": "749892379",
                 "legacyId": "",
                 "status": " ",
                 "title": "- [ ] Strongest relevant baseline and metric protocol",
@@ -82,7 +82,7 @@
                 "reminder": ""
             },
             {
-                "id": "3358157330",
+                "id": "2577065075",
                 "legacyId": "",
                 "status": " ",
                 "title": "- [ ] Component or loss worth reproducing",
@@ -108,7 +108,7 @@
                 "reminder": ""
             },
             {
-                "id": "442150652",
+                "id": "440290399",
                 "legacyId": "",
                 "status": " ",
                 "title": "- [ ] Failure mode or limitation that affects [[CVPR 2027 Submission Roadmap — Temporal Self-Contact]]",
@@ -136,7 +136,7 @@
         ],
         "02 Research/Thesis Reading List — Self-Adaptors & Discourse-Planning Difficulty/SocialGesture Delving into Multi-person Gesture Understanding.md": [
             {
-                "id": "2141535488",
+                "id": "4164041139",
                 "legacyId": "",
                 "status": " ",
                 "title": "- [ ] Exact task, inputs, outputs, and claimed novelty",
@@ -162,7 +162,7 @@
                 "reminder": ""
             },
             {
-                "id": "2440284622",
+                "id": "1806248909",
                 "legacyId": "",
                 "status": " ",
                 "title": "- [ ] Dataset size, split unit, annotations, and license",
@@ -188,7 +188,7 @@
                 "reminder": ""
             },
             {
-                "id": "1704709444",
+                "id": "2859819650",
                 "legacyId": "",
                 "status": " ",
                 "title": "- [ ] Strongest relevant baseline and metric protocol",
@@ -214,7 +214,7 @@
                 "reminder": ""
             },
             {
-                "id": "350452034",
+                "id": "2205600621",
                 "legacyId": "",
                 "status": " ",
                 "title": "- [ ] Component or loss worth reproducing",
@@ -240,7 +240,7 @@
                 "reminder": ""
             },
             {
-                "id": "2075989241",
+                "id": "3269671126",
                 "legacyId": "",
                 "status": " ",
                 "title": "- [ ] Failure mode or limitation that affects [[CVPR 2027 Submission Roadmap — Temporal Self-Contact]]",
@@ -268,7 +268,7 @@
         ],
         "02 Research/Thesis Reading List — Self-Adaptors & Discourse-Planning Difficulty/Seamless Interaction Dyadic Audiovisual Motion Modeling and Large-Scale Dataset.md": [
             {
-                "id": "1562333527",
+                "id": "1933991784",
                 "legacyId": "",
                 "status": " ",
                 "title": "- [ ] Exact task, inputs, outputs, and claimed novelty",
@@ -294,7 +294,7 @@
                 "reminder": ""
             },
             {
-                "id": "1451288571",
+                "id": "2252641832",
                 "legacyId": "",
                 "status": " ",
                 "title": "- [ ] Dataset size, split unit, annotations, and license",
@@ -320,7 +320,7 @@
                 "reminder": ""
             },
             {
-                "id": "3995351103",
+                "id": "1397941996",
                 "legacyId": "",
                 "status": " ",
                 "title": "- [ ] Strongest relevant baseline and metric protocol",
@@ -346,7 +346,7 @@
                 "reminder": ""
             },
             {
-                "id": "2173416362",
+                "id": "4203636122",
                 "legacyId": "",
                 "status": " ",
                 "title": "- [ ] Component or loss worth reproducing",
@@ -372,7 +372,7 @@
                 "reminder": ""
             },
             {
-                "id": "509571053",
+                "id": "1994264112",
                 "legacyId": "",
                 "status": " ",
                 "title": "- [ ] Failure mode or limitation that affects [[CVPR 2027 Submission Roadmap — Temporal Self-Contact]]",
@@ -400,7 +400,7 @@
         ],
         "02 Research/Thesis Reading List — Self-Adaptors & Discourse-Planning Difficulty/Contact-Aware Refinement of Human Pose Pseudo-Ground Truth via Bioimpedance Sensing.md": [
             {
-                "id": "3116340932",
+                "id": "2915610707",
                 "legacyId": "",
                 "status": " ",
                 "title": "- [ ] Exact task, inputs, outputs, and claimed novelty",
@@ -426,7 +426,7 @@
                 "reminder": ""
             },
             {
-                "id": "2180370896",
+                "id": "510177601",
                 "legacyId": "",
                 "status": " ",
                 "title": "- [ ] Dataset size, split unit, annotations, and license",
@@ -452,7 +452,7 @@
                 "reminder": ""
             },
             {
-                "id": "1188089269",
+                "id": "487787430",
                 "legacyId": "",
                 "status": " ",
                 "title": "- [ ] Strongest relevant baseline and metric protocol",
@@ -478,7 +478,7 @@
                 "reminder": ""
             },
             {
-                "id": "3088971674",
+                "id": "501993555",
                 "legacyId": "",
                 "status": " ",
                 "title": "- [ ] Component or loss worth reproducing",
@@ -504,7 +504,7 @@
                 "reminder": ""
             },
             {
-                "id": "1117286771",
+                "id": "2845398604",
                 "legacyId": "",
                 "status": " ",
                 "title": "- [ ] Failure mode or limitation that affects [[CVPR 2027 Submission Roadmap — Temporal Self-Contact]]",
@@ -4789,7 +4789,7 @@
         "02 Research/Thesis Reading List — Self-Adaptors & Discourse-Planning Difficulty/Bringing Inputs to Shared Domains for 3D Interacting Hands Recovery in the Wild (InterWild).md": [],
         "02 Research/Thesis Reading List — Self-Adaptors & Discourse-Planning Difficulty/Revisiting Skeleton-Based Action Recognition (PoseC3D).md": [],
         "02 Research/Thesis Reading List — Self-Adaptors & Discourse-Planning Difficulty/Spatial Temporal Graph Convolutional Networks for Skeleton-Based Action Recognition (ST-GCN).md": [],
-        "03 Algorithms/DSA/300. Longest Increasing Subsequence.md": []
+        "02 Research/Thesis Reading List — Self-Adaptors & Discourse-Planning Difficulty/MambaTAD When State-Space Models Meet Long-Range Temporal Action Detection.md": []
     },
     "Completed": {
         "00 Home/Tasks/Task Command Center.md": [],
@@ -4978,10 +4978,6 @@
         "02 Research/Thesis Reading List — Self-Adaptors & Discourse-Planning Difficulty/Bringing Inputs to Shared Domains for 3D Interacting Hands Recovery in the Wild (InterWild).md": [],
         "02 Research/Thesis Reading List — Self-Adaptors & Discourse-Planning Difficulty/Revisiting Skeleton-Based Action Recognition (PoseC3D).md": [],
         "02 Research/Thesis Reading List — Self-Adaptors & Discourse-Planning Difficulty/Spatial Temporal Graph Convolutional Networks for Skeleton-Based Action Recognition (ST-GCN).md": [],
-        "03 Algorithms/DSA/300. Longest Increasing Subsequence.md": [],
-        "02 Research/Thesis Reading List — Self-Adaptors & Discourse-Planning Difficulty/Contact-Aware Refinement of Human Pose Pseudo-Ground Truth via Bioimpedance Sensing.md": [],
-        "02 Research/Thesis Reading List — Self-Adaptors & Discourse-Planning Difficulty/Seamless Interaction Dyadic Audiovisual Motion Modeling and Large-Scale Dataset.md": [],
-        "02 Research/Thesis Reading List — Self-Adaptors & Discourse-Planning Difficulty/SocialGesture Delving into Multi-person Gesture Understanding.md": [],
-        "02 Research/Thesis Reading List — Self-Adaptors & Discourse-Planning Difficulty/ActionFormer Localizing Moments of Actions with Transformers.md": []
+        "02 Research/Thesis Reading List — Self-Adaptors & Discourse-Planning Difficulty/MambaTAD When State-Space Models Meet Long-Range Temporal Action Detection.md": []
     }
 }

@@ -5,36 +5,16 @@
       "path": "03 Algorithms/DSA/Java Cheat Sheet for DSA (syntax, types, structures, functions).md"
     },
     {
-      "basename": "300. Longest Increasing Subsequence",
-      "path": "03 Algorithms/DSA/300. Longest Increasing Subsequence.md"
+      "basename": "2026-07-13",
+      "path": "00 Home/Daily Notes/2026-07-13.md"
     },
     {
-      "basename": "Inbox",
-      "path": "00 Home/Inbox/Inbox.md"
-    },
-    {
-      "basename": "Untitled",
-      "path": "00 Home/Inbox/Untitled.md"
-    },
-    {
-      "basename": "Local Paper Library",
-      "path": "02 Research/Local Paper Library.base"
-    },
-    {
-      "basename": "Local Paper Workflow",
-      "path": "02 Research/Local Paper Workflow.md"
+      "basename": "Reference Hub",
+      "path": "04 Reference/Reference Hub.base"
     },
     {
       "basename": "Task Kanban Board",
       "path": "00 Home/Tasks/Task Kanban Board.md"
-    },
-    {
-      "basename": "Jul 2 — HW1 · 18.02SC Unit 1 Part A Vectors, Determinants & Planes",
-      "path": "01 Learning/DL Daily Lessons — Step-by-Step + Quiz/Jul 2 — HW1 · 18.02SC Unit 1 Part A Vectors, Determinants & Planes.md"
-    },
-    {
-      "basename": "Computer Vision — Foundations Study Tracker",
-      "path": "01 Learning/Computer Vision — Foundations Study Tracker/Computer Vision — Foundations Study Tracker.base"
     },
     {
       "basename": "Algorithms Hub",
@@ -45,16 +25,44 @@
       "path": "01 Learning/DL Daily Lessons — Step-by-Step + Quiz/DL Daily Lessons — Step-by-Step + Quiz.base"
     },
     {
-      "basename": "Learning Hub",
-      "path": "01 Learning/Learning Hub.base"
-    },
-    {
       "basename": "Vault Map",
       "path": "00 Home/Vault Map.md"
     },
     {
+      "basename": "Computer Vision — Foundations Study Tracker",
+      "path": "01 Learning/Computer Vision — Foundations Study Tracker/Computer Vision — Foundations Study Tracker.base"
+    },
+    {
       "basename": "Jul 10 — HW1 · Karpathy Let's build GPT — Bigram → Self-Attention → nanoGPT (code-along)",
       "path": "01 Learning/DL Daily Lessons — Step-by-Step + Quiz/Jul 10 — HW1 · Karpathy Let's build GPT — Bigram → Self-Attention → nanoGPT (code-along).md"
+    },
+    {
+      "basename": "Learning Hub",
+      "path": "01 Learning/Learning Hub.base"
+    },
+    {
+      "basename": "300. Longest Increasing Subsequence",
+      "path": "03 Algorithms/DSA/300. Longest Increasing Subsequence.md"
+    },
+    {
+      "basename": "Local Paper Library",
+      "path": "02 Research/Local Paper Library.base"
+    },
+    {
+      "basename": "Inbox",
+      "path": "00 Home/Inbox/Inbox.md"
+    },
+    {
+      "basename": "Untitled",
+      "path": "00 Home/Inbox/Untitled.md"
+    },
+    {
+      "basename": "Local Paper Workflow",
+      "path": "02 Research/Local Paper Workflow.md"
+    },
+    {
+      "basename": "Jul 2 — HW1 · 18.02SC Unit 1 Part A Vectors, Determinants & Planes",
+      "path": "01 Learning/DL Daily Lessons — Step-by-Step + Quiz/Jul 2 — HW1 · 18.02SC Unit 1 Part A Vectors, Determinants & Planes.md"
     },
     {
       "basename": "Jul 3 — HW1 · 18.02SC Unit 1 Part B Matrix Multiplication, Inverses & Linear Systems",
