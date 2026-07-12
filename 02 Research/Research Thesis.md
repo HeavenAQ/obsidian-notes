@@ -82,6 +82,33 @@ Sources to recheck before submission planning: [WACV 2027 dates](https://wacv.th
 
 **Go/no-go rule:** do not submit to CVPR just because the story is interesting. Submit only if the CV contribution can be stated as: *we introduce the first temporal self-contact benchmark for conversational video and a temporal occlusion-aware contact model that substantially outperforms 2D, single-frame, and generic video baselines under subject-independent evaluation.*
 
+### Venue timing — why ICCV/ECCV are the realistic top-tier targets (not a downgrade)
+
+> [!important] The lever is **timing, not tier.** CVPR, ICCV and ECCV are the **same tier** (~25–30% acceptance, equal prestige). ICCV/ECCV are **not easier** — the only difference for *this* project is *when* the deadline lands.
+
+- CVPR's paper deadline is **mid-November**; ICCV and ECCV deadlines fall in **early spring (~Feb–Mar)** — several months later. Because they alternate years, in almost any window one of them has a deadline well after the nearest CVPR.
+- A **benchmark + method** paper is the most time-sensitive kind: annotation, inter-annotator agreement, baselines, and ablations all consume calendar. A November deadline forces a rushed, incomplete submission; a March deadline lets me submit a *mature* version of the same idea. **Same bar, better-prepared paper → higher odds.**
+- The staggered cadence (CVPR Nov → ICCV/ECCV Mar → CVPR Nov) is a **built-in resubmission ladder at equal tier**, not a downgrade. WACV is the one genuinely notch-easier venue, used only as a safety net / internal sprint.
+- **Recommended target order for this project:** primary top-tier = **ICCV 2027** (~Mar 2027 deadline, ~4 extra months); **WACV 2027** (~Aug–Sep 2026) as an optional early sprint *only if* a minimal benchmark + baselines are already solid; **CVPR 2027** (~Nov 2026) only if unexpectedly ahead of schedule.
+
+#### Verified deadlines (checked 2026-07-12 — re-confirm on official site before committing)
+
+| Venue | Conference | Paper deadline | Confidence | Role for this project |
+| --- | --- | --- | --- | --- |
+| **WACV 2027** | Jan 4–8, 2027 · Disney Springs | Round 2 enrollment **Aug 21, 2026**; paper **~Aug 28–Sep 1, 2026** | Confirmed (site live) | Safety / sprint. Submit only if a minimal benchmark + baselines already work |
+| **CVPR 2027** | Jun 19–26, 2027 · Seattle | Not yet official. Expect abstract **~mid-Nov 2026**, paper ~1 week later (CVPR 2026: abstract 11/07, paper 11/13) | Estimated | Stretch. Only if benchmark + method + ablations complete by **late Oct 2026** |
+| **ICCV 2027** | Oct 2027 · Hong Kong | Not yet official. Expect **~early Mar 2027** (ICCV 2025: Mar 7; 2023: Mar 8) | Estimated | **Most realistic top-tier.** Use the extra months for annotation, ablations, stronger baselines |
+| **ECCV 2028** | 2028 · TBA | ~Mar 2028 (biennial; ECCV 2026 was Mar 5, 2026 — already passed) | Estimated | Post-thesis / future target, not the 9-month plan |
+
+#### What to focus on for each venue
+
+- **All three top-tier:** the *content* is identical — the benchmark + occlusion-aware temporal contact model + ablations (see the focus table above). Only the **polish level** differs.
+- **WACV (Aug/Sep 2026):** lead with the **benchmark + strong baselines**; a solid single method contribution is enough (more application-friendly reviewing). Good forcing function to finish the gold eval set.
+- **CVPR (Nov 2026):** the method must **clearly beat baselines with complete ablations** by the deadline — no partial ablations. Highest polish, least runway.
+- **ICCV (Mar 2027):** spend the extra ~4 months to (1) **expand the gold annotation set + report inter-annotator agreement**, (2) add **cross-corpus generalization** (RQ3), (3) add temporal-HMR baselines (DanceHMR, PMCE) and **qualitative video** results. This is where the paper becomes genuinely competitive.
+
+Sources (re-check before committing): [WACV 2027 dates](https://wacv.thecvf.com/Conferences/2027/Dates), [CVPR 2027 (dates page)](https://cvpr.thecvf.com/), [CVPR 2026 deadline reference](https://cvpr.thecvf.com/Conferences/2026/Dates), [ICCV 2027 (CVF)](https://www.thecvf.com/), [ICCV 2025 deadline reference](https://iccv.thecvf.com/Conferences/2025/Dates). Full execution plan: [[CVPR 2027 Submission Roadmap — Temporal Self-Contact]].
+
 ## Research Questions
 
 1. **RQ1 (behavioral):** Are self-adaptor occurrence, duration, and kinematics elevated around loci of discourse-planning difficulty (disfluencies, repairs, delayed turn starts)?
