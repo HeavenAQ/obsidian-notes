@@ -1,8 +1,20 @@
 {
   "recentFiles": [
     {
+      "basename": "Java Cheat Sheet for DSA (syntax, types, structures, functions)",
+      "path": "03 Algorithms/DSA/Java Cheat Sheet for DSA (syntax, types, structures, functions).md"
+    },
+    {
       "basename": "300. Longest Increasing Subsequence",
       "path": "03 Algorithms/DSA/300. Longest Increasing Subsequence.md"
+    },
+    {
+      "basename": "Inbox",
+      "path": "00 Home/Inbox/Inbox.md"
+    },
+    {
+      "basename": "Untitled",
+      "path": "00 Home/Inbox/Untitled.md"
     },
     {
       "basename": "Local Paper Library",
@@ -23,10 +35,6 @@
     {
       "basename": "Computer Vision — Foundations Study Tracker",
       "path": "01 Learning/Computer Vision — Foundations Study Tracker/Computer Vision — Foundations Study Tracker.base"
-    },
-    {
-      "basename": "Java Cheat Sheet for DSA (syntax, types, structures, functions)",
-      "path": "03 Algorithms/DSA/Java Cheat Sheet for DSA (syntax, types, structures, functions).md"
     },
     {
       "basename": "Algorithms Hub",

@@ -5,7 +5,7 @@ Year: 2025
 Should Refer:
   - Architecture
   - Benchmark
-Reading Status: To-Read
+Reading Status: Reading
 Venue: Technical Report
 Code Link: https://github.com/facebookresearch/seamless_interaction
 Relatedness: Strongly
@@ -17,7 +17,7 @@ tags:
   - Multimodal
   - Conversation
 Tier: Essential
-Assigned Date: 2026-07-18
+Assigned Date: 2026-07-12
 Citation Key: agrawal2025seamless
 Local PDF: "[[99 Assets/Papers/CVPR 2027/Seamless Interaction Dyadic Audiovisual Motion Modeling and Large-Scale Dataset.pdf]]"
 Zotero URI: "zotero://select/library/items/JQHFKSQF"

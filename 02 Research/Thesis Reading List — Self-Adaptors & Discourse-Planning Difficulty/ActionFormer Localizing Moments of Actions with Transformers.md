@@ -5,7 +5,7 @@ Year: 2022
 Should Refer:
   - Architecture
   - Benchmark
-Reading Status: To-Read
+Reading Status: Reading
 Venue: ECCV
 Code Link: https://github.com/happyharrycn/actionformer_release
 Relatedness: Strongly
@@ -17,7 +17,7 @@ tags:
   - Transformer
   - Benchmark
 Tier: Essential
-Assigned Date: 2026-07-28
+Assigned Date: 2026-07-12
 Citation Key: zhang2022actionformer
 Local PDF: "[[99 Assets/Papers/CVPR 2027/ActionFormer Localizing Moments of Actions with Transformers.pdf]]"
 Zotero URI: "zotero://select/library/items/I69UFHR3"

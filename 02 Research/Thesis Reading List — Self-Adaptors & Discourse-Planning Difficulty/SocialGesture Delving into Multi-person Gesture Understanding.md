@@ -5,7 +5,7 @@ Year: 2025
 Should Refer:
   - Architecture
   - Benchmark
-Reading Status: To-Read
+Reading Status: Reading
 Venue: CVPR
 Code Link: https://www.irohxucao.com/SocialGesture/
 Relatedness: Strongly
@@ -17,7 +17,7 @@ tags:
   - Gesture
   - Temporal-Action-Localization
 Tier: Essential
-Assigned Date: 2026-07-16
+Assigned Date: 2026-07-12
 Citation Key: cao2025socialgesture
 Local PDF: "[[99 Assets/Papers/CVPR 2027/SocialGesture Delving into Multi-person Gesture Understanding.pdf]]"
 Zotero URI: "zotero://select/library/items/CVBK8KKR"
