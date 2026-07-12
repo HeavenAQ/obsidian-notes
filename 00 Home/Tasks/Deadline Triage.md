@@ -13,9 +13,9 @@ Category:
 
 ## Summary
 
-- Total surfaced deadline/backlog items: **86**
+- Total surfaced deadline/backlog items: **87**
 - Overdue: **45**
-- Due today: **2**
+- Due today: **3**
 - Upcoming: **39**
 
 ## How to use this list
@@ -142,8 +142,11 @@ Category:
 
 - [ ] [[01 Learning/DL Homework Practice — MIT 6.7960/Homework 1|Homework 1]] — Jul 12 — PT-Cert C3 M1–M3 (Custom Architectures; Specialized Vision: Siamese, ResNets; Specialized NLP — the transformer-from-components part is now review after Karpathy: skim) · finish bo… 📅 2026-07-12 #deadline-homework-plan <!-- inferred: dated homework checklist item -->
 
-## 📅 Due today (2)
+## 📅 Due today (3)
 
+### Implicit dated lessons — DL daily
+
+- [ ] [[01 Learning/DL Daily Lessons — Step-by-Step + Quiz/Jul 13 — HW1 · Homework Day 1 — Approximation & Backprop Consolidation + Quiz|Jul 13 — HW1 · Homework Day 1 — Approximation & Backprop Consolidation + Quiz]] — study not marked done, quiz not taken 📅 2026-07-13 #deadline-dl-daily <!-- inferred: Date property + Studied/Quiz unchecked -->
 ### Implicit dated study pages — CV
 
 - [ ] [[01 Learning/Computer Vision — Foundations Study Tracker/Multiview-SfM, Radiance Fields & Motion Estimation|Multiview-SfM, Radiance Fields & Motion Estimation]] — scheduled CV study page (Not-Started) 📅 2026-07-13 #deadline-cv <!-- inferred: Date property treated as scheduled study deadline -->
