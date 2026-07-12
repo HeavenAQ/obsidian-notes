@@ -1,0 +1,455 @@
+{
+  "main": {
+    "id": "a1f78a7baeee4707",
+    "type": "split",
+    "children": [
+      {
+        "id": "9427b4c1975af1f0",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3ebf0ea234f27806",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "kanban",
+              "state": {
+                "file": "00 Home/Tasks/Task Kanban Board.md",
+                "kanbanViewState": {
+                  "kanban-plugin": "board",
+                  "list-collapse": []
+                }
+              },
+              "pinned": true,
+              "icon": "lucide-trello",
+              "title": "Task Kanban Board"
+            }
+          },
+          {
+            "id": "0390d6d6f3a9bf18",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "bases",
+              "state": {
+                "file": "04 Reference/Reference Hub.base",
+                "viewName": "Table"
+              },
+              "pinned": true,
+              "icon": "lucide-table",
+              "title": "Reference Hub"
+            }
+          },
+          {
+            "id": "d019b68fb601e3b8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "04 Reference/Document Hub/Unified Acoustic-to-Speech-to-Language Embedding Space & the Neural Basis of Natural Conversation (Whisper + ECoG).md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Unified Acoustic-to-Speech-to-Language Embedding Space & the Neural Basis of Natural Conversation (Whisper + ECoG)"
+            }
+          },
+          {
+            "id": "6839bc4670bea375",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "bases",
+              "state": {
+                "file": "01 Learning/DL Daily Lessons — Step-by-Step + Quiz/DL Daily Lessons — Step-by-Step + Quiz.base",
+                "viewName": "Table"
+              },
+              "pinned": true,
+              "icon": "lucide-table",
+              "title": "DL Daily Lessons — Step-by-Step + Quiz"
+            }
+          },
+          {
+            "id": "0a956afb05c7678a",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "bases",
+              "state": {
+                "file": "03 Algorithms/Algorithms Hub.base",
+                "viewName": "Table"
+              },
+              "pinned": true,
+              "icon": "lucide-table",
+              "title": "Algorithms Hub"
+            }
+          },
+          {
+            "id": "78f2a6906646da47",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "bases",
+              "state": {
+                "file": "01 Learning/Computer Vision — Foundations Study Tracker/Computer Vision — Foundations Study Tracker.base",
+                "viewName": "Table"
+              },
+              "pinned": true,
+              "icon": "lucide-table",
+              "title": "Computer Vision — Foundations Study Tracker"
+            }
+          },
+          {
+            "id": "5b8cc2736326184a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "01 Learning/DL Daily Lessons — Step-by-Step + Quiz/Jul 3 — HW1 · 18.02SC Unit 1 Part B Matrix Multiplication, Inverses & Linear Systems.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Jul 3 — HW1 · 18.02SC Unit 1 Part B Matrix Multiplication, Inverses & Linear Systems"
+            }
+          },
+          {
+            "id": "d1fb376917c73f4b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "03 Algorithms/DSA/300. Longest Increasing Subsequence.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "300. Longest Increasing Subsequence"
+            }
+          }
+        ],
+        "currentTab": 2
+      },
+      {
+        "id": "a685767a80d47690",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "dd3e92b53baa3c20",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "03 Algorithms/DSA/Java Cheat Sheet for DSA (syntax, types, structures, functions).md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Java Cheat Sheet for DSA (syntax, types, structures, functions)"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "b386acf61fd00222",
+    "type": "split",
+    "children": [
+      {
+        "id": "5b9839980a72015f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "71620ba8a50d5abf",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "6b7e2977d1d53f77",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "190d85fe27400d89",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          },
+          {
+            "id": "60ac17189c5af23a",
+            "type": "leaf",
+            "state": {
+              "type": "mk-path-view",
+              "state": {},
+              "icon": "layout-grid",
+              "title": "Navigator"
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200,
+    "collapsed": true
+  },
+  "right": {
+    "id": "d56589a4ab8d6dc1",
+    "type": "split",
+    "children": [
+      {
+        "id": "82fc994109e7d8ed",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6e507347f1e221b2",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
+            }
+          },
+          {
+            "id": "2d14a7f257cb2a15",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
+            }
+          },
+          {
+            "id": "c825bbd568b4c600",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "e45c2fe99fcd1bd0",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "494e205463360406",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline"
+            }
+          },
+          {
+            "id": "1ddf551716f417ca",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
+            }
+          },
+          {
+            "id": "1987ee54deaabd27",
+            "type": "leaf",
+            "state": {
+              "type": "claudian-view",
+              "state": {},
+              "icon": "bot",
+              "title": "Claudian"
+            }
+          },
+          {
+            "id": "faccba15078d6e2c",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
+          },
+          {
+            "id": "d6743ed3c3ee5322",
+            "type": "leaf",
+            "state": {
+              "type": "planner-timeline",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Timeline"
+            }
+          },
+          {
+            "id": "6616104c81643490",
+            "type": "leaf",
+            "state": {
+              "type": "planner-time-tracker",
+              "state": {},
+              "icon": "timer",
+              "title": "Time Tracker"
+            }
+          },
+          {
+            "id": "0cdf5feef9a20ee9",
+            "type": "leaf",
+            "state": {
+              "type": "reminder-list",
+              "state": {},
+              "icon": "clock",
+              "title": "Reminders"
+            }
+          }
+        ],
+        "currentTab": 6
+      }
+    ],
+    "direction": "horizontal",
+    "width": 497.5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "claudian-productivity:Refresh task board automations": false,
+      "pdf-plus:PDF++: Toggle auto-copy": false,
+      "pdf-plus:PDF++: Toggle auto-focus": false,
+      "pdf-plus:PDF++: Toggle auto-paste": false,
+      "obsidian-full-calendar:Open Full Calendar": false,
+      "obsidian-day-planner:Open Timeline": false,
+      "obsidian-day-planner:Open Multi-Day View": false,
+      "claudian-productivity:Task Command Center": false,
+      "claudian-productivity:Task Kanban Board": false,
+      "claudian-productivity:Capture task": false,
+      "obsidian-kanban:Create new board": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false,
+      "obsidian-importer:Open Importer": false,
+      "omnisearch:Omnisearch": false,
+      "realclaudian:Open Claudian": false,
+      "obsidian-git:Open Git source control": false,
+      "iconic:Open rulebook": false,
+      "task-board:Open task board": false
+    }
+  },
+  "active": "d019b68fb601e3b8",
+  "lastOpenFiles": [
+    "04 Reference/Reference Hub.base",
+    "03 Algorithms/DSA/Java Cheat Sheet for DSA (syntax, types, structures, functions).md",
+    "04 Reference/Document Hub/Unified Acoustic-to-Speech-to-Language Embedding Space & the Neural Basis of Natural Conversation (Whisper + ECoG).md",
+    "04 Reference/Document Hub/Document Hub New doc.md",
+    "04 Reference/Document Hub/Document Hub New doc 1.md",
+    "00 Home/Daily Notes/2026-07-13.md",
+    "00 Home/Tasks/Task Kanban Board.md",
+    "03 Algorithms/Algorithms Hub.base",
+    "01 Learning/DL Daily Lessons — Step-by-Step + Quiz/DL Daily Lessons — Step-by-Step + Quiz.base",
+    "00 Home/Vault Map.md",
+    "01 Learning/Computer Vision — Foundations Study Tracker/Computer Vision — Foundations Study Tracker.base",
+    "01 Learning/DL Daily Lessons — Step-by-Step + Quiz/Jul 10 — HW1 · Karpathy Let's build GPT — Bigram → Self-Attention → nanoGPT (code-along).md",
+    "01 Learning/Learning Hub.base",
+    "03 Algorithms/DSA/300. Longest Increasing Subsequence.md",
+    "02 Research/Local Paper Library.base",
+    "02 Research/Thesis Reading List — Self-Adaptors & Discourse-Planning Difficulty/TSkel-Mamba Temporal Dynamic Modeling via State Space Model for Human Skeleton-Based Action Recognition.md",
+    "02 Research/Thesis Reading List — Self-Adaptors & Discourse-Planning Difficulty/MambaTAD When State-Space Models Meet Long-Range Temporal Action Detection.md",
+    "02 Research/Thesis Reading List — Self-Adaptors & Discourse-Planning Difficulty/Werewolf Among Us Multimodal Resources for Modeling Persuasion Behaviors in Social Deduction Games.md",
+    "02 Research/Thesis Reading List — Self-Adaptors & Discourse-Planning Difficulty/The Audio-Visual Conversational Graph From an Egocentric-Exocentric Perspective.md",
+    "02 Research/Thesis Reading List — Self-Adaptors & Discourse-Planning Difficulty/SMG A Micro-Gesture Dataset Towards Spontaneous Body Gestures for Emotional Stress State Analysis.md",
+    "02 Research/Thesis Reading List — Self-Adaptors & Discourse-Planning Difficulty/InterAct A Large-Scale Dataset of Dynamic, Expressive and Interactive Activities between Two People in Daily Scenarios.md",
+    "02 Research/Thesis Reading List — Self-Adaptors & Discourse-Planning Difficulty/The CANDOR Corpus Insights from a Large Multimodal Dataset of Naturalistic Conversation.md",
+    "02 Research/Thesis Reading List — Self-Adaptors & Discourse-Planning Difficulty/EgoTouch On-Body Touch Input Using AR-VR Headset Cameras.md",
+    "02 Research/Thesis Reading List — Self-Adaptors & Discourse-Planning Difficulty/AiOS All-in-One-Stage Expressive Human Pose and Shape Estimation.md",
+    "02 Research/Thesis Reading List — Self-Adaptors & Discourse-Planning Difficulty/Multi-HMR Multi-Person Whole-Body Human Mesh Recovery in a Single Shot.md",
+    "00 Home/Inbox/.md",
+    "00 Home/Inbox/Inbox.md",
+    "00 Home/Inbox/Untitled.md",
+    "02 Research/Local Paper Workflow.md",
+    "99 Assets/Bibliography/CVPR 2027 — PDF Download Manifest.tsv",
+    "99 Assets/Zotero Annotations",
+    "02 Research/Zotero Imports",
+    "00 Home/Templates/Zotero Literature Note Template.md",
+    "01 Learning/DL Daily Lessons — Step-by-Step + Quiz/Jul 2 — HW1 · 18.02SC Unit 1 Part A Vectors, Determinants & Planes.md",
+    "99 Assets/Bibliography/CVPR 2027 — Temporal Self-Contact.bib",
+    "99 Assets/Media/x1.png",
+    "99 Assets/Media/x1 3.png",
+    "99 Assets/Media/x1 2.png",
+    "99 Assets/Media/x1 1.png",
+    "99 Assets/Media/quantization-precision-power-of-two-fractional-scaling-comparison-png.webp",
+    "99 Assets/Media/performance-evolution-nvidia-gpu-generations-png.webp",
+    "99 Assets/Media/nvfp4-two-level-scaling.gif",
+    "99 Assets/Media/nvfp4-model-accuracy-comparison-png.webp",
+    "99 Assets/Media/image.png",
+    "99 Assets/Media/image 9.png",
+    "99 Assets/Canvas/Untitled.canvas",
+    "99 Assets/Canvas/Untitled 3.canvas",
+    "99 Assets/Canvas/Untitled 2.canvas",
+    "99 Assets/Canvas/Untitled 1.canvas",
+    "Untitled 3.canvas",
+    "Untitled 1.canvas",
+    "Untitled 2.canvas",
+    "Untitled.canvas"
+  ]
+}

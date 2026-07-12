@@ -1777,19 +1777,13 @@ const COLOR_MAP = {
 };
 const DEFAULT = {
   light: { bg: '#F1F1EF', fg: '#37352F' },
-  dark: { bg: '#2F2F2C', fg: '#D4D4D4' }
+  dark: { bg: '#2F2F2C', fg: '#D4D4D4' },
+  name: 'default'
 };
 
-const PILL_SELECTOR = [
-  '.metadata-property .multi-select-pill',
-  '.metadata-container .multi-select-pill',
-  '.metadata-properties .multi-select-pill',
-  '.bases-view .multi-select-pill',
-  '.bases-metadata-value .multi-select-pill'
-].join(',');
-
 function normalizeTagText(text) {
-  return String(text || '')
+  if (!text) return null;
+  return String(text)
     .replace(/[×✕✖]\s*$/g, '')
     .replace(/^#/, '')
     .trim()
@@ -1798,87 +1792,95 @@ function normalizeTagText(text) {
 }
 
 function pillText(el) {
-  const content = el.querySelector('.multi-select-pill-content, [class*="pill-content"]');
-  return content ? content.textContent : el.firstChild?.textContent || el.textContent;
+  const content = el.querySelector('.multi-select-pill-content, [class*="pill-content"], [class*="select-pill-content"]');
+  if (content) return content.textContent;
+  const clone = el.cloneNode(true);
+  clone.querySelectorAll('.multi-select-pill-remove-button, [class*="remove"], button, svg').forEach((x) => x.remove());
+  return clone.textContent;
 }
 
-function collectPills(node, out) {
-  if (!(node instanceof HTMLElement)) return;
-  if (node.matches(PILL_SELECTOR)) out.add(node);
-  node.querySelectorAll(PILL_SELECTOR).forEach(el => out.add(el));
+function setImportant(el, prop, value) {
+  el.style.setProperty(prop, value, 'important');
+}
+
+function stylePill(el, colors, tag) {
+  const { bg, fg } = colors;
+  el.classList.add('notion-property-tag');
+  el.classList.add(`notion-property-tag-${tag}`);
+  setImportant(el, '--tag-color', fg);
+  setImportant(el, '--tag-color-hover', fg);
+  setImportant(el, '--tag-background', bg);
+  setImportant(el, '--tag-background-hover', bg);
+  setImportant(el, 'color', fg);
+  setImportant(el, '-webkit-text-fill-color', fg);
+  setImportant(el, 'background', bg);
+  setImportant(el, 'background-color', bg);
+  setImportant(el, 'background-image', 'none');
+  setImportant(el, 'border-color', 'transparent');
+  setImportant(el, 'border-radius', '4px');
+  setImportant(el, 'border-width', '0');
+  setImportant(el, 'box-shadow', 'none');
+  setImportant(el, 'font-weight', '500');
+  setImportant(el, 'font-size', '0.88em');
+  setImportant(el, 'line-height', '1.45');
+  setImportant(el, 'padding', '1px 6px');
+  el.querySelectorAll('*').forEach((child) => {
+    setImportant(child, 'color', fg);
+    setImportant(child, '-webkit-text-fill-color', fg);
+    setImportant(child, 'fill', fg);
+    setImportant(child, 'stroke', fg);
+  });
+}
+
+function candidates(root = document.body) {
+  const selectors = [
+    '.metadata-property .multi-select-pill',
+    '.metadata-container .multi-select-pill',
+    '.metadata-properties .multi-select-pill',
+    '.metadata-property [class*="multi-select-pill"]',
+    '.metadata-property-value [class*="multi-select-pill"]',
+    '.metadata-property [class*="select-pill"]',
+    '.metadata-property-value [class*="select-pill"]'
+  ].join(', ');
+  const out = [];
+  if (root instanceof HTMLElement && root.matches(selectors)) out.push(root);
+  if (root.querySelectorAll) root.querySelectorAll(selectors).forEach((el) => out.push(el));
+  return [...new Set(out)].filter((el) => !String(el.className).includes('remove-button'));
 }
 
 module.exports = class NotionPropertyTagsPlugin extends Plugin {
   onload() {
-    this.pending = new Set();
-    this.mode = this.getMode();
-    this.queueFullScan = this.queueFullScan.bind(this);
-
-    // Initial pass only. Subsequent work is limited to newly inserted pills.
-    this.queueFullScan();
-
-    this.observer = new MutationObserver(mutations => {
-      for (const mutation of mutations) {
-        for (const node of mutation.addedNodes) collectPills(node, this.pending);
-      }
-      if (this.pending.size) this.scheduleFlush();
-    });
-    this.observer.observe(document.body, { childList: true, subtree: true });
-
-    // Theme changes need a one-time recolor, but ordinary class/style mutations do not.
-    this.themeObserver = new MutationObserver(() => {
-      const next = this.getMode();
-      if (next !== this.mode) {
-        this.mode = next;
-        this.queueFullScan();
-      }
-    });
-    this.themeObserver.observe(document.body, { attributes: true, attributeFilter: ['class'] });
-
-    this.registerEvent(this.app.workspace.on('file-open', this.queueFullScan));
-    this.registerEvent(this.app.workspace.on('active-leaf-change', this.queueFullScan));
+    this.apply = this.apply.bind(this);
+    this.schedule = this.schedule.bind(this);
+    this.apply();
+    this.observer = new MutationObserver(this.schedule);
+    this.observer.observe(document.body, { childList: true, subtree: true, characterData: true, attributes: true, attributeFilter: ['class'] });
+    this.registerEvent(this.app.workspace.on('active-leaf-change', this.schedule));
+    this.registerEvent(this.app.workspace.on('layout-change', this.schedule));
+    this.registerEvent(this.app.workspace.on('file-open', this.schedule));
+    this.registerDomEvent(window, 'focus', this.schedule);
   }
 
   onunload() {
-    this.observer?.disconnect();
-    this.themeObserver?.disconnect();
-    if (this.raf) cancelAnimationFrame(this.raf);
-    if (this.fullTimer) clearTimeout(this.fullTimer);
+    if (this.observer) this.observer.disconnect();
+    if (this.raf) window.cancelAnimationFrame(this.raf);
   }
 
-  getMode() {
-    return document.body.classList.contains('theme-dark') ? 'dark' : 'light';
-  }
-
-  queueFullScan() {
-    clearTimeout(this.fullTimer);
-    this.fullTimer = window.setTimeout(() => {
-      document.querySelectorAll(PILL_SELECTOR).forEach(el => this.pending.add(el));
-      this.scheduleFlush();
-    }, 120);
-  }
-
-  scheduleFlush() {
+  schedule() {
     if (this.raf) return;
-    this.raf = requestAnimationFrame(() => {
+    this.raf = window.requestAnimationFrame(() => {
       this.raf = null;
-      const batch = [...this.pending];
-      this.pending.clear();
-      for (const el of batch) this.stylePill(el);
+      this.apply();
     });
   }
 
-  stylePill(el) {
-    if (!el.isConnected) return;
-    const tag = normalizeTagText(pillText(el));
-    if (!tag) return;
-    const mode = this.getMode();
-    if (el.dataset.notionTag === tag && el.dataset.notionTagMode === mode) return;
-    const pair = (COLOR_MAP[tag] || DEFAULT)[mode];
-    el.dataset.notionTag = tag;
-    el.dataset.notionTagMode = mode;
-    el.classList.add('notion-property-tag');
-    el.style.setProperty('--notion-tag-bg', pair.bg);
-    el.style.setProperty('--notion-tag-fg', pair.fg);
+  apply(root = document.body) {
+    const mode = document.body.classList.contains('theme-dark') ? 'dark' : 'light';
+    for (const el of candidates(root)) {
+      const tag = normalizeTagText(pillText(el));
+      if (!tag) continue;
+      const pair = COLOR_MAP[tag] || DEFAULT;
+      stylePill(el, pair[mode], tag);
+    }
   }
 };

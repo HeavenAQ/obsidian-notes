@@ -105,9 +105,9 @@ module.exports = class ClaudianProductivityPlugin extends Plugin {
     this.addRibbonIcon('refresh-cw', 'Refresh task board automations', () => this.refreshTaskBoardAutomation(true));
 
     this.app.workspace.onLayoutReady(() => {
-      window.setTimeout(() => this.refreshTaskBoardAutomation(false), 5000);
+      window.setTimeout(() => this.refreshTaskBoardAutomation(false), 15000);
     });
-    this.registerInterval(window.setInterval(() => this.refreshTaskBoardAutomation(false), 30 * 60 * 1000));
+    this.registerInterval(window.setInterval(() => this.refreshTaskBoardAutomation(false), 2 * 60 * 60 * 1000));
     this.registerEvent(this.app.vault.on('modify', file => this.scheduleTaskBoardRefresh(file)));
     this.registerEvent(this.app.vault.on('create', file => this.scheduleTaskBoardRefresh(file)));
     this.registerEvent(this.app.vault.on('delete', file => this.scheduleTaskBoardRefresh(file)));
@@ -125,7 +125,7 @@ module.exports = class ClaudianProductivityPlugin extends Plugin {
     this.taskBoardRefreshTimer = window.setTimeout(() => {
       this.taskBoardRefreshTimer = null;
       this.refreshTaskBoardAutomation(false);
-    }, 60000);
+    }, 90000);
   }
 
   async refreshTaskBoardAutomation(showNotice = false) {

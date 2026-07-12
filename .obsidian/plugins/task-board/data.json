@@ -390,8 +390,8 @@
       "compatiblePlugins": {
         "dailyNotesPlugin": false,
         "dayPlannerPlugin": false,
-        "tasksPlugin": false,
-        "reminderPlugin": false,
+        "tasksPlugin": true,
+        "reminderPlugin": true,
         "quickAddPlugin": false
       },
       "taskNoteIdentifierTag": "taskNote",

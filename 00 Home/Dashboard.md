@@ -15,7 +15,7 @@ banner: "[[99 Assets/Media/grpo_visual.png]]"
 - 📥 **[[00 Home/Inbox/Inbox|Inbox]]** — default landing spot for new notes
 - ✅ **[[00 Home/Tasks/Task Command Center|Task Command Center]]** — all tasks, overdue work, today, week, and triage
 - 🧱 **[[00 Home/Tasks/Task Kanban Board|Task Kanban Board]]** — manual Kanban lanes for current focus
-- 📅 **[[00 Home/Daily Notes/2026-07-12|Today’s daily note]]**
+- 📅 **[[00 Home/Daily Notes/2026-07-13|Today’s daily note]]**
 - 🎓 **[[01 Learning/Learning Hub.base|Learning Hub]]** — courses, lessons, and homework
 - 🔬 **[[02 Research/Research Hub.base|Research Hub]]** — thesis and paper reading
 - 🧩 **[[03 Algorithms/Algorithms Hub.base|Algorithms Hub]]** — DSA practice
@@ -257,17 +257,4 @@ LIMIT 12
 
 ## 🔥 Git Activity
 
-```dataviewjs
-try {
-  const { execSync } = require("child_process");
-  const basePath = app.vault.adapter.basePath;
-  const out = execSync("git log -8 --pretty=format:%h%x09%ar%x09%s", { cwd: basePath }).toString().trim();
-  if (!out) dv.paragraph("No commits yet.");
-  else dv.table(["Commit", "When", "Message"], out.split("\n").map(l => {
-    const [hash, when, ...msg] = l.split("\t");
-    return ["`" + hash + "`", when, msg.join("\t")];
-  }));
-} catch (e) {
-  dv.paragraph("Git activity unavailable in this environment.");
-}
-```
+Use **Obsidian Git: Open source control view** when commit history is needed. The dashboard no longer runs a synchronous shell command during rendering.

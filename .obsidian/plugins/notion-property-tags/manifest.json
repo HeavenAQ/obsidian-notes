@@ -1,9 +1,9 @@
 {
   "id": "notion-property-tags",
   "name": "Notion Property Tags",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "minAppVersion": "1.5.0",
-  "description": "Forces Notion-style colors on Obsidian page property tag pills.",
+  "description": "Efficient incremental Notion-style property and Base pills.",
   "author": "Claudian",
   "isDesktopOnly": false
 }
