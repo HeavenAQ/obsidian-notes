@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Computer Vision — Foundations Study Tracker",
+      "path": "01 Learning/Computer Vision — Foundations Study Tracker/Computer Vision — Foundations Study Tracker.base"
+    },
+    {
       "basename": "Unified Acoustic-to-Speech-to-Language Embedding Space & the Neural Basis of Natural Conversation (Whisper + ECoG)",
       "path": "04 Reference/Document Hub/Unified Acoustic-to-Speech-to-Language Embedding Space & the Neural Basis of Natural Conversation (Whisper + ECoG).md"
     },
@@ -31,10 +35,6 @@
     {
       "basename": "Vault Map",
       "path": "00 Home/Vault Map.md"
-    },
-    {
-      "basename": "Computer Vision — Foundations Study Tracker",
-      "path": "01 Learning/Computer Vision — Foundations Study Tracker/Computer Vision — Foundations Study Tracker.base"
     },
     {
       "basename": "Jul 10 — HW1 · Karpathy Let's build GPT — Bigram → Self-Attention → nanoGPT (code-along)",
