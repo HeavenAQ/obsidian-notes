@@ -5,6 +5,14 @@
       "path": "04 Reference/Document Hub/Document Hub.base"
     },
     {
+      "basename": "Qwen3.5 Deep Dive — Native Multimodal Agents, Gated DeltaNet & Sparse MoE",
+      "path": "04 Reference/Document Hub/Qwen3.5 Deep Dive — Native Multimodal Agents, Gated DeltaNet & Sparse MoE.md"
+    },
+    {
+      "basename": "NVFP4 — Accurate 4-bit Inference on NVIDIA Blackwell",
+      "path": "04 Reference/Document Hub/NVFP4 — Accurate 4-bit Inference on NVIDIA Blackwell.md"
+    },
+    {
       "basename": "300. Longest Increasing Subsequence",
       "path": "03 Algorithms/DSA/300. Longest Increasing Subsequence.md"
     },
