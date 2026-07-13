@@ -13,9 +13,9 @@ Category:
 
 ## Summary
 
-- Total surfaced deadline/backlog items: **90**
+- Total surfaced deadline/backlog items: **91**
 - Overdue: **49**
-- Due today: **3**
+- Due today: **4**
 - Upcoming: **38**
 
 ## How to use this list
@@ -154,8 +154,11 @@ Category:
 
 - [ ] [[01 Learning/DL Homework Practice — MIT 6.7960/Homework 1|Homework 1]] — Jul 13 — Attempt HW1 (theory problems: ReLU nets, approximation, backprop derivations) 📅 2026-07-13 #deadline-homework-plan <!-- inferred: dated homework checklist item -->
 
-## 📅 Due today (3)
+## 📅 Due today (4)
 
+### Explicit due dates — DSA
+
+- [ ] [[03 Algorithms/DSA/3. Longest Substring Without Repeating Characters|3. Longest Substring Without Repeating Characters]] — page due date 📅 2026-07-14 #deadline-dsa <!-- inferred: Due Date property -->
 ### Implicit dated lessons — DL daily
 
 - [ ] [[01 Learning/DL Daily Lessons — Step-by-Step + Quiz/Jul 14 — HW1 · Homework Day 2 — Implementation Consolidation (Manual Backprop + Training Loop) + Quiz|Jul 14 — HW1 · Homework Day 2 — Implementation Consolidation (Manual Backprop + Training Loop) + Quiz]] — study not marked done, quiz not taken 📅 2026-07-14 #deadline-dl-daily <!-- inferred: Date property + Studied/Quiz unchecked -->
