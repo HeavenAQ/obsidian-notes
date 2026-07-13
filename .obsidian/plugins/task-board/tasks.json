@@ -1,10 +1,10 @@
 {
     "VaultName": "Knowledge Base",
-    "Modified_at": "2026-07-13T08:51:18",
+    "Modified_at": "2026-07-13T09:45:36",
     "Pending": {
         "00 Home/Tasks/Task Kanban Board.md": [
             {
-                "id": "3749972088",
+                "id": "686981088",
                 "legacyId": "",
                 "status": " ",
                 "title": "- [ ] [[00 Home/Tasks/Task Inbox]] — Process loose captured tasks #task/inbox",
@@ -32,7 +32,7 @@
                 "reminder": ""
             },
             {
-                "id": "677428189",
+                "id": "3887697998",
                 "legacyId": "",
                 "status": " ",
                 "title": "- [ ] [[00 Home/Tasks/Task Command Center]] — Triage tasks with no due/scheduled/start date #task/admin",
@@ -60,7 +60,7 @@
                 "reminder": ""
             },
             {
-                "id": "701986548",
+                "id": "1783577914",
                 "legacyId": "",
                 "status": " ",
                 "title": "- [ ] [[00 Home/Daily Notes/2026-07-12]] — Review today’s Top 3 #task/admin",
@@ -88,7 +88,7 @@
                 "reminder": ""
             },
             {
-                "id": "91625482",
+                "id": "4281797510",
                 "legacyId": "",
                 "status": " ",
                 "title": "- [ ] [[00 Home/Tasks/Deadline Triage]] — Work through surfaced overdue/deadline items #deadline-triage",
@@ -116,7 +116,7 @@
                 "reminder": ""
             },
             {
-                "id": "1489504235",
+                "id": "2072835123",
                 "legacyId": "",
                 "status": " ",
                 "title": "- [ ] [[02 Research/Research Thesis]] — Discuss two-layer plan and ML-heavy methods with Prof. Sekine #task/research",
@@ -144,7 +144,7 @@
                 "reminder": ""
             },
             {
-                "id": "3131041817",
+                "id": "1973854419",
                 "legacyId": "",
                 "status": " ",
                 "title": "- [ ] [[01 Learning/DL Homework Practice — MIT 6.7960/Homework 1]] — Continue HW1 prep and implementation plan #task/homework",
@@ -172,7 +172,7 @@
                 "reminder": ""
             },
             {
-                "id": "2969547095",
+                "id": "3400842181",
                 "legacyId": "",
                 "status": " ",
                 "title": "- [ ] Drop manual cards here.",
@@ -198,7 +198,7 @@
                 "reminder": ""
             },
             {
-                "id": "2694675537",
+                "id": "1815477187",
                 "legacyId": "",
                 "status": " ",
                 "title": "- [ ] [[02 Research/Research Thesis]] — Secure dataset access and confirm ethics/usage approvals #task/waiting #task/research",
@@ -229,7 +229,7 @@
         ],
         "00 Home/Tasks/Deadline Triage.md": [
             {
-                "id": "3378072407",
+                "id": "2064038732",
                 "legacyId": "",
                 "status": " ",
                 "title": "- [ ] [[01 Learning/DL Daily Lessons — Step-by-Step + Quiz/Jul 2 — HW1 · 18.02SC Unit 1 Part A Vectors, Determinants & Planes|Jul 2 — HW1 · 18.02SC Unit 1 Part A Vectors, Determinants & Planes]] — study not marked done, quiz not taken 📅 2026-07-02 #deadline-dl-daily <!-- inferred: Date property + Studied/Quiz unchecked -->",
@@ -257,7 +257,7 @@
                 "reminder": ""
             },
             {
-                "id": "2208803234",
+                "id": "964306724",
                 "legacyId": "",
                 "status": " ",
                 "title": "- [ ] [[01 Learning/Computer Vision — Foundations Study Tracker/Foundations — The Challenge of Vision & A Simple Vision System|Foundations — The Challenge of Vision & A Simple Vision System]] — scheduled CV study page (In-Progress) 📅 2026-07-02 #deadline-cv <!-- inferred: Date property treated as scheduled study deadline -->",
@@ -285,7 +285,7 @@
                 "reminder": ""
             },
             {
-                "id": "3198355162",
+                "id": "1577400573",
                 "legacyId": "",
                 "status": " ",
                 "title": "- [ ] [[01 Learning/Computer Vision — Foundations Study Tracker/Image Formation — Imaging, Lenses, Cameras, Color|Image Formation — Imaging, Lenses, Cameras, Color]] — scheduled CV study page (In-Progress) 📅 2026-07-02 #deadline-cv <!-- inferred: Date property treated as scheduled study deadline -->",
@@ -313,7 +313,7 @@
                 "reminder": ""
             },
             {
-                "id": "387306646",
+                "id": "2723616219",
                 "legacyId": "",
                 "status": " ",
                 "title": "- [ ] [[01 Learning/DL Daily Lessons — Step-by-Step + Quiz/Jul 3 — HW1 · 18.02SC Unit 1 Part B Matrix Multiplication, Inverses & Linear Systems|Jul 3 — HW1 · 18.02SC Unit 1 Part B Matrix Multiplication, Inverses & Linear Systems]] — study not marked done, quiz not taken 📅 2026-07-03 #deadline-dl-daily <!-- inferred: Date property + Studied/Quiz unchecked -->",
@@ -341,7 +341,7 @@
                 "reminder": ""
             },
             {
-                "id": "3300462523",
+                "id": "66188876",
                 "legacyId": "",
                 "status": " ",
                 "title": "- [ ] [[01 Learning/Computer Vision — Foundations Study Tracker/Learning I — Intro, Gradient Descent, Generalization|Learning I — Intro, Gradient Descent, Generalization]] — scheduled CV study page (In-Progress) 📅 2026-07-03 #deadline-cv <!-- inferred: Date property treated as scheduled study deadline -->",
@@ -369,7 +369,7 @@
                 "reminder": ""
             },
             {
-                "id": "1753631979",
+                "id": "2423267390",
                 "legacyId": "",
                 "status": " ",
                 "title": "- [ ] [[01 Learning/Computer Vision — Foundations Study Tracker/Neural Networks & Backpropagation|Neural Networks & Backpropagation]] — scheduled CV study page (In-Progress) 📅 2026-07-04 #deadline-cv <!-- inferred: Date property treated as scheduled study deadline -->",
@@ -397,7 +397,7 @@
                 "reminder": ""
             },
             {
-                "id": "2474405465",
+                "id": "2107170854",
                 "legacyId": "",
                 "status": " ",
                 "title": "- [ ] [[01 Learning/DL Homework Practice — MIT 6.7960/Homework 1|Homework 1]] — Jul 4 — Udemy LinAlg: Intro to Matrices + Matrix Calculus (HW1's backprop math) · PT-Cert C1 M1–M2 (Getting Started, PyTorch Workflow — skim, mostly review) 📅 2026-07-04 #deadline-homework-plan <!-- inferred: dated homework checklist item -->",
@@ -425,7 +425,7 @@
                 "reminder": ""
             },
             {
-                "id": "3822405443",
+                "id": "1522912118",
                 "legacyId": "",
                 "status": " ",
                 "title": "- [ ] [[03 Algorithms/DSA/300. Longest Increasing Subsequence|300. Longest Increasing Subsequence]] — page due date 📅 2026-07-05 #deadline-dsa <!-- inferred: Due Date property -->",
@@ -453,7 +453,7 @@
                 "reminder": ""
             },
             {
-                "id": "458027370",
+                "id": "2035898081",
                 "legacyId": "",
                 "status": " ",
                 "title": "- [ ] [[03 Algorithms/DSA/322. Coin Change|322. Coin Change]] — page due date 📅 2026-07-05 #deadline-dsa <!-- inferred: Due Date property -->",
@@ -481,7 +481,7 @@
                 "reminder": ""
             },
             {
-                "id": "839176092",
+                "id": "1856695973",
                 "legacyId": "",
                 "status": " ",
                 "title": "- [ ] [[03 Algorithms/DSA/337. House Robber III|337. House Robber III]] — page due date 📅 2026-07-05 #deadline-dsa <!-- inferred: Due Date property -->",
@@ -509,7 +509,7 @@
                 "reminder": ""
             },
             {
-                "id": "1091097755",
+                "id": "1562440708",
                 "legacyId": "",
                 "status": " ",
                 "title": "- [ ] [[03 Algorithms/DSA/62. Unique Paths|62. Unique Paths]] — page due date 📅 2026-07-05 #deadline-dsa <!-- inferred: Due Date property -->",
@@ -537,7 +537,7 @@
                 "reminder": ""
             },
             {
-                "id": "2821967821",
+                "id": "3214286822",
                 "legacyId": "",
                 "status": " ",
                 "title": "- [ ] [[01 Learning/DL Daily Lessons — Step-by-Step + Quiz/Jul 5 — HW1 · PyTorch Data & NN Core (+ Matrix-Calculus Catch-up)|Jul 5 — HW1 · PyTorch Data & NN Core (+ Matrix-Calculus Catch-up)]] — study not marked done, quiz not taken 📅 2026-07-05 #deadline-dl-daily <!-- inferred: Date property + Studied/Quiz unchecked -->",
@@ -565,7 +565,7 @@
                 "reminder": ""
             },
             {
-                "id": "3521647638",
+                "id": "3716429138",
                 "legacyId": "",
                 "status": " ",
                 "title": "- [ ] [[01 Learning/Computer Vision — Foundations Study Tracker/Image Filtering, Fourier Analysis & Blur|Image Filtering, Fourier Analysis & Blur]] — scheduled CV study page (In-Progress) 📅 2026-07-05 #deadline-cv <!-- inferred: Date property treated as scheduled study deadline -->",
@@ -593,7 +593,7 @@
                 "reminder": ""
             },
             {
-                "id": "3899456233",
+                "id": "1348068855",
                 "legacyId": "",
                 "status": " ",
                 "title": "- [ ] [[01 Learning/DL Homework Practice — MIT 6.7960/Homework 1|Homework 1]] — Jul 5 — PT-Cert C1 M3–M4 (Data Management: Dataset/DataLoader; Core NN Components: nn.Module, losses, optimizers) · 6.S191 L1 → deep dive: PyTorch × NVIDIA GPU — Training Internals §1–2 📅 2026-07-05 #deadline-homework-plan <!-- inferred: dated homework checklist item -->",
@@ -621,7 +621,7 @@
                 "reminder": ""
             },
             {
-                "id": "2723085690",
+                "id": "3404312306",
                 "legacyId": "",
                 "status": " ",
                 "title": "- [ ] [[03 Algorithms/DSA/1143. Longest Common Subsequence|1143. Longest Common Subsequence]] — page due date 📅 2026-07-06 #deadline-dsa <!-- inferred: Due Date property -->",
@@ -649,7 +649,7 @@
                 "reminder": ""
             },
             {
-                "id": "2105589700",
+                "id": "3510388761",
                 "legacyId": "",
                 "status": " ",
                 "title": "- [ ] [[03 Algorithms/DSA/139. Word Break|139. Word Break]] — page due date 📅 2026-07-06 #deadline-dsa <!-- inferred: Due Date property -->",
@@ -677,7 +677,7 @@
                 "reminder": ""
             },
             {
-                "id": "1525901323",
+                "id": "2212153491",
                 "legacyId": "",
                 "status": " ",
                 "title": "- [ ] [[03 Algorithms/DSA/416. Partition Equal Subset Sum|416. Partition Equal Subset Sum]] — page due date 📅 2026-07-06 #deadline-dsa <!-- inferred: Due Date property -->",
@@ -705,7 +705,7 @@
                 "reminder": ""
             },
             {
-                "id": "2275963400",
+                "id": "1296826175",
                 "legacyId": "",
                 "status": " ",
                 "title": "- [ ] [[01 Learning/DL Daily Lessons — Step-by-Step + Quiz/Jul 6 — HW1 · CNNs, TorchVision Fine-Tuning & Optuna HPO|Jul 6 — HW1 · CNNs, TorchVision Fine-Tuning & Optuna HPO]] — study not marked done, quiz not taken 📅 2026-07-06 #deadline-dl-daily <!-- inferred: Date property + Studied/Quiz unchecked -->",
@@ -733,7 +733,7 @@
                 "reminder": ""
             },
             {
-                "id": "1737357340",
+                "id": "3029283897",
                 "legacyId": "",
                 "status": " ",
                 "title": "- [ ] [[01 Learning/Computer Vision — Foundations Study Tracker/Derivatives, Temporal Filters & Sampling|Derivatives, Temporal Filters & Sampling]] — scheduled CV study page (In-Progress) 📅 2026-07-06 #deadline-cv <!-- inferred: Date property treated as scheduled study deadline -->",
@@ -761,7 +761,7 @@
                 "reminder": ""
             },
             {
-                "id": "711875346",
+                "id": "2523076726",
                 "legacyId": "",
                 "status": " ",
                 "title": "- [ ] [[01 Learning/Computer Vision — Foundations Study Tracker/Resampling, Filter Banks & Image Pyramids|Resampling, Filter Banks & Image Pyramids]] — scheduled CV study page (Not-Started) 📅 2026-07-06 #deadline-cv <!-- inferred: Date property treated as scheduled study deadline -->",
@@ -789,7 +789,7 @@
                 "reminder": ""
             },
             {
-                "id": "1674553451",
+                "id": "205452128",
                 "legacyId": "",
                 "status": " ",
                 "title": "- [ ] [[01 Learning/DL Homework Practice — MIT 6.7960/Homework 1|Homework 1]] — Jul 6 — PT-Cert C2 M1–M2 (Hyperparameter Optimization w/ Optuna; TorchVision: transforms, fine-tuning ResNet/MobileNet) · 6.S191 L3 (CNNs) 📅 2026-07-06 #deadline-homework-plan <!-- inferred: dated homework checklist item -->",
@@ -817,7 +817,7 @@
                 "reminder": ""
             },
             {
-                "id": "2128581038",
+                "id": "3438085042",
                 "legacyId": "",
                 "status": " ",
                 "title": "- [ ] [[03 Algorithms/DSA/198. House Robber|198. House Robber]] — page due date 📅 2026-07-07 #deadline-dsa <!-- inferred: Due Date property -->",
@@ -845,7 +845,7 @@
                 "reminder": ""
             },
             {
-                "id": "1194373001",
+                "id": "3867825741",
                 "legacyId": "",
                 "status": " ",
                 "title": "- [ ] [[03 Algorithms/DSA/5. Longest Palindromic Substring|5. Longest Palindromic Substring]] — page due date 📅 2026-07-07 #deadline-dsa <!-- inferred: Due Date property -->",
@@ -873,7 +873,7 @@
                 "reminder": ""
             },
             {
-                "id": "1508740609",
+                "id": "2740051813",
                 "legacyId": "",
                 "status": " ",
                 "title": "- [ ] [[03 Algorithms/DSA/97. Interleaving String|97. Interleaving String]] — page due date 📅 2026-07-07 #deadline-dsa <!-- inferred: Due Date property -->",
@@ -901,7 +901,7 @@
                 "reminder": ""
             },
             {
-                "id": "4150103207",
+                "id": "3927692429",
                 "legacyId": "",
                 "status": " ",
                 "title": "- [ ] [[01 Learning/DL Daily Lessons — Step-by-Step + Quiz/Jul 7 — HW1 · Text Embeddings (GloVe-FastText-DistilBERT) & Efficient Training Pipelines|Jul 7 — HW1 · Text Embeddings (GloVe-FastText-DistilBERT) & Efficient Training Pipelines]] — study not marked done, quiz not taken 📅 2026-07-07 #deadline-dl-daily <!-- inferred: Date property + Studied/Quiz unchecked -->",
@@ -929,7 +929,7 @@
                 "reminder": ""
             },
             {
-                "id": "70648087",
+                "id": "4198322299",
                 "legacyId": "",
                 "status": " ",
                 "title": "- [ ] [[01 Learning/Computer Vision — Foundations Study Tracker/Neural Architectures — CNNs, RNNs, Transformers|Neural Architectures — CNNs, RNNs, Transformers]] — scheduled CV study page (Not-Started) 📅 2026-07-07 #deadline-cv <!-- inferred: Date property treated as scheduled study deadline -->",
@@ -957,7 +957,7 @@
                 "reminder": ""
             },
             {
-                "id": "1670113459",
+                "id": "3976682501",
                 "legacyId": "",
                 "status": " ",
                 "title": "- [ ] [[01 Learning/DL Homework Practice — MIT 6.7960/Homework 1|Homework 1]] — Jul 7 — PT-Cert C2 M3–M4 (Text w/ Hugging Face: GloVe/FastText/DistilBERT embeddings; Efficient Training Pipelines: profiling, bottlenecks) → deep dive: PyTorch × GPU §3–5, 8 (AMP, allocato… 📅 2026-07-07 #deadline-homework-plan <!-- inferred: dated homework checklist item -->",
@@ -985,7 +985,7 @@
                 "reminder": ""
             },
             {
-                "id": "1748431720",
+                "id": "1702553908",
                 "legacyId": "",
                 "status": " ",
                 "title": "- [ ] [[03 Algorithms/DSA/132. Palindrome Partitioning II|132. Palindrome Partitioning II]] — page due date 📅 2026-07-08 #deadline-dsa <!-- inferred: Due Date property -->",
@@ -1013,7 +1013,7 @@
                 "reminder": ""
             },
             {
-                "id": "1138943101",
+                "id": "1007091904",
                 "legacyId": "",
                 "status": " ",
                 "title": "- [ ] [[01 Learning/DL Daily Lessons — Step-by-Step + Quiz/Jul 8 — HW1 · TiP Module 1 — The Autoregressive Loop, Sampling, Structured Outputs, RAG & CoT|Jul 8 — HW1 · TiP Module 1 — The Autoregressive Loop, Sampling, Structured Outputs, RAG & CoT]] — study not marked done, quiz not taken 📅 2026-07-08 #deadline-dl-daily <!-- inferred: Date property + Studied/Quiz unchecked -->",
@@ -1041,7 +1041,7 @@
                 "reminder": ""
             },
             {
-                "id": "2476852394",
+                "id": "4062140103",
                 "legacyId": "",
                 "status": " ",
                 "title": "- [ ] [[01 Learning/Computer Vision — Foundations Study Tracker/Probabilistic Image Models, Textures & Graphical Models|Probabilistic Image Models, Textures & Graphical Models]] — scheduled CV study page (Not-Started) 📅 2026-07-08 #deadline-cv <!-- inferred: Date property treated as scheduled study deadline -->",
@@ -1069,7 +1069,7 @@
                 "reminder": ""
             },
             {
-                "id": "2002770389",
+                "id": "758561405",
                 "legacyId": "",
                 "status": " ",
                 "title": "- [ ] [[01 Learning/DL Homework Practice — MIT 6.7960/Homework 1|Homework 1]] — Jul 8 — TiP Module 1 (autoregressive loop, token sampling, structured outputs/FSM, RAG, CoT) → deep dive: Transformers in Practice §Module 1 📅 2026-07-08 #deadline-homework-plan <!-- inferred: dated homework checklist item -->",
@@ -1097,7 +1097,7 @@
                 "reminder": ""
             },
             {
-                "id": "342670113",
+                "id": "2029054414",
                 "legacyId": "",
                 "status": " ",
                 "title": "- [ ] [[03 Algorithms/DSA/91. Decode Ways|91. Decode Ways]] — page due date 📅 2026-07-09 #deadline-dsa <!-- inferred: Due Date property -->",
@@ -1125,7 +1125,7 @@
                 "reminder": ""
             },
             {
-                "id": "3777902483",
+                "id": "2274416446",
                 "legacyId": "",
                 "status": " ",
                 "title": "- [ ] [[01 Learning/DL Daily Lessons — Step-by-Step + Quiz/Jul 9 — HW1 · TiP Module 2 — Attention, Positional Encoding, Transformer Layers & the Logit Lens|Jul 9 — HW1 · TiP Module 2 — Attention, Positional Encoding, Transformer Layers & the Logit Lens]] — study not marked done, quiz not taken 📅 2026-07-09 #deadline-dl-daily <!-- inferred: Date property + Studied/Quiz unchecked -->",
@@ -1153,7 +1153,7 @@
                 "reminder": ""
             },
             {
-                "id": "3339264207",
+                "id": "3278149511",
                 "legacyId": "",
                 "status": " ",
                 "title": "- [ ] [[01 Learning/Computer Vision — Foundations Study Tracker/Representation Learning, Perceptual Grouping & Generative Models|Representation Learning, Perceptual Grouping & Generative Models]] — scheduled CV study page (Not-Started) 📅 2026-07-09 #deadline-cv <!-- inferred: Date property treated as scheduled study deadline -->",
@@ -1181,7 +1181,7 @@
                 "reminder": ""
             },
             {
-                "id": "753888960",
+                "id": "1122720823",
                 "legacyId": "",
                 "status": " ",
                 "title": "- [ ] [[01 Learning/DL Homework Practice — MIT 6.7960/Homework 1|Homework 1]] — Jul 9 — TiP Module 2 (attention, positional encoding, layers, logit lens) → deep dive: Transformers in Practice §Module 2 📅 2026-07-09 #deadline-homework-plan <!-- inferred: dated homework checklist item -->",
@@ -1209,7 +1209,7 @@
                 "reminder": ""
             },
             {
-                "id": "3316854734",
+                "id": "1069389455",
                 "legacyId": "",
                 "status": " ",
                 "title": "- [ ] [[03 Algorithms/DSA/72. Edit Distance|72. Edit Distance]] — page due date 📅 2026-07-10 #deadline-dsa <!-- inferred: Due Date property -->",
@@ -1237,7 +1237,7 @@
                 "reminder": ""
             },
             {
-                "id": "3287796284",
+                "id": "1891955680",
                 "legacyId": "",
                 "status": " ",
                 "title": "- [ ] [[01 Learning/DL Daily Lessons — Step-by-Step + Quiz/Jul 10 — HW1 · Karpathy Let's build GPT — Bigram → Self-Attention → nanoGPT (code-along)|Jul 10 — HW1 · Karpathy Let's build GPT — Bigram → Self-Attention → nanoGPT (code-along)]] — study not marked done, quiz not taken 📅 2026-07-10 #deadline-dl-daily <!-- inferred: Date property + Studied/Quiz unchecked -->",
@@ -1265,7 +1265,7 @@
                 "reminder": ""
             },
             {
-                "id": "3828614047",
+                "id": "3393829831",
                 "legacyId": "",
                 "status": " ",
                 "title": "- [ ] [[01 Learning/Computer Vision — Foundations Study Tracker/Generative + Representation, Conditional Generation & Data Bias|Generative + Representation, Conditional Generation & Data Bias]] — scheduled CV study page (Not-Started) 📅 2026-07-10 #deadline-cv <!-- inferred: Date property treated as scheduled study deadline -->",
@@ -1293,7 +1293,7 @@
                 "reminder": ""
             },
             {
-                "id": "1516139283",
+                "id": "2855912329",
                 "legacyId": "",
                 "status": " ",
                 "title": "- [ ] [[01 Learning/DL Homework Practice — MIT 6.7960/Homework 1|Homework 1]] — Jul 10 — 🎥 Karpathy — \"Let's build GPT: from scratch, in code, spelled out\" (~2h — CODE ALONG, don't just watch: bigram LM → single self-attention head → multi-head → residual blocks + Laye… 📅 2026-07-10 #deadline-homework-plan <!-- inferred: dated homework checklist item -->",
@@ -1321,7 +1321,7 @@
                 "reminder": ""
             },
             {
-                "id": "3419497171",
+                "id": "488449743",
                 "legacyId": "",
                 "status": " ",
                 "title": "- [ ] [[01 Learning/Computer Vision — Foundations Study Tracker/Robustness, Transfer Learning & Geometry Foundations|Robustness, Transfer Learning & Geometry Foundations]] — scheduled CV study page (Not-Started) 📅 2026-07-11 #deadline-cv <!-- inferred: Date property treated as scheduled study deadline -->",
@@ -1349,7 +1349,7 @@
                 "reminder": ""
             },
             {
-                "id": "2290618133",
+                "id": "3374493318",
                 "legacyId": "",
                 "status": " ",
                 "title": "- [ ] [[01 Learning/DL Homework Practice — MIT 6.7960/Homework 1|Homework 1]] — Jul 11 — TiP Module 3 (quantization, KV cache, flash attention, speculative decoding) + PT-Cert C3 M4 (Deployment: ONNX, MLflow, pruning, quantization/QAT) → deep dives: TiP §Module 3 · ONN… 📅 2026-07-11 #deadline-homework-plan <!-- inferred: dated homework checklist item -->",
@@ -1377,7 +1377,7 @@
                 "reminder": ""
             },
             {
-                "id": "2015111321",
+                "id": "550427836",
                 "legacyId": "",
                 "status": " ",
                 "title": "- [ ] [[03 Algorithms/DSA/200. Number of Islands|200. Number of Islands]] — page due date 📅 2026-07-12 #deadline-dsa <!-- inferred: Due Date property -->",
@@ -1405,7 +1405,7 @@
                 "reminder": ""
             },
             {
-                "id": "2793696745",
+                "id": "2650576364",
                 "legacyId": "",
                 "status": " ",
                 "title": "- [ ] [[01 Learning/DL Daily Lessons — Step-by-Step + Quiz/Jul 12 — HW1 · Review & Cumulative Quiz|Jul 12 — HW1 · Review & Cumulative Quiz]] — study not marked done, quiz not taken 📅 2026-07-12 #deadline-dl-daily <!-- inferred: Date property + Studied/Quiz unchecked -->",
@@ -1433,7 +1433,7 @@
                 "reminder": ""
             },
             {
-                "id": "2146417132",
+                "id": "981505013",
                 "legacyId": "",
                 "status": " ",
                 "title": "- [ ] [[01 Learning/Computer Vision — Foundations Study Tracker/Stereo, Homographies, Single-View & Learned Depth|Stereo, Homographies, Single-View & Learned Depth]] — scheduled CV study page (Not-Started) 📅 2026-07-12 #deadline-cv <!-- inferred: Date property treated as scheduled study deadline -->",
@@ -1461,7 +1461,7 @@
                 "reminder": ""
             },
             {
-                "id": "2327640531",
+                "id": "1614813657",
                 "legacyId": "",
                 "status": " ",
                 "title": "- [ ] [[01 Learning/DL Homework Practice — MIT 6.7960/Homework 1|Homework 1]] — Jul 12 — PT-Cert C3 M1–M3 (Custom Architectures; Specialized Vision: Siamese, ResNets; Specialized NLP — the transformer-from-components part is now review after Karpathy: skim) · finish bo… 📅 2026-07-12 #deadline-homework-plan <!-- inferred: dated homework checklist item -->",
@@ -1489,7 +1489,7 @@
                 "reminder": ""
             },
             {
-                "id": "2148932668",
+                "id": "2783105673",
                 "legacyId": "",
                 "status": " ",
                 "title": "- [ ] [[03 Algorithms/DSA/33. Search in Rotated Sorted Array|33. Search in Rotated Sorted Array]] — page due date 📅 2026-07-13 #deadline-dsa <!-- inferred: Due Date property -->",
@@ -1517,7 +1517,7 @@
                 "reminder": ""
             },
             {
-                "id": "990314328",
+                "id": "1400827836",
                 "legacyId": "",
                 "status": " ",
                 "title": "- [ ] [[01 Learning/DL Daily Lessons — Step-by-Step + Quiz/Jul 13 — HW1 · Homework Day 1 — Approximation & Backprop Consolidation + Quiz|Jul 13 — HW1 · Homework Day 1 — Approximation & Backprop Consolidation + Quiz]] — study not marked done, quiz not taken 📅 2026-07-13 #deadline-dl-daily <!-- inferred: Date property + Studied/Quiz unchecked -->",
@@ -1545,7 +1545,7 @@
                 "reminder": ""
             },
             {
-                "id": "523221822",
+                "id": "62007135",
                 "legacyId": "",
                 "status": " ",
                 "title": "- [ ] [[01 Learning/Computer Vision — Foundations Study Tracker/Multiview-SfM, Radiance Fields & Motion Estimation|Multiview-SfM, Radiance Fields & Motion Estimation]] — scheduled CV study page (Not-Started) 📅 2026-07-13 #deadline-cv <!-- inferred: Date property treated as scheduled study deadline -->",
@@ -1573,7 +1573,7 @@
                 "reminder": ""
             },
             {
-                "id": "1006379620",
+                "id": "835207219",
                 "legacyId": "",
                 "status": " ",
                 "title": "- [ ] [[01 Learning/DL Homework Practice — MIT 6.7960/Homework 1|Homework 1]] — Jul 13 — Attempt HW1 (theory problems: ReLU nets, approximation, backprop derivations) 📅 2026-07-13 #deadline-homework-plan <!-- inferred: dated homework checklist item -->",
@@ -1601,7 +1601,7 @@
                 "reminder": ""
             },
             {
-                "id": "2280914945",
+                "id": "1481550025",
                 "legacyId": "",
                 "status": " ",
                 "title": "- [ ] [[01 Learning/DL Homework Practice — MIT 6.7960/Homework 1|Homework 1]] — Jul 14 — Attempt HW1 (implementation problems: manual forward/backward, training loop — apply PT-Cert C1 skills) 📅 2026-07-14 #deadline-homework-plan <!-- inferred: dated homework checklist item -->",
@@ -1629,7 +1629,7 @@
                 "reminder": ""
             },
             {
-                "id": "4182440210",
+                "id": "2354333210",
                 "legacyId": "",
                 "status": " ",
                 "title": "- [ ] [[01 Learning/DL Homework Practice — MIT 6.7960/Homework 1|Homework 1]] — page due date 📅 2026-07-15 #deadline-homework <!-- inferred: Due Date property -->",
@@ -1657,7 +1657,7 @@
                 "reminder": ""
             },
             {
-                "id": "3685622305",
+                "id": "1447840477",
                 "legacyId": "",
                 "status": " ",
                 "title": "- [ ] [[01 Learning/DL Homework Practice — MIT 6.7960/Homework 1|Homework 1]] — Jul 15 — Finish + submit HW1. ✅ Done = HW1 submitted, both certificates' modules completed 📅 2026-07-15 #deadline-homework-plan <!-- inferred: dated homework checklist item -->",
@@ -1685,7 +1685,7 @@
                 "reminder": ""
             },
             {
-                "id": "3523473708",
+                "id": "2637936227",
                 "legacyId": "",
                 "status": " ",
                 "title": "- [ ] [[01 Learning/DL Homework Practice — MIT 6.7960/Homework 2|Homework 2]] — Day 1 — Udemy Linear Algebra → Eigenvalues & Eigenvectors (I): eigendecomposition, diagonalization, matrix powers (needed for optimization dynamics & Hessian analysis). (Skip the difference… 📅 2026-07-16 #deadline-homework-plan <!-- inferred: Day 1 inferred from homework window -->",
@@ -1713,7 +1713,7 @@
                 "reminder": ""
             },
             {
-                "id": "3155446523",
+                "id": "2896606325",
                 "legacyId": "",
                 "status": " ",
                 "title": "- [ ] [[01 Learning/DL Homework Practice — MIT 6.7960/Homework 2|Homework 2]] — Day 2 — Udemy Linear Algebra → Positive definiteness, the Hessian & Taylor expansion, Lagrange multipliers: the local geometry of loss landscapes 📅 2026-07-17 #deadline-homework-plan <!-- inferred: Day 2 inferred from homework window -->",
@@ -1741,7 +1741,7 @@
                 "reminder": ""
             },
             {
-                "id": "903600757",
+                "id": "208579427",
                 "legacyId": "",
                 "status": " ",
                 "title": "- [ ] [[01 Learning/DL Homework Practice — MIT 6.7960/Homework 2|Homework 2]] — Day 3 — Udemy Linear Algebra → Least squares, the normal equation & projection matrices: the linear-regression picture behind generalization theory 📅 2026-07-18 #deadline-homework-plan <!-- inferred: Day 3 inferred from homework window -->",
@@ -1769,7 +1769,7 @@
                 "reminder": ""
             },
             {
-                "id": "903739021",
+                "id": "116096724",
                 "legacyId": "",
                 "status": " ",
                 "title": "- [ ] [[01 Learning/DL Homework Practice — MIT 6.7960/Homework 2|Homework 2]] — Day 4 — Udemy LLM course → from \"Build a GPT\": Temporal causality via linear algebra, The \"attention\" algorithm (theory), The Transformer block (theory), Multihead attention — theory only; … 📅 2026-07-19 #deadline-homework-plan <!-- inferred: Day 4 inferred from homework window -->",
@@ -1797,7 +1797,7 @@
                 "reminder": ""
             },
             {
-                "id": "3451351393",
+                "id": "2703913397",
                 "legacyId": "",
                 "status": " ",
                 "title": "- [ ] [[01 Learning/DL Homework Practice — MIT 6.7960/Homework 2|Homework 2]] — Day 5 — MIT 6.S191 Lecture 2 — Deep Sequence Modeling (attention intro) (link); review + start HW2 📅 2026-07-20 #deadline-homework-plan <!-- inferred: Day 5 inferred from homework window -->",
@@ -1825,7 +1825,7 @@
                 "reminder": ""
             },
             {
-                "id": "47576558",
+                "id": "308859259",
                 "legacyId": "",
                 "status": " ",
                 "title": "- [ ] [[01 Learning/DL Homework Practice — MIT 6.7960/Homework 2|Homework 2]] — page due date 📅 2026-07-22 #deadline-homework <!-- inferred: Due Date property -->",
@@ -1853,7 +1853,7 @@
                 "reminder": ""
             },
             {
-                "id": "1877344765",
+                "id": "3734390865",
                 "legacyId": "",
                 "status": " ",
                 "title": "- [ ] [[01 Learning/DL Homework Practice — MIT 6.7960/Homework 3|Homework 3]] — Day 1 — MIT 6.S191 Lecture 2 — Deep Sequence Modeling (RNNs → attention), if not finished in HW2 week (link) 📅 2026-07-23 #deadline-homework-plan <!-- inferred: Day 1 inferred from homework window -->",
@@ -1881,7 +1881,7 @@
                 "reminder": ""
             },
             {
-                "id": "3501870584",
+                "id": "2074685084",
                 "legacyId": "",
                 "status": " ",
                 "title": "- [ ] [[01 Learning/DL Homework Practice — MIT 6.7960/Homework 3|Homework 3]] — Day 2 — Udemy LLM course → Embeddings spaces: Word2Vec/GloVe/GPT/BERT embeddings, cosine similarity (and relation to correlation), position embeddings — the geometry of learned representati… 📅 2026-07-24 #deadline-homework-plan <!-- inferred: Day 2 inferred from homework window -->",
@@ -1909,7 +1909,7 @@
                 "reminder": ""
             },
             {
-                "id": "50313855",
+                "id": "4194291305",
                 "legacyId": "",
                 "status": " ",
                 "title": "- [ ] [[01 Learning/DL Homework Practice — MIT 6.7960/Homework 3|Homework 3]] — Day 3 — Udemy Linear Algebra → SVD section: formal + conceptual treatment (basis of representation analysis) 📅 2026-07-25 #deadline-homework-plan <!-- inferred: Day 3 inferred from homework window -->",
@@ -1937,7 +1937,7 @@
                 "reminder": ""
             },
             {
-                "id": "313448936",
+                "id": "946273399",
                 "legacyId": "",
                 "status": " ",
                 "title": "- [ ] [[01 Learning/DL Homework Practice — MIT 6.7960/Homework 3|Homework 3]] — Day 4 — Udemy Linear Algebra → Covariance matrices & PCA section (ties directly to representation-similarity analysis) 📅 2026-07-26 #deadline-homework-plan <!-- inferred: Day 4 inferred from homework window -->",
@@ -1965,7 +1965,7 @@
                 "reminder": ""
             },
             {
-                "id": "3604986945",
+                "id": "2566255186",
                 "legacyId": "",
                 "status": " ",
                 "title": "- [ ] [[01 Learning/DL Homework Practice — MIT 6.7960/Homework 3|Homework 3]] — Day 5 — Udemy LLM course → \"Training embeddings from scratch\" mini-arc (data loader → model → loss → train → how embeddings change); review + start HW3 📅 2026-07-27 #deadline-homework-plan <!-- inferred: Day 5 inferred from homework window -->",
@@ -1993,7 +1993,7 @@
                 "reminder": ""
             },
             {
-                "id": "3760824754",
+                "id": "3659606590",
                 "legacyId": "",
                 "status": " ",
                 "title": "- [ ] [[01 Learning/DL Homework Practice — MIT 6.7960/Homework 3|Homework 3]] — page due date 📅 2026-07-29 #deadline-homework <!-- inferred: Due Date property -->",
@@ -2021,7 +2021,7 @@
                 "reminder": ""
             },
             {
-                "id": "3685929987",
+                "id": "510543441",
                 "legacyId": "",
                 "status": " ",
                 "title": "- [ ] [[01 Learning/DL Homework Practice — MIT 6.7960/Homework 4|Homework 4]] — Day 1 — MIT 6.S191 Lecture 4 — Deep Generative Modeling (overview: latent variable models, VAEs, GANs) (link) 📅 2026-07-30 #deadline-homework-plan <!-- inferred: Day 1 inferred from homework window -->",
@@ -2049,7 +2049,7 @@
                 "reminder": ""
             },
             {
-                "id": "2117921379",
+                "id": "1935867217",
                 "legacyId": "",
                 "status": " ",
                 "title": "- [ ] [[01 Learning/DL Homework Practice — MIT 6.7960/Homework 4|Homework 4]] — Day 2 — Udemy GenVision course → Module 0.1: AEs vs VAEs, manifold & latent space, reparameterization trick, VAE loss (ELBO), β-VAE, cVAE — the deep version of what 6.S191 sketches 📅 2026-07-31 #deadline-homework-plan <!-- inferred: Day 2 inferred from homework window -->",
@@ -2077,7 +2077,7 @@
                 "reminder": ""
             },
             {
-                "id": "2625451808",
+                "id": "332828402",
                 "legacyId": "",
                 "status": " ",
                 "title": "- [ ] [[01 Learning/DL Homework Practice — MIT 6.7960/Homework 4|Homework 4]] — Day 3 — Udemy GenVision course → Module 0.2: GANs — minimax game, Nash equilibrium, DCGAN, mode collapse & vanishing gradients, WGAN, StyleGAN/CycleGAN, GAN metrics 📅 2026-08-01 #deadline-homework-plan <!-- inferred: Day 3 inferred from homework window -->",
@@ -2105,7 +2105,7 @@
                 "reminder": ""
             },
             {
-                "id": "295985773",
+                "id": "1147878945",
                 "legacyId": "",
                 "status": " ",
                 "title": "- [ ] [[01 Learning/DL Homework Practice — MIT 6.7960/Homework 4|Homework 4]] — Day 4 — Udemy GenVision course → Module 1.1: DDPM — forward/reverse processes, closed-form sampling, noise schedules, U-Net, training objective; then Latent Diffusion (LDM) and cross-attent… 📅 2026-08-02 #deadline-homework-plan <!-- inferred: Day 4 inferred from homework window -->",
@@ -2133,7 +2133,7 @@
                 "reminder": ""
             },
             {
-                "id": "4240861275",
+                "id": "441877258",
                 "legacyId": "",
                 "status": " ",
                 "title": "- [ ] [[01 Learning/DL Homework Practice — MIT 6.7960/Homework 4|Homework 4]] — Day 5 — Udemy GenVision course → Module 0.3 (ViT) skim only — patching/positional encoding recap (attention theory already covered in HW2 week); review + start HW4 📅 2026-08-03 #deadline-homework-plan <!-- inferred: Day 5 inferred from homework window -->",
@@ -2161,7 +2161,7 @@
                 "reminder": ""
             },
             {
-                "id": "3970261824",
+                "id": "490352167",
                 "legacyId": "",
                 "status": " ",
                 "title": "- [ ] [[01 Learning/DL Homework Practice — MIT 6.7960/Homework 4|Homework 4]] — page due date 📅 2026-08-05 #deadline-homework <!-- inferred: Due Date property -->",
@@ -2189,7 +2189,7 @@
                 "reminder": ""
             },
             {
-                "id": "319036095",
+                "id": "2638145770",
                 "legacyId": "",
                 "status": " ",
                 "title": "- [ ] [[01 Learning/DL Homework Practice — MIT 6.7960/Homework 5|Homework 5]] — Day 1 — Udemy LLM course → Pretrain LLMs section: what pretraining is, AdamW (vs SGD/Adam), weight initializations, dropout, numerical scaling issues 📅 2026-08-06 #deadline-homework-plan <!-- inferred: Day 1 inferred from homework window -->",
@@ -2217,7 +2217,7 @@
                 "reminder": ""
             },
             {
-                "id": "3134436124",
+                "id": "1760015405",
                 "legacyId": "",
                 "status": " ",
                 "title": "- [ ] [[01 Learning/DL Homework Practice — MIT 6.7960/Homework 5|Homework 5]] — Day 2 — Udemy LLM course → Fine-tune pretrained models: full vs partial fine-tuning, freezing attention weights, PEFT/LoRA, gradient clipping & LR schedulers 📅 2026-08-07 #deadline-homework-plan <!-- inferred: Day 2 inferred from homework window -->",
@@ -2245,7 +2245,7 @@
                 "reminder": ""
             },
             {
-                "id": "3768576296",
+                "id": "3569819043",
                 "legacyId": "",
                 "status": " ",
                 "title": "- [ ] [[01 Learning/DL Homework Practice — MIT 6.7960/Homework 5|Homework 5]] — Day 3 — Udemy LLM course → Inference/sampling lectures: softmax & temperature, greedy vs top-k vs top-p vs multinomial sampling (maps to 6.7960 Lecture 24, Inference Methods) 📅 2026-08-08 #deadline-homework-plan <!-- inferred: Day 3 inferred from homework window -->",
@@ -2273,7 +2273,7 @@
                 "reminder": ""
             },
             {
-                "id": "1636431661",
+                "id": "3880711377",
                 "legacyId": "",
                 "status": " ",
                 "title": "- [ ] [[01 Learning/DL Homework Practice — MIT 6.7960/Homework 5|Homework 5]] — Day 4 — Scaling laws: LLM course scaling-laws material + MIT 6.S191 Lecture 9 — Secrets to Massively Parallel Training (data/tensor/pipeline parallelism, ZeRO/FSDP) (link) 📅 2026-08-09 #deadline-homework-plan <!-- inferred: Day 4 inferred from homework window -->",
@@ -2301,7 +2301,7 @@
                 "reminder": ""
             },
             {
-                "id": "1489874796",
+                "id": "74522920",
                 "legacyId": "",
                 "status": " ",
                 "title": "- [ ] [[01 Learning/DL Homework Practice — MIT 6.7960/Homework 5|Homework 5]] — Day 5 — MIT 6.S191 Lecture 6 — New Frontiers; review + start HW5. (Self-check with the posted HW5 solutions only after submitting your attempt.) 📅 2026-08-10 #deadline-homework-plan <!-- inferred: Day 5 inferred from homework window -->",
@@ -2329,7 +2329,7 @@
                 "reminder": ""
             },
             {
-                "id": "1200531267",
+                "id": "4199248891",
                 "legacyId": "",
                 "status": " ",
                 "title": "- [ ] [[01 Learning/DL Homework Practice — MIT 6.7960/Homework 5|Homework 5]] — page due date 📅 2026-08-12 #deadline-homework <!-- inferred: Due Date property -->",
@@ -2357,7 +2357,7 @@
                 "reminder": ""
             },
             {
-                "id": "4145061426",
+                "id": "2823350078",
                 "legacyId": "",
                 "status": " ",
                 "title": "- [ ] [[01 Learning/DL Homework Practice — MIT 6.7960/Homework 6 — Generative Vision & Video (NEW)|Homework 6 — Generative Vision & Video (NEW)]] — Day 1 — Module 1.2 Flow Matching & Rectified Flow (SD3.5/Flux architectures) + Module 1.3 Continuous vs discrete time, ODE solvers 📅 2026-08-13 #deadline-homework-plan <!-- inferred: Day 1 inferred from homework window -->",
@@ -2385,7 +2385,7 @@
                 "reminder": ""
             },
             {
-                "id": "2979591837",
+                "id": "37287412",
                 "legacyId": "",
                 "status": " ",
                 "title": "- [ ] [[01 Learning/DL Homework Practice — MIT 6.7960/Homework 6 — Generative Vision & Video (NEW)|Homework 6 — Generative Vision & Video (NEW)]] — Day 2 — Module 2.1 Cross-attention conditioning & IP-Adapters + Module 2.2 ControlNet & T2I-Adapters 📅 2026-08-14 #deadline-homework-plan <!-- inferred: Day 2 inferred from homework window -->",
@@ -2413,7 +2413,7 @@
                 "reminder": ""
             },
             {
-                "id": "3383797444",
+                "id": "701661986",
                 "legacyId": "",
                 "status": " ",
                 "title": "- [ ] [[01 Learning/DL Homework Practice — MIT 6.7960/Homework 6 — Generative Vision & Video (NEW)|Homework 6 — Generative Vision & Video (NEW)]] — Day 3 — Module 2.3 Consistency Models & LCM + Module 2.4 Adversarial Diffusion Distillation; Module 2.5 (autoregressive VAR/StyleGAN3) skim only 📅 2026-08-15 #deadline-homework-plan <!-- inferred: Day 3 inferred from homework window -->",
@@ -2441,7 +2441,7 @@
                 "reminder": ""
             },
             {
-                "id": "876600286",
+                "id": "325641292",
                 "legacyId": "",
                 "status": " ",
                 "title": "- [ ] [[01 Learning/DL Homework Practice — MIT 6.7960/Homework 6 — Generative Vision & Video (NEW)|Homework 6 — Generative Vision & Video (NEW)]] — Day 4 — Module 3.1 DiT, 3D spacetime patches, 3D RoPE (Sora/Veo/Gen-3) + Module 3.2 Temporal attention, optical flow, motion buckets 📅 2026-08-16 #deadline-homework-plan <!-- inferred: Day 4 inferred from homework window -->",
@@ -2469,7 +2469,7 @@
                 "reminder": ""
             },
             {
-                "id": "3194279483",
+                "id": "885207945",
                 "legacyId": "",
                 "status": " ",
                 "title": "- [ ] [[01 Learning/DL Homework Practice — MIT 6.7960/Homework 6 — Generative Vision & Video (NEW)|Homework 6 — Generative Vision & Video (NEW)]] — Day 5 — Module 3.3 Camera motion & Plücker coordinates; Module 4 (audio-visual sync) optional/skim — review + start HW6 📅 2026-08-17 #deadline-homework-plan <!-- inferred: Day 5 inferred from homework window -->",
@@ -2497,7 +2497,7 @@
                 "reminder": ""
             },
             {
-                "id": "3876099131",
+                "id": "48352809",
                 "legacyId": "",
                 "status": " ",
                 "title": "- [ ] [[01 Learning/DL Homework Practice — MIT 6.7960/Homework 6 — Generative Vision & Video (NEW)|Homework 6 — Generative Vision & Video (NEW)]] — page due date 📅 2026-08-19 #deadline-homework <!-- inferred: Due Date property -->",
@@ -2525,7 +2525,7 @@
                 "reminder": ""
             },
             {
-                "id": "2918024215",
+                "id": "1563036343",
                 "legacyId": "",
                 "status": " ",
                 "title": "- [ ] [[01 Learning/DL Homework Practice — MIT 6.7960/Homework 7 — LLM Mechanisms (NEW)|Homework 7 — LLM Mechanisms (NEW)]] — Day 1 — Part 1: Words → tokens → numbers: BPE algorithm, subword vs character vs word tokenization, tokenizers across languages/models (skip pure text-parsing/Python-basics videos) 📅 2026-08-20 #deadline-homework-plan <!-- inferred: Day 1 inferred from homework window -->",
@@ -2553,7 +2553,7 @@
                 "reminder": ""
             },
             {
-                "id": "2788486595",
+                "id": "83442157",
                 "legacyId": "",
                 "status": " ",
                 "title": "- [ ] [[01 Learning/DL Homework Practice — MIT 6.7960/Homework 7 — LLM Mechanisms (NEW)|Homework 7 — LLM Mechanisms (NEW)]] — Day 2 — Build a GPT (first half): embedding/unembedding, softmax & temperature, sampling methods, layernorm, position embeddings 📅 2026-08-21 #deadline-homework-plan <!-- inferred: Day 2 inferred from homework window -->",
@@ -2581,7 +2581,7 @@
                 "reminder": ""
             },
             {
-                "id": "4169637883",
+                "id": "1614811089",
                 "legacyId": "",
                 "status": " ",
                 "title": "- [ ] [[01 Learning/DL Homework Practice — MIT 6.7960/Homework 7 — LLM Mechanisms (NEW)|Homework 7 — LLM Mechanisms (NEW)]] — Day 3 — Build a GPT (second half): attention implementation, transformer blocks, multihead attention, full GPT-2 on GPU, parameter counting (theory was HW2 week — this is the implementation… 📅 2026-08-22 #deadline-homework-plan <!-- inferred: Day 3 inferred from homework window -->",
@@ -2609,7 +2609,7 @@
                 "reminder": ""
             },
             {
-                "id": "506081692",
+                "id": "3518058149",
                 "legacyId": "",
                 "status": " ",
                 "title": "- [ ] [[01 Learning/DL Homework Practice — MIT 6.7960/Homework 7 — LLM Mechanisms (NEW)|Homework 7 — LLM Mechanisms (NEW)]] — Day 4 — Pretrain + fine-tune sections: anything not finished in HW5 week (AdamW, init, dropout, PEFT, clipping, schedulers) + Instruction tuning & RLHF 📅 2026-08-23 #deadline-homework-plan <!-- inferred: Day 4 inferred from homework window -->",
@@ -2637,7 +2637,7 @@
                 "reminder": ""
             },
             {
-                "id": "3456873772",
+                "id": "3949178328",
                 "legacyId": "",
                 "status": " ",
                 "title": "- [ ] [[01 Learning/DL Homework Practice — MIT 6.7960/Homework 7 — LLM Mechanisms (NEW)|Homework 7 — LLM Mechanisms (NEW)]] — Day 5 — Evaluating LLMs (perplexity, benchmarks) + mechanistic-interpretability sections (PCA/clustering/cosine-similarity probes); 6.S191 Lab 3: Fine-Tune an LLM as hands-on practice — rev… 📅 2026-08-24 #deadline-homework-plan <!-- inferred: Day 5 inferred from homework window -->",
@@ -2665,7 +2665,7 @@
                 "reminder": ""
             },
             {
-                "id": "3816684625",
+                "id": "3872501164",
                 "legacyId": "",
                 "status": " ",
                 "title": "- [ ] [[01 Learning/DL Homework Practice — MIT 6.7960/Homework 7 — LLM Mechanisms (NEW)|Homework 7 — LLM Mechanisms (NEW)]] — page due date 📅 2026-08-26 #deadline-homework <!-- inferred: Due Date property -->",
@@ -4881,7 +4881,7 @@
         "00 Home/Tasks/Task Command Center.md": [],
         "00 Home/Tasks/Task Kanban Board.md": [
             {
-                "id": "2126246278",
+                "id": "2667714056",
                 "legacyId": "",
                 "status": "x",
                 "title": "- [x] [[01 Learning/DL Daily Lessons — Step-by-Step + Quiz/Jul 2 — HW1 · 18.02SC Unit 1 Part A Vectors, Determinants & Planes|Jul 2 — HW1 · 18.02SC Unit 1 Part A Vectors, Determinants & Planes]] — study not marked done, quiz not taken #deadline-dl-daily 📅 2026-07-02 ✅ 2026-07-12",
@@ -4909,7 +4909,7 @@
                 "reminder": ""
             },
             {
-                "id": "285021687",
+                "id": "3483962107",
                 "legacyId": "",
                 "status": "x",
                 "title": "- [x] [[00 Home/Tasks/Productivity Plugin Setup]] — Productivity/task stack installed #task/admin ✅ 2026-07-12",
@@ -4937,7 +4937,7 @@
                 "reminder": ""
             },
             {
-                "id": "3290765047",
+                "id": "1995120186",
                 "legacyId": "",
                 "status": "x",
                 "title": "- [x] [[00 Home/Tasks/Task Workflow]] — Task workflow documented #task/admin ✅ 2026-07-12",
@@ -4965,7 +4965,7 @@
                 "reminder": ""
             },
             {
-                "id": "3027578167",
+                "id": "2910867467",
                 "legacyId": "",
                 "status": "x",
                 "title": "- [x] [[00 Home/Tasks/Task Command Center]] — Clear Overdue / Today queue #task/admin ✅ 2026-07-12",
@@ -5066,7 +5066,6 @@
         "02 Research/Thesis Reading List — Self-Adaptors & Discourse-Planning Difficulty/Spatial Temporal Graph Convolutional Networks for Skeleton-Based Action Recognition (ST-GCN).md": [],
         "02 Research/Thesis Reading List — Self-Adaptors & Discourse-Planning Difficulty/MambaTAD When State-Space Models Meet Long-Range Temporal Action Detection.md": [],
         "03 Algorithms/DSA/Java Cheat Sheet for DSA (syntax, types, structures, functions).md": [],
-        "00 Home/Dashboard.md": [],
-        "00 Home/Tasks/Deadline Triage.md": []
+        "00 Home/Dashboard.md": []
     }
 }
