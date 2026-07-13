@@ -2,7 +2,7 @@ filters:
   and:
     - note["base"] == link("Document Hub.base")
 formulas:
-  Cover: 'if(note.cover, note.cover, if(note.Status == "Done", "#e8f5e9", if(note.Status == "In-Progress", "#fff7d6", "#eef2ff")))'
+  Cover: if(note.cover, note.cover, if(note.Status == "Done", "#e8f5e9", if(note.Status == "In-Progress", "#fff7d6", "#eef2ff")))
   Progress: if(note.Status == "Done", "✅ Done", if(note.Status == "In-Progress", "🟡 In progress", "⬜ Not started"))
 properties:
   file.name:
@@ -68,10 +68,6 @@ views:
         direction: DESC
   - type: cards
     name: 🖼️ Gallery
-    image: formula.Cover
-    imageFit: cover
-    imageAspectRatio: 1.7
-    cardSize: 260
     order:
       - file.name
       - formula.Progress
@@ -82,3 +78,7 @@ views:
         direction: ASC
       - property: Last updated time
         direction: DESC
+    image: formula.Cover
+    imageFit: cover
+    imageAspectRatio: 1.7
+    cardSize: 260

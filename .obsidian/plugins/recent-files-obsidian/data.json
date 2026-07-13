@@ -1,8 +1,24 @@
 {
   "recentFiles": [
     {
+      "basename": "Document Hub",
+      "path": "04 Reference/Document Hub/Document Hub.base"
+    },
+    {
+      "basename": "300. Longest Increasing Subsequence",
+      "path": "03 Algorithms/DSA/300. Longest Increasing Subsequence.md"
+    },
+    {
+      "basename": "Jul 3 — HW1 · 18.02SC Unit 1 Part B Matrix Multiplication, Inverses & Linear Systems",
+      "path": "01 Learning/DL Daily Lessons — Step-by-Step + Quiz/Jul 3 — HW1 · 18.02SC Unit 1 Part B Matrix Multiplication, Inverses & Linear Systems.md"
+    },
+    {
       "basename": "Computer Vision — Foundations Study Tracker",
       "path": "01 Learning/Computer Vision — Foundations Study Tracker/Computer Vision — Foundations Study Tracker.base"
+    },
+    {
+      "basename": "Java Cheat Sheet for DSA (syntax, types, structures, functions)",
+      "path": "03 Algorithms/DSA/Java Cheat Sheet for DSA (syntax, types, structures, functions).md"
     },
     {
       "basename": "Unified Acoustic-to-Speech-to-Language Embedding Space & the Neural Basis of Natural Conversation (Whisper + ECoG)",
@@ -11,10 +27,6 @@
     {
       "basename": "Reference Hub",
       "path": "04 Reference/Reference Hub.base"
-    },
-    {
-      "basename": "Java Cheat Sheet for DSA (syntax, types, structures, functions)",
-      "path": "03 Algorithms/DSA/Java Cheat Sheet for DSA (syntax, types, structures, functions).md"
     },
     {
       "basename": "2026-07-13",
@@ -45,10 +57,6 @@
       "path": "01 Learning/Learning Hub.base"
     },
     {
-      "basename": "300. Longest Increasing Subsequence",
-      "path": "03 Algorithms/DSA/300. Longest Increasing Subsequence.md"
-    },
-    {
       "basename": "Local Paper Library",
       "path": "02 Research/Local Paper Library.base"
     },
@@ -67,10 +75,6 @@
     {
       "basename": "Jul 2 — HW1 · 18.02SC Unit 1 Part A Vectors, Determinants & Planes",
       "path": "01 Learning/DL Daily Lessons — Step-by-Step + Quiz/Jul 2 — HW1 · 18.02SC Unit 1 Part A Vectors, Determinants & Planes.md"
-    },
-    {
-      "basename": "Jul 3 — HW1 · 18.02SC Unit 1 Part B Matrix Multiplication, Inverses & Linear Systems",
-      "path": "01 Learning/DL Daily Lessons — Step-by-Step + Quiz/Jul 3 — HW1 · 18.02SC Unit 1 Part B Matrix Multiplication, Inverses & Linear Systems.md"
     },
     {
       "basename": "CVPR 2027 Submission Roadmap — Temporal Self-Contact",
