@@ -8,15 +8,15 @@ Category:
 
 # 🧨 Deadline Triage
 
-> Auto-generated on 2026-07-13 by `.obsidian/automation/deadline_triage.py`.
+> Auto-generated on 2026-07-14 by `.obsidian/automation/deadline_triage.py`.
 > Research assigned-reading backlog is intentionally excluded from urgent overdue/today deadline lanes.
 
 ## Summary
 
-- Total surfaced deadline/backlog items: **88**
-- Overdue: **45**
-- Due today: **4**
-- Upcoming: **39**
+- Total surfaced deadline/backlog items: **89**
+- Overdue: **49**
+- Due today: **2**
+- Upcoming: **38**
 
 ## How to use this list
 
@@ -24,7 +24,7 @@ Category:
 - When the real source task is completed, check the generated triage checkbox here too.
 - Research reading remains visible in the Research Hub/Base instead of urgent deadline lanes.
 
-## 🚨 Overdue / due now (45)
+## 🚨 Overdue / due now (49)
 
 ### Implicit dated lessons — DL daily
 
@@ -141,9 +141,6 @@ Category:
 ### Implicit homework sub-deadlines
 
 - [ ] [[01 Learning/DL Homework Practice — MIT 6.7960/Homework 1|Homework 1]] — Jul 12 — PT-Cert C3 M1–M3 (Custom Architectures; Specialized Vision: Siamese, ResNets; Specialized NLP — the transformer-from-components part is now review after Karpathy: skim) · finish bo… 📅 2026-07-12 #deadline-homework-plan <!-- inferred: dated homework checklist item -->
-
-## 📅 Due today (4)
-
 ### Explicit due dates — DSA
 
 - [ ] [[03 Algorithms/DSA/33. Search in Rotated Sorted Array|33. Search in Rotated Sorted Array]] — page due date 📅 2026-07-13 #deadline-dsa <!-- inferred: Due Date property -->
@@ -157,11 +154,17 @@ Category:
 
 - [ ] [[01 Learning/DL Homework Practice — MIT 6.7960/Homework 1|Homework 1]] — Jul 13 — Attempt HW1 (theory problems: ReLU nets, approximation, backprop derivations) 📅 2026-07-13 #deadline-homework-plan <!-- inferred: dated homework checklist item -->
 
-## 🗓️ Upcoming (39)
+## 📅 Due today (2)
 
+### Implicit dated study pages — CV
+
+- [ ] [[01 Learning/Computer Vision — Foundations Study Tracker/Optical Flow, Recognition, VLMs & Research Skills|Optical Flow, Recognition, VLMs & Research Skills]] — scheduled CV study page (Not-Started) 📅 2026-07-14 #deadline-cv <!-- inferred: Date property treated as scheduled study deadline -->
 ### Implicit homework sub-deadlines
 
 - [ ] [[01 Learning/DL Homework Practice — MIT 6.7960/Homework 1|Homework 1]] — Jul 14 — Attempt HW1 (implementation problems: manual forward/backward, training loop — apply PT-Cert C1 skills) 📅 2026-07-14 #deadline-homework-plan <!-- inferred: dated homework checklist item -->
+
+## 🗓️ Upcoming (38)
+
 ### Explicit due dates — Homework
 
 - [ ] [[01 Learning/DL Homework Practice — MIT 6.7960/Homework 1|Homework 1]] — page due date 📅 2026-07-15 #deadline-homework <!-- inferred: Due Date property -->
