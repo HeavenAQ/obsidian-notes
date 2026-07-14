@@ -1788,6 +1788,18 @@ const PILL_SELECTOR = [
   '.bases-metadata-value .multi-select-pill'
 ].join(',');
 
+const STATUS_CANDIDATE_SELECTOR = [
+  '.metadata-property',
+  '.bases-view td',
+  '.bases-view .bases-td',
+  '.bases-view .bases-table-cell',
+  '.bases-view [data-property-key]',
+  '.bases-view [data-property]',
+  '.bases-view [data-column-key]'
+].join(',');
+
+const STATUS_KEYS = new Set(['done', 'in-progress', 'not-started', 'to-review', 'to-solve']);
+
 function normalizeTagText(text) {
   return String(text || '')
     .replace(/[×✕✖]\s*$/g, '')
@@ -1808,9 +1820,44 @@ function collectPills(node, out) {
   node.querySelectorAll(PILL_SELECTOR).forEach(el => out.add(el));
 }
 
+function collectStatusCandidates(node, out) {
+  if (!(node instanceof HTMLElement)) return;
+  if (node.matches(STATUS_CANDIDATE_SELECTOR)) out.add(node);
+  node.querySelectorAll(STATUS_CANDIDATE_SELECTOR).forEach(el => out.add(el));
+}
+
+function propertyKey(row) {
+  const attr = row.dataset?.propertyKey || row.dataset?.property || row.dataset?.columnKey;
+  if (attr) return String(attr).replace(/^note\./, '').trim();
+  const input = row.querySelector('.metadata-property-key-input');
+  if (input?.value) return input.value.trim();
+  const key = row.querySelector('.metadata-property-key, [class*="property-key"]');
+  return key?.textContent?.trim() || '';
+}
+
+function statusKey(text) {
+  const clean = String(text || '')
+    .replace(/[✅🟡⬜]/gu, '')
+    .trim()
+    .replace(/[_\s]+/g, '-')
+    .toLowerCase();
+  if (clean === 'in-progress') return 'in-progress';
+  if (clean === 'not-started') return 'not-started';
+  if (clean === 'to-review') return 'to-review';
+  if (clean === 'to-solve') return 'to-solve';
+  if (clean === 'done') return 'done';
+  return null;
+}
+
+function candidateText(el) {
+  if (el instanceof HTMLInputElement || el instanceof HTMLTextAreaElement) return el.value;
+  return el.textContent;
+}
+
 module.exports = class NotionPropertyTagsPlugin extends Plugin {
   onload() {
     this.pending = new Set();
+    this.pendingStatus = new Set();
     this.mode = this.getMode();
     this.queueFullScan = this.queueFullScan.bind(this);
 
@@ -1819,9 +1866,12 @@ module.exports = class NotionPropertyTagsPlugin extends Plugin {
 
     this.observer = new MutationObserver(mutations => {
       for (const mutation of mutations) {
-        for (const node of mutation.addedNodes) collectPills(node, this.pending);
+        for (const node of mutation.addedNodes) {
+          collectPills(node, this.pending);
+          collectStatusCandidates(node, this.pendingStatus);
+        }
       }
-      if (this.pending.size) this.scheduleFlush();
+      if (this.pending.size || this.pendingStatus.size) this.scheduleFlush();
     });
     this.observer.observe(document.body, { childList: true, subtree: true });
 
@@ -1837,6 +1887,13 @@ module.exports = class NotionPropertyTagsPlugin extends Plugin {
 
     this.registerEvent(this.app.workspace.on('file-open', this.queueFullScan));
     this.registerEvent(this.app.workspace.on('active-leaf-change', this.queueFullScan));
+    this.registerDomEvent(document, 'input', event => {
+      const row = event.target instanceof HTMLElement ? event.target.closest('.metadata-property') : null;
+      if (row) {
+        this.pendingStatus.add(row);
+        this.scheduleFlush();
+      }
+    });
   }
 
   onunload() {
@@ -1854,6 +1911,7 @@ module.exports = class NotionPropertyTagsPlugin extends Plugin {
     clearTimeout(this.fullTimer);
     this.fullTimer = window.setTimeout(() => {
       document.querySelectorAll(PILL_SELECTOR).forEach(el => this.pending.add(el));
+      document.querySelectorAll(STATUS_CANDIDATE_SELECTOR).forEach(el => this.pendingStatus.add(el));
       this.scheduleFlush();
     }, 120);
   }
@@ -1865,6 +1923,9 @@ module.exports = class NotionPropertyTagsPlugin extends Plugin {
       const batch = [...this.pending];
       this.pending.clear();
       for (const el of batch) this.stylePill(el);
+      const statusBatch = [...this.pendingStatus];
+      this.pendingStatus.clear();
+      for (const el of statusBatch) this.styleStatus(el);
     });
   }
 
@@ -1880,5 +1941,43 @@ module.exports = class NotionPropertyTagsPlugin extends Plugin {
     el.classList.add('notion-property-tag');
     el.style.setProperty('--notion-tag-bg', pair.bg);
     el.style.setProperty('--notion-tag-fg', pair.fg);
+  }
+
+  styleStatus(el) {
+    if (!el.isConnected) return;
+
+    let target = el;
+    if (el.matches('.metadata-property')) {
+      if (propertyKey(el).toLowerCase() !== 'status') return;
+      target = el.querySelector(
+        '.metadata-property-value input, .metadata-property-value, [class*="property-value"] input, [class*="property-value"]'
+      );
+      if (!target) return;
+    } else {
+      const declaredKey = propertyKey(el);
+      if (declaredKey && declaredKey.toLowerCase() !== 'status') return;
+
+      // Prefer the smallest text-bearing child so a Base cell receives a chip,
+      // rather than painting an entire row or table container.
+      const descendants = [...el.querySelectorAll('span, div, input')]
+        .filter(node => STATUS_KEYS.has(statusKey(candidateText(node))));
+      if (descendants.length) target = descendants[descendants.length - 1];
+    }
+
+    const key = statusKey(candidateText(target));
+    if (!key) {
+      target.classList?.remove('notion-property-status');
+      target.style?.removeProperty('--notion-status-bg');
+      target.style?.removeProperty('--notion-status-fg');
+      return;
+    }
+
+    const mode = this.getMode();
+    const pair = (COLOR_MAP[key] || DEFAULT)[mode];
+    target.dataset.notionStatus = key;
+    target.dataset.notionStatusMode = mode;
+    target.classList.add('notion-property-status');
+    target.style.setProperty('--notion-status-bg', pair.bg);
+    target.style.setProperty('--notion-status-fg', pair.fg);
   }
 };

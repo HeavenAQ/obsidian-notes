@@ -9,3 +9,30 @@
   color: inherit !important;
   -webkit-text-fill-color: inherit !important;
 }
+
+/* Status is intentionally a scalar Text property so Bases filters remain
+   reliable. The plugin applies the same value colors without turning it back
+   into a vault-global tag field. */
+.notion-property-status {
+  color: var(--notion-status-fg) !important;
+  -webkit-text-fill-color: var(--notion-status-fg) !important;
+  background: var(--notion-status-bg) !important;
+  background-color: var(--notion-status-bg) !important;
+  background-image: none !important;
+  border-color: transparent !important;
+  border-radius: 4px !important;
+  box-shadow: none !important;
+  font-weight: 600 !important;
+  text-decoration: none !important;
+}
+
+span.notion-property-status,
+input.notion-property-status,
+.metadata-property-value.notion-property-status {
+  padding: 1px 6px !important;
+}
+
+.notion-property-status * {
+  color: inherit !important;
+  -webkit-text-fill-color: inherit !important;
+}

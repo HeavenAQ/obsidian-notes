@@ -5,6 +5,9 @@ cssclasses:
 
 # 🏷️ Select Fields Converted to Tag Chips
 
+> [!warning] Superseded on 2026-07-14
+> Non-`tags` properties were restored to Obsidian-native **Text** (single value) or **List** (multiple values). Using the special Tags type for fields such as `Status`, `Category`, and `Topic` made their pickers draw from the vault-wide tag vocabulary and could change scalar Document Hub values into tag lists. The current property-type source of truth is `.obsidian/types.json`; this note remains only as a record of the earlier conversion.
+
 - Files changed: 189
 - Tag-typed chip values configured: 153
 

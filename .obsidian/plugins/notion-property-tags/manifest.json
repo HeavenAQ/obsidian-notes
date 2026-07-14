@@ -1,9 +1,9 @@
 {
   "id": "notion-property-tags",
   "name": "Notion Property Tags",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "minAppVersion": "1.5.0",
-  "description": "Efficient incremental Notion-style property and Base pills.",
+  "description": "Efficient incremental Notion-style property, Base pills, and workflow status colors.",
   "author": "Claudian",
   "isDesktopOnly": false
 }

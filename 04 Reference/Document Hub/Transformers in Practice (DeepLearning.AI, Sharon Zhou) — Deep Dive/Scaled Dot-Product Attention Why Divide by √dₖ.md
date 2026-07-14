@@ -1,5 +1,13 @@
 ---
 base: "[[Document Hub.base]]"
+Created by: Heaven Chen
+Created time: 2026-07-11T19:11:58
+Status: In-Progress
+Last updated time: 2026-07-11T20:31:21
+Last edited by: Heaven Chen
+Category:
+  - LLM
+  - Theory
 ---
 - [ ] # **Core formula**
 

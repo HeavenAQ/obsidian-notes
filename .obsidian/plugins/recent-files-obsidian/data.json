@@ -5,12 +5,12 @@
       "path": "04 Reference/Document Hub/Tree-Based Classification Deep Dive — Decision Trees, Random Forests, XGBoost, LightGBM & CatBoost.md"
     },
     {
-      "basename": "Jul 3 — HW1 · 18.02SC Unit 1 Part B Matrix Multiplication, Inverses & Linear Systems",
-      "path": "01 Learning/DL Daily Lessons — Step-by-Step + Quiz/Jul 3 — HW1 · 18.02SC Unit 1 Part B Matrix Multiplication, Inverses & Linear Systems.md"
-    },
-    {
       "basename": "Document Hub",
       "path": "04 Reference/Document Hub/Document Hub.base"
+    },
+    {
+      "basename": "Jul 3 — HW1 · 18.02SC Unit 1 Part B Matrix Multiplication, Inverses & Linear Systems",
+      "path": "01 Learning/DL Daily Lessons — Step-by-Step + Quiz/Jul 3 — HW1 · 18.02SC Unit 1 Part B Matrix Multiplication, Inverses & Linear Systems.md"
     },
     {
       "basename": "Qwen3.5 Deep Dive — Native Multimodal Agents, Gated DeltaNet & Sparse MoE",

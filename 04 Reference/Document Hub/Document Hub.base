@@ -10,6 +10,8 @@ properties:
   formula.Cover:
     displayName: Cover
   formula.Progress:
+    displayName: Progress
+  Status:
     displayName: Status
   Category:
     displayName: Category
@@ -22,10 +24,14 @@ views:
     name: Table
     order:
       - file.name
-      - formula.Progress
+      - Status
       - Category
       - Last updated time
     sort:
+      - property: formula.Progress
+        direction: ASC
+      - property: file.name
+        direction: ASC
       - property: Status
         direction: ASC
       - property: Last updated time
@@ -37,6 +43,7 @@ views:
         - note.Status == "In-Progress"
     order:
       - file.name
+      - Status
       - Category
       - Last updated time
     sort:
@@ -49,6 +56,7 @@ views:
         - note.Status == "Not-Started"
     order:
       - file.name
+      - Status
       - Category
       - Created time
     sort:
@@ -61,6 +69,7 @@ views:
         - note.Status == "Done"
     order:
       - file.name
+      - Status
       - Category
       - Last updated time
     sort:
