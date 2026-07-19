@@ -9,14 +9,14 @@
 - mkdir 99 Assets/Media
 - mkdir 99 Assets/Canvas
 - mkdir 99 Assets/Bases
-- move Notion/Computer Vision — Foundations Study Tracker -> 01 Learning/Computer Vision — Foundations Study Tracker
-- move Notion/DL Daily Lessons — Step-by-Step + Quiz -> 01 Learning/DL Daily Lessons — Step-by-Step + Quiz
-- move Notion/DL Homework Practice — MIT 6.7960 -> 01 Learning/DL Homework Practice — MIT 6.7960
+- move Notion/01.1 Computer Vision — Foundations Study Tracker -> 01.1 Computer Vision — Foundations Study Tracker
+- move Notion/01.2 DL Daily Lessons — Step-by-Step + Quiz -> 01.2 DL Daily Lessons — Step-by-Step + Quiz
+- move Notion/01.3 DL Homework Practice — MIT 6.7960 -> 01.3 DL Homework Practice — MIT 6.7960
 - move Notion/Thesis Reading List — Self-Adaptors & Discourse-Planning Difficulty -> 02 Research/Thesis Reading List — Self-Adaptors & Discourse-Planning Difficulty
 - move Notion/Research Thesis.md -> 02 Research/Research Thesis.md
 - move Notion/DSA -> 03 Algorithms/DSA
 - move Notion/Document Hub -> 04 Reference/Document Hub
-- move Dashboard.md -> 00 Home/Dashboard.md
+- move Dashboard.md -> 00 Home/00 Home.md
 - move Vault.md -> 00 Home/Vault Map.md
 - move Welcome.md -> 90 Archive/Welcome.md
 - move 2026-07-11.md -> 00 Home/Daily Notes/2026-07-11.md
@@ -75,7 +75,7 @@
 - move x1 3.png -> 99 Assets/Media/x1 3.png
 - move x1.png -> 99 Assets/Media/x1.png
 - remove empty Notion/
-- update media wikilinks in 01 Learning/Computer Vision — Foundations Study Tracker/Foundations — The Challenge of Vision & A Simple Vision System.md
+- update media wikilinks in 01.1 Computer Vision — Foundations Study Tracker/Foundations — The Challenge of Vision & A Simple Vision System.md
 - update media wikilinks in 04 Reference/Document Hub/LLM Inference Acceleration — Deep Dive (LLM高速化勉強会 + expanded).md
 - update media wikilinks in 04 Reference/Document Hub/LLM Fine-tuning Deep Dive — Full Fine-tuning, LoRA & QLoRA.md
 - update media wikilinks in 04 Reference/Document Hub/DINOv3 Deep Dive (with DINO & DINOv2 Lineage).md
@@ -91,7 +91,7 @@
 - update media wikilinks in 02 Research/Thesis Reading List — Self-Adaptors & Discourse-Planning Difficulty/Automatic Detection of Self-Adaptors for Psychological Distress/Automatic Detection of Self-Adaptors for Psychological Distress.md
 - update .obsidian/app.json
 - write .obsidian/daily-notes.json
-- update homepage plugin to 00 Home/Dashboard
+- update homepage plugin to 00 Home/00 Home
 - installed community plugin: Style Settings (obsidian-style-settings)
 - installed community plugin: Minimal Theme Settings (obsidian-minimal-settings)
 - installed community plugin: Iconic (iconic)
@@ -146,7 +146,7 @@
 - Installed and enabled Tasks, Task Board, Reminder, QuickAdd, Recent Files, Note Toolbar, Various Complements, Full Calendar, and Day Planner.
 - Added local helper plugin `claudian-productivity` with commands for fast task capture, task inbox, task command center, and today's daily note.
 - Created [[00 Home/Tasks/Task Command Center]], [[00 Home/Tasks/Task Inbox]], [[00 Home/Tasks/Task Workflow]], and [[00 Home/Tasks/Productivity Plugin Setup]].
-- Added task cockpit sections to [[00 Home/Dashboard]] and updated today link to [[00 Home/Daily Notes/2026-07-12]].
+- Added task cockpit sections to [[00 Home/00 Home]] and updated today link to [[00 Home/Daily Notes/2026-07-12]].
 - Configured core Daily Notes/Templates, Full Calendar local folder, Various Complements autocomplete, and productivity hotkeys; Tasks is left on plugin defaults to avoid over-filtering existing checkboxes.
 ## 2026-07-12 — Kanban task board
 - Installed and enabled the markdown-backed Kanban community plugin (`obsidian-kanban` v2.0.51).
@@ -155,7 +155,7 @@
 ## 2026-07-12 — Inferred deadline triage
 - Generated [[00 Home/Tasks/Deadline Triage]] with 110 surfaced deadline/backlog items: 68 overdue, 2 due today, and 40 upcoming.
 - Inferred deadlines from `Due Date`, homework plan dates/windows, CV/DL lesson `Date` fields, and research `Assigned Date` fields.
-- Added direct deadline queries to [[00 Home/Dashboard]] and [[00 Home/Tasks/Task Command Center]].
+- Added direct deadline queries to [[00 Home/00 Home]] and [[00 Home/Tasks/Task Command Center]].
 
 ## 2026-07-12 — Fix dashboard Dataview and Kanban deadlines
 - Fixed DataviewJS `ReferenceError: has is not defined` by adding the helper function to each independent DataviewJS block that uses it.
@@ -171,3 +171,10 @@
 
 - Added unified task-board automation: status/property changes now regenerate [[00 Home/Tasks/Task Kanban Board]] via `.obsidian/automation/task_board_automation.py`.
 - Added `.obsidian/automation/status_board.py` and `.obsidian/automation/run_all_automations.sh`.
+
+## 2026-07-14 — Remove unused and overlapping plugins
+
+- Removed Obsidian Git, Calendar, Full Calendar, Day Planner, Heatmap Calendar, QuickAdd, Note Toolbar, and Task Board from the enabled community-plugin registry and deleted their plugin directories.
+- Removed their stale hotkeys and Git/calendar/planner workspace panes.
+- Kept Tasks + Kanban + Claudian Productivity Commands as the smaller task-management stack.
+- Kept the repository itself intact; command-line Git remains available independently of the removed Obsidian Git interface.

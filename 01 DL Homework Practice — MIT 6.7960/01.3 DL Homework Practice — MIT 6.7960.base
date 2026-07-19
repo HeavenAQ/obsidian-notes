@@ -1,0 +1,80 @@
+filters:
+  and:
+    - note["base"] == link("01.3 DL Homework Practice — MIT 6.7960.base")
+formulas:
+  Cover: if(note.Status == "Done", "#e8f5e9", if(note.Status == "In-Progress", "#fff7d6", "#eef2ff"))
+  Progress: if(note.Status == "Done", "✅ Done", if(note.Status == "In-Progress", "🟡 In progress", "⬜ Not started"))
+  Notes: if(note["Notes ready"] == true, "🗒️ Ready", "🗒️ —")
+properties:
+  file.name:
+    displayName: 📝 Homework
+  formula.Cover:
+    displayName: Cover
+  formula.Progress:
+    displayName: Status
+  formula.Notes:
+    displayName: Notes
+  "HW #":
+    displayName: "HW #"
+  Due Date:
+    displayName: Due
+  Window:
+    displayName: Window
+  PDF:
+    displayName: PDF
+views:
+  - type: table
+    name: Table
+    order:
+      - file.name
+      - formula.Progress
+      - formula.Notes
+      - "HW #"
+      - Due Date
+      - PDF
+    sort:
+      - property: "HW #"
+        direction: ASC
+  - type: table
+    name: 🎯 Active
+    filters:
+      and:
+        - note.Status == "In-Progress"
+    order:
+      - file.name
+      - formula.Notes
+      - Due Date
+      - Window
+      - PDF
+    sort:
+      - property: Due Date
+        direction: ASC
+  - type: table
+    name: ⬜ Upcoming
+    filters:
+      and:
+        - note.Status == "Not-Started"
+    order:
+      - file.name
+      - "HW #"
+      - formula.Notes
+      - PDF
+    sort:
+      - property: "HW #"
+        direction: ASC
+  - type: cards
+    name: 🖼️ Homework Cards
+    order:
+      - file.name
+      - formula.Progress
+      - formula.Notes
+      - "HW #"
+      - Due Date
+      - Window
+    sort:
+      - property: "HW #"
+        direction: ASC
+    image: formula.Cover
+    imageFit: cover
+    imageAspectRatio: 1.55
+    cardSize: 260

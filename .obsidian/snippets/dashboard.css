@@ -108,7 +108,9 @@ settings:
 
 /* File explorer readability: make the new top-level areas visually scannable. */
 .nav-folder-title[data-path="00 Home"],
-.nav-folder-title[data-path="01 Learning"],
+.nav-folder-title[data-path="01 Computer Vision — Foundations Study Tracker"],
+.nav-folder-title[data-path="01 DL Daily Lessons — Step-by-Step + Quiz"],
+.nav-folder-title[data-path="01 DL Homework Practice — MIT 6.7960"],
 .nav-folder-title[data-path="02 Research"],
 .nav-folder-title[data-path="03 Algorithms"],
 .nav-folder-title[data-path="04 Reference"],
@@ -120,7 +122,9 @@ settings:
 }
 
 .nav-folder-title[data-path="00 Home"] { color: #92400e; background: rgba(245, 229, 166, 0.28); }
-.nav-folder-title[data-path="01 Learning"] { color: #1e3a8a; background: rgba(215, 231, 247, 0.45); }
+.nav-folder-title[data-path="01 Computer Vision — Foundations Study Tracker"],
+.nav-folder-title[data-path="01 DL Daily Lessons — Step-by-Step + Quiz"],
+.nav-folder-title[data-path="01 DL Homework Practice — MIT 6.7960"] { color: #1e3a8a; background: rgba(215, 231, 247, 0.45); }
 .nav-folder-title[data-path="02 Research"] { color: #4c1d95; background: rgba(228, 215, 245, 0.42); }
 .nav-folder-title[data-path="03 Algorithms"] { color: #134e4a; background: rgba(205, 234, 228, 0.42); }
 .nav-folder-title[data-path="04 Reference"] { color: #5c4033; background: rgba(234, 219, 200, 0.38); }

@@ -10,7 +10,12 @@ from pathlib import Path
 from collections import defaultdict, Counter
 
 ROOT = Path.cwd()
-INCLUDE_ROOTS = ('01 Learning', '02 Research', '03 Algorithms', '04 Reference')
+LEARNING_ROOTS = (
+    '01.1 Computer Vision — Foundations Study Tracker',
+    '01.2 DL Daily Lessons — Step-by-Step + Quiz',
+    '01.3 DL Homework Practice — MIT 6.7960',
+)
+INCLUDE_ROOTS = LEARNING_ROOTS + ('02 Research', '03 Algorithms', '04 Reference')
 EXCLUDE_PARTS = {'.obsidian', '99 Assets', '90 Archive'}
 
 
@@ -152,7 +157,7 @@ def collect_status_cards():
         desc = describe(fm)
         area = str(md.relative_to(ROOT)).split('/', 1)[0]
         area_tag = {
-            '01 Learning': '#area-learning',
+            **{root: '#area-learning' for root in LEARNING_ROOTS},
             '02 Research': '#area-research',
             '03 Algorithms': '#area-algorithms',
             '04 Reference': '#area-reference',

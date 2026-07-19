@@ -12,14 +12,10 @@ Category:
 | Plugin | Role | Main use |
 |---|---|---|
 | Tasks | Task engine | Query/check tasks across the entire vault |
-| Task Board | Visual planning | Board view for all vault tasks |
+| Kanban | Visual planning | Markdown-backed task board |
 | Reminder | Alerts | Notifications for markdown TODOs |
-| QuickAdd | Capture automation | Fast capture/templates/macros |
 | Recent Files | Navigation | Jump back to recent work |
-| Note Toolbar | Context actions | Toolbars/buttons inside notes |
 | Various Complements | Autocomplete | Faster typing/linking |
-| Full Calendar | Calendar | Event notes/calendar view |
-| Day Planner | Daily execution | Timeline/time tracking |
 | Claudian Productivity Commands | Vault-specific helper | Capture task/open task center hotkeys |
 
 ## Hotkeys I set
@@ -28,11 +24,11 @@ Category:
 |---|---|
 | `Cmd/Ctrl + Shift + T` | Capture task to [[00 Home/Tasks/Task Inbox]] |
 | `Cmd/Ctrl + Shift + J` | Open [[00 Home/Tasks/Task Command Center]] |
-| `Cmd/Ctrl + Shift + B` | Open Task Board |
+| `Cmd/Ctrl + Shift + K` | Open [[00 Home/Tasks/Task Kanban Board]] |
 | `Cmd/Ctrl + Shift + R` | Show reminders |
 | `Cmd/Ctrl + Shift + E` | Open Recent Files |
 | `Alt + Enter` | Edit task under cursor with Tasks |
-| `Cmd/Ctrl + Alt + D` | Open Day Planner timeline |
+| `Alt + K` | Toggle Kanban/Markdown view |
 | `Cmd/Ctrl + Alt + Shift + R` | Refresh inferred deadlines + Kanban deadline lanes |
 
 ## Automation
@@ -62,3 +58,9 @@ Category:
 
 - Added unified task-board automation: status/property changes now regenerate [[00 Home/Tasks/Task Kanban Board]] via `.obsidian/automation/task_board_automation.py`.
 - See [[00 Home/Tasks/Task Board Automation]] for triggers and status-to-lane rules.
+
+## Plugin cleanup — 2026-07-14
+
+- Removed unused Obsidian Git, Calendar, Full Calendar, Day Planner, Heatmap Calendar, QuickAdd, Note Toolbar, and Task Board plugins.
+- Git remains available through the repository and command line; task capture remains provided by Claudian Productivity Commands.
+- Tasks + Kanban are now the single task-query and visual-board stack.

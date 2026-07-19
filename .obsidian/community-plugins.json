@@ -1,25 +1,19 @@
 [
   "omnisearch",
   "realclaudian",
-  "obsidian-git",
-  "heatmap-calendar",
-  "calendar",
   "dataview",
   "iconic",
   "colored-tags",
   "tag-wrangler",
   "notion-property-tags",
   "obsidian-tasks-plugin",
-  "quickadd",
   "obsidian-reminder-plugin",
   "recent-files-obsidian",
-  "note-toolbar",
   "various-complements",
-  "task-board",
-  "obsidian-full-calendar",
-  "obsidian-day-planner",
   "claudian-productivity",
   "obsidian-kanban",
   "obsidian-zotero-desktop-connector",
-  "pdf-plus"
+  "pdf-plus",
+  "folder-notes",
+  "obsidian-git"
 ]

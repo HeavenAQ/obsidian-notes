@@ -1,7 +1,7 @@
 {
   "newNotePlaceholder": "Untitled",
   "defaultInitialization": false,
-  "navigatorEnabled": true,
+  "navigatorEnabled": false,
   "filePreviewOnHover": false,
   "blinkEnabled": true,
   "datePickerTime": false,
@@ -38,14 +38,11 @@
   "vaultSelector": true,
   "deleteFileOption": "trash",
   "expandedSpaces": [
-    "/",
     "//Notion",
     "//Tags",
-    "//03 Algorithms",
-    "//01 Learning/01 Learning/Computer Vision — Foundations Study Tracker",
-    "//04 Reference"
+    "/"
   ],
-  "expandFolderOnClick": true,
+  "expandFolderOnClick": false,
   "spacesFolder": "Tags",
   "suppressedWarnings": [],
   "spaceSubFolder": ".space",
@@ -71,7 +68,7 @@
   "fmKeyColor": "color",
   "fmKeyBannerOffset": "banner_y",
   "fmKeySticker": "sticker",
-  "openSpacesOnLaunch": true,
+  "openSpacesOnLaunch": false,
   "indexSVG": false,
   "readableLineWidth": true,
   "autoAddContextsToSubtags": true,

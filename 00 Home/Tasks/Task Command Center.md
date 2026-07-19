@@ -16,8 +16,8 @@ Category:
 - 📥 [[00 Home/Tasks/Task Inbox|Task Inbox]]
 - 🧨 [[00 Home/Tasks/Deadline Triage|Deadline Triage]]
 - 📅 [[00 Home/Daily Notes/2026-07-12|Today’s daily note]]
-- 🏠 [[00 Home/Dashboard|Dashboard]]
-- 🎓 [[01 Learning/Learning Hub.base|Learning Hub]]
+- 🏠 [[00 Home/00 Home|Dashboard]]
+- 🎓 [[00 Home/Learning Hub.base|Learning Hub]]
 - 🔬 [[02 Research/Research Hub.base|Research Hub]]
 - 🧩 [[03 Algorithms/Algorithms Hub.base|Algorithms Hub]]
 
@@ -101,7 +101,7 @@ hide task count
 
 ```tasks
 not done
-path includes 01 Learning
+filter by function ['01.1 Computer Vision — Foundations Study Tracker', '01.2 DL Daily Lessons — Step-by-Step + Quiz', '01.3 DL Homework Practice — MIT 6.7960'].some(folder => task.file.path.startsWith(folder + '/'))
 sort by due
 sort by priority
 hide task count

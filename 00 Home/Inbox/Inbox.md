@@ -7,10 +7,10 @@ cssclasses:
 
 Drop quick notes here first, then sort them into:
 
-- [[01 Learning/Learning Hub|Learning]]
-- [[02 Research/Research Hub|Research]]
-- [[03 Algorithms/Algorithms Hub|Algorithms]]
-- [[04 Reference/Reference Hub|Reference]]
+- [[00 Home/Learning Hub|Learning]]
+- [[02 Research/02 Research|Research]]
+- [[03 Algorithms/03 Algorithms|Algorithms]]
+- [[04 Reference/04 Reference|Reference]]
 
 ```dataview
 TABLE file.folder AS "Folder", dateformat(file.ctime, "MMM dd") AS "Created"

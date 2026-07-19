@@ -10,14 +10,11 @@ Category:
 ## Installed task/productivity stack
 
 - Tasks — cross-vault task queries and completion from dashboards.
-- Task Board — visual board for vault tasks.
+- Kanban — markdown-backed visual board at [[00 Home/Tasks/Task Kanban Board]].
 - Reminder — notifications for markdown tasks.
-- QuickAdd — fast capture/menu automation.
+- Claudian Productivity Commands — task capture and board refresh automation.
 - Recent Files — jump back to recent work.
-- Note Toolbar — context-aware note toolbars.
 - Various Complements — autocomplete while writing.
-- Full Calendar — calendar layer for event notes.
-- Day Planner — day timeline and time-tracking layer.
 
 ## Daily flow
 
@@ -25,7 +22,7 @@ Category:
 2. Clear **Overdue** and **Due today**.
 3. Process **Needs triage / no date**.
 4. Put only the real work for today in the daily note.
-5. Use Task Board when you want visual planning.
+5. Use the Kanban board when you want visual planning.
 6. Use Reminder only for time-sensitive alerts.
 
 ## Recommended syntax

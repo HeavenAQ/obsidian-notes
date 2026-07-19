@@ -139,7 +139,7 @@ def collect_items(today):
             add(items, today, f'Explicit due dates — {area}', due, f'{wikilink(md)} — page due date', md, tag, 'Due Date property')
 
     # CV study dates.
-    cv_dir = ROOT / '01 Learning/Computer Vision — Foundations Study Tracker'
+    cv_dir = ROOT / '01.1 Computer Vision — Foundations Study Tracker'
     if cv_dir.exists():
         for md in sorted(cv_dir.glob('*.md')):
             fm, body = parse_fm(md.read_text(errors='ignore'))
@@ -149,7 +149,7 @@ def collect_items(today):
                 add(items, today, 'Implicit dated study pages — CV', due, f'{wikilink(md)} — scheduled CV study page ({status})', md, '#deadline-cv', 'Date property treated as scheduled study deadline')
 
     # DL daily lessons.
-    dl_dir = ROOT / '01 Learning/DL Daily Lessons — Step-by-Step + Quiz'
+    dl_dir = ROOT / '01.2 DL Daily Lessons — Step-by-Step + Quiz'
     if dl_dir.exists():
         for md in sorted(dl_dir.glob('*.md')):
             fm, body = parse_fm(md.read_text(errors='ignore'))
@@ -163,7 +163,7 @@ def collect_items(today):
                 add(items, today, 'Implicit dated lessons — DL daily', due, f'{wikilink(md)} — {", ".join(bits)}', md, '#deadline-dl-daily', 'Date property + Studied/Quiz unchecked')
 
     # Homework sub-deadlines.
-    hw_dir = ROOT / '01 Learning/DL Homework Practice — MIT 6.7960'
+    hw_dir = ROOT / '01.3 DL Homework Practice — MIT 6.7960'
     if hw_dir.exists():
         for md in sorted(hw_dir.glob('Homework*.md')):
             fm, body = parse_fm(md.read_text(errors='ignore'))
@@ -242,7 +242,7 @@ def write_kanban(items):
 %%'''
     lines = ['---', 'kanban-plugin: board', 'cssclasses:', '  - dashboard', 'Status: In-Progress', 'Category:', '  - Task-Management', '---', '']
     lines += ['## 📥 Inbox', '', '- [[00 Home/Tasks/Task Inbox]] — Process loose captured tasks #task/inbox', '- [[00 Home/Tasks/Task Command Center]] — Triage tasks with no due/scheduled/start date #task/admin', '- [[00 Home/Daily Notes/2026-07-12]] — Review today’s Top 3 #task/admin', '']
-    lines += ['## 🎯 Next', '', '- [[00 Home/Tasks/Deadline Triage]] — Work through surfaced overdue/deadline items #deadline-triage', '- [[02 Research/Research Thesis]] — Discuss two-layer plan and ML-heavy methods with Prof. Sekine #task/research', '- [[01 Learning/DL Homework Practice — MIT 6.7960/Homework 1]] — Continue HW1 prep and implementation plan #task/homework', '']
+    lines += ['## 🎯 Next', '', '- [[00 Home/Tasks/Deadline Triage]] — Work through surfaced overdue/deadline items #deadline-triage', '- [[02 Research/Research Thesis]] — Discuss two-layer plan and ML-heavy methods with Prof. Sekine #task/research', '- [[01.3 DL Homework Practice — MIT 6.7960/Homework 1]] — Continue HW1 prep and implementation plan #task/homework', '']
     lines += ['## 🚧 Doing', '', '- [[00 Home/Tasks/Task Command Center]] — Clear Overdue / Today queue #task/admin', '']
     lines += ['## 🧱 Waiting / Blocked', '', '- [[02 Research/Research Thesis]] — Secure dataset access and confirm ethics/usage approvals #task/waiting #task/research', '']
     lane_names = {'overdue': '🚨 Deadline Overdue', 'today': '📅 Deadline Today', 'upcoming': '🗓️ Deadline Upcoming'}

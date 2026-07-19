@@ -1,0 +1,82 @@
+filters:
+  and:
+    - note["base"] == link("01.2 DL Daily Lessons — Step-by-Step + Quiz.base")
+formulas:
+  Cover: if(note.Studied == true, if(note["Quiz taken"] == true, "#e8f5e9", "#fff7d6"), "#eef2ff")
+  Study: if(note.Studied == true, "✅ Studied", "📚 To study")
+  Quiz: if(note["Quiz taken"] == true, "✅ Taken", "⬜ Pending")
+properties:
+  file.name:
+    displayName: 📅 Lesson
+  formula.Cover:
+    displayName: Cover
+  formula.Study:
+    displayName: Studied
+  formula.Quiz:
+    displayName: Quiz
+  Quiz score:
+    displayName: Score
+  "HW #":
+    displayName: "HW #"
+  Day type:
+    displayName: Day type
+  Date:
+    displayName: Date
+  Piece count:
+    displayName: Pieces
+views:
+  - type: table
+    name: Table
+    order:
+      - file.name
+      - formula.Study
+      - formula.Quiz
+      - Quiz score
+      - Day type
+      - Date
+    sort:
+      - property: Date
+        direction: DESC
+  - type: table
+    name: 📚 To Study
+    filters:
+      and:
+        - note.Studied != true
+    order:
+      - file.name
+      - formula.Quiz
+      - Day type
+      - Date
+      - Piece count
+    sort:
+      - property: Date
+        direction: ASC
+  - type: table
+    name: 📝 Quiz Backlog
+    filters:
+      and:
+        - note["Quiz taken"] != true
+    order:
+      - file.name
+      - formula.Study
+      - Date
+      - Piece count
+    sort:
+      - property: Date
+        direction: ASC
+  - type: cards
+    name: 🖼️ Lesson Cards
+    order:
+      - file.name
+      - formula.Study
+      - formula.Quiz
+      - Quiz score
+      - Date
+      - Piece count
+    sort:
+      - property: Date
+        direction: DESC
+    image: formula.Cover
+    imageFit: cover
+    imageAspectRatio: 1.55
+    cardSize: 260

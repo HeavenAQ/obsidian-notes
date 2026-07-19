@@ -140,15 +140,6 @@
       "key": "J"
     }
   ],
-  "task-board:open-task-board": [
-    {
-      "modifiers": [
-        "Mod",
-        "Shift"
-      ],
-      "key": "B"
-    }
-  ],
   "obsidian-reminder-plugin:show-reminders": [
     {
       "modifiers": [
@@ -165,15 +156,6 @@
         "Shift"
       ],
       "key": "E"
-    }
-  ],
-  "obsidian-day-planner:show-day-planner-timeline": [
-    {
-      "modifiers": [
-        "Mod",
-        "Alt"
-      ],
-      "key": "D"
     }
   ],
   "claudian-productivity:open-task-kanban-board": [

@@ -1,0 +1,104 @@
+filters:
+  or:
+    - note["base"] == link("01.1 Computer Vision — Foundations Study Tracker.base")
+    - note["base"] == link("01.2 DL Daily Lessons — Step-by-Step + Quiz.base")
+    - note["base"] == link("01.3 DL Homework Practice — MIT 6.7960.base")
+properties:
+  file.name:
+    displayName: Title
+  base:
+    displayName: Base
+  Status:
+    displayName: Status
+  Studied:
+    displayName: Studied
+  Quiz taken:
+    displayName: Quiz taken
+  Quiz score:
+    displayName: Quiz score
+  "HW #":
+    displayName: HW
+  Date:
+    displayName: Date
+  Due Date:
+    displayName: Due Date
+  Notes ready:
+    displayName: Notes ready
+  Day:
+    displayName: Day
+  Reading done:
+    displayName: Reading done
+  Self-check done:
+    displayName: Self-check done
+  Confidence:
+    displayName: Confidence
+views:
+  - type: table
+    name: Table
+    order:
+      - file.name
+      - base
+      - Status
+      - Studied
+      - Quiz taken
+      - Quiz score
+      - "HW #"
+      - Date
+      - Due Date
+      - Notes ready
+      - Day
+      - Reading done
+      - Self-check done
+      - Confidence
+    sort:
+      - property: base
+        direction: ASC
+      - property: Date
+        direction: ASC
+      - property: Due Date
+        direction: ASC
+  - type: table
+    name: 👁️ CV
+    filters:
+      and:
+        - note["base"] == link("01.1 Computer Vision — Foundations Study Tracker.base")
+    order:
+      - file.name
+      - Status
+      - Day
+      - Reading done
+      - Self-check done
+      - Confidence
+      - Date
+    sort:
+      - property: Day
+        direction: ASC
+  - type: table
+    name: 🧠 DL Lessons
+    filters:
+      and:
+        - note["base"] == link("01.2 DL Daily Lessons — Step-by-Step + Quiz.base")
+    order:
+      - file.name
+      - Date
+      - Studied
+      - Quiz taken
+      - Quiz score
+      - "HW #"
+    sort:
+      - property: Date
+        direction: ASC
+  - type: table
+    name: 📝 Homework
+    filters:
+      and:
+        - note["base"] == link("01.3 DL Homework Practice — MIT 6.7960.base")
+    order:
+      - file.name
+      - "HW #"
+      - Status
+      - Due Date
+      - Notes ready
+    sort:
+      - property: "HW #"
+        direction: ASC

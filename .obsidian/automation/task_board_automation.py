@@ -33,7 +33,7 @@ MANUAL_LANE_DEFAULTS = {
     '🎯 Next': [
         '- [ ] [[00 Home/Tasks/Deadline Triage]] — Work through surfaced overdue/deadline items #deadline-triage',
         '- [ ] [[02 Research/Research Thesis]] — Discuss two-layer plan and ML-heavy methods with Prof. Sekine #task/research',
-        '- [ ] [[01 Learning/DL Homework Practice — MIT 6.7960/Homework 1]] — Continue HW1 prep and implementation plan #task/homework',
+        '- [ ] [[01.3 DL Homework Practice — MIT 6.7960/Homework 1]] — Continue HW1 prep and implementation plan #task/homework',
     ],
     '🚧 Doing': [],
     '🧱 Waiting / Blocked': [
