@@ -13,6 +13,10 @@ tags:
   - Disfluency
 Tier: Essential
 Assigned Date: 2026-07-02
+Local PDF: "[[99 Assets/Papers/CVPR 2027/Missingness-resilient Video-enhanced Multimodal Disfluency Detection.pdf]]"
+Zotero URI: "zotero://select/library/items/23ESKYM7"
+Citation Key: "mohapatraMissingnessresilientVideoenhancedMultimodal2024"
+Zotero PDF URI: "zotero://open-pdf/library/items/DW6HKEZ4"
 ---
 **Background.**  disfluency systems assume clean speech and full modalities. 
 

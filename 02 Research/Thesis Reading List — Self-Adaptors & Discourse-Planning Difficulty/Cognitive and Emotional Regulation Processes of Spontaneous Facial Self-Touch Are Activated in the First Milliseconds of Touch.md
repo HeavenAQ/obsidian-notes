@@ -11,6 +11,10 @@ tags:
   - Self-Touch
   - Neurocognitive
 Tier: Recommended
+Local PDF: "[[99 Assets/Papers/CVPR 2027/Cognitive and Emotional Regulation Processes of Spontaneous Facial Self-Touch Are Activated in the First Milliseconds of Touch.pdf]]"
+Zotero URI: "zotero://select/library/items/RD6YEDH6"
+Citation Key: "spilleCognitiveEmotionalRegulation2022"
+Zotero PDF URI: "zotero://open-pdf/library/items/AX2DNR8L"
 ---
 **Background.**  is spontaneous facial self-touch incidental or regulatory? 
 

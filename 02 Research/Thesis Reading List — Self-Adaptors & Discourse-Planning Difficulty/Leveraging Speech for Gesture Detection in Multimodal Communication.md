@@ -11,6 +11,10 @@ tags:
   - Gesture
   - Multimodal
 Tier: Recommended
+Local PDF: "[[99 Assets/Papers/CVPR 2027/Leveraging Speech for Gesture Detection in Multimodal Communication.pdf]]"
+Zotero URI: "zotero://select/library/items/PZ77WE7L"
+Citation Key: "ghalebLeveragingSpeechGesture2024"
+Zotero PDF URI: "zotero://open-pdf/library/items/VV6B4NEE"
 ---
 **Background.**  gesture detection often ignores asynchronous speech cues. 
 

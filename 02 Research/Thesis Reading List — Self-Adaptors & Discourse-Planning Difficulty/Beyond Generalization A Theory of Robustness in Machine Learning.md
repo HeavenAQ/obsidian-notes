@@ -11,5 +11,9 @@ Authors: Timo Freiesleben, Thomas Grote
 tags:
   - Domain-Generalization
 Tier: Recommended
+Local PDF: "[[99 Assets/Papers/CVPR 2027/Beyond Generalization A Theory of Robustness in Machine Learning.pdf]]"
+Zotero URI: "zotero://select/library/items/WWMIS3XJ"
+Citation Key: "freieslebenGeneralizationTheoryRobustness2023"
+Zotero PDF URI: "zotero://open-pdf/library/items/FVDIMS6R"
 ---
 Found via **Evaluating the Robustness of Multimodal Task Load Estimation Models** (2026-07-06 night) — direct reference (reference #20 in that paper's reference list). Provides a conceptual/theoretical framework for what "robustness" means in ML (distinguishing it from generalization, defining it as stability of a target with respect to interventions on a modifier), directly relevant to how the thesis should define and evaluate cross-dataset/cross-domain robustness for the contact-aware self-adaptor pipeline (RQ3).

@@ -12,6 +12,10 @@ tags:
   - Interacting-Hands
 Reading Status: To-Read
 Assigned Date: 2026-07-14
+Local PDF: "[[99 Assets/Papers/CVPR 2027/A Dataset of Relighted 3D Interacting Hands.pdf]]"
+Zotero URI: "zotero://select/library/items/WHUMNQYH"
+Citation Key: "moonDatasetRelighted3D2023"
+Zotero PDF URI: "zotero://open-pdf/library/items/VRL6KKGN"
 ---
 
 Found via **Enhancing Hands in 3D Whole-Body Pose Estimation with Conditional Hands Modulator** (2026-07-14 night) — direct reference (the "ReIH" dataset used to train and evaluate CHAM). Re:InterHand pairs a state-of-the-art hand relighting network with accurately tracked two-hand 3D poses, giving both realistic/diverse image appearance and large-scale accurate 3D ground truth for interacting-hand research — relevant as a training/benchmark resource for a contact-aware hand-pose pipeline.

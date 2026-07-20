@@ -13,5 +13,9 @@ tags:
   - Multimodal
   - Disfluency
 Tier: Recommended
+Local PDF: "[[99 Assets/Papers/CVPR 2027/voc2vec A Foundation Model for Non-Verbal Vocalization.pdf]]"
+Zotero URI: "zotero://select/library/items/8RPQQL86"
+Citation Key: "koudounasVoc2vecFoundationModel2025"
+Zotero PDF URI: "zotero://open-pdf/library/items/SJQ45JMC"
 ---
 Found via **Multimodal Disfluency Detection via Acoustic-Text Fusion** (2026-07-15 night) — direct reference. The first foundation model built specifically for non-verbal vocalization (trained on ~125 hours of open non-verbal audio), used as one of the acoustic encoders in the source paper's dual-stream fusion architecture — a candidate backbone for capturing non-lexical vocal cues (sighs, filled pauses, hesitation sounds) relevant to Layer 2/RQ2 multimodal fusion.

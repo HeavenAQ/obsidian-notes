@@ -13,6 +13,10 @@ tags:
   - Multimodal
 Tier: Recommended
 Assigned Date: 2026-07-15
+Local PDF: "[[99 Assets/Papers/CVPR 2027/Multimodal Disfluency Detection via Acoustic-Text Fusion Comparing Intended and Verbatim ASR Transcripts.pdf]]"
+Zotero URI: "zotero://select/library/items/S2VEHJAB"
+Citation Key: "ferreiraMultimodalDisfluencyDetection2025"
+Zotero PDF URI: "zotero://open-pdf/library/items/W68PAZ88"
 ---
 Found via **Toward a Multimodal Approach for Disfluency Detection and Categorization** (2026-07-07 night) — adjacent literature substitute (the original paper's own reference list was inaccessible behind an IEEE paywall in this session). A 2025 continuation of the same acoustic+ASR-transcript multimodal disfluency detection research line, comparing intended-style vs. verbatim ASR transcripts fused with several acoustic encoders. Directly relevant to Layer 1/RQ1 and Layer 2/RQ2 fusion-architecture design.
 

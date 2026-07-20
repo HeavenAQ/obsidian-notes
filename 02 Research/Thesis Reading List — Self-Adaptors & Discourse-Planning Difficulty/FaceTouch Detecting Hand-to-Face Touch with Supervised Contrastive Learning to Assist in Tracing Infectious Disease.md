@@ -11,6 +11,10 @@ tags:
   - Hand-Face-CV
   - Multimodal
 Tier: Background
+Local PDF: "[[99 Assets/Papers/CVPR 2027/FaceTouch Detecting Hand-to-Face Touch with Supervised Contrastive Learning to Assist in Tracing Infectious Disease.pdf]]"
+Zotero URI: "zotero://select/library/items/72ALWWL7"
+Citation Key: "ibrahimFaceTouchDetectingHandtoFace2024"
+Zotero PDF URI: "zotero://open-pdf/library/items/RSBD92NQ"
 ---
 **Background & research question.**  detect hand-to-face touch in realistic scenes for disease tracing. 
 

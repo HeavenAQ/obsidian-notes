@@ -8,7 +8,7 @@ cssclasses:
 Drop quick notes here first, then sort them into:
 
 - [[00 Home/Learning Hub|Learning]]
-- [[02 Research/02 Research|Research]]
+- [[02 Research|Research]]
 - [[03 Algorithms/03 Algorithms|Algorithms]]
 - [[04 Reference/04 Reference|Reference]]
 

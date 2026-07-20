@@ -662,11 +662,11 @@ Compute permutation importance and explanatory plots on held-out group folds. Ag
 
 # 16. Related vault notes
 
-- [[02 Research/Thesis Reading List — Self-Adaptors & Discourse-Planning Difficulty/ADABase A Multimodal Dataset for Cognitive Load Estimation]] — uses XGBoost classifiers and a regressor for multimodal cognitive-load estimation.
-- [[02 Research/Thesis Reading List — Self-Adaptors & Discourse-Planning Difficulty/Multi-Source Domain Generalization for ECG-Based Cognitive Load Estimation A Plug-in Method and Benchmark]] — includes a LightGBM baseline under domain generalization.
-- [[02 Research/Thesis Reading List — Self-Adaptors & Discourse-Planning Difficulty/Predictability of Understanding in Explanatory Interactions Based on Multimodal Cues]] — compares against Random Forest in an interaction-understanding setting.
-- [[02 Research/Thesis Reading List — Self-Adaptors & Discourse-Planning Difficulty/Evaluating the Robustness of Multimodal Task Load Estimation Models]] — particularly relevant for subject-wise nested CV, tuning, and calibration.
-- [[02 Research/Thesis Reading List — Self-Adaptors & Discourse-Planning Difficulty/Automatic Detection of Self-Adaptors for Psychological Distress/Automatic Detection of Self-Adaptors for Psychological Distress]] — uses Random Forest for feature selection in behavioral signal analysis.
+- [[ADABase A Multimodal Dataset for Cognitive Load Estimation]] — uses XGBoost classifiers and a regressor for multimodal cognitive-load estimation.
+- [[Multi-Source Domain Generalization for ECG-Based Cognitive Load Estimation A Plug-in Method and Benchmark]] — includes a LightGBM baseline under domain generalization.
+- [[Predictability of Understanding in Explanatory Interactions Based on Multimodal Cues]] — compares against Random Forest in an interaction-understanding setting.
+- [[Evaluating the Robustness of Multimodal Task Load Estimation Models]] — particularly relevant for subject-wise nested CV, tuning, and calibration.
+- [[Automatic Detection of Self-Adaptors for Psychological Distress]] — uses Random Forest for feature selection in behavioral signal analysis.
 
 # 17. Primary sources and official references
 

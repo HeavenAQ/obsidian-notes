@@ -16,6 +16,10 @@ tags:
   - Multimodal
 Tier: Recommended
 Assigned Date: 2026-07-05
+Local PDF: "[[99 Assets/Papers/CVPR 2027/ADABase A Multimodal Dataset for Cognitive Load Estimation.pdf]]"
+Zotero URI: "zotero://select/library/items/34ZD3SMN"
+Citation Key: "oppeltADABaseMultimodalDataset2023"
+Zotero PDF URI: "zotero://open-pdf/library/items/YGXXKH4V"
 ---
 Found via REVELIO (tonight's paper) — direct reference and the dataset REVELIO extends. Published in Sensors (MDPI), 2023. Driver cognitive-load dataset: 51 subjects, n-back + simulator-based k-drive test, physiological (ECG, EDA, EMG, PPG, respiration, skin temp, eye tracking) + behavioral (facial action units) signals with NASA-TLX. Directly on-target for the DENSO driver cognitive-load monitoring application (RQ3 / PhD positioning).
 

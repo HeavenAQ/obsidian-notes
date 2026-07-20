@@ -13,7 +13,7 @@ tags:
   - Benchmark
   - Domain-Generalization
 Tier: Recommended
-Citation Key: cai2023smpler
+Citation Key: "cai2023smpler"
 Local PDF: "[[99 Assets/Papers/CVPR 2027/SMPLer-X Scaling Up Expressive Human Pose and Shape Estimation.pdf]]"
 Zotero URI: "zotero://select/library/items/NB8IWPV3"
 Zotero PDF URI: "zotero://open-pdf/library/items/27NK3RNI"

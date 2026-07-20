@@ -12,5 +12,9 @@ Authors: Zhipeng Zhang, Hao Wang, Zhongqun Zhang, Yihua Cheng, Angela Yao, Hyung
 tags:
   - Contact-Aware
 Tier: Recommended
+Local PDF: "[[99 Assets/Papers/CVPR 2027/NL2Contact Natural Language Guided 3D Hand-Object Contact Modeling with Diffusion Model.pdf]]"
+Zotero URI: "zotero://select/library/items/ULWWVLYX"
+Citation Key: "zhangNL2ContactNaturalLanguage2024"
+Zotero PDF URI: "zotero://open-pdf/library/items/JWPH923P"
 ---
 Found via **Learning a Contact Potential Field for Modeling the Hand-Object Interaction (CPF)** (2026-07-17 night) — adjacent-literature substitute, not a direct reference (CPF's own reference list, from the 2020/2021 ICCV version, predates 2023). A recent (ECCV 2024) continuation of the explicit hand-object contact modeling line CPF established, replacing CPF's spring-mass energy formulation with a staged diffusion model that generates controllable, per-vertex hand-object contact conditioned on natural-language descriptions — relevant to RQ2's contact-representation design choices for the hand-face detector.

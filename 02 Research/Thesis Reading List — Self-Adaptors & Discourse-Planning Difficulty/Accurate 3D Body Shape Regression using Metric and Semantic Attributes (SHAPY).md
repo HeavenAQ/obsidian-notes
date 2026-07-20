@@ -19,6 +19,10 @@ tags:
   - Weak-Supervision
 Tier: Background
 Assigned Date: 2026-07-07
+Local PDF: "[[99 Assets/Papers/CVPR 2027/Accurate 3D Body Shape Regression using Metric and Semantic Attributes (SHAPY).pdf]]"
+Zotero URI: "zotero://select/library/items/CJV274FQ"
+Citation Key: "choutasAccurate3DBody2022"
+Zotero PDF URI: "zotero://open-pdf/library/items/K9Q636P6"
 ---
 ## Notes
 

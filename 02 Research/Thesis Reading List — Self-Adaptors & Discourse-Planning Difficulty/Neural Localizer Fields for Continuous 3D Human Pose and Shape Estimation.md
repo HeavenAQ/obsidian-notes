@@ -13,6 +13,10 @@ tags:
   - Continuous-Field
 Reading Status: To-Read
 Assigned Date: 2026-07-14
+Local PDF: "[[99 Assets/Papers/CVPR 2027/Neural Localizer Fields for Continuous 3D Human Pose and Shape Estimation.pdf]]"
+Zotero URI: "zotero://select/library/items/DLIILIY9"
+Citation Key: "sarandiNeuralLocalizerFields2024"
+Zotero PDF URI: "zotero://open-pdf/library/items/VBQDANBM"
 ---
 
 Found via **SAM 3D Body: Robust Full-Body Human Mesh Recovery** (2026-07-14 night) — direct reference and comparison baseline on SAM 3D Body's new challenging benchmarks. NLF's core contribution is unifying heterogeneous pose/shape datasets and annotation formats (meshes, 2D/3D skeletons, dense pose) via a continuous neural field of point localizers queryable at any body location — directly relevant to RQ3 cross-dataset/domain-generalization benchmarking, since it is explicitly designed to generalize across annotation schemas rather than a single dataset's conventions.

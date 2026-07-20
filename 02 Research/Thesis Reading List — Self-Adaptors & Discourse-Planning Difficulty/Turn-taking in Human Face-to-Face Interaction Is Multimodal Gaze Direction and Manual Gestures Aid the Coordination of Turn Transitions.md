@@ -12,6 +12,10 @@ tags:
   - Turn-Taking
   - Multimodal
 Tier: Recommended
+Local PDF: "[[99 Assets/Papers/CVPR 2027/Turn-taking in Human Face-to-Face Interaction Is Multimodal Gaze Direction and Manual Gestures Aid the Coordination of Turn Transitions.pdf]]"
+Zotero URI: "zotero://select/library/items/RJ72WM3L"
+Citation Key: "kendrickTurntakingHumanFacetoFace2023"
+Zotero PDF URI: "zotero://open-pdf/library/items/U4D7AIFW"
 ---
 **Background.**  turn-taking models are largely speech-centric. 
 

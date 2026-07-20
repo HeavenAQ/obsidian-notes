@@ -13,4 +13,8 @@ tags:
   - Distress
   - Hand-Face-CV
 Tier: Recommended
+Local PDF: "[[99 Assets/Papers/CVPR 2027/Looking At The Body Automatic Analysis of Body Gestures and Self-Adaptors in Psychological Distress.pdf]]"
+Zotero URI: "zotero://select/library/items/H7634NRU"
+Citation Key: "linLookingBodyAutomatic2021"
+Zotero PDF URI: "zotero://open-pdf/library/items/B24ZWRXG"
 ---

@@ -12,7 +12,7 @@ tags:
   - Contact-Aware
 Tier: Recommended
 Assigned Date: 2026-07-07
-Citation Key: ohkawa2025generative
+Citation Key: "ohkawa2025generative"
 Local PDF: "[[99 Assets/Papers/CVPR 2027/Generative Modeling of Shape-Dependent Self-Contact Human Poses.pdf]]"
 Zotero URI: "zotero://select/library/items/X983GM8E"
 Zotero PDF URI: "zotero://open-pdf/library/items/47FZRHSD"

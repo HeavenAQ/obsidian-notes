@@ -12,6 +12,10 @@ tags:
   - Repair
   - Benchmark
 Tier: Recommended
+Local PDF: "[[99 Assets/Papers/CVPR 2027/The Impact of Language Models and Loss Functions on Repair Disfluency Detection.pdf]]"
+Zotero URI: "zotero://select/library/items/JGB2NFV7"
+Citation Key: "zwartsImpactLanguageModels2011"
+Zotero PDF URI: "zotero://open-pdf/library/items/T3WBAJY7"
 ---
 **Background.**  repair detection on transcripts. 
 

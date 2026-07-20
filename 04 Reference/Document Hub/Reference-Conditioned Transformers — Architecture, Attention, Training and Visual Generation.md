@@ -591,7 +591,8 @@ injecting reference tokens at multiple decoder upsampling stages. Conceptually:
 
 $$
 H_D^{(\ell+1)}
-=\operatorname{Up}\left(H_D^{(\ell)}ight)
+=\operatorname{Up}\left(H_D^{(\ell)}
+ight)
 +\lambda_\ell\operatorname{RefAttn}
 \left(H_D^{(\ell)},R^{(\ell)}\right).
 $$

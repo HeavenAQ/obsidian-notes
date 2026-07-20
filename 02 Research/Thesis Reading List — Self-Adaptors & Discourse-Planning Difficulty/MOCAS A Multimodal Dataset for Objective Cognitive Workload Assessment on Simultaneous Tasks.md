@@ -16,6 +16,10 @@ tags:
   - Multimodal
 Tier: Recommended
 Assigned Date: 2026-07-06
+Local PDF: "[[99 Assets/Papers/CVPR 2027/MOCAS A Multimodal Dataset for Objective Cognitive Workload Assessment on Simultaneous Tasks.pdf]]"
+Zotero URI: "zotero://select/library/items/VV7W8Z9L"
+Citation Key: "joMOCASMultimodalDataset2024"
+Zotero PDF URI: "zotero://open-pdf/library/items/VV5KBM7P"
 ---
 Found via **VDMoE** (2026-07-05 night) — direct reference [34]. Multimodal cognitive-workload dataset (physiological wearables + webcam behavioral features) collected from realistic CCTV-monitoring tasks with simultaneous secondary tasks, rated via NASA-TLX/ISA. Directly supports RQ3 (cognitive/task-load estimation, dataset diversity beyond driving). Published in IEEE Transactions on Affective Computing, 2024 (Venue set to generic "(journal)" — not in the fixed Venue option list).
 

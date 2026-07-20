@@ -18,7 +18,7 @@ Category:
 - 📅 [[00 Home/Daily Notes/2026-07-12|Today’s daily note]]
 - 🏠 [[00 Home/00 Home|Dashboard]]
 - 🎓 [[00 Home/Learning Hub.base|Learning Hub]]
-- 🔬 [[02 Research/Research Hub.base|Research Hub]]
+- 🔬 [[Research Hub.base|Research Hub]]
 - 🧩 [[03 Algorithms/Algorithms Hub.base|Algorithms Hub]]
 
 ## 🧨 Inferred deadlines / hidden backlog

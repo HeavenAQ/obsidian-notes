@@ -789,9 +789,9 @@ For the thesis context, SVM is the defensible standard baseline. RVM is most val
 # 17. Related vault notes
 
 - [[04 Reference/Document Hub/Tree-Based Classification Deep Dive — Decision Trees, Random Forests, XGBoost, LightGBM & CatBoost]] — complementary tree-ensemble classifiers and the same group-validation concerns.
-- [[02 Research/Thesis Reading List — Self-Adaptors & Discourse-Planning Difficulty/Evaluating the Robustness of Multimodal Task Load Estimation Models]] — compares SVM/XGBoost under subject-wise nested validation and robustness metrics.
-- [[02 Research/Thesis Reading List — Self-Adaptors & Discourse-Planning Difficulty/Multi-Source Domain Generalization for ECG-Based Cognitive Load Estimation A Plug-in Method and Benchmark]] — domain generalization and classical classifier baselines.
-- [[02 Research/Thesis Reading List — Self-Adaptors & Discourse-Planning Difficulty/ADABase A Multimodal Dataset for Cognitive Load Estimation]] — multimodal cognitive-load classification context.
+- [[Evaluating the Robustness of Multimodal Task Load Estimation Models]] — compares SVM/XGBoost under subject-wise nested validation and robustness metrics.
+- [[Multi-Source Domain Generalization for ECG-Based Cognitive Load Estimation A Plug-in Method and Benchmark]] — domain generalization and classical classifier baselines.
+- [[ADABase A Multimodal Dataset for Cognitive Load Estimation]] — multimodal cognitive-load classification context.
 
 # 18. Primary sources and official references
 

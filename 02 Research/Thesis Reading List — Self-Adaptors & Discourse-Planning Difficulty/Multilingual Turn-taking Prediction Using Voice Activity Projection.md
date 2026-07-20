@@ -18,6 +18,10 @@ tags:
   - Multimodal
 Tier: Recommended
 Assigned Date: 2026-07-07
+Local PDF: "[[99 Assets/Papers/CVPR 2027/Multilingual Turn-taking Prediction Using Voice Activity Projection.pdf]]"
+Zotero URI: "zotero://select/library/items/DQB285K2"
+Citation Key: "inoueMultilingualTurntakingPrediction2024"
+Zotero PDF URI: "zotero://open-pdf/library/items/VRNYJAA9"
 ---
 Recommended reading, in the research lineage of Sacks, Schegloff & Jefferson (1974) — a computational descendant of the classic turn-taking systematics, this LREC-COLING 2024 paper trains a Voice Activity Projection (VAP) cross-attention Transformer to continuously predict upcoming speaker activity across English, Mandarin, and Japanese dyadic dialogue, showing multilingual training improves cross-language turn-taking prediction.
 

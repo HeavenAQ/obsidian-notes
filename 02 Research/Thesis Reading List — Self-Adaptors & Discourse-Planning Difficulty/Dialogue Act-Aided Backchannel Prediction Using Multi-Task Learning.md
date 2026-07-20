@@ -11,5 +11,9 @@ Authors: W. Liermann, Y.-H. Park, Y.-S. Choi, K. Lee
 tags:
   - Turn-Taking
 Tier: Recommended
+Local PDF: "[[99 Assets/Papers/CVPR 2027/Dialogue Act-Aided Backchannel Prediction Using Multi-Task Learning.pdf]]"
+Zotero URI: "zotero://select/library/items/QVPMSA76"
+Citation Key: "liermannDialogueActAidedBackchannel2023"
+Zotero PDF URI: "zotero://open-pdf/library/items/F9Q69VY9"
 ---
 Found via **Multilingual Turn-taking Prediction Using Voice Activity Projection** (2026-07-07 night) — cited in the reference list. Uses multi-task learning with dialogue-act classification to improve backchannel prediction, relevant to the turn-taking/discourse-planning adjacency in Layer 1 and to multi-task modeling choices in Layer 2.

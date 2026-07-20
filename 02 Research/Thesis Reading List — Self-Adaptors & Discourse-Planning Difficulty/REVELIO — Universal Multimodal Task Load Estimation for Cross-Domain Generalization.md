@@ -15,6 +15,10 @@ tags:
   - Cognition
 Tier: Essential
 Assigned Date: 2026-07-03
+Local PDF: "[[99 Assets/Papers/CVPR 2027/REVELIO — Universal Multimodal Task Load Estimation for Cross-Domain Generalization.pdf]]"
+Zotero URI: "zotero://select/library/items/VYUV9C2B"
+Citation Key: "oppeltREVELIOUniversalMultimodal2025"
+Zotero PDF URI: "zotero://open-pdf/library/items/SK58TQFX"
 ---
 ## Reading Summary
 

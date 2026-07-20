@@ -17,6 +17,10 @@ tags:
   - Contact-Aware
 Tier: Recommended
 Assigned Date: 2026-07-06
+Local PDF: "[[99 Assets/Papers/CVPR 2027/D-Touch Recognizing and Predicting Fine-grained Hand-face Touching Activities Using a Neck-mounted Wearable.pdf]]"
+Zotero URI: "zotero://select/library/items/KBEEVRDL"
+Citation Key: "limDTouchRecognizingPredicting2023"
+Zotero PDF URI: "zotero://open-pdf/library/items/VSSGNLW9"
 ---
 Recommended via tonight's paper "Analysis of Face-Touching Behavior in Large Scale Social Interaction Dataset" (Beyan et al., ICMI 2020) as an adjacent-literature substitute, not a direct reference — that paper's references predate 2023. D-Touch (IUI 2023) continues the hand-face contact detection line with a neck-mounted IR-camera wearable that recognizes and even predicts fine-grained hand-face touch types, offering a sensing-based complement to the video-only detection paradigm and fine-grained touch taxonomies useful for self-contact annotation schemes.
 

@@ -11,6 +11,10 @@ tags:
   - Hand-Face-CV
   - Theory
 Tier: Background
+Local PDF: "[[99 Assets/Papers/CVPR 2027/Automatic Analysis of Naturalistic Hand-Over-Face Gestures.pdf]]"
+Zotero URI: "zotero://select/library/items/KIL6VFRU"
+Citation Key: "mahmoudAutomaticAnalysisNaturalistic2016"
+Zotero PDF URI: "zotero://open-pdf/library/items/MPJLZE72"
 ---
 **Background.**  hand-over-face behavior was treated as nuisance occlusion. 
 

@@ -13,6 +13,10 @@ tags:
   - Pseudo-Ground-Truth
 Reading Status: To-Read
 Assigned Date: 2026-07-14
+Local PDF: "[[99 Assets/Papers/CVPR 2027/CameraHMR Aligning People with Perspective.pdf]]"
+Zotero URI: "zotero://select/library/items/V6CDKL34"
+Citation Key: "patelCameraHMRAligningPeople2025"
+Zotero PDF URI: "zotero://open-pdf/library/items/WW9MBC27"
 ---
 
 Found via **SAM 3D Body: Robust Full-Body Human Mesh Recovery** (2026-07-14 night) — direct reference and main comparison baseline across SAM 3D Body's standard and new challenging benchmarks. Improves whole-body HMR pseudo-ground-truth quality via a predicted full perspective camera model (HumanFoV) and a dense surface keypoint detector trained on BEDLAM, yielding more accurate body shape fits.

@@ -13,6 +13,10 @@ tags:
   - Video-Backbone
 Reading Status: To-Read
 Assigned Date: 2026-07-14
+Local PDF: "[[99 Assets/Papers/CVPR 2027/Temporal Action Localization with Enhanced Instant Discriminability.pdf]]"
+Zotero URI: "zotero://select/library/items/TEGXRRW5"
+Citation Key: "shiTemporalActionLocalization2023"
+Zotero PDF URI: "zotero://open-pdf/library/items/GUWNTCXN"
 ---
 
 Found via **TriDet: Temporal Action Detection with Relative Boundary Modeling** (2026-07-14 night) — adjacent-literature substitute, not a direct reference (TriDet's own CVPR 2023 reference list predates 2023 and has no qualifying entries). This is the same first author's own extended version of TriDet: it keeps the Trident-head and SGP layer, analyzes the rank-loss/"instant discriminability" problem more deeply, and adds a decoupled feature pyramid that leverages pretrained large video backbones for localization — a direct continuation of the boundary-modeling line relevant to detecting short, ambiguous self-contact/fidgeting segments.

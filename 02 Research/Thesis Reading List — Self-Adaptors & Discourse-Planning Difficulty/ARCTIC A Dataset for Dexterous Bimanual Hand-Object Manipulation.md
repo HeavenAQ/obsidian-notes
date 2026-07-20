@@ -13,5 +13,9 @@ tags:
   - Dataset
   - Contact-Aware
 Tier: Recommended
+Local PDF: "[[99 Assets/Papers/CVPR 2027/ARCTIC A Dataset for Dexterous Bimanual Hand-Object Manipulation.pdf]]"
+Zotero URI: "zotero://select/library/items/VK7HIZMM"
+Citation Key: "fanARCTICDatasetDexterous2023"
+Zotero PDF URI: "zotero://open-pdf/library/items/5J8S5CMY"
 ---
 Found via DICE (ICLR 2025) — direct reference. 2.1M frames of two-hand object manipulation with accurate 3D meshes and dynamic contact annotations; relevant as a large-scale contact-labeled resource and evaluation design reference for the contact-aware pipeline (RQ2).

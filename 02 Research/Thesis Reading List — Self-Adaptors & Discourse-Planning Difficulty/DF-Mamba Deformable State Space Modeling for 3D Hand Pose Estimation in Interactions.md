@@ -13,6 +13,10 @@ tags:
   - Hand-Face-CV
 Tier: Recommended
 Assigned Date: 2026-07-05
+Local PDF: "[[99 Assets/Papers/CVPR 2027/DF-Mamba Deformable State Space Modeling for 3D Hand Pose Estimation in Interactions.pdf]]"
+Zotero URI: "zotero://select/library/items/4DV2TKWX"
+Citation Key: "ohkawaDFMambaDeformableState2026"
+Zotero PDF URI: "zotero://open-pdf/library/items/WM6RPUFV"
 ---
 ## Reading Summary
 

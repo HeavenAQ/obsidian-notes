@@ -12,6 +12,10 @@ tags:
   - Repair
   - Gesture
 Tier: Recommended
+Local PDF: "[[99 Assets/Papers/CVPR 2027/Incorporating Gesture and Gaze into Multimodal Models of Human-Computer Interaction.pdf]]"
+Zotero URI: "zotero://select/library/items/LPUC37ER"
+Citation Key: "chenIncorporatingGestureGaze2006"
+Zotero PDF URI: "zotero://open-pdf/library/items/RD7MY5MP"
 ---
 **Background.**  early multimodal HCI rarely tied body behavior to repairs. 
 

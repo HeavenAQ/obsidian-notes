@@ -11,5 +11,9 @@ Authors: Ao Li, Jinpeng Liu, Yixuan Zhu, Yansong Tang
 tags:
   - Contact-Aware
 Tier: Recommended
+Local PDF: "[[99 Assets/Papers/CVPR 2027/ScoreHOI Physically Plausible Reconstruction of Human-Object Interaction via Score-Guided Diffusion.pdf]]"
+Zotero URI: "zotero://select/library/items/YR8MNF3H"
+Citation Key: "liScoreHOIPhysicallyPlausible2025"
+Zotero PDF URI: "zotero://open-pdf/library/items/XGNE4KUQ"
 ---
 Found via **On Self-Contact and Human Pose (TUCH)** (2026-07-04 night). Adjacent literature (TUCH's citations predate 2023): a modern diffusion-prior take on TUCH's core idea that contact/physical-plausibility constraints should guide body reconstruction — its contact-driven iterative refinement is a candidate technique for contact-aware self-adaptor capture (RQ2).

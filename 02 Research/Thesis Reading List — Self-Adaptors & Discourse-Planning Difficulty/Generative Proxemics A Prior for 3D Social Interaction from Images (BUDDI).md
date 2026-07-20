@@ -20,6 +20,10 @@ tags:
   - Multimodal
 Tier: Recommended
 Assigned Date: 2026-07-07
+Local PDF: "[[99 Assets/Papers/CVPR 2027/Generative Proxemics A Prior for 3D Social Interaction from Images (BUDDI).pdf]]"
+Zotero URI: "zotero://select/library/items/UB6SQTU8"
+Citation Key: "mullerGenerativeProxemicsPrior2024"
+Zotero PDF URI: "zotero://open-pdf/library/items/XCCFRI8M"
 ---
 ## Notes
 

@@ -18,7 +18,7 @@ tags:
   - Conversation
 Tier: Essential
 Assigned Date: 2026-07-12
-Citation Key: agrawal2025seamless
+Citation Key: "agrawal2025seamless"
 Local PDF: "[[99 Assets/Papers/CVPR 2027/Seamless Interaction Dyadic Audiovisual Motion Modeling and Large-Scale Dataset.pdf]]"
 Zotero URI: "zotero://select/library/items/JQHFKSQF"
 Zotero PDF URI: "zotero://open-pdf/library/items/YCRA9QA6"

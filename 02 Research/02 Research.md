@@ -7,12 +7,12 @@ obsidianUIMode: preview
 # 🔬 Research Hub
 
 > [!important] Primary hub
-> This hub is now maintained as a Base: [[02 Research/Research Hub.base|Research Hub Base]].
+> This hub is now maintained as a Base: [[Research Hub.base|Research Hub Base]].
 
 ## Research spaces
 
-- 🎓 **[[02 Research/Research Thesis|Research Thesis]]**
-- 📖 **[[02 Research/Thesis Reading List — Self-Adaptors & Discourse-Planning Difficulty/Thesis Reading List — Self-Adaptors & Discourse-Planning Difficulty.base|Thesis Reading List Base]]**
+- 🎓 **[[Research Thesis|Research Thesis]]**
+- 📖 **[[Thesis Reading List — Self-Adaptors & Discourse-Planning Difficulty.base|Thesis Reading List Base]]**
 - 🏷️ **[[00 Home/Tag Normalization Report|Tag Normalization Report]]**
 
 ## 📊 Research Reading Progress

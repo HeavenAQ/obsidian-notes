@@ -12,5 +12,9 @@ tags:
   - Multimodal
   - Turn-Taking
 Tier: Recommended
+Local PDF: "[[99 Assets/Papers/CVPR 2027/Multimodal Machine Learning Can Predict Videoconference Fluidity and Enjoyment.pdf]]"
+Zotero URI: "zotero://select/library/items/QFNXTL2W"
+Citation Key: "changMultimodalMachineLearning2025"
+Zotero PDF URI: "zotero://open-pdf/library/items/DW4PDT2F"
 ---
 Found via **The Dual Functions of Adaptors** (2026-07-04 night). Adjacent-literature substitute, not a direct reference (the source is a theory paper whose citations are psychology/linguistics): an ML continuation of its key finding that online dialogue carries extra interactional strain — predicts low conversational fluidity/enjoyment in videoconferences from audio, facial-action, and body-motion features (ROC-AUC up to 0.87 on RoomReader). Bridges the behavioral claim to multimodal ML (RQ1→RQ2).

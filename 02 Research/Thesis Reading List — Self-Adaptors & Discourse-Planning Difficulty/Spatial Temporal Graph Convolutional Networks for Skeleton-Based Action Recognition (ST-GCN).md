@@ -11,7 +11,7 @@ Authors: Sijie Yan, Yuanjun Xiong, Dahua Lin
 tags:
   - Skeleton
 Tier: Background
-Citation Key: yan2018spatial
+Citation Key: "yan2018spatial"
 Local PDF: "[[99 Assets/Papers/CVPR 2027/Spatial Temporal Graph Convolutional Networks for Skeleton-Based Action Recognition (ST-GCN).pdf]]"
 Zotero URI: "zotero://select/library/items/HTSYZFXY"
 Zotero PDF URI: "zotero://open-pdf/library/items/XHXHIWSF"

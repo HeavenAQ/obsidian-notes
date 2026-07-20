@@ -12,5 +12,9 @@ tags:
   - Domain-Generalization
   - Benchmark
 Tier: Recommended
+Local PDF: "[[99 Assets/Papers/CVPR 2027/Is Large-Scale Pretraining the Secret to Good Domain Generalization.pdf]]"
+Zotero URI: "zotero://select/library/items/4U7L5A3J"
+Citation Key: "teterwakLargeScalePretrainingSecret2024"
+Zotero PDF URI: "zotero://open-pdf/library/items/ZFV22ZHG"
 ---
 Found via DomainBed (tonight's paper) — adjacent-literature substitute, not a direct reference (DomainBed is 2020; its citations predate 2023). Continues the DomainBed evaluation-rigor line: asks whether recent DG 'progress' on DomainBed-style benchmarks is an artifact of stronger pretraining rather than better DG finetuning (submitted to ICLR 2025). Sharpens how RQ3 cross-dataset claims should be attributed.

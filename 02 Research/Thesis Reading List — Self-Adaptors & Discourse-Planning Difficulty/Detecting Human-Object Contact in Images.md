@@ -13,6 +13,10 @@ tags:
   - Contact-Aware
 Tier: Recommended
 Assigned Date: 2026-07-11
+Local PDF: "[[99 Assets/Papers/CVPR 2027/Detecting Human-Object Contact in Images.pdf]]"
+Zotero URI: "zotero://select/library/items/YWFRU2T9"
+Citation Key: "chenDetectingHumanObjectContact2023"
+Zotero PDF URI: "zotero://open-pdf/library/items/E2NHEW7V"
 ---
 Found via **Generative Modeling of Shape-Dependent Self-Contact Human Poses** (2026-07-07 night) — direct reference [5]. Introduces HOT, a dataset and detector for human-object (rather than self-) contact in images. Directly relevant methodological precedent for the contact-detection stage of the thesis's contact-aware pipeline (RQ2), even though it targets human-scene rather than hand-face contact.
 

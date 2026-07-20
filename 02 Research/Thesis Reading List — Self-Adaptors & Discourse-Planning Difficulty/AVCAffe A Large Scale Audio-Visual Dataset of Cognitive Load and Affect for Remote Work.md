@@ -15,6 +15,10 @@ tags:
   - Multimodal
 Tier: Recommended
 Assigned Date: 2026-07-11
+Local PDF: "[[99 Assets/Papers/CVPR 2027/AVCAffe A Large Scale Audio-Visual Dataset of Cognitive Load and Affect for Remote Work.pdf]]"
+Zotero URI: "zotero://select/library/items/38SMC5GG"
+Citation Key: "sarkarAVCAffeLargeScale2023"
+Zotero PDF URI: "zotero://open-pdf/library/items/N8EXZ5DD"
 ---
 Found via Mueller et al. 2019 (tonight's theory paper) — adjacent-literature substitute, not a direct reference (the 2019 paper's citations predate 2023). The ML descendant of behavioral cognitive-load research: 106 participants, 108 hours of audio-visual video-conferencing interaction with self-reported cognitive-load labels (mental demand, effort, etc.) — a candidate corpus for linking observable nonverbal behavior to load in conversation (RQ1→RQ2 bridge).
 

@@ -12,6 +12,10 @@ tags:
   - Egocentric
   - Multimodal
 Tier: Background
+Local PDF: "[[99 Assets/Papers/CVPR 2027/EasyCom An Augmented Reality Dataset to Support Algorithms for Easy Communication in Noisy Environments.pdf]]"
+Zotero URI: "zotero://select/library/items/NIRPZ7L7"
+Citation Key: "donleyEasyComAugmentedReality2021"
+Zotero PDF URI: "zotero://open-pdf/library/items/LLQ2DY6F"
 ---
 **Background.**  AR communication in noise needs aligned multimodal data. 
 

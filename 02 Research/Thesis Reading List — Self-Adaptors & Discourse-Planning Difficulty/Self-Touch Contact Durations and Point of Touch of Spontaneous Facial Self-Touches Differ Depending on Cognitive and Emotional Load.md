@@ -13,6 +13,10 @@ tags:
   - Cognition
 Tier: Essential
 Assigned Date: 2026-07-03
+Local PDF: "[[99 Assets/Papers/CVPR 2027/Self-Touch Contact Durations and Point of Touch of Spontaneous Facial Self-Touches Differ Depending on Cognitive and Emotional Load.pdf]]"
+Zotero URI: "zotero://select/library/items/GIJIGQRU"
+Citation Key: "muellerSelfTouchContactDurations2019"
+Zotero PDF URI: "zotero://open-pdf/library/items/YD3LXQMJ"
 ---
 **Background.**  spontaneous facial self-touch (sFST) is frequent but its temporal dynamics under load were unstudied. 
 

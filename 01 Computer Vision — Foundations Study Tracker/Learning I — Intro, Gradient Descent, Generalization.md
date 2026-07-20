@@ -1,15 +1,15 @@
 ---
 base: "[[01.1 Computer Vision — Foundations Study Tracker.base]]"
-Key takeaways: "Learning = objective + hypothesis space + optimizer; ERM minimizes average training loss as a proxy for test loss, and is maximum likelihood in disguise (priors = regularizers). SGD with momentum, LR schedules, and clipping is the workhorse that trains everything later in the course. Generalization is the real goal: overfitting = fitting training noise, controlled by data, priors, and hypothesis-space constraints — which are interchangeable. Mixed precision training (FP32 master weights + loss scaling + FP32 accumulation) makes FP16 training match FP32 accuracy with no hyperparameter changes."
+Key takeaways: "Learning = objective + hypothesis space + optimizer; ERM minimizes average training loss as a proxy for test loss, and is maximum likelihood in disguise (priors = regularizers). SGD with momentum, LR schedules, and clipping is the workhorse that trains everything later in the course, and its geometry — not just the loss — selects the solution: on overparameterized linear problems GD from 0 stays in Row(X) and converges to the minimum-norm interpolant X⁺y, i.e. implicit regularization. Generalization is the real goal: the classical U-curve is just the γ=p/N<1 branch of the risk, and double descent adds a variance pole at the interpolation threshold γ=1 plus a second descent for γ>1 where min-norm smoothness takes over. Mixed precision: FP16 needs loss scaling because its 5-bit exponent underflows small gradients, whereas bf16 keeps FP32's 8-bit exponent range and so drops loss scaling — at the cost of a coarser 7-bit mantissa that makes the FP32 master copy matter even more (cancellation threshold 2^8 vs 2^11)."
 Day: 3
-Status: In-Progress
+Status: Done
 Reading done: true
 Chapters: Ch 9–11
-Self-check done: false
-Date: 2026-07-03
+Self-check done: true
+Date: 2026-07-20
 Part:
   - Foundations-of-Learning
-Questions / Follow-ups: Why does SGD implicitly prefer minimum-norm solutions in linear problems (Ch 10 claim) — derivation? How does double descent (Belkin et al.) reconcile with the classical U-curve quantitatively? When does bf16 remove the need for loss scaling vs FP16?
+Questions / Follow-ups: "RESOLVED 2026-07-20 (see Day 3 Addendum): (1) SGD min-norm bias — GD gradients live in Row(X), so from θ=0 iterates stay in Row(X) and the only reachable interpolant is θ∥ = X⁺y; derivation + empirical check added. (2) Double descent vs U-curve — reconciled quantitatively via the ridgeless linear-regression risk R(γ): U-curve = γ<1 branch, pole at γ=1, second descent for γ>1; ridge λ removes the peak. (3) bf16 vs FP16 loss scaling — bf16's 8-bit exponent = FP32 range so no underflow, no loss scaling needed; FP16 needs it; bf16 relies more on FP32 master weights (2^8 vs 2^11 cancellation). New open thread: does the direction-convergence (max-margin) implicit bias for cross-entropy on separable data give an analogous 'min-norm' story for deep nets?"
 ---
 **Reading checklist**
 
@@ -401,3 +401,149 @@ Selection biased toward today's block (optimization / generalization) plus the b
 11. **MUSE: Resolving Manifold Misalignment in Visual Tokenization via Topological Orthogonality** — arXiv, May–June 2026 · Addresses how visual tokenizers distort the data manifold, proposing topologically orthogonal token spaces for downstream generation/understanding. Why it matters: tokenization quality is the "parameterization matters" lesson of Ch 9 applied to modern VLMs (Day 15). [arXiv 2605.05646](https://arxiv.org/pdf/2605.05646)
 12. **LingBot-Map: Feed-forward 3D Foundation Model for Streaming Reconstruction** — trending on Hugging Face Papers this week (early July 2026) · Geometric-context transformer reconstructing scenes from video streams at ~20 FPS with attention modules for coordinate grounding, dense geometric cues, and long-range drift correction. Why it matters: real-time amortized 3D — same trend as D4RT, relevant to Days 13–14. [HF trending](https://huggingface.co/papers/trending)
 13. **Pixal3D: Pixel-Aligned 3D Generation from Images** — TencentARC · arXiv, May 2026, trending this week · Pixel-aligned conditioning for image-to-3D generation, improving geometric faithfulness to the input view. Why it matters: conditional generative modeling (Day 11) meeting geometry (Day 13). [arXiv 2605.10922](https://arxiv.org/abs/2605.10922)
+
+---
+
+# Day 3 Addendum — Follow-up Deep-Dives & Fresh Research · 2026-07-20 (JST)
+
+The Ch 9–11 report and the Mixed Precision paper deep-dive above were completed on 2026-07-03. Today's block closes out this note by rigorously answering the three open **Questions / Follow-ups** it raised, and refreshing the research digest with current papers. This is the "self-check" half of the study block.
+
+## Follow-up 1 — Why does SGD implicitly prefer the minimum-norm solution in linear problems?
+
+**Claim (Ch 10).** For an overparameterized linear least-squares problem with many zero-loss (interpolating) solutions, gradient descent started at the origin converges to the *minimum $L_2$-norm* interpolant. Here is the derivation.
+
+Setup: design matrix $\mathbf{X}\in\mathbb{R}^{N\times p}$ with $p>N$ (more parameters than data), targets $\mathbf{y}\in\mathbb{R}^N$, loss $J(\theta)=\tfrac12\lVert \mathbf{X}\theta-\mathbf{y}\rVert_2^2$. Symbols: $\theta\in\mathbb{R}^p$ = weights; $N$ = #examples; $p$ = #features. Because $p>N$, the interpolation set $\mathcal{S}=\{\theta:\mathbf{X}\theta=\mathbf{y}\}$ is a nonempty affine subspace of dimension $p-N$ — infinitely many exact fits.
+
+The gradient is
+
+$$\nabla_\theta J(\theta)=\mathbf{X}^\mathsf{T}(\mathbf{X}\theta-\mathbf{y})=\mathbf{X}^\mathsf{T}\mathbf{r},\qquad \mathbf{r}=\mathbf{X}\theta-\mathbf{y}\in\mathbb{R}^N .$$
+
+Symbols: $\mathbf{r}$ = residual vector. **Key observation:** every gradient is a linear combination of the *rows* of $\mathbf{X}$ (columns of $\mathbf{X}^\mathsf{T}$), i.e. $\nabla_\theta J(\theta)\in\operatorname{Row}(\mathbf{X})=\operatorname{Range}(\mathbf{X}^\mathsf{T})$ for **every** $\theta$. The GD update $\theta^{k+1}=\theta^k-\eta\,\mathbf{X}^\mathsf{T}\mathbf{r}^k$ therefore only ever moves the iterate within $\operatorname{Row}(\mathbf{X})$. Starting from $\theta^0=\mathbf{0}$,
+
+$$\theta^k\in\theta^0+\operatorname{Row}(\mathbf{X})=\operatorname{Row}(\mathbf{X})\quad\text{for all }k.$$
+
+Now decompose any interpolant as $\theta=\theta_\parallel+\theta_\perp$ with $\theta_\parallel\in\operatorname{Row}(\mathbf{X})$ and $\theta_\perp\in\operatorname{Null}(\mathbf{X})$ (orthogonal complement, since $\operatorname{Row}(\mathbf{X})\perp\operatorname{Null}(\mathbf{X})$). All interpolants share the *same* $\theta_\parallel$ (they differ only by a null-space vector, which $\mathbf{X}$ annihilates), and by Pythagoras $\lVert\theta\rVert_2^2=\lVert\theta_\parallel\rVert_2^2+\lVert\theta_\perp\rVert_2^2$. Hence the **minimum-norm interpolant is exactly $\theta_\parallel$ — the unique interpolant lying in $\operatorname{Row}(\mathbf{X})$.** Since GD (a) stays in $\operatorname{Row}(\mathbf{X})$ and (b) converges to *some* interpolant when $\eta<2/\sigma_{\max}(\mathbf{X}^\mathsf{T}\mathbf{X})$, the only interpolant it can reach is $\theta_\parallel$. $\blacksquare$
+
+**Why it matters:** this is *implicit regularization* — no explicit penalty $\lambda R(\theta)$ was added, yet the optimizer's geometry selects the smoothest (lowest-norm) solution, exactly the $R(\theta)=\lVert\theta\rVert_2$ prior from Ch 11. It also explains why "just use a bigger model" often does not overfit: among the sea of interpolants, GD keeps picking the low-complexity one. The closed form of the target is the pseudoinverse solution $\theta^\star=\mathbf{X}^{+}\mathbf{y}=\mathbf{X}^\mathsf{T}(\mathbf{X}\mathbf{X}^\mathsf{T})^{-1}\mathbf{y}$.
+
+```python
+import torch
+
+# Empirical check: GD from 0 lands on the min-norm interpolant X^+ y
+torch.manual_seed(0)
+N, p = 5, 40                                   # overparameterized: p > N
+X = torch.randn(N, p)
+y = torch.randn(N)
+
+theta = torch.zeros(p, requires_grad=True)
+opt = torch.optim.SGD([theta], lr=0.05)
+for _ in range(20000):
+    opt.zero_grad()
+    (0.5 * (X @ theta - y).pow(2).sum()).backward()
+    opt.step()
+
+theta_min_norm = X.T @ torch.linalg.solve(X @ X.T, y)   # X^+ y (pseudoinverse)
+print("interpolates:", torch.allclose(X @ theta, y, atol=1e-4))      # True
+print("matches min-norm:", torch.allclose(theta.detach(), theta_min_norm, atol=1e-3))  # True
+```
+
+Caveat worth noting for later chapters: this exact statement holds for *linear* models and the squared loss. For deep nets and cross-entropy the implicit bias is subtler (e.g. gradient descent on separable data converges in *direction* to the max-margin / minimum-norm separator — Soudry et al.), but the moral is the same: the optimizer, not just the objective, shapes which solution you get.
+
+## Follow-up 2 — How does double descent reconcile with the classical U-curve, quantitatively?
+
+The classical bias–variance U-curve and the modern double-descent curve are **two branches of the same risk function**, split by the *interpolation threshold* $\gamma=p/N=1$ (parameters-to-samples ratio). Using the isotropic-feature, ridgeless (min-norm) linear regression model analyzed by Hastie–Montanari–Rosset–Tibshirani (and the surrogate-design results of Derezinski et al.), the asymptotic out-of-sample risk of the min-norm estimator, with signal norm $\lVert\beta\rVert^2=r^2$ and noise variance $\sigma^2$, is
+
+$$
+\mathcal{R}(\gamma)=
+\begin{cases}
+\sigma^2\,\dfrac{\gamma}{1-\gamma}, & \gamma<1 \quad\text{(underparameterized branch)}\\[2ex]
+r^2\Big(1-\dfrac{1}{\gamma}\Big)+\sigma^2\,\dfrac{1}{\gamma-1}, & \gamma>1 \quad\text{(overparameterized branch).}
+\end{cases}
+$$
+
+Symbols: $\gamma=p/N$ = capacity ratio; $\sigma^2$ = label-noise variance; $r^2$ = squared norm of the true parameter (signal strength); $\mathcal{R}$ = expected excess test risk. Reading the formula:
+
+- **Underparameterized ($\gamma<1$).** Risk $=\sigma^2\gamma/(1-\gamma)$ is pure *variance from fitting noise*; it rises monotonically and $\to\infty$ as $\gamma\uparrow1$. Adding features here only lets you chase noise — this is the *right-hand upslope of the classical U-curve*. (The bias/underfitting downslope on the far left comes from the model being unable to represent the signal; in this stylized isotropic model the signal term is folded in, but empirically it is what makes the very-low-$\gamma$ region also poor.)
+- **Interpolation threshold ($\gamma\to1$).** Both branches diverge: the design matrix becomes square and near-singular, so the *unique* interpolant is forced to take enormous coefficients to pass exactly through every noisy point. This spike is the **peak** that classical theory never drew because classical theory stopped at $\gamma<1$.
+- **Overparameterized ($\gamma>1$).** Risk *falls again*: now there are infinitely many interpolants and min-norm (Follow-up 1) picks the smoothest one, so the variance term $\sigma^2/(\gamma-1)$ *decreases* as $\gamma$ grows, while the bias term $r^2(1-1/\gamma)$ saturates at $r^2$. This is the **second descent**, invisible to the U-curve.
+
+So the reconciliation is precise: **the classical U-curve is the $\gamma<1$ branch of $\mathcal{R}(\gamma)$; double descent is the full curve, which adds a variance-blowup pole at $\gamma=1$ and a second monotone descent for $\gamma>1$.** Parameter count ($\gamma$) is a bad complexity axis because the true controller of test risk in the overparameterized regime is the *norm* of the solution, not the number of parameters — exactly the Ch 11 lesson that "one infinite-precision parameter can encode anything." Explicit ridge regularization $\lambda>0$ smooths the pole and can *remove* the peak entirely (Nakkiran et al., *Optimal Regularization Can Mitigate Double Descent*), which is why well-tuned weight decay makes the second bump disappear in practice.
+
+```python
+import torch, matplotlib
+matplotlib.use("Agg"); import matplotlib.pyplot as plt
+
+def ridgeless_risk(gamma, sigma2=0.5, r2=1.0):
+    g = torch.as_tensor(gamma, dtype=torch.float64)
+    under = sigma2 * g / (1 - g)
+    over  = r2 * (1 - 1/g) + sigma2 / (g - 1)
+    return torch.where(g < 1, under, over)
+
+g = torch.cat([torch.linspace(0.05, 0.95, 100), torch.linspace(1.05, 6, 100)])
+plt.plot(g, ridgeless_risk(g).clamp(max=6)); plt.axvline(1, ls="--", c="k")
+plt.xlabel(r"$\gamma = p/N$"); plt.ylabel("test risk"); plt.title("Double descent")
+# peak at gamma=1; classical U-curve = the gamma<1 branch only
+```
+
+## Follow-up 3 — When does bf16 remove the need for loss scaling, vs FP16?
+
+Loss scaling (paper deep-dive above) exists to fix **gradient underflow**, and underflow is a *dynamic-range* problem, not a precision problem — which is exactly the axis on which bf16 and FP16 differ. Bit layouts:
+
+| format | sign | exponent | mantissa | min normal | max | subnormal floor |
+|---|---|---|---|---|---|---|
+| FP32 | 1 | 8 | 23 | $\sim1.2\times10^{-38}$ | $\sim3.4\times10^{38}$ | $2^{-149}$ |
+| FP16 | 1 | 5 | 10 | $2^{-14}\approx6.1\times10^{-5}$ | $65{,}504$ | $2^{-24}$ |
+| bf16 | 1 | 8 | 7 | $\sim1.2\times10^{-38}$ | $\sim3.4\times10^{38}$ | $2^{-133}$ |
+
+Symbols: *min normal* = smallest normalized magnitude; *subnormal floor* = smallest representable nonzero (below it, flush-to-zero). **bf16 keeps FP32's 8 exponent bits**, so its representable range is essentially identical to FP32; a gradient of magnitude $10^{-30}$ that flushes to $0$ in FP16 (below its $2^{-24}\approx6\times10^{-8}$ floor) is represented fine in bf16. That is precisely why:
+
+> **bf16 removes the need for loss scaling when the binding constraint is gradient dynamic range** — which is the usual case. FP16 needs loss scaling because its 5-bit exponent clips small gradients to zero; bf16's 8-bit exponent does not, so gradients survive backprop without the $\times S$ shift.
+
+The price bf16 pays is **precision**: only 7 mantissa bits ($\approx2$–$3$ significant decimal digits) versus FP16's 10. Two consequences carry over from the paper's analysis:
+
+1. **FP32 accumulation is still mandatory.** Summing many 7-bit-mantissa products swamps low-order bits even faster than FP16; Tensor Cores accumulate bf16 matmuls in FP32 exactly as Technique 3 prescribes.
+2. **The FP32 master copy matters *more* for bf16.** The alignment-cancellation bound from the paper, $w+\Delta w=w$ once $|w|/|\Delta w|\ge 2^{\text{mantissa}+1}$, is $2^{11}=2048$ for FP16 but only $2^{8}=256$ for bf16. So tiny updates are swallowed *sooner* in bf16 — the FP32 master weights (or Kahan-style compensated updates) are what keep bf16 training stable despite the coarse mantissa.
+
+**Rule of thumb:** on hardware with bf16 (Ampere/Hopper and later, TPUs), prefer `torch.autocast(dtype=torch.bfloat16)` and drop the `GradScaler` — no loss scaling, no overflow-skip bookkeeping. Reserve FP16 + `GradScaler` for older GPUs (e.g. Volta/Turing) that lack fast bf16, and keep FP32 master weights in both cases.
+
+```python
+import torch
+
+# bf16: NO loss scaling needed — same optimizer/weights as FP32, just autocast
+for x, y in loader:
+    opt.zero_grad(set_to_none=True)
+    with torch.autocast("cuda", dtype=torch.bfloat16):   # 8-bit exponent = FP32 range
+        loss = loss_fn(model(x), y)
+    loss.backward()                # gradients don't underflow -> no GradScaler
+    torch.nn.utils.clip_grad_norm_(model.parameters(), 1.0)
+    opt.step()
+
+# FP16: MUST scale (5-bit exponent underflows small grads)
+scaler = torch.cuda.amp.GradScaler()
+for x, y in loader:
+    opt.zero_grad(set_to_none=True)
+    with torch.autocast("cuda", dtype=torch.float16):
+        loss = loss_fn(model(x), y)
+    scaler.scale(loss).backward()  # shift grads into FP16 range
+    scaler.step(opt); scaler.update()
+```
+
+## Additional self-check questions (addendum)
+
+1. Show that every iterate of gradient descent on $\tfrac12\lVert\mathbf{X}\theta-\mathbf{y}\rVert^2$ started at $\mathbf{0}$ lies in $\operatorname{Row}(\mathbf{X})$, and use an orthogonal decomposition to conclude it converges to $\mathbf{X}^{+}\mathbf{y}$.
+2. In the ridgeless risk formula, take $\gamma\to1^-$ and $\gamma\to1^+$ and show both diverge. Which term causes the blow-up, and what does explicit ridge $\lambda$ do to it?
+3. A gradient of magnitude $2^{-30}$ appears during backprop. State whether it survives in FP16 vs bf16 and why, and give the loss-scale $S$ (power of two) that would rescue it in FP16.
+4. Why is the FP32 master copy *more* important in bf16 than FP16, quantitatively (compare the $|w|/|\Delta w|$ cancellation thresholds)?
+
+# Latest CV Research — 2026-07-20
+
+Refreshed digest (the prior list was dated 2026-07-03). Weighted toward today's block — optimization, generalization theory, and implicit bias — plus current representation-learning/generative work. Recency and venue reflect what the sources state; some very-recent arXiv items are preprints pending peer review.
+
+1. **A Theory of Generalization in Deep Learning** — arXiv:2605.01172, May–June 2026 · Builds a *non-asymptotic* generalization theory in which the empirical neural tangent kernel partitions the output space: within the "signal channel," minibatch SGD accumulates coherent population signal via fast linear drift while idiosyncratic memorization is suppressed into a slow diffusive random walk. Why it matters: a modern, quantitative account of exactly the $J_{\texttt{gen}}\neq J_{\texttt{approx}}$ gap Ch 11 sets up, and of *why SGD generalizes* (Follow-up 1). [arXiv 2605.01172](https://arxiv.org/abs/2605.01172v1)
+2. **Generalization in Deep Neural Networks: Minimax Rates for Gradient Methods** — arXiv:2606.06772, June 2026 · Derives the first known minimax-optimal rates for the excess population risk of both GD and SGD on DNNs, showing that with sufficient width, gradient-trained nets match kernel-method generalization. Why it matters: puts a tight theoretical floor under the Ch 10–11 claim that gradient methods on wide nets generalize; complements the NTK story above. [arXiv 2606.06772](https://arxiv.org/abs/2606.06772)
+3. **To Use or not to Use Muon: How Simplicity Bias in Optimizers Matters** — arXiv:2603.00742, Mar–Jul 2026 · Analyzes how the choice of optimizer (e.g. the Muon matrix-orthogonalizing optimizer vs Adam/SGD) changes the *simplicity bias* of the learned solution and thus generalization. Why it matters: a direct, contemporary extension of Ch 10's "the optimizer picks which solution you get" and the implicit-regularization theme of Follow-up 1. [arXiv 2603.00742](https://arxiv.org/pdf/2603.00742)
+4. **When Local Rules Create Global Order: Self-Organized Representation Learning for Latent Diffusion Models** — CVPR 2026 (June 2026) · Shows that imposing simple local consistency rules on latent tokens induces globally ordered, semantically structured representations that improve latent-diffusion generation. Why it matters: connects representation learning (Day 10) to generative modeling (Day 11) and echoes Ch 9's "parameterization matters" at the level of the latent space. [CVPR 2026 OpenAccess](https://openaccess.thecvf.com/CVPR2026)
+5. **Steering Optimisation Trajectories in Diffusion Representation Learning** — arXiv:2607.05319, July 2026 · Proposes controlling the *optimization trajectory* (not just the final objective) to shape the representations diffusion models learn, improving downstream transfer. Why it matters: a generative-model instance of the exact Ch 10 lesson that the path GD takes — not only the loss — determines the solution's quality. [arXiv 2607.05319](https://arxiv.org/pdf/2607.05319)
+6. **Improved Object-Centric Diffusion Learning with Registers and Contrastive Alignment** — arXiv:2601.01224, 2026 · Adds register tokens and a contrastive alignment objective to object-centric diffusion, yielding cleaner slot/object representations for segmentation and generation. Why it matters: previews Day 17 (segmentation) and Day 11 (conditional generation), and shows regularization-as-auxiliary-objective in the Ch 11 spirit. [arXiv 2601.01224](https://arxiv.org/pdf/2601.01224)
+
+**Sources (research digest):** [A Theory of Generalization in Deep Learning](https://arxiv.org/abs/2605.01172v1) · [Minimax Rates for Gradient Methods](https://arxiv.org/abs/2606.06772) · [To Use or not to Use Muon](https://arxiv.org/pdf/2603.00742) · [When Local Rules Create Global Order (CVPR 2026)](https://openaccess.thecvf.com/CVPR2026) · [Steering Optimisation Trajectories](https://arxiv.org/pdf/2607.05319) · [Object-Centric Diffusion with Registers](https://arxiv.org/pdf/2601.01224) · [Optimal Regularization Can Mitigate Double Descent](https://arxiv.org/pdf/2003.01897)

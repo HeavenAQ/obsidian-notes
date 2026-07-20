@@ -12,5 +12,9 @@ tags:
   - Disfluency
   - Multimodal
 Tier: Recommended
+Local PDF: "[[99 Assets/Papers/CVPR 2027/Large Language Models for Dysfluency Detection in Stuttered Speech.pdf]]"
+Zotero URI: "zotero://select/library/items/3H3FUNDD"
+Citation Key: "wagnerLargeLanguageModels2024"
+Zotero PDF URI: "zotero://open-pdf/library/items/SCQERXJJ"
 ---
 Found via **Multimodal Disfluency Detection via Acoustic-Text Fusion** (2026-07-15 night) — direct reference. Frames multi-label dysfluency detection as a language-modeling problem, feeding an LLM both ASR hypotheses and acoustic-encoder representations to jointly predict dysfluency labels — a fusion-architecture variant directly comparable to the source paper's dual-stream design, relevant to Layer 2/RQ2.

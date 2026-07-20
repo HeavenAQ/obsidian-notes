@@ -21,6 +21,10 @@ tags:
   - Cognition
 Tier: Essential
 Assigned Date: 2026-07-02
+Local PDF: "[[99 Assets/Papers/CVPR 2027/The Role of Self-Adaptors in Lexical Retrieval.pdf]]"
+Zotero URI: "zotero://select/library/items/EU7FPZPU"
+Citation Key: "sekineRoleSelfAdaptorsLexical2025"
+Zotero PDF URI: "zotero://open-pdf/library/items/9Z4LL96R"
 ---
 **Background & research question.**  Do self-adaptors facilitate lexical access during word search? 
 

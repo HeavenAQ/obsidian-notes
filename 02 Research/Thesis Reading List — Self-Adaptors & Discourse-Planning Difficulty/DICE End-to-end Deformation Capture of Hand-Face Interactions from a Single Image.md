@@ -21,7 +21,7 @@ tags:
   - Weak-Supervision
 Tier: Essential
 Assigned Date: 2026-07-03
-Citation Key: wu2025dice
+Citation Key: "wu2025dice"
 Local PDF: "[[99 Assets/Papers/CVPR 2027/DICE End-to-end Deformation Capture of Hand-Face Interactions from a Single Image.pdf]]"
 Zotero URI: "zotero://select/library/items/TW7RXF9P"
 Zotero PDF URI: "zotero://open-pdf/library/items/ERC823VL"

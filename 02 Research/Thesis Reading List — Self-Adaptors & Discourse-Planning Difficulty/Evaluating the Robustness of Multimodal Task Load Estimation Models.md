@@ -17,6 +17,10 @@ tags:
   - Benchmark
 Tier: Recommended
 Assigned Date: 2026-07-06
+Local PDF: "[[99 Assets/Papers/CVPR 2027/Evaluating the Robustness of Multimodal Task Load Estimation Models.pdf]]"
+Zotero URI: "zotero://select/library/items/S6QF8GB6"
+Citation Key: "foltynEvaluatingRobustnessMultimodal2024"
+Zotero PDF URI: "zotero://open-pdf/library/items/M7W66F5H"
 ---
 Found via **ADABase** (2026-07-05 night) — adjacent literature / direct continuation by the same author group (Foltyn and Oppelt are ADABase co-authors); ADABase's own reference/citation list beyond the fetched excerpt was not accessible in this session, so this is treated as an adjacent-literature substitute rather than a confirmed citation. Tests how multimodal task-load estimation models trained on one scenario (e.g., n-back) generalize to a different scenario (e.g., driving) — i.e., a direct robustness/domain-generalization follow-up to ADABase's own multi-paradigm design. Strongly supports RQ3.
 

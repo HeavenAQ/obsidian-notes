@@ -11,6 +11,66 @@ Category:
   - Video Understanding
   - Theory
 ---
+# CNN Recap
+![[Pasted image 20260720154212.png]]
+
+```python
+import torch.nn as nn
+import torch
+
+class FlexibleCNN(nn.module):
+	def __init__(
+		self,
+		in_channels: int,
+		n_layers: int,
+		n_filters: list[int],
+		kernel_sizes: list[int],
+		n_classes: int,
+		dropout_rate: float, 
+		fc_size: int,
+	):
+		super(FlexibleCNN, self).__init__()
+		
+		self.dropout_rate = dropout_rate
+		self.fc_size = fc_size
+		self.n_classes = n_classes
+		
+		blocks = []
+		for i in range(n_layers):
+			padding = (kernel_sizes[i] - 1) // 2
+			block = nn.Sequential(
+				nn.Conv2d(
+					in_channels, 
+					n_filters[i], 
+					kernel_sizes[i],
+					padding=padding,
+				),
+				nn.ReLU(),
+				nn.MaxPool2d(kernel_size=2, stride=2),
+			)
+			blocks.append(block)
+			in_channels = n_filters[i]
+	
+	def _create_classifier(self, flattened_size, device):
+		self.classifier = nn.Sequential(
+			nn.Dropout(self.dropout_rate),
+			nn.Linear(flattened_size, self.fc_size),
+			nn.ReLU(),
+			nn.Dropout(self.dropout_rate),
+			nn.Linear(self.fc_size, self.n_classes),
+		).to(device)
+	
+	def forward(self, x: torch.Tensor) -> torch.Tensor:
+		device = x.device
+		x = self.features(x)
+		flattened = torch.flatten(x, 1)
+		flattened = flattened.size(1)
+		
+		if self.classifier is None:
+			self._create_classifier(flattened_size, device)
+		return self.classifier(flattened)
+```
+
 # ResNet Deep Dive — 2D ResNet-18 and 3D ResNets for Video
 
 > [!abstract]

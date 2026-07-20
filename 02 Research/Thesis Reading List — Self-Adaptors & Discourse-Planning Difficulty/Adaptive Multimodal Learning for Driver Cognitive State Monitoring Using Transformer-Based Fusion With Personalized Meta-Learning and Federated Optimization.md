@@ -14,6 +14,10 @@ tags:
   - Domain-Generalization
 Tier: Recommended
 Assigned Date: 2026-07-14
+Local PDF: "[[99 Assets/Papers/CVPR 2027/Adaptive Multimodal Learning for Driver Cognitive State Monitoring Using Transformer-Based Fusion With Personalized Meta-Learning and Federated Optimization.pdf]]"
+Zotero URI: "zotero://select/library/items/L5DDIPER"
+Citation Key: "abinayaAdaptiveMultimodalLearning2026"
+Zotero PDF URI: "zotero://open-pdf/library/items/TYQEURLN"
 ---
 Found via **Real-Time Driver Cognitive Workload Recognition: Attention-Enabled Learning With Multimodal Information Fusion** (2026-07-11 night) — adjacent-literature substitute, not a direct reference (source paper is paywalled; reference list unavailable in this session). Builds on the CL-Drive dataset with a CNN–BiLSTM feature extractor and transformer cross-attention fusion, then adds personalized meta-learning (few-shot adaptation to new drivers from as few as 5 samples) and federated optimization — a direct extension of the attention-fusion driver-cognitive-load line toward cross-subject/cross-domain generalization (RQ3), reported as a 3.6-point absolute accuracy gain over conventional fusion.
 

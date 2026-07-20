@@ -18,7 +18,7 @@ tags:
   - Hand-Face-CV
 Tier: Essential
 Assigned Date: 2026-07-04
-Citation Key: shimada2023decaf
+Citation Key: "shimada2023decaf"
 Local PDF: "[[99 Assets/Papers/CVPR 2027/Decaf Monocular Deformation Capture for Face and Hand Interactions.pdf]]"
 Zotero URI: "zotero://select/library/items/FDKEABT7"
 Zotero PDF URI: "zotero://open-pdf/library/items/QCE4HF9G"

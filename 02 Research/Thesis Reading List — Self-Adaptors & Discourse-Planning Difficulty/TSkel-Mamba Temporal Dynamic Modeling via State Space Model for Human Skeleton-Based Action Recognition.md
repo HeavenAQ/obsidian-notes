@@ -11,6 +11,10 @@ tags:
   - mamba
   - state-space-model
 Reading Status: To-Read
+Local PDF: "[[99 Assets/Papers/CVPR 2027/TSkel-Mamba Temporal Dynamic Modeling via State Space Model for Human Skeleton-Based Action Recognition.pdf]]"
+Zotero URI: "zotero://select/library/items/RMXS78TT"
+Citation Key: "liuTSkelMambaTemporalDynamic2025"
+Zotero PDF URI: "zotero://open-pdf/library/items/U7TW5X6X"
 ---
 
 Found via tonight's ActionFormer read (adjacent literature, same rationale as MambaTAD above): TSkel-Mamba pairs a spatial Transformer with a Mamba-based temporal module for skeleton/pose-sequence action recognition, which is directly analogous to the pose-sequence-to-fidgeting-dynamics stage of the thesis's Layer 2 pipeline and offers a pose-native (rather than RGB-feature-native) alternative to ActionFormer's design.

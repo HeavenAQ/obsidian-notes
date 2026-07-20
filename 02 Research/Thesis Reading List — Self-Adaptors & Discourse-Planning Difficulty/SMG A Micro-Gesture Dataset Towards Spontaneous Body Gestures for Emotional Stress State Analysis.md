@@ -13,6 +13,10 @@ tags:
   - affective-computing
   - stress-state
 Reading Status: To-Read
+Local PDF: "[[99 Assets/Papers/CVPR 2027/SMG A Micro-Gesture Dataset Towards Spontaneous Body Gestures for Emotional Stress State Analysis.pdf]]"
+Zotero URI: "zotero://select/library/items/TPDQFD2V"
+Citation Key: "chenSMGMicroGestureDataset2023"
+Zotero PDF URI: "zotero://open-pdf/library/items/5KWBKIUT"
 ---
 
 Found via tonight's SocialGesture read (reference [10] in its related-work section): SMG is a 40-subject, 17-category spontaneous micro-gesture dataset built specifically to link body movement to emotional/stress state rather than communicative intent, making it one of the closer computer-vision precedents for treating spontaneous nonverbal behavior as a signal of internal cognitive/affective state — directly relevant to the thesis's RQ1 behavioral hypothesis and RQ3 cross-domain framing.

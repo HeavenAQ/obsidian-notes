@@ -19,6 +19,10 @@ tags:
   - Foundational
 Tier: Essential
 Assigned Date: 2026-07-03
+Local PDF: "[[99 Assets/Papers/CVPR 2027/In Search of Lost Domain Generalization (DomainBed).pdf]]"
+Zotero URI: "zotero://select/library/items/VSAC4AQH"
+Citation Key: "gulrajaniSearchLostDomain2007"
+Zotero PDF URI: "zotero://open-pdf/library/items/HEQLTFUV"
 ---
 **Background.**  DG claims used inconsistent datasets, architectures, and selection criteria. 
 

@@ -11,6 +11,10 @@ tags:
   - Turn-Taking
   - Multimodal
 Tier: Recommended
+Local PDF: "[[99 Assets/Papers/CVPR 2027/Visual Cues Enhance Predictive Turn-Taking for Two-Party Human Interaction.pdf]]"
+Zotero URI: "zotero://select/library/items/DA8X3QU5"
+Citation Key: "russellVisualCuesEnhance2025"
+Zotero PDF URI: "zotero://open-pdf/library/items/JUXAHYTK"
 ---
 **Background & research question.**  do visual features add predictive value over speech for turn-taking timing? 
 

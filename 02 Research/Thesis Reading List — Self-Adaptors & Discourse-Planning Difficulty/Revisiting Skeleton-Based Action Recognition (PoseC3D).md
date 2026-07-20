@@ -12,7 +12,7 @@ tags:
   - Skeleton
   - Video-Backbone
 Tier: Background
-Citation Key: duan2022revisiting
+Citation Key: "duan2022revisiting"
 Local PDF: "[[99 Assets/Papers/CVPR 2027/Revisiting Skeleton-Based Action Recognition (PoseC3D).pdf]]"
 Zotero URI: "zotero://select/library/items/9YVPPTL5"
 Zotero PDF URI: "zotero://open-pdf/library/items/KRB6F5RF"

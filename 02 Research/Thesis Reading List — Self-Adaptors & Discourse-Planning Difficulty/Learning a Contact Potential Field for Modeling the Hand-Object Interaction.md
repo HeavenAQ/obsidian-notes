@@ -13,6 +13,10 @@ tags:
   - Contact-Aware
 Tier: Recommended
 Assigned Date: 2026-07-17
+Local PDF: "[[99 Assets/Papers/CVPR 2027/Learning a Contact Potential Field for Modeling the Hand-Object Interaction.pdf]]"
+Zotero URI: "zotero://select/library/items/ME8U2G9B"
+Citation Key: "yangLearningContactPotential2024"
+Zotero PDF URI: "zotero://open-pdf/library/items/A7ITQTK6"
 ---
 Found via **Precision-Enhanced Human-Object Contact Detection via Depth-Aware Perspective Interaction and Object Texture Restoration (PIHOT)** (2026-07-15 night) — direct reference. Models hand-object contact as a spring-mass "Contact Potential Field" that encodes per-vertex distance and a likelihood of the contact being physically stable, rather than a flat binary/segmentation label — a richer contact-representation design directly relevant to the contact-modeling stage of RQ2's hand-face detector.
 

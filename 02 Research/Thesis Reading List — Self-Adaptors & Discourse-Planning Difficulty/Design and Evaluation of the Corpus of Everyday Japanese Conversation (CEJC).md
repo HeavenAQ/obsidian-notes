@@ -12,6 +12,10 @@ tags:
   - Japanese
   - Turn-Taking
 Tier: Background
+Local PDF: "[[99 Assets/Papers/CVPR 2027/Design and Evaluation of the Corpus of Everyday Japanese Conversation (CEJC).pdf]]"
+Zotero URI: "zotero://select/library/items/REHR76ND"
+Citation Key: "koisoDesignEvaluationCorpus2022"
+Zotero PDF URI: "zotero://open-pdf/library/items/QMDSW7DL"
 ---
 **Background.**  ecologically valid conversation corpora with video are rare. 
 

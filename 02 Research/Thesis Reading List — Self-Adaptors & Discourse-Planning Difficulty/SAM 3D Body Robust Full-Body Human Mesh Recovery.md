@@ -18,7 +18,7 @@ tags:
   - Foundation-Model
 Tier: Essential
 Assigned Date: 2026-07-14
-Citation Key: yang2026sam3dbody
+Citation Key: "yang2026sam3dbody"
 Local PDF: "[[99 Assets/Papers/CVPR 2027/SAM 3D Body Robust Full-Body Human Mesh Recovery.pdf]]"
 Zotero URI: "zotero://select/library/items/4N5FTVAD"
 Zotero PDF URI: "zotero://open-pdf/library/items/TQ3CJIQV"

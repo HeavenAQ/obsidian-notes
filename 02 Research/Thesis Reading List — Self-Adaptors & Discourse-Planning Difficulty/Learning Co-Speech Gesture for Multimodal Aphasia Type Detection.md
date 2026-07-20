@@ -15,6 +15,10 @@ tags:
   - Disfluency
 Tier: Recommended
 Assigned Date: 2026-07-17
+Local PDF: "[[99 Assets/Papers/CVPR 2027/Learning Co-Speech Gesture for Multimodal Aphasia Type Detection.pdf]]"
+Zotero URI: "zotero://select/library/items/2FBZXUC4"
+Citation Key: "leeLearningCoSpeechGesture2023"
+Zotero PDF URI: "zotero://open-pdf/library/items/J88LAVN9"
 ---
 Recommended via tonight's paper "The Role of Self-Adaptors in Lexical Retrieval" (Sekine & Hotta 2025) as an adjacent-literature substitute, not a direct reference — that paper's own references are all psychology works predating 2023. This EMNLP 2023 paper is a computational descendant of the same research line: it models how co-speech gesture patterns reflect word-retrieval impairment, using a speech-gesture graph neural network to classify aphasia types (SOTA F1 84.2%), showing gesture features can outperform acoustic features for retrieval-difficulty-related classification.
 

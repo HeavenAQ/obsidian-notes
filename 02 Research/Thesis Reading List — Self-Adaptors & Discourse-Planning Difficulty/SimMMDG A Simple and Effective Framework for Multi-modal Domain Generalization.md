@@ -12,6 +12,10 @@ tags:
   - Domain-Generalization
   - Multimodal
 Tier: Background
+Local PDF: "[[99 Assets/Papers/CVPR 2027/SimMMDG A Simple and Effective Framework for Multi-modal Domain Generalization.pdf]]"
+Zotero URI: "zotero://select/library/items/RRY3BGN7"
+Citation Key: "dongSimMMDGSimpleEffective2023"
+Zotero PDF URI: "zotero://open-pdf/library/items/REGB3UGI"
 ---
 **Background.**  forcing all modalities into one joint space hurts DG. 
 

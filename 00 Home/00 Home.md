@@ -17,7 +17,7 @@ banner: "[[99 Assets/Media/grpo_visual.png]]"
 - 🧱 **[[00 Home/Tasks/Task Kanban Board|Task Kanban Board]]** — manual Kanban lanes for current focus
 - 📅 **[[00 Home/Daily Notes/2026-07-13|Today’s daily note]]**
 - 🎓 **[[00 Home/Learning Hub.base|Learning Hub]]** — courses, lessons, and homework
-- 🔬 **[[02 Research/Research Hub.base|Research Hub]]** — thesis and paper reading
+- 🔬 **[[Research Hub.base|Research Hub]]** — thesis and paper reading
 - 🧩 **[[03 Algorithms/Algorithms Hub.base|Algorithms Hub]]** — DSA practice
 - 📚 **[[04 Reference/Reference Hub.base|Reference Hub]]** — deep technical notes
 - 🖼️ **[[99 Assets/99 Assets|Assets Index]]** — media, canvases, and base files
@@ -227,7 +227,7 @@ dv.table(["Practice / review", "Difficulty", "Topic", "Status"], practice);
 ## 🗂️ Full Inventories
 
 - 🎓 [[00 Home/Learning Hub.base|All learning documents and progress]]
-- 🔬 [[02 Research/Research Hub.base|All research papers and thesis documents]]
+- 🔬 [[Research Hub.base|All research papers and thesis documents]]
 - 🧩 [[03 Algorithms/Algorithms Hub.base|All DSA documents and practice status]]
 - 📚 [[04 Reference/Reference Hub.base|All reference documents and status]]
 
@@ -238,9 +238,9 @@ dv.table(["Practice / review", "Difficulty", "Topic", "Status"], practice);
 - 👁️ **[[01.1 Computer Vision — Foundations Study Tracker.base|CV Study Tracker Base]]**
 - 🧠 **[[01.2 DL Daily Lessons — Step-by-Step + Quiz.base|DL Daily Lessons Base]]**
 - 📝 **[[01.3 DL Homework Practice — MIT 6.7960.base|DL Homework Base]]**
-- 📖 **[[02 Research/Thesis Reading List — Self-Adaptors & Discourse-Planning Difficulty/Thesis Reading List — Self-Adaptors & Discourse-Planning Difficulty.base|Thesis Reading List Base]]**
-- 📚 **[[02 Research/Local Paper Library.base|Local Paper Library]]** — downloaded PDFs, Zotero links, citation keys, and reading progress
-- 🎓 **[[02 Research/Research Thesis|Research Thesis]]**
+- 📖 **[[Thesis Reading List — Self-Adaptors & Discourse-Planning Difficulty.base|Thesis Reading List Base]]**
+- 📚 **[[Local Paper Library.base|Local Paper Library]]** — downloaded PDFs, Zotero links, citation keys, and reading progress
+- 🎓 **[[Research Thesis|Research Thesis]]**
 
 ## ✏️ Recently Edited
 

@@ -20,6 +20,10 @@ tags:
   - Theory
 Tier: Recommended
 Assigned Date: 2026-07-07
+Local PDF: "[[99 Assets/Papers/CVPR 2027/3D Human Pose Estimation via Intuitive Physics (IPMAN).pdf]]"
+Zotero URI: "zotero://select/library/items/3YXSY38I"
+Citation Key: "tripathi3DHumanPose2023"
+Zotero PDF URI: "zotero://open-pdf/library/items/3YWEJLQX"
 ---
 ## Notes
 

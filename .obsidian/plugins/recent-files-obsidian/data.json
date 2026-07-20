@@ -5,20 +5,92 @@
       "path": "04 Reference/Document Hub/ResNet Architecture.md"
     },
     {
+      "basename": "Jul 6 — HW1 · CNNs, TorchVision Fine-Tuning & Optuna HPO",
+      "path": "01 DL Daily Lessons — Step-by-Step + Quiz/Jul 6 — HW1 · CNNs, TorchVision Fine-Tuning & Optuna HPO.md"
+    },
+    {
+      "basename": "Hyper-parameter Optimization",
+      "path": "04 Reference/Document Hub/Hyper-parameter Optimization.md"
+    },
+    {
+      "basename": "Research Hub",
+      "path": "02 Research/Research Hub.base"
+    },
+    {
+      "basename": "Camera Math — Unified Deep Note Projection, Viewpoints & the DA3+Body4D Top-Down Script",
+      "path": "04 Reference/Document Hub/Camera Math — Unified Deep Note Projection, Viewpoints & the DA3+Body4D Top-Down Script.md"
+    },
+    {
+      "basename": "Document Hub",
+      "path": "04 Reference/Document Hub/Document Hub.base"
+    },
+    {
       "basename": "04 Reference",
       "path": "04 Reference/04 Reference.md"
     },
     {
-      "basename": "I3D — Inflated 3D ConvNet Deep Dive for Braking-Action Recognition",
-      "path": "04 Reference/Document Hub/I3D — Inflated 3D ConvNet Deep Dive for Braking-Action Recognition.md"
+      "basename": "Fast R-CNN — Architecture, RoI Pooling, Multi-Task Loss & PyTorch Deep Dive",
+      "path": "04 Reference/Document Hub/Fast R-CNN — Architecture, RoI Pooling, Multi-Task Loss & PyTorch Deep Dive.md"
+    },
+    {
+      "basename": "Predicting States of Understanding in Explanatory Interactions Using Cognitive Load-Related Linguistic Cues",
+      "path": "02 Research/Thesis Reading List — Self-Adaptors & Discourse-Planning Difficulty/Predicting States of Understanding in Explanatory Interactions Using Cognitive Load-Related Linguistic Cues.md"
+    },
+    {
+      "basename": "02 Research",
+      "path": "02 Research/02 Research.md"
+    },
+    {
+      "basename": "VideoMAE V1 & V2 — Masked Video Autoencoders, Math & Fine-Tuning Deep Dive",
+      "path": "04 Reference/Document Hub/VideoMAE V1 & V2 — Masked Video Autoencoders, Math & Fine-Tuning Deep Dive.md"
+    },
+    {
+      "basename": "Transformers in Practice (DeepLearning.AI, Sharon Zhou) — Deep Dive",
+      "path": "04 Reference/Document Hub/Transformers in Practice (DeepLearning.AI, Sharon Zhou) — Deep Dive/Transformers in Practice (DeepLearning.AI, Sharon Zhou) — Deep Dive.md"
+    },
+    {
+      "basename": "01 DL Daily Lessons — Step-by-Step + Quiz",
+      "path": "01 DL Daily Lessons — Step-by-Step + Quiz/01 DL Daily Lessons — Step-by-Step + Quiz.md"
+    },
+    {
+      "basename": "01 DL Homework Practice — MIT 6.7960",
+      "path": "01 DL Homework Practice — MIT 6.7960/01 DL Homework Practice — MIT 6.7960.md"
+    },
+    {
+      "basename": "01 Computer Vision — Foundations Study Tracker",
+      "path": "01 Computer Vision — Foundations Study Tracker/01 Computer Vision — Foundations Study Tracker.md"
+    },
+    {
+      "basename": "Untitled 1",
+      "path": "00 Home/Inbox/Untitled 1.md"
+    },
+    {
+      "basename": "Image Formation — Imaging, Lenses, Cameras, Color",
+      "path": "01 Computer Vision — Foundations Study Tracker/Image Formation — Imaging, Lenses, Cameras, Color.md"
+    },
+    {
+      "basename": "Neural Networks & Backpropagation",
+      "path": "01 Computer Vision — Foundations Study Tracker/Neural Networks & Backpropagation.md"
     },
     {
       "basename": "Reference-Conditioned Transformers — Architecture, Attention, Training and Visual Generation",
       "path": "04 Reference/Document Hub/Reference-Conditioned Transformers — Architecture, Attention, Training and Visual Generation.md"
     },
     {
-      "basename": "02 Research",
-      "path": "02 Research/02 Research.md"
+      "basename": "Task Kanban Board",
+      "path": "00 Home/Tasks/Task Kanban Board.md"
+    },
+    {
+      "basename": "00 Home",
+      "path": "00 Home/00 Home.md"
+    },
+    {
+      "basename": "Deadline Triage",
+      "path": "00 Home/Tasks/Deadline Triage.md"
+    },
+    {
+      "basename": "I3D — Inflated 3D ConvNet Deep Dive for Braking-Action Recognition",
+      "path": "04 Reference/Document Hub/I3D — Inflated 3D ConvNet Deep Dive for Braking-Action Recognition.md"
     },
     {
       "basename": "Thesis Reading List — Self-Adaptors & Discourse-Planning Difficulty",
@@ -27,18 +99,6 @@
     {
       "basename": "03 Algorithms",
       "path": "03 Algorithms/03 Algorithms.md"
-    },
-    {
-      "basename": "01 Computer Vision — Foundations Study Tracker",
-      "path": "01 Computer Vision — Foundations Study Tracker/01 Computer Vision — Foundations Study Tracker.md"
-    },
-    {
-      "basename": "01 DL Homework Practice — MIT 6.7960",
-      "path": "01 DL Homework Practice — MIT 6.7960/01 DL Homework Practice — MIT 6.7960.md"
-    },
-    {
-      "basename": "01 DL Daily Lessons — Step-by-Step + Quiz",
-      "path": "01 DL Daily Lessons — Step-by-Step + Quiz/01 DL Daily Lessons — Step-by-Step + Quiz.md"
     },
     {
       "basename": "01.1 Computer Vision — Foundations Study Tracker",
@@ -59,66 +119,6 @@
     {
       "basename": "300. Longest Increasing Subsequence",
       "path": "03 Algorithms/DSA/300. Longest Increasing Subsequence.md"
-    },
-    {
-      "basename": "Simple Use Case of p-Value and Correlation",
-      "path": "04 Reference/Document Hub/Simple Use Case of p-Value and Correlation.md"
-    },
-    {
-      "basename": "Foundations — The Challenge of Vision & A Simple Vision System",
-      "path": "01 Computer Vision — Foundations Study Tracker/Foundations — The Challenge of Vision & A Simple Vision System.md"
-    },
-    {
-      "basename": "Task Command Center",
-      "path": "00 Home/Tasks/Task Command Center.md"
-    },
-    {
-      "basename": "Inbox",
-      "path": "00 Home/Inbox/Inbox.md"
-    },
-    {
-      "basename": "Untitled",
-      "path": "00 Home/Inbox/Untitled.base"
-    },
-    {
-      "basename": "Reference Hub",
-      "path": "04 Reference/Reference Hub.base"
-    },
-    {
-      "basename": "Document Hub",
-      "path": "04 Reference/Document Hub/Document Hub.base"
-    },
-    {
-      "basename": "LLM Inference Acceleration — Deep Dive (LLM高速化勉強会 + expanded)",
-      "path": "04 Reference/Document Hub/LLM Inference Acceleration — Deep Dive (LLM高速化勉強会 + expanded).md"
-    },
-    {
-      "basename": "Qwen3.5 Deep Dive — Native Multimodal Agents, Gated DeltaNet & Sparse MoE",
-      "path": "04 Reference/Document Hub/Qwen3.5 Deep Dive — Native Multimodal Agents, Gated DeltaNet & Sparse MoE.md"
-    },
-    {
-      "basename": "NVFP4 — Accurate 4-bit Inference on NVIDIA Blackwell",
-      "path": "04 Reference/Document Hub/NVFP4 — Accurate 4-bit Inference on NVIDIA Blackwell.md"
-    },
-    {
-      "basename": "Java Cheat Sheet for DSA (syntax, types, structures, functions)",
-      "path": "03 Algorithms/DSA/Java Cheat Sheet for DSA (syntax, types, structures, functions).md"
-    },
-    {
-      "basename": "Unified Acoustic-to-Speech-to-Language Embedding Space & the Neural Basis of Natural Conversation (Whisper + ECoG)",
-      "path": "04 Reference/Document Hub/Unified Acoustic-to-Speech-to-Language Embedding Space & the Neural Basis of Natural Conversation (Whisper + ECoG).md"
-    },
-    {
-      "basename": "2026-07-13",
-      "path": "00 Home/Daily Notes/2026-07-13.md"
-    },
-    {
-      "basename": "Task Kanban Board",
-      "path": "00 Home/Tasks/Task Kanban Board.md"
-    },
-    {
-      "basename": "Algorithms Hub",
-      "path": "03 Algorithms/Algorithms Hub.base"
     }
   ],
   "omittedPaths": [

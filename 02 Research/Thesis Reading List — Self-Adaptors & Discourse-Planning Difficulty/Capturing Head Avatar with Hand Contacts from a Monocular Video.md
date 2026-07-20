@@ -12,7 +12,7 @@ tags:
   - Contact-Aware
   - Hand-Face-CV
 Tier: Recommended
-Citation Key: he2025capturing
+Citation Key: "he2025capturing"
 Local PDF: "[[99 Assets/Papers/CVPR 2027/Capturing Head Avatar with Hand Contacts from a Monocular Video.pdf]]"
 Zotero URI: "zotero://select/library/items/J7H9IR67"
 Zotero PDF URI: "zotero://open-pdf/library/items/ZGU2EMVP"

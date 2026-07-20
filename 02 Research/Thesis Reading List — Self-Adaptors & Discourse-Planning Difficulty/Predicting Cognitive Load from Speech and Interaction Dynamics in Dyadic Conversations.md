@@ -14,6 +14,10 @@ tags:
   - Turn-Taking
 Tier: Recommended
 Assigned Date: 2026-07-05
+Local PDF: "[[99 Assets/Papers/CVPR 2027/Predicting Cognitive Load from Speech and Interaction Dynamics in Dyadic Conversations.pdf]]"
+Zotero URI: "zotero://select/library/items/RTQNMHCE"
+Citation Key: "chowdhuryPredictingCognitiveLoad2026"
+Zotero PDF URI: "zotero://open-pdf/library/items/65KNW4PI"
 ---
 ## Reading Summary
 

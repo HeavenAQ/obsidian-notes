@@ -13,7 +13,7 @@ tags:
   - Contact-Aware
   - Domain-Generalization
 Tier: Recommended
-Citation Key: moon2023bringing
+Citation Key: "moon2023bringing"
 Local PDF: "[[99 Assets/Papers/CVPR 2027/Bringing Inputs to Shared Domains for 3D Interacting Hands Recovery in the Wild (InterWild).pdf]]"
 Zotero URI: "zotero://select/library/items/98ARAEHJ"
 Zotero PDF URI: "zotero://open-pdf/library/items/QDKEK8JM"

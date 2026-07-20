@@ -13,6 +13,10 @@ tags:
   - In-the-Wild
 Reading Status: To-Read
 Assigned Date: 2026-07-14
+Local PDF: "[[99 Assets/Papers/CVPR 2027/WiLoR End-to-end 3D Hand Localization and Reconstruction in-the-wild.pdf]]"
+Zotero URI: "zotero://select/library/items/U8SSV2WI"
+Citation Key: "potamiasWiLoREndtoend3D2025"
+Zotero PDF URI: "zotero://open-pdf/library/items/67BML7S9"
 ---
 
 Found via **Enhancing Hands in 3D Whole-Body Pose Estimation with Conditional Hands Modulator** (2026-07-14 night) — direct reference. WiLoR is the frozen, pre-trained hand pose estimator that CHAM conditions on (its ViT features are injected into the whole-body stream), and it is also the strongest hand-only baseline SAM 3D Body benchmarks against on hand accuracy. Real-time fully convolutional hand localization + transformer-based 3D hand reconstruction, state-of-the-art on FreiHAND/HO3D.

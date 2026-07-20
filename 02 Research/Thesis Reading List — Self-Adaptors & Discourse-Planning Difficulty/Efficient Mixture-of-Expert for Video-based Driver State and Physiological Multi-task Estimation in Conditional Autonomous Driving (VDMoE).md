@@ -15,6 +15,10 @@ tags:
   - Multimodal
 Tier: Recommended
 Assigned Date: 2026-07-05
+Local PDF: "[[99 Assets/Papers/CVPR 2027/Efficient Mixture-of-Expert for Video-based Driver State and Physiological Multi-task Estimation in Conditional Autonomous Driving (VDMoE).pdf]]"
+Zotero URI: "zotero://select/library/items/XMXCZ3B6"
+Citation Key: "wangEfficientMixtureofExpertVideobased2024"
+Zotero PDF URI: "zotero://open-pdf/library/items/772NWWYW"
 ---
 Found via **CogMamba** (2026-07-04 night). Adjacent literature in CogMamba's immediate task family (CogMamba's reference list wasn't accessible to confirm direct citation): multi-task video-based driver state + rPPG physiological estimation with a mixture-of-experts architecture. Directly supports the DENSO driver cognitive-load monitoring framing (RQ3 / PhD positioning).
 

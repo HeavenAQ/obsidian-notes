@@ -12,5 +12,9 @@ tags:
   - Hand-Face-CV
   - Contact-Aware
 Tier: Recommended
+Local PDF: "[[99 Assets/Papers/CVPR 2027/WristSonic Enabling Fine-grained Hand-Face Interactions on Smartwatches Using Active Acoustic Sensing.pdf]]"
+Zotero URI: "zotero://select/library/items/FFX7LP58"
+Citation Key: "mahmudWristSonicEnablingFinegrained2024"
+Zotero PDF URI: "zotero://open-pdf/library/items/ZC25Q3TV"
 ---
 Found via **D-Touch: Recognizing and Predicting Fine-grained Hand-face Touching Activities Using a Neck-mounted Wearable** (2026-07-06 night) — adjacent literature, continuing the wearable hand-face interaction sensing line using a wrist-worn active acoustic (ultrasonic) sensor with a Transformer-based classifier instead of a camera, distinguishing 21 distinct hand/face/arm gestures on a single low-power device. Relevant as a privacy-preserving, camera-free alternative for contact-aware self-adaptor detection.

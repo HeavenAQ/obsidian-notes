@@ -14,6 +14,10 @@ tags:
   - Cognition
 Tier: Essential
 Assigned Date: 2026-07-04
+Local PDF: "[[99 Assets/Papers/CVPR 2027/The Dual Functions of Adaptors.pdf]]"
+Zotero URI: "zotero://select/library/items/ABVMKBRY"
+Citation Key: "lopez-oziebloDualFunctionsAdaptors2025"
+Zotero PDF URI: "zotero://open-pdf/library/items/BAXC2ZQJ"
 ---
 ## Reading Summary
 

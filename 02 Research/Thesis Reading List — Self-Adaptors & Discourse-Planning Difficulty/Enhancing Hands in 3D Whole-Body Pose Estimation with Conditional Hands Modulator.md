@@ -17,7 +17,7 @@ tags:
   - Contact-Aware
 Tier: Essential
 Assigned Date: 2026-07-14
-Citation Key: moon2026enhancing
+Citation Key: "moon2026enhancing"
 Local PDF: "[[99 Assets/Papers/CVPR 2027/Enhancing Hands in 3D Whole-Body Pose Estimation with Conditional Hands Modulator.pdf]]"
 Zotero URI: "zotero://select/library/items/MU3TE4H3"
 Zotero PDF URI: "zotero://open-pdf/library/items/RXE7WZHF"

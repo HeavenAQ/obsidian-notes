@@ -17,7 +17,7 @@ tags:
   - Weak-Supervision
 Tier: Recommended
 Assigned Date: 2026-08-04
-Citation Key: gritsenko2024spatio
+Citation Key: "gritsenko2024spatio"
 Local PDF: "[[99 Assets/Papers/CVPR 2027/End-to-End Spatio-Temporal Action Localisation with Video Transformers.pdf]]"
 Zotero URI: "zotero://select/library/items/IIDDR33B"
 Zotero PDF URI: "zotero://open-pdf/library/items/5FIH3YFC"

@@ -13,6 +13,10 @@ tags:
   - Multimodal
 Tier: Recommended
 Assigned Date: 2026-07-04
+Local PDF: "[[99 Assets/Papers/CVPR 2027/CogMamba Multi-Task Driver Cognitive Load and Physiological Non-Contact Estimation with Multimodal Facial Features.pdf]]"
+Zotero URI: "zotero://select/library/items/3AYUGX82"
+Citation Key: "CogMambaMultiTaskDriver2025"
+Zotero PDF URI: "zotero://open-pdf/library/items/D92PWQJR"
 ---
 ## Reading Summary
 

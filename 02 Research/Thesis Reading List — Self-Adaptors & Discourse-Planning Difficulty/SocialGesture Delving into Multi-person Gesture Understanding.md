@@ -18,7 +18,7 @@ tags:
   - Temporal-Action-Localization
 Tier: Essential
 Assigned Date: 2026-07-12
-Citation Key: cao2025socialgesture
+Citation Key: "cao2025socialgesture"
 Local PDF: "[[99 Assets/Papers/CVPR 2027/SocialGesture Delving into Multi-person Gesture Understanding.pdf]]"
 Zotero URI: "zotero://select/library/items/CVBK8KKR"
 Zotero PDF URI: "zotero://open-pdf/library/items/JM2EGRWA"

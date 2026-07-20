@@ -11,6 +11,10 @@ tags:
   - Dataset
   - Multimodal
 Tier: Recommended
+Local PDF: "[[99 Assets/Papers/CVPR 2027/Context-Aware Personality Inference in Dyadic Scenarios Introducing the UDIVA Dataset.pdf]]"
+Zotero URI: "zotero://select/library/items/P85NGQGI"
+Citation Key: "palmeroContextAwarePersonalityInference2021"
+Zotero PDF URI: "zotero://open-pdf/library/items/2DGPSB8Z"
 ---
 **Background.**  dyadic data with full body/hand/face plus transcripts is scarce. 
 

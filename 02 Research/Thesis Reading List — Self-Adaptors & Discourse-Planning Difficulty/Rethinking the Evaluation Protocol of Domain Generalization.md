@@ -11,6 +11,10 @@ tags:
   - Domain-Generalization
   - Benchmark
 Tier: Background
+Local PDF: "[[99 Assets/Papers/CVPR 2027/Rethinking the Evaluation Protocol of Domain Generalization.pdf]]"
+Zotero URI: "zotero://select/library/items/ALVCC7JR"
+Citation Key: "yuRethinkingEvaluationProtocol2024"
+Zotero PDF URI: "zotero://open-pdf/library/items/IGLVCSBX"
 ---
 **Background.**  DG evaluations can accidentally leak test information. 
 

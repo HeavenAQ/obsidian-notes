@@ -12,5 +12,9 @@ tags:
   - Domain-Generalization
   - Egocentric
 Tier: Recommended
+Local PDF: "[[99 Assets/Papers/CVPR 2027/Single-to-Dual-View Adaptation for Egocentric 3D Hand Pose Estimation.pdf]]"
+Zotero URI: "zotero://select/library/items/VL7C686Z"
+Citation Key: "liuSingletoDualViewAdaptationEgocentric2024"
+Zotero PDF URI: "zotero://open-pdf/library/items/IL86ZUW3"
 ---
 Found via **DF-Mamba** (2026-07-05 night) — direct reference [38]. Unsupervised adaptation of a pre-trained single-view egocentric hand-pose estimator to dual-view setups without multi-view annotation; relevant to RQ3 (domain generalization / cross-setup robustness) for a contact-aware hand-pose pipeline. Same author group as DF-Mamba (Ohkawa, Sato lab).

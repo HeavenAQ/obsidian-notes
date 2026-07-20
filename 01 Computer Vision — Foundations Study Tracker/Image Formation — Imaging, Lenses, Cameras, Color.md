@@ -2,11 +2,11 @@
 base: "[[01.1 Computer Vision — Foundations Study Tracker.base]]"
 Key takeaways: "Imaging is a linear-optics pipeline: BRDF/Lambertian reflection (l_out = a·l_in·cosθ) feeds a pinhole/lens that imposes perspective projection (x=fX/Z), where lenses (Lensmaker's 1/a+1/b=1/f) trade the pinhole's brightness/sharpness tradeoff for a focusing surface shape linear in radius. Ch 7 generalizes any camera to a linear system l_s = A·l_w, inverted via regularized least squares l_w=(AᵀA+λI)⁻¹Aᵀl_s — unifying pinhole, edge, pinspeck, and corner cameras. Ch 8 shows color perception is a projection onto a 3D cone-response subspace (LMS = C_eye·t), so any 3-channel sensor/display matching that subspace up to a 3×3 matrix M=(CP)⁻¹ can reproduce color — explaining metamerism, CCMs, and why luminance/chrominance can be resolved at different spatial rates."
 Day: 2
-Status: In-Progress
+Status: Done
 Reading done: true
 Chapters: Ch 5–8
 Self-check done: true
-Date: 2026-07-02
+Date: 2026-07-19
 Part:
   - Image-Formation
 Questions / Follow-ups: ""
@@ -769,3 +769,72 @@ Recovers a full hyperspectral image from just two off-the-shelf lenses and a gra
 Single-photon avalanche diode (SPAD) sensors capture binary, extremely high-speed but noisy photon-arrival images. PhotonSplat reconstructs full 3D radiance fields directly from these binary SPAD frames, with a 3D spatial-filtering step to denoise and both reference-free (generative-prior) and reference-based colorization. This extends Ch 7's "camera as linear/statistical measurement system" framing to modern quantum-limited sensors and ties into the generative-model machinery from later chapters (Ch 32–34).
 
 ---
+---
+
+## Supplementary resources for this block
+
+**Mapped resource (Day 2 → Image Formation): Udemy — *Mastering Computer Vision: From Pixel to Detection to Gen-CV*, Intro module (pixels, image scaling / interpolation).** ([course link](https://www.udemy.com/course/mastering-computer-vision-from-pixel-to-detection-to-gen-cv/)) — The lecture bodies are paywalled, so the ideas are integrated conceptually below and tied back to the chapters above.
+
+The Intro module's core mechanic — **image scaling by interpolation** — is the discrete, sampling-domain counterpart to this block's continuous imaging story. Chapter 5 established that a camera samples a continuous image $\ell(x,y)$ onto a pixel grid; scaling asks the inverse question: given samples $I[m,n]$ on one grid, estimate values on a *different* grid. Every resize is a resampling problem, and the interpolation kernel is exactly the reconstruction filter implied by the sampling theorem (previewing Day 5–7 material).
+
+**Nearest-neighbor.** Round the source coordinate to the closest sample:
+
+$$I_{\text{out}}(x,y) = I\big[\,\mathrm{round}(x/s_x),\ \mathrm{round}(y/s_y)\,\big]$$
+
+where $s_x,s_y$ are the scale factors mapping output→input coordinates. Symbols: $I[\cdot]$ is the discrete input image; $(x,y)$ output-pixel center; $s_x,s_y$ ratios of input to output size. **WHY**: it is a zeroth-order (box) reconstruction kernel — cheap, but produces blocky aliasing because the box kernel has heavy spectral side-lobes.
+
+**Bilinear.** Linearly interpolate along $x$ then $y$. With $x_0=\lfloor x\rfloor$, $y_0=\lfloor y\rfloor$, fractional parts $a=x-x_0$, $b=y-y_0$:
+
+$$I_{\text{out}}(x,y) = (1-a)(1-b)\,I[x_0,y_0] + a(1-b)\,I[x_0{+}1,y_0] + (1-a)b\,I[x_0,y_0{+}1] + ab\,I[x_0{+}1,y_0{+}1]$$
+
+Symbols: $a,b\in[0,1)$ are sub-pixel offsets; the four weights are the areas of the opposite sub-rectangles (a partition of unity, summing to 1). **WHY**: a first-order (triangle/tent) kernel — continuous output, far fewer side-lobes than nearest-neighbor, but it slightly blurs high frequencies because the tent kernel is not an ideal low-pass.
+
+**Bicubic.** Convolve with a separable cubic kernel $k(t)$ over a $4\times4$ neighborhood; the common Keys kernel ($\alpha=-0.5$) is
+
+$$k(t)=\begin{cases}(\alpha{+}2)|t|^3-(\alpha{+}3)|t|^2+1 & |t|\le 1\\ \alpha|t|^3-5\alpha|t|^2+8\alpha|t|-4\alpha & 1<|t|<2\\ 0 & |t|\ge 2\end{cases}$$
+
+Symbols: $t$ is the signed distance (in samples) from the output point to a contributing input sample; $\alpha$ controls overshoot/sharpness. **WHY**: a third-order kernel approximates the ideal $\mathrm{sinc}$ reconstruction filter more closely, giving sharper edges than bilinear at the cost of mild ringing (the negative lobes).
+
+A minimal, correct downsample-with-antialias (the point the Intro module stresses — you must low-pass *before* decimating, or you alias, connecting straight to Day 5–7):
+
+```python
+import torch
+import torch.nn.functional as F
+
+def resize_antialiased(img: torch.Tensor, out_hw, mode="bilinear"):
+    """img: (N,C,H,W) float. Downsampling first low-passes (antialias=True)
+    so high frequencies that cannot be represented on the coarser grid are
+    removed before resampling -- i.e. enforce the sampling theorem."""
+    return F.interpolate(img, size=out_hw, mode=mode,
+                         align_corners=False, antialias=True)
+
+# Upsampling: no antialias needed (we are not decimating), but kernel choice
+# (nearest / bilinear / bicubic) sets the reconstruction quality.
+up = F.interpolate(torch.rand(1, 3, 32, 32), scale_factor=4,
+                   mode="bicubic", align_corners=False)
+```
+
+**Why it matters / connections.** Interpolation is the bridge from Chapter 5's *continuous* perspective-projection image to the *discrete* pixel array every later pipeline consumes; the "low-pass before you downsample" rule is the practical face of Day 5–7's sampling/aliasing theory; and the fact that luminance and chrominance can be resampled at *different* rates (Chapter 8.4, chroma subsampling) is precisely a per-channel choice of these same interpolation kernels. (Day 2 has no mapped adensur folder and no paper deep-dive; the DETR/ResNet-style deep-dives begin on later blocks.)
+
+---
+
+## Latest CV Research — 2026-07-19
+
+*Recent work most relevant to this block (image formation, lenses/optics, cameras-as-systems, color). SIGGRAPH 2026's Technical Papers program runs this very week (19–23 July, Los Angeles), with a large optics/imaging/computational-photography track ([showcase](https://s2026.siggraph.org/siggraph-2026-technical-papers-showcase-the-research-making-visual-computing-faster-more-reliable-and-accessible/)).*
+
+**1. Integrated Forward-Inverse Network for Lensless Image Reconstruction** — Donggeon Bae et al. *arXiv:2607.04608 (submitted 6 July 2026).* [link](https://arxiv.org/abs/2607.04608)
+Proposes **IFIN**, a physics-guided network that interleaves a *differentiable forward projection* (the optical measurement model) with *learnable inverse updates* at every scale, so reconstruction is grounded in the imaging physics rather than learned blindly. This is a direct, modern instantiation of Chapter 7's "camera as a linear system" $\ell_s = A\,\ell_w$: a lensless mask *is* the matrix $A$, and IFIN essentially learns a regularized inverse of $A$ unrolled across scales — the neural version of $\ell_w=(A^\top A+\lambda I)^{-1}A^\top \ell_s$.
+
+**2. Large-Area Fabrication-Aware Computational Diffractive Optics** — Princeton Computational Imaging. *arXiv:2505.22313 (2026).* [link](https://arxiv.org/pdf/2505.22313)
+Jointly optimizes a large-area diffractive optical element together with the reconstruction network, while modeling fabrication constraints so the designed phase profile is actually manufacturable. This extends Chapter 6's lensmaker view (a lens is a surface whose shape bends rays) into the *design* regime: instead of a smooth refractive surface, the "lens" is a computationally-optimized diffractive microstructure, with $f$-and-aberration tradeoffs solved end-to-end.
+
+**3. Single-Shot HDR Recovery via a Video Diffusion Prior** — *arXiv:2605.11628 (2026).* [link](https://arxiv.org/html/2605.11628)
+Recovers a high-dynamic-range image from a single low-dynamic-range capture by borrowing a pretrained *video* diffusion model as a generative prior over plausible exposures. Relevant to Chapter 5/7's sensor-response modeling: real sensors clip highlights and crush shadows (a nonlinear, range-limited version of the linear $\ell_s=A\ell_w$ measurement), and this work inverts that clipping using a learned prior rather than multi-exposure bracketing.
+
+**4. Off the Planckian Locus: Using 2D Chromaticity to Improve In-Camera Color** — *arXiv:2511.17133.* [link](https://arxiv.org/pdf/2511.17133)
+Improves in-camera white balance / color constancy by estimating illuminant chromaticity in a full 2D chromaticity space instead of constraining it to the 1D Planckian (blackbody) locus. This lives entirely in Chapter 8's linear-algebra-of-color world: the raw-to-display color-correction matrix $M=(CP)^{-1}$ depends on the estimated illuminant, and relaxing the Planckian assumption yields a better $M$ under artificial/mixed lighting — a direct upgrade to the color-reproduction-system formalism studied above.
+
+**5. Uncertainty Quantification in Hyperspectral Reconstruction using Physics-Aware Diffusion Priors and Optics-Encoded Measurements** — *arXiv:2511.18473.* [link](https://arxiv.org/pdf/2511.18473)
+Reconstructs a full hyperspectral cube from optics-encoded (coded-aperture) snapshots and, crucially, attaches *calibrated uncertainty* to the reconstruction using a physics-aware diffusion prior. It couples Chapter 7's coded linear measurement model with Chapter 8's spectral-vs-perceptual color distinction: rather than collapsing spectra to the eye's 3D LMS subspace, it recovers the *full* spectrum and reports how confident each wavelength estimate is.
+
+*(Selection note: run autonomously; papers were chosen for tight relevance to today's block — image formation, optics, cameras-as-systems, and color — favoring the most recent arXiv/venue postings surfaced this week. Item 1 is from the current 1–2 week window; items 2–5 are the most block-relevant recent works.)*

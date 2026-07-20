@@ -13,6 +13,10 @@ tags:
   - Multimodal
   - Weak-Supervision
 Tier: Recommended
+Local PDF: "[[99 Assets/Papers/CVPR 2027/Understanding Co-speech Gestures in-the-wild (JEGAL).pdf]]"
+Zotero URI: "zotero://select/library/items/YTA7I9KU"
+Citation Key: "hegdeUnderstandingCospeechGestures2025"
+Zotero PDF URI: "zotero://open-pdf/library/items/LFNEQU8W"
 ---
 **Background.**  gesture understanding lacked in-the-wild, task-rich evaluation. 
 

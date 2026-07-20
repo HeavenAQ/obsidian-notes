@@ -11,6 +11,10 @@ tags:
   - Hand-Face-CV
   - Weak-Supervision
 Tier: Background
+Local PDF: "[[99 Assets/Papers/CVPR 2027/Hand2Face Automatic Synthesis and Recognition of Hand Over Face Occlusions.pdf]]"
+Zotero URI: "zotero://select/library/items/QAYC825S"
+Citation Key: "nojavanasghariHand2FaceAutomaticSynthesis2017"
+Zotero PDF URI: "zotero://open-pdf/library/items/PAYEMK7H"
 ---
 **Background.**  natural self-touch samples are scarce. 
 
