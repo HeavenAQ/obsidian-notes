@@ -2,11 +2,11 @@
 base: "[[01.1 Computer Vision — Foundations Study Tracker.base]]"
 Key takeaways: "LTI systems are exactly convolutions: translation invariance collapses the dense linear map h[n,k] to h[n−k] (Toeplitz/weight sharing — the CNN inductive bias); framework 'conv' is really cross-correlation. The DFT diagonalizes all LTI operators (convolution ↔ pointwise product of transfer functions; phase carries WHERE, amplitude ~1/f in natural images). For blurring: box is cheap but ripples (discrete sinc), continuous Gaussian is ideal (separable, semigroup σ₃²=σ₁²+σ₂²) but breaks under sampling, and binomial b_n (Pascal rows) restores exact discrete closure b_n∘b_m=b_{n+m} and kills Nyquist — the right antialiasing filter before downsampling."
 Day: 5
-Status: In-Progress
+Status: Done
 Reading done: true
 Chapters: Ch 15–17
-Self-check done: false
-Date: 2026-07-05
+Self-check done: true
+Date: 2026-07-22
 Part:
   - Image-Processing
   - Linear-Filters
@@ -420,3 +420,27 @@ Selected recent papers (mostly June 2026 arXiv [cs.CV](http://cs.cv/) + current-
 11. **Physical Object Understanding with a Physically Controllable World Model** — Rahul Venkatesh, Klemen Kotar, et al. (Stanford NeuroAI Lab, Daniel Yamins); arXiv:2606.00439, **CVPR 2026 Highlight**. A world model whose latent physics can be explicitly controlled, enabling physical object understanding (mass, contact, dynamics) from video. Not filtering-related, but a notable highlight of the current CVPR cycle worth tracking. Link: [https://arxiv.org/abs/2606.00439](https://arxiv.org/abs/2606.00439)
 
 *Note: items were drawn from the live arXiv *[*cs.CV*](http://cs.cv/)* June 2026 listing and topic searches on 2026-07-05; item 1's author list was not exposed by the search surface and is omitted rather than guessed.*
+
+---
+
+## Finalization note (2026-07-22, JST)
+
+This block's full chapter report (Ch 15–17, above) was authored on 2026-07-05 and already covers architecture + math + WHY + PyTorch + self-check + supplementary resources to the required depth; the reading and self-check are complete, so the block is now marked **Done**. Per the daily plan, STEP 3 runs every day, so only a fresh dated research pass is appended below (the textbook report is intentionally *not* duplicated). Frontmatter updated: `Status: Done`, `Date: 2026-07-22`, `Self-check done: true`; all other keys preserved.
+
+## Latest CV Research — 2026-07-22
+
+Selected papers surfaced this week (July 2026), preferring work tied to today's block — linear filtering, the Fourier/convolution-theorem view, blur/deblur, and anti-aliased resampling. Dates/venues are labeled honestly; where a paper is from an earlier month but is the most on-topic current result, it is marked as such.
+
+1. **HiFi-Deblur: High-Frequency Intense Image Deblurring with a Frequency-Decoupled U-Net and Discrete Wavelet Transform** — Lim et al.; **WACV 2026 Workshop (WVAQ)**. A U-Net deblurring framework that uses the discrete wavelet transform to split the blurred image into low- and high-frequency subbands, then processes each band with a joint Transformer + DWT encoder to recover fine high-frequency detail. Why it matters: it is a direct modern instantiation of Ch 16–17 — deblurring is inverting a low-pass transfer function $H[u,v]$, and the near-zeros of $H$ at high frequency are exactly why the high-frequency band needs dedicated, learned treatment. Link: [https://openaccess.thecvf.com/content/WACV2026W/WVAQ/html/Lim_HiFi-Deblur_High-Frequency_Intense_Image_Deblurring_with_Frequency-Decoupled_U-Net_and_Discrete_WACVW_2026_paper.html](https://openaccess.thecvf.com/content/WACV2026W/WVAQ/html/Lim_HiFi-Deblur_High-Frequency_Intense_Image_Deblurring_with_Frequency-Decoupled_U-Net_and_Discrete_WACVW_2026_paper.html)
+
+2. **Anti-Aliasing for Downsampling in CNNs Based on Gaussian Filter Convolution (GFC)** — *Electronics* 15(4):780, Feb 2026. Proposes a Gaussian Filter Convolution module inserted before each downsampling stage to suppress the aliasing that stride/pooling introduces. Why it matters: this is precisely the Ch 17 lesson made practical — you must low-pass (Gaussian/binomial) *before* subsampling or high frequencies fold back as artifacts; it is the "blur-pool" idea generalized with a learnable Gaussian, and connects Day 5 → Day 6–7 (sampling & aliasing). Link: [https://doi.org/10.3390/electronics15040780](https://doi.org/10.3390/electronics15040780)
+
+3. **From Attention to Frequency: Integration of Vision Transformer and FFT-ReLU for Enhanced Image Deblurring** — arXiv:2511.10806. A dual-domain deblurring network: a ViT backbone models local+global spatial dependencies while an FFT-ReLU branch enforces sparsity directly in the frequency domain to suppress blur artifacts. Why it matters: applying a nonlinearity (ReLU) *in the DFT domain* is a concrete use of Ch 16's convolution theorem — pointwise spectral operations correspond to global spatial filtering, and the nonlinearity is what lets the model synthesize new frequency content that a pure LTI filter cannot. Link: [https://arxiv.org/abs/2511.10806](https://arxiv.org/abs/2511.10806)
+
+4. **Spatial and Frequency Domain Adaptive Fusion Network for Image Deblurring** — arXiv:2502.14209. Fuses spatial- and frequency-domain features using a *learnable low-pass filter* that adaptively decomposes feature maps into frequency subbands. Why it matters: a learned, content-adaptive version of the fixed box/Gaussian/binomial low-pass filters of Ch 17 — the transfer function $H[u,v]$ becomes data-dependent instead of hand-designed, which is the recurring "hand-crafted → learned" arc of the course. Link: [https://arxiv.org/abs/2502.14209](https://arxiv.org/abs/2502.14209)
+
+5. **Diffusion Transformer Meets Multi-level Wavelet Spectrum for Single Image Super-Resolution** — arXiv:2511.01175. A diffusion-transformer SR model conditioned on a multi-level wavelet spectral decomposition of the image. Why it matters: super-resolution is the inverse of the antialiased downsampling in Ch 17/Day 7 — you must *hallucinate* high frequencies removed by the low-pass+subsample, and the wavelet spectrum gives the coarse-to-fine, localized frequency representation that the (too-global) DFT of Ch 16 lacks — a direct motivation for filter banks/pyramids on Day 7. Link: [https://arxiv.org/pdf/2511.01175](https://arxiv.org/pdf/2511.01175)
+
+6. **ComboStoc: Combinatorial Stochasticity for Diffusion Generative Models** — HKU, Microsoft Research Asia, et al.; **SIGGRAPH 2026** (Los Angeles, July 19–23, 2026 — this week). Improves diffusion generative modeling by injecting structured combinatorial stochasticity into the sampling process. Not filtering-specific, but a notable highlight of the current SIGGRAPH cycle worth tracking as generative modeling continues to dominate visual computing. Link: [https://kesen.realtimerendering.com/sig2026.html](https://kesen.realtimerendering.com/sig2026.html)
+
+*Note: searches were run 2026-07-22 (JST). Items 3–5 carry late-2025/early-2026 arXiv IDs but are the most on-topic results the search surface exposed for this block; items 1 and 6 are current-cycle (WACV 2026 / SIGGRAPH 2026). Author lists not exposed by the search surface are omitted rather than guessed.*

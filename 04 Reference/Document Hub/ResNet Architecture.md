@@ -81,8 +81,14 @@ class FlexibleCNN(nn.module):
 ## 1. Why ResNet exists
 
 Simply adding layers to a plain CNN can produce a **degradation problem**: the deeper model has higher training error, even though it should be able to imitate the shallower model by making added layers act like identities. This is an optimization problem, not merely overfitting.
+![[Screenshot 2026-07-20 at 19.34.00.png]]
+> [!NOTE]
+> This is called the **vanishing gradient**, which is incurred by the chain rule of back propagation
+> $$
+> \frac{\partial L}{\partial w} = \frac{\partial L}{\partial a} \cdot \frac{\partial a}{\partial b} \cdots \frac{\partial x}{\partial w} \approx 0
+> $$
 
-Instead of asking stacked layers to learn a direct mapping $H(x)$, a residual block learns
+Instead of asking stacked layers to learn a direct mapping from the input to the output $H(x)$, a residual block learns
 
 $$
 F(x)=H(x)-x,
@@ -94,6 +100,13 @@ $$
 y=F(x;W)+x.
 $$
 
+So, now, if we do the differentiation again, you can see:
+$$
+\begin{aligned}
+&y = F(x; W)+ x \\
+&\frac{\partial y}{\partial x} = \frac{\partial F}{\partial x} + 1
+\end{aligned}
+$$
 If the identity is already useful, the residual branch only needs to learn a correction near zero.
 
 ## 2. Residual-block mathematics

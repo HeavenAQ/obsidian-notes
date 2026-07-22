@@ -97,6 +97,26 @@
       "icon": "lucide-clipboard-check",
       "color": "#2563eb"
     },
+    "02 Research": {
+      "icon": "lucide-microscope",
+      "color": "#7c3aed"
+    },
+    "02 Research/02 Research.md": {
+      "icon": "lucide-flask-conical",
+      "color": "#7c3aed"
+    },
+    "02 Research/Research Hub.base": {
+      "icon": "lucide-microscope",
+      "color": "#7c3aed"
+    },
+    "02 Research/Research Thesis.md": {
+      "icon": "lucide-scroll-text",
+      "color": "#7c3aed"
+    },
+    "02 Research/Thesis Reading List — Self-Adaptors & Discourse-Planning Difficulty": {
+      "icon": "lucide-library",
+      "color": "#7c3aed"
+    },
     "03 Algorithms": {
       "icon": "lucide-binary",
       "color": "#059669"
@@ -116,10 +136,6 @@
     "04 Reference": {
       "icon": "lucide-book-open",
       "color": "#0f766e"
-    },
-    "04 Reference/02 Research": {
-      "icon": "lucide-microscope",
-      "color": "#7c3aed"
     },
     "04 Reference/04 Reference.md": {
       "icon": "lucide-library-big",
@@ -172,22 +188,6 @@
     "99 Assets/Media/Media Index.md": {
       "icon": "lucide-images",
       "color": "#db2777"
-    },
-    "04 Reference/02 Research/02 Research.md": {
-      "icon": "lucide-flask-conical",
-      "color": "#7c3aed"
-    },
-    "04 Reference/02 Research/Research Hub.base": {
-      "icon": "lucide-microscope",
-      "color": "#7c3aed"
-    },
-    "04 Reference/02 Research/Research Thesis.md": {
-      "icon": "lucide-scroll-text",
-      "color": "#7c3aed"
-    },
-    "04 Reference/02 Research/Thesis Reading List — Self-Adaptors & Discourse-Planning Difficulty": {
-      "icon": "lucide-library",
-      "color": "#7c3aed"
     }
   },
   "bookmarkIcons": {},

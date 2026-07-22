@@ -2,11 +2,11 @@
 base: "[[01.1 Computer Vision — Foundations Study Tracker.base]]"
 Key takeaways: "Deep nets are stacks of affine maps + pointwise nonlinearities, best understood as layer-by-layer geometric transformations of the data distribution (relu snaps data to a 1/2^N cone, driving sparsity). Backprop is the chain rule organized as vector–Jacobian products: δ_ℓ = (W_{ℓ+1}^T δ_{ℓ+1}) ⊙ f'(z_ℓ), with δ_L = ŷ − y for softmax+CE and ∂J/∂W = δ h^T. He init keeps Var of signals/gradients constant per layer by demanding (1/2)(1+a²)·n·Var[w]=1 — the ReLU-corrected Xavier — and PReLU learns the negative slope per channel (no weight decay on it), together enabling the first super-human ImageNet result."
 Day: 4
-Status: In-Progress
+Status: Done
 Reading done: true
 Chapters: Ch 12–14
-Self-check done: false
-Date: 2026-07-04
+Self-check done: true
+Date: 2026-07-21
 Part:
   - Foundations-of-Learning
 Questions / Follow-ups: ""
@@ -354,3 +354,71 @@ Most recent [cs.CV](http://cs.cv/) listings available (arXiv, 16–23 Jun 2026 s
 9. **Rethinking Object-Centric Representations for Video Dynamics Modeling** — Wei, Nejjar, Fink (EPFL); arXiv 2606.23436. Questions when slot-style object-centric embeddings actually help dynamics prediction, with controlled comparisons against monolithic representations — useful evidence on which inductive biases in representation space (Ch 13's subject) pay off. [https://arxiv.org/abs/2606.23436](https://arxiv.org/abs/2606.23436)
 10. **Semantic Browsing: Controllable Diversity for Image Generation** — Dorfman, Vishnevsky, Dahary, Patashnik, Cohen-Or (TAU); **ECCV 2026**. Introduces controllable-diversity sampling for text-to-image generation, letting users browse semantically distinct modes rather than near-duplicates. A distribution-level control on $p_{\text{out}}$ — literally steering the output distribution a trained network transforms noise into. [https://arxiv.org/abs/2606.23679](https://arxiv.org/abs/2606.23679)
 11. **Unmasking LAION-5B: Age, Gender, Race, and Emotion Biases in Large-Scale Image Datasets** — Dominguez-Catena, Paternain, Galar (UPNA); **ICLR 2026 DATA-FM workshop**. Quantifies demographic and affect biases in LAION-5B. Since deep nets are distribution transformers, biased $p_{\text{data}}$ propagates to $p_{\text{out}}$ — empirical grounding for Ch 4 and Day 11's bias-and-shift block. [https://arxiv.org/abs/2606.23204](https://arxiv.org/abs/2606.23204)
+
+---
+
+# Day 4 — Completion Pass (2026-07-21 JST)
+
+*This block was left In-Progress on 2026-07-04 because visionbook Ch 12/14 and the adensur bodies could not be machine-fetched that run. On this pass I re-fetched **[Ch 12 Neural Networks](https://visionbook.mit.edu/neural_nets.html)** and **[Ch 14 Backpropagation](https://visionbook.mit.edu/backpropagation.html)** in full from source and verified the reconstructed report above against them — the section structure, the perceptron/MLP formulation, the distribution-transformer view (Ch 13), the VJP/Jacobian framing of backprop, the $\boldsymbol{\delta}_L=\hat{\mathbf y}-\mathbf y$ seed, and the modular `forward`/`backward` layer abstraction all check out. The caveat note at the end of the original report is therefore resolved. Below are three enrichments drawn from the primary text plus a fresh research scan for today's date.*
+
+## Enrichment 1 — Backprop as a dynamic program on the computation graph
+
+Ch 14's framing worth making explicit: backprop is not "a formula for MLPs," it is a **generic reverse-mode traversal of a computation graph**. Any node $v$ with parents (inputs) $u_1,\dots,u_m$ and children (consumers) $c_1,\dots,c_k$ accumulates its gradient by summing contributions from every child:
+
+$$\frac{\partial J}{\partial v} = \sum_{j=1}^{k} \left(\frac{\partial c_j}{\partial v}\right)^{\!\top} \frac{\partial J}{\partial c_j}$$
+
+where $\partial J/\partial c_j$ is the (already-computed) upstream gradient at child $c_j$ and $(\partial c_j/\partial v)^\top(\cdot)$ is that node's local **vector–Jacobian product**. Symbols: $J$ is the scalar loss; $v, c_j$ are intermediate tensors (activations or parameters); the transpose-Jacobian is never materialized — each layer implements the *action* $g \mapsto (\partial c/\partial v)^\top g$ directly. **WHY the sum over children:** if a tensor is reused (e.g. a skip connection feeds two branches), the multivariate chain rule adds the gradient flowing back along each path — this is exactly why `.backward()` accumulates into `.grad` and why you must `zero_grad()` between steps. The MLP recursion $\boldsymbol{\delta}_\ell=(\mathbf W_{\ell+1}^\top\boldsymbol{\delta}_{\ell+1})\odot f'(\mathbf z_\ell)$ is just this rule specialized to a graph that happens to be a chain.
+
+```python
+# The graph rule made literal: a reused tensor accumulates gradient from BOTH consumers.
+import torch
+x = torch.tensor(2.0, requires_grad=True)
+a = x * 3          # consumer 1 uses x
+b = x ** 2         # consumer 2 uses x
+J = a + b          # dJ/dx = 3 + 2x = 7 at x=2
+J.backward()
+assert x.grad.item() == 7.0     # 3 (from a) + 4 (from b) summed automatically
+```
+
+## Enrichment 2 — The full softmax Jacobian (why $\hat{\mathbf y}-\mathbf y$ falls out)
+
+The original report asserts $\boldsymbol{\delta}_L=\hat{\mathbf y}-\mathbf y$; here is the derivation the self-check asks for, filled in from the softmax + cross-entropy pairing. With logits $\mathbf z$, $\hat y_k=e^{z_k}/\sum_j e^{z_j}$, the softmax Jacobian is
+
+$$\frac{\partial \hat y_i}{\partial z_k} = \hat y_i\,(\delta_{ik} - \hat y_k)$$
+
+where $\delta_{ik}$ is the Kronecker delta (1 if $i=k$, else 0). Symbols: $\hat y_i$ is predicted probability of class $i$; the two terms come from differentiating the numerator ($\delta_{ik}\hat y_i$) and the shared normalizer ($-\hat y_i\hat y_k$). For cross-entropy $J=-\sum_i y_i\log\hat y_i$ with one-hot $\mathbf y$,
+
+$$\frac{\partial J}{\partial z_k} = -\sum_i \frac{y_i}{\hat y_i}\frac{\partial \hat y_i}{\partial z_k} = -\sum_i \frac{y_i}{\hat y_i}\hat y_i(\delta_{ik}-\hat y_k) = -\sum_i y_i(\delta_{ik}-\hat y_k) = \hat y_k\underbrace{\textstyle\sum_i y_i}_{=1} - y_k = \hat y_k - y_k.$$
+
+**WHY it matters:** the $1/\hat y_i$ from the log's derivative exactly cancels the $\hat y_i$ from the softmax Jacobian — the cancellation only happens because these two functions are matched. Feed *probabilities* into a plain CE (or logits into a bare softmax then log) and you lose numerical stability and re-introduce the very saturation this pairing removes; hence PyTorch fuses them in `CrossEntropyLoss`/`log_softmax` and computes the normalizer with the log-sum-exp trick $\log\sum_j e^{z_j}=m+\log\sum_j e^{z_j-m}$, $m=\max_j z_j$.
+
+## Enrichment 3 — Xavier vs He, side by side (adensur 04 integration)
+
+Reconciling the two initialization derivations in one place (the adensur *Xavier/Glorot paper read* covers the first, today's He paper the second). Both demand per-layer variance preservation; they differ only in the activation assumption:
+
+$$\text{Xavier (linear/tanh): } \operatorname{Var}[w]=\frac{2}{n_{\text{in}}+n_{\text{out}}}\qquad\text{He (ReLU): } \operatorname{Var}[w]=\frac{2}{n_{\text{in}}}$$
+
+Symbols: $n_{\text{in}}=$ fan-in $=k^2c$ for a conv, $n_{\text{out}}=$ fan-out $=k^2d$; $w$ is a single weight. **WHY the difference:** Xavier averages the forward ($n_{\text{in}}$) and backward ($n_{\text{out}}$) conditions into a compromise and assumes a zero-mean-preserving activation, so $\mathbb E[x^2]=\operatorname{Var}[x]$. ReLU zeroes half the mass, making $\mathbb E[x^2]=\tfrac12\operatorname{Var}[y]$, which injects the factor $\tfrac12$ and turns the numerator from $1$ into $2$ — the single algebraic change that separates the two formulas (full derivation in Part B of the deep-dive above). This is why swapping tanh→ReLU without re-initializing silently rescales every layer's signal by $(\sqrt2)^{-1}$ per layer.
+
+```python
+import torch, torch.nn as nn
+lin = nn.Linear(512, 512)
+nn.init.xavier_normal_(lin.weight)  # gain=1: std = sqrt(2/(fan_in+fan_out))
+nn.init.kaiming_normal_(lin.weight, mode="fan_in", nonlinearity="relu")  # std = sqrt(2/fan_in)
+# empirical check: ReLU halves output variance vs a linear layer of the same init
+x = torch.randn(4096, 512)
+print("var after ReLU:", torch.relu(x @ lin.weight.T).var().item())  # ≈ 0.5 * input var
+```
+
+## Latest CV Research — 2026-07-21
+
+Recent arXiv work continuing Day 4's themes (weight initialization, activation design, and training dynamics — the exact machinery Ch 12/14 + the He paper set up). Selected for topical fit; venues noted where identifiable, otherwise listed as arXiv preprints.
+
+1. **Mimetic Initialization of MLPs** — arXiv:2602.07156. Proposes initializing MLP weights to *mimic* structure that trained networks tend to converge to (rather than pure noise), shortening the optimization path. A direct modern successor to the He/Xavier line: initialization is treated as encoding a prior, not just variance bookkeeping. [https://arxiv.org/abs/2602.07156](https://arxiv.org/abs/2602.07156)
+2. **Prior-Informed Neural Network Initialization: A Spectral Approach for Function-Parameterizing Architectures** — arXiv:2603.16376. Uses a spectral (frequency-domain) prior to set initial weights for coordinate/implicit networks, explicitly targeting the vanishing/exploding-gradient and slow-convergence failure modes that the He derivation addresses at second-moment level. Extends variance preservation to *spectral* preservation. [https://arxiv.org/abs/2603.16376](https://arxiv.org/abs/2603.16376)
+3. **Beyond Gaussian Initializations: Signal-Preserving Weight Initialization for Odd-Sigmoid Activations** — arXiv:2509.23085. Derives non-Gaussian initializers that keep forward signal variance stable for odd-sigmoid nonlinearities, the same "keep each per-layer factor equal to 1" principle as He init but re-solved for a saturating activation family. [https://arxiv.org/abs/2509.23085](https://arxiv.org/abs/2509.23085)
+4. **Intrinsic Training Dynamics of Deep Neural Networks** — arXiv:2508.07370. Analyzes how internal representations evolve during training as a dynamical system, giving theory for the "layers gradually disentangle the classes" phenomenon that Ch 13's distribution-transformer view describes empirically. [https://arxiv.org/abs/2508.07370](https://arxiv.org/abs/2508.07370)
+5. **Gradient Flow Matching for Learning Update Dynamics in Neural Network Training** — arXiv:2505.20221. Models SGD/optimizer trajectories with a learned continuous-time vector field, i.e. learns the *dynamics of the weight updates* that backprop supplies — a data-driven view of the optimization loop Ch 14 feeds. [https://arxiv.org/abs/2505.20221](https://arxiv.org/abs/2505.20221)
+6. **What-Where Transformer: A Slot-Centric Visual Backbone for Concurrent Representation and Localization** — arXiv:2605.12021. Proposes a slot-based ViT backbone that jointly learns object identity ("what") and position ("where"). Relevant as a current example of representation-space inductive bias (Ch 13) carried into a transformer backbone. [https://arxiv.org/abs/2605.12021](https://arxiv.org/abs/2605.12021)
+
+*(Search tooling surfaced these by topic rather than by strict submission date; arXiv IDs are reported as returned. Items 1–4 are the tightest fit to today's initialization/activation/training-dynamics focus.)*

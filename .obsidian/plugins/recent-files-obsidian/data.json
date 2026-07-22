@@ -1,8 +1,24 @@
 {
   "recentFiles": [
     {
+      "basename": "I3D — Inflated 3D ConvNet Deep Dive for Braking-Action Recognition",
+      "path": "04 Reference/Document Hub/I3D — Inflated 3D ConvNet Deep Dive for Braking-Action Recognition.md"
+    },
+    {
+      "basename": "04 Reference",
+      "path": "04 Reference/04 Reference.md"
+    },
+    {
       "basename": "ResNet Architecture",
       "path": "04 Reference/Document Hub/ResNet Architecture.md"
+    },
+    {
+      "basename": "Camera Math — Unified Deep Note Projection, Viewpoints & the DA3+Body4D Top-Down Script",
+      "path": "04 Reference/Document Hub/Camera Math — Unified Deep Note Projection, Viewpoints & the DA3+Body4D Top-Down Script.md"
+    },
+    {
+      "basename": "Mamba Architecture — Selective State Spaces, Math & PyTorch Deep Dive",
+      "path": "04 Reference/Document Hub/Mamba Architecture — Selective State Spaces, Math & PyTorch Deep Dive.md"
     },
     {
       "basename": "Jul 6 — HW1 · CNNs, TorchVision Fine-Tuning & Optuna HPO",
@@ -17,16 +33,8 @@
       "path": "02 Research/Research Hub.base"
     },
     {
-      "basename": "Camera Math — Unified Deep Note Projection, Viewpoints & the DA3+Body4D Top-Down Script",
-      "path": "04 Reference/Document Hub/Camera Math — Unified Deep Note Projection, Viewpoints & the DA3+Body4D Top-Down Script.md"
-    },
-    {
       "basename": "Document Hub",
       "path": "04 Reference/Document Hub/Document Hub.base"
-    },
-    {
-      "basename": "04 Reference",
-      "path": "04 Reference/04 Reference.md"
     },
     {
       "basename": "Fast R-CNN — Architecture, RoI Pooling, Multi-Task Loss & PyTorch Deep Dive",
@@ -89,10 +97,6 @@
       "path": "00 Home/Tasks/Deadline Triage.md"
     },
     {
-      "basename": "I3D — Inflated 3D ConvNet Deep Dive for Braking-Action Recognition",
-      "path": "04 Reference/Document Hub/I3D — Inflated 3D ConvNet Deep Dive for Braking-Action Recognition.md"
-    },
-    {
       "basename": "Thesis Reading List — Self-Adaptors & Discourse-Planning Difficulty",
       "path": "02 Research/Thesis Reading List — Self-Adaptors & Discourse-Planning Difficulty/Thesis Reading List — Self-Adaptors & Discourse-Planning Difficulty.base"
     },
@@ -115,10 +119,6 @@
     {
       "basename": "Tree-Based Classification Deep Dive — Decision Trees, Random Forests, XGBoost, LightGBM & CatBoost",
       "path": "04 Reference/Document Hub/Tree-Based Classification Deep Dive — Decision Trees, Random Forests, XGBoost, LightGBM & CatBoost.md"
-    },
-    {
-      "basename": "300. Longest Increasing Subsequence",
-      "path": "03 Algorithms/DSA/300. Longest Increasing Subsequence.md"
     }
   ],
   "omittedPaths": [
